@@ -1,72 +1,63 @@
-# Dataset Catalog
-# This file lists all available datasets in the cleantech-data repository
-# Each entry describes a dataset with its source, schema, and ingestion instructions
-
 datasets:
-  - name: "german_power_mix"
-    description: "German electricity generation by source (Solar, Wind, Coal, etc.)"
-    source_url: "https://www.smard.de"
-    source_type: "api"  # api, csv_download, scraping
-    refresh_cadence: "daily"  # daily, weekly, monthly, manual
-    last_updated: null  # YYYY-MM-DD format, updated automatically
-    data_file: "data/power_mix.csv"
-    schema:
-      required_columns:
-        - "date"
-        - "category"
-        - "value_gwh"
-      date_column: "date"
-      value_column: "value_gwh"
-      category_column: "category"
-    parsing_instructions: |
-      Fetch from SMARD API or Energy-Charts.info
-      Transform to long format with date, category, value_gwh
-      Categories: Solar, Wind_Onshore, Wind_Offshore, Coal_Lignite, Coal_Hard_Coal, Gas, Nuclear, Hydro, Biomass, Other
-    ingest_script: "ingest/energycharts_power_mix.R"
-    publication_date: null  # Date when source data was published (from source)
-    
-  - name: "german_wind_capacity"
-    description: "German wind power capacity by state and type (onshore/offshore)"
-    source_url: "https://www.smard.de"
-    source_type: "api"
-    refresh_cadence: "monthly"
-    last_updated: null
-    data_file: "data/wind_capacity.csv"
-    schema:
-      required_columns:
-        - "date"
-        - "state"
-        - "type"
-        - "capacity_mw"
-      date_column: "date"
-      value_column: "capacity_mw"
-      category_column: "state"
-    parsing_instructions: |
-      Fetch from SMARD API or Destatis
-      Transform to long format with date, state, type (onshore/offshore), capacity_mw
-    ingest_script: "ingest/wind_capacity.R"
-    publication_date: null
-    
-  - name: "german_solar_capacity"
-    description: "German solar power capacity by state"
-    source_url: "https://www.smard.de"
-    source_type: "api"
-    refresh_cadence: "monthly"
-    last_updated: null
-    data_file: "data/solar_capacity.csv"
-    schema:
-      required_columns:
-        - "date"
-        - "state"
-        - "capacity_mw"
-      date_column: "date"
-      value_column: "capacity_mw"
-      category_column: "state"
-    parsing_instructions: |
-      Fetch from SMARD API or Destatis
-      Transform to long format with date, state, capacity_mw
-    ingest_script: "ingest/solar_capacity.R"
-    publication_date: null
-    
-  # Add more datasets below following the same structure
-
+- name: german_power_mix
+  description: German electricity generation by source (Solar, Wind, Coal, etc.)
+  source_url: https://www.smard.de
+  source_type: api
+  refresh_cadence: daily
+  last_updated: '2025-11-28'
+  data_file: data/power_mix.csv
+  schema:
+    required_columns:
+    - date
+    - category
+    - value_gwh
+    date_column: date
+    value_column: value_gwh
+    category_column: category
+  parsing_instructions: |
+    Fetch from SMARD API or Energy-Charts.info
+    Transform to long format with date, category, value_gwh
+    Categories: Solar, Wind_Onshore, Wind_Offshore, Coal_Lignite, Coal_Hard_Coal, Gas, Nuclear, Hydro, Biomass, Other
+  ingest_script: ingest/energycharts_power_mix.R
+  publication_date: ~
+- name: german_wind_capacity
+  description: German wind power capacity by state and type (onshore/offshore)
+  source_url: https://www.smard.de
+  source_type: api
+  refresh_cadence: monthly
+  last_updated: ~
+  data_file: data/wind_capacity.csv
+  schema:
+    required_columns:
+    - date
+    - state
+    - type
+    - capacity_mw
+    date_column: date
+    value_column: capacity_mw
+    category_column: state
+  parsing_instructions: |
+    Fetch from SMARD API or Destatis
+    Transform to long format with date, state, type (onshore/offshore), capacity_mw
+  ingest_script: ingest/wind_capacity.R
+  publication_date: ~
+- name: german_solar_capacity
+  description: German solar power capacity by state
+  source_url: https://www.smard.de
+  source_type: api
+  refresh_cadence: monthly
+  last_updated: ~
+  data_file: data/solar_capacity.csv
+  schema:
+    required_columns:
+    - date
+    - state
+    - capacity_mw
+    date_column: date
+    value_column: capacity_mw
+    category_column: state
+  parsing_instructions: |
+    Fetch from SMARD API or Destatis
+    Transform to long format with date, state, capacity_mw
+  ingest_script: ingest/solar_capacity.R
+  publication_date: ~
