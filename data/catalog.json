@@ -1,6 +1,31 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2025-11-30T16:36:27.195833",
-  "total_datasets": 0,
-  "datasets": []
+  "generated_at": "2025-11-30T22:25:22.863610",
+  "total_datasets": 1,
+  "datasets": [
+    {
+      "csv_path": "data/2025-11/windpower/0105_Leist_kum_M.csv",
+      "metadata_path": "data/2025-11/windpower/0105_Leist_kum_M.meta.json",
+      "title": "Onshore Wind Energy Development and Approval Status in Germany",
+      "description": "This dataset provides insights into the development and approval status of onshore wind energy. It is compiled by the Fachagentur Wind und Solar, which analyzes data from various public sources, including the Marktstammdatenregister, to provide detailed situation analyses.",
+      "source": {
+        "name": "Agency for Wind and Solar",
+        "url": "https://www.fachagentur-wind-solar.de/veroeffentlichungen/wind-und-solar-monitor#c708",
+        "import_type": "csv"
+      },
+      "tags": [
+        "Wind Energy",
+        "Onshore Wind",
+        "Renewable Energy",
+        "Energy Development",
+        "Approval Status",
+        "Germany"
+      ],
+      "license": "Custom",
+      "created_at": "2025-11-30T20:54:17.013274Z",
+      "thematic_name": "windpower",
+      "year_month": "2025-11",
+      "filename": "0105_Leist_kum_M.csv"
+    }
+  ]
 }
