@@ -1,0 +1,19 @@
+{
+  "title": "Onshore Wind Energy Development and Approval Status in Germany",
+  "description": "This dataset provides insights into the development and approval status of onshore wind energy. It is compiled by the Fachagentur Wind und Solar, which analyzes data from various public sources, including the Marktstammdatenregister, to provide detailed situation analyses.",
+  "tags": [
+    "Wind Energy",
+    "Onshore Wind",
+    "Renewable Energy",
+    "Energy Development",
+    "Approval Status",
+    "Germany"
+  ],
+  "source": {
+    "name": "Agency for Wind and Solar",
+    "url": "https://www.fachagentur-wind-solar.de/veroeffentlichungen/wind-und-solar-monitor#c708",
+    "import_type": "csv"
+  },
+  "license": "Custom",
+  "created_at": "2025-11-30T20:54:17.013274Z"
+}
