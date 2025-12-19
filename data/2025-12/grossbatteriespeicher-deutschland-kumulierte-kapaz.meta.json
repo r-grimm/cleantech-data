@@ -1,0 +1,24 @@
+{
+  "title": "Großbatteriespeicher Deutschland - Kumulierte Kapazität und Zubau",
+  "description": "Entwicklung der installierten Kapazität von Großbatteriespeichern (>1 MWh) in Deutschland von 2018 bis 2024. Quellen: Marktstammdatenregister (via RWTH Aachen Battery Charts), BSW Solar, Frontier Economics.",
+  "tags": [
+    "Batteriespeicher",
+    "Großspeicher",
+    "Deutschland",
+    "Energiespeicher",
+    "BESS",
+    "Zubau"
+  ],
+  "source": {
+    "url": "https://battery-charts.de/battery-charts/",
+    "import_type": "csv"
+  },
+  "created_at": "2025-12-19T20:13:35.996754+00:00",
+  "updated_at": "2025-12-19T20:13:35.996754+00:00",
+  "row_count": 7,
+  "columns": [
+    "Jahr",
+    "Kapazitaet_GWh",
+    "Zubau_GWh"
+  ]
+}
