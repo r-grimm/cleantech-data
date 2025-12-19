@@ -1,0 +1,26 @@
+{
+  "title": "Stahlindustrie Deutschland - Anteil am BIP 2014-2023",
+  "description": "Geschätzter Anteil der Bruttowertschöpfung der deutschen Stahlindustrie am BIP. Berechnung: Stahlumsatz (WV Stahl) × 14% Wertschöpfungsquote / BIP (Destatis). Die Wertschöpfungsquote basiert auf Angaben der WV Stahl (ca. 7 Mrd. EUR BWS bei ca. 50 Mrd. EUR Umsatz).",
+  "tags": [
+    "stahl",
+    "deutschland",
+    "bip",
+    "bruttowertschöpfung",
+    "industrie",
+    "cleantech"
+  ],
+  "source": {
+    "url": "https://www.wvstahl.de/wp-content/uploads/WV-Stahl_Daten-und-Fakten-2024_RZ-Web.pdf",
+    "import_type": "csv"
+  },
+  "created_at": "2025-12-19T06:51:55.055452+00:00",
+  "updated_at": "2025-12-19T06:51:55.055452+00:00",
+  "row_count": 10,
+  "columns": [
+    "Jahr",
+    "Stahlumsatz_Mrd_EUR",
+    "Geschaetzte_BWS_Mrd_EUR",
+    "BIP_Mrd_EUR",
+    "Anteil_am_BIP_Prozent"
+  ]
+}
