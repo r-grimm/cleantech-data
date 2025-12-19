@@ -1,0 +1,22 @@
+{
+  "title": "Utility-Scale BESS Deutschland 2020-2025",
+  "description": "Kumulierte installierte Kapazität von Utility-Scale Batteriespeichern (>1 MW) in Deutschland. Quellen: RWTH Aachen Battery Charts, BSW Solar, Clean Energy Wire. 2025-Wert bezieht sich auf H1 2025.",
+  "tags": [
+    "BESS",
+    "Germany",
+    "energy storage",
+    "utility-scale",
+    "cleantech"
+  ],
+  "source": {
+    "url": "https://battery-charts.de/",
+    "import_type": "csv"
+  },
+  "created_at": "2025-12-19T22:36:16.105557+00:00",
+  "updated_at": "2025-12-19T22:36:16.105557+00:00",
+  "row_count": 6,
+  "columns": [
+    "Jahr",
+    "Kapazität_GWh"
+  ]
+}
