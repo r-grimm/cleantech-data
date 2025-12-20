@@ -1,0 +1,24 @@
+{
+  "title": "Batteriegroßspeicher Deutschland - Kumulierte Kapazität",
+  "description": "Kumulierte Speicherkapazität von Batteriegroßspeichern (≥1.000 kWh oder ≥1.000 kW) in Deutschland, monatlich seit 2014. Daten aus dem Marktstammdatenregister, aufbereitet von Battery Charts (RWTH Aachen).",
+  "tags": [
+    "batteries",
+    "storage",
+    "Germany",
+    "utility-scale",
+    "Großspeicher",
+    "MaStR",
+    "cleantech"
+  ],
+  "source": {
+    "url": "https://battery-charts.de/de/battery-charts-de/",
+    "import_type": "csv"
+  },
+  "created_at": "2025-12-20T11:09:08.410897+00:00",
+  "updated_at": "2025-12-20T11:09:08.410897+00:00",
+  "row_count": 144,
+  "columns": [
+    "Datum",
+    "Kapazität_GWh"
+  ]
+}
