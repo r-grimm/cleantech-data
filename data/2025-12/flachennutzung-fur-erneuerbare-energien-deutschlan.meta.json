@@ -1,22 +1,22 @@
 {
   "title": "Flächennutzung für erneuerbare Energien Deutschland 2024",
-  "description": "Nutzung landwirtschaftlicher Flächen für erneuerbare Energien in Deutschland (Stand Ende 2024). Aufschlüsselung nach Biogas, Bioethanol, Biodiesel und Freiflächen-Photovoltaik.",
+  "description": "Nutzung landwirtschaftlicher Flächen für erneuerbare Energien in Deutschland (Stand Ende 2024). Quelle: UBA nach Daten der FNR (2025, geschätzte Werte) und Kelm et al. (2025).",
   "tags": [
     "energie",
     "landwirtschaft",
     "biogas",
     "biodiesel",
     "photovoltaik",
-    "flächennutzung",
+    "flaechennutzung",
     "deutschland",
     "2024"
   ],
   "source": {
-    "url": "https://www.umweltbundesamt.de",
+    "url": null,
     "import_type": "csv"
   },
-  "created_at": "2025-12-25T23:00:28.099556+00:00",
-  "updated_at": "2025-12-25T23:00:28.099556+00:00",
+  "created_at": "2025-12-26T20:38:52.314606+00:00",
+  "updated_at": "2025-12-26T20:38:52.314606+00:00",
   "row_count": 9,
   "columns": [
     "kategorie",
