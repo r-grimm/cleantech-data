@@ -1,0 +1,67 @@
+# Catalog Auto-Update Workflow for cleantech-data
+
+name: Update Catalog
+
+on:
+  push:
+    paths:
+      - 'data/**/*.csv'
+      - 'data/**/*.meta.json'
+
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2  # Need HEAD~1 for diff
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install PyGithub pandas python-slugify python-dotenv
+
+      - name: Get changed files
+        id: files
+        run: |
+          echo "added=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'data/**/*.csv' | tr '\n' ' ')" >> $GITHUB_OUTPUT
+          echo "modified=$(git diff --name-only --diff-filter=M HEAD~1 HEAD -- 'data/**/*.csv' | tr '\n' ' ')" >> $GITHUB_OUTPUT
+          echo "deleted=$(git diff --name-only --diff-filter=D HEAD~1 HEAD -- 'data/**/*.csv' | tr '\n' ' ')" >> $GITHUB_OUTPUT
+
+      - name: Clone chart-engine for scripts
+        run: |
+          git clone --depth 1 https://github.com/r-grimm/chart-engine.git /tmp/chart-engine
+
+      - name: Update catalog for added/modified files
+        if: steps.files.outputs.added != '' || steps.files.outputs.modified != ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_DATA_REPO: ${{ github.repository }}
+        run: |
+          cd /tmp/chart-engine
+          for f in ${{ steps.files.outputs.added }} ${{ steps.files.outputs.modified }}; do
+            if [ -n "$f" ]; then
+              echo "Updating: $f"
+              python update_catalog_entry.py "$f" || echo "Warning: Failed to update $f"
+            fi
+          done
+
+      - name: Remove deleted files from catalog
+        if: steps.files.outputs.deleted != ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_DATA_REPO: ${{ github.repository }}
+        run: |
+          cd /tmp/chart-engine
+          for f in ${{ steps.files.outputs.deleted }}; do
+            if [ -n "$f" ]; then
+              echo "Removing: $f"
+              python update_catalog_entry.py --remove "$f" || echo "Warning: Failed to remove $f"
+            fi
+          done
