@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2025-12-30T23:32:14.631718",
+  "generated_at": "2025-12-30T23:54:10.824468",
   "total_datasets": 12,
   "datasets": [
     {
@@ -71,22 +71,25 @@
     {
       "csv_path": "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
       "metadata_path": "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.meta.json",
-      "title": "Batteriegrossspeicher Deutschland Jahrlich",
-      "description": "Dataset: Batteriegrossspeicher Deutschland Jahrlich",
+      "title": "Batteriegroßspeicher Deutschland - Jährlich",
+      "description": "Kumulierte Speicherkapazität von Batteriegroßspeichern in Deutschland, Jahresendwerte 2014-2025.",
       "source": {
-        "name": "Unknown",
-        "url": null,
+        "url": "https://battery-charts.de/de/battery-charts-de/",
         "import_type": "csv"
       },
       "tags": [
-        "2025-12"
+        "batteries",
+        "storage",
+        "Germany",
+        "utility-scale",
+        "yearly"
       ],
       "license": "Unknown",
-      "created_at": null,
+      "created_at": "2025-12-20T11:10:56.010895+00:00",
       "thematic_name": "2025-12",
-      "year_month": null,
+      "year_month": "2025-12",
       "filename": "batteriegrossspeicher-deutschland-jahrlich.csv",
-      "has_metadata": false
+      "has_metadata": true
     },
     {
       "csv_path": "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
