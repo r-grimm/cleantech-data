@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2025-12-30T23:27:47.595405",
-  "total_datasets": 3,
+  "generated_at": "2025-12-30T23:32:14.631718",
+  "total_datasets": 12,
   "datasets": [
     {
       "csv_path": "data/2025-01/test/offshore_wind_test.csv",
@@ -66,6 +66,186 @@
       "thematic_name": "windpower",
       "year_month": "2025-11",
       "filename": "test_data_offshore_wind_deutschland.csv",
+      "has_metadata": false
+    },
+    {
+      "csv_path": "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
+      "metadata_path": "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.meta.json",
+      "title": "Batteriegrossspeicher Deutschland Jahrlich",
+      "description": "Dataset: Batteriegrossspeicher Deutschland Jahrlich",
+      "source": {
+        "name": "Unknown",
+        "url": null,
+        "import_type": "csv"
+      },
+      "tags": [
+        "2025-12"
+      ],
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": "2025-12",
+      "year_month": null,
+      "filename": "batteriegrossspeicher-deutschland-jahrlich.csv",
+      "has_metadata": false
+    },
+    {
+      "csv_path": "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
+      "metadata_path": "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.meta.json",
+      "title": "Batteriegrossspeicher Deutschland Kumulierte Kapaz",
+      "description": "Dataset: Batteriegrossspeicher Deutschland Kumulierte Kapaz",
+      "source": {
+        "name": "Unknown",
+        "url": null,
+        "import_type": "csv"
+      },
+      "tags": [
+        "2025-12"
+      ],
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": "2025-12",
+      "year_month": null,
+      "filename": "batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
+      "has_metadata": false
+    },
+    {
+      "csv_path": "data/2025-12/batteriespeicher-netzanschlussanfragen-deutschland.csv",
+      "metadata_path": "data/2025-12/batteriespeicher-netzanschlussanfragen-deutschland.meta.json",
+      "title": "Batteriespeicher Netzanschlussanfragen Deutschland",
+      "description": "Dataset: Batteriespeicher Netzanschlussanfragen Deutschland",
+      "source": {
+        "name": "Unknown",
+        "url": null,
+        "import_type": "csv"
+      },
+      "tags": [
+        "2025-12"
+      ],
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": "2025-12",
+      "year_month": null,
+      "filename": "batteriespeicher-netzanschlussanfragen-deutschland.csv",
+      "has_metadata": false
+    },
+    {
+      "csv_path": "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv",
+      "metadata_path": "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.meta.json",
+      "title": "Flachennutzung Fur Erneuerbare Energien Deutschlan",
+      "description": "Dataset: Flachennutzung Fur Erneuerbare Energien Deutschlan",
+      "source": {
+        "name": "Unknown",
+        "url": null,
+        "import_type": "csv"
+      },
+      "tags": [
+        "2025-12"
+      ],
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": "2025-12",
+      "year_month": null,
+      "filename": "flachennutzung-fur-erneuerbare-energien-deutschlan.csv",
+      "has_metadata": false
+    },
+    {
+      "csv_path": "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
+      "metadata_path": "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.meta.json",
+      "title": "Grossbatteriespeicher Deutschland Kumulierte Kapaz",
+      "description": "Dataset: Grossbatteriespeicher Deutschland Kumulierte Kapaz",
+      "source": {
+        "name": "Unknown",
+        "url": null,
+        "import_type": "csv"
+      },
+      "tags": [
+        "2025-12"
+      ],
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": "2025-12",
+      "year_month": null,
+      "filename": "grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
+      "has_metadata": false
+    },
+    {
+      "csv_path": "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv",
+      "metadata_path": "data/2025-12/offshore-wind-capacity-germany-2009-2024.meta.json",
+      "title": "Offshore Wind Capacity Germany 2009 2024",
+      "description": "Dataset: Offshore Wind Capacity Germany 2009 2024",
+      "source": {
+        "name": "Unknown",
+        "url": null,
+        "import_type": "csv"
+      },
+      "tags": [
+        "2025-12"
+      ],
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": "2025-12",
+      "year_month": null,
+      "filename": "offshore-wind-capacity-germany-2009-2024.csv",
+      "has_metadata": false
+    },
+    {
+      "csv_path": "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.csv",
+      "metadata_path": "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.meta.json",
+      "title": "Photovoltaik Zubau Deutschland 2020 2024",
+      "description": "Dataset: Photovoltaik Zubau Deutschland 2020 2024",
+      "source": {
+        "name": "Unknown",
+        "url": null,
+        "import_type": "csv"
+      },
+      "tags": [
+        "2025-12"
+      ],
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": "2025-12",
+      "year_month": null,
+      "filename": "photovoltaik-zubau-deutschland-2020-2024.csv",
+      "has_metadata": false
+    },
+    {
+      "csv_path": "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv",
+      "metadata_path": "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.meta.json",
+      "title": "Stahlindustrie Deutschland Anteil Am Bip 2014 2023",
+      "description": "Dataset: Stahlindustrie Deutschland Anteil Am Bip 2014 2023",
+      "source": {
+        "name": "Unknown",
+        "url": null,
+        "import_type": "csv"
+      },
+      "tags": [
+        "2025-12"
+      ],
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": "2025-12",
+      "year_month": null,
+      "filename": "stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv",
+      "has_metadata": false
+    },
+    {
+      "csv_path": "data/2025-12/utility-scale-bess-deutschland-2020-2025.csv",
+      "metadata_path": "data/2025-12/utility-scale-bess-deutschland-2020-2025.meta.json",
+      "title": "Utility Scale Bess Deutschland 2020 2025",
+      "description": "Dataset: Utility Scale Bess Deutschland 2020 2025",
+      "source": {
+        "name": "Unknown",
+        "url": null,
+        "import_type": "csv"
+      },
+      "tags": [
+        "2025-12"
+      ],
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": "2025-12",
+      "year_month": null,
+      "filename": "utility-scale-bess-deutschland-2020-2025.csv",
       "has_metadata": false
     }
   ]
