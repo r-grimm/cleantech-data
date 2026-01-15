@@ -7,7 +7,12 @@
     "Deutschland",
     "Energiespeicher",
     "BESS",
-    "Zubau"
+    "Zubau",
+    "cumulative capacity",
+    "annual",
+    "yearly",
+    "battery storage",
+    "utility-scale"
   ],
   "source": {
     "url": "https://battery-charts.de/battery-charts/",

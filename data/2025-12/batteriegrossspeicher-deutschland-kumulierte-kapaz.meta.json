@@ -8,7 +8,10 @@
     "utility-scale",
     "Großspeicher",
     "MaStR",
-    "cleantech"
+    "cleantech",
+    "cumulative capacity",
+    "monthly",
+    "battery storage"
   ],
   "source": {
     "url": "https://battery-charts.de/de/battery-charts-de/",
