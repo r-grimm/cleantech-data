@@ -102,7 +102,11 @@
         "import_type": "csv"
       },
       "tags": [
-        "2025-12"
+        "battery storage",
+        "cumulative capacity",
+        "monthly",
+        "Germany",
+        "utility-scale"
       ],
       "license": "Unknown",
       "created_at": null,
@@ -122,7 +126,12 @@
         "import_type": "csv"
       },
       "tags": [
-        "2025-12"
+        "battery storage",
+        "cumulative capacity",
+        "annual",
+        "yearly",
+        "Germany",
+        "utility-scale"
       ],
       "license": "Unknown",
       "created_at": null,
