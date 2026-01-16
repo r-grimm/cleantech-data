@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2025-12-30T23:54:10.824468",
-  "total_datasets": 12,
+  "generated_at": "2026-01-16T10:07:35.796495",
+  "total_datasets": 16,
   "datasets": [
     {
       "csv_path": "data/2025-01/test/offshore_wind_test.csv",
@@ -21,7 +21,14 @@
       "thematic_name": "test",
       "year_month": "2025-01",
       "filename": "offshore_wind_test.csv",
-      "has_metadata": false
+      "has_metadata": false,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
     },
     {
       "csv_path": "data/2025-11/windpower/0105_Leist_kum_M.csv",
@@ -46,7 +53,14 @@
       "thematic_name": "windpower",
       "year_month": "2025-11",
       "filename": "0105_Leist_kum_M.csv",
-      "has_metadata": true
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
     },
     {
       "csv_path": "data/2025-11/windpower/test_data_offshore_wind_deutschland.csv",
@@ -66,30 +80,41 @@
       "thematic_name": "windpower",
       "year_month": "2025-11",
       "filename": "test_data_offshore_wind_deutschland.csv",
-      "has_metadata": false
+      "has_metadata": false,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
     },
     {
       "csv_path": "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
       "metadata_path": "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.meta.json",
-      "title": "Batteriegroßspeicher Deutschland - Jährlich",
-      "description": "Kumulierte Speicherkapazität von Batteriegroßspeichern in Deutschland, Jahresendwerte 2014-2025.",
+      "title": "Batteriegrossspeicher Deutschland Jahrlich",
+      "description": "Dataset: Batteriegrossspeicher Deutschland Jahrlich",
       "source": {
-        "url": "https://battery-charts.de/de/battery-charts-de/",
+        "name": "Unknown",
+        "url": null,
         "import_type": "csv"
       },
       "tags": [
-        "batteries",
-        "storage",
-        "Germany",
-        "utility-scale",
-        "yearly"
+        "2025-12"
       ],
       "license": "Unknown",
-      "created_at": "2025-12-20T11:10:56.010895+00:00",
+      "created_at": null,
       "thematic_name": "2025-12",
-      "year_month": "2025-12",
+      "year_month": null,
       "filename": "batteriegrossspeicher-deutschland-jahrlich.csv",
-      "has_metadata": true
+      "has_metadata": false,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
     },
     {
       "csv_path": "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
@@ -102,18 +127,21 @@
         "import_type": "csv"
       },
       "tags": [
-        "battery storage",
-        "cumulative capacity",
-        "monthly",
-        "Germany",
-        "utility-scale"
+        "2025-12"
       ],
       "license": "Unknown",
       "created_at": null,
       "thematic_name": "2025-12",
       "year_month": null,
       "filename": "batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
-      "has_metadata": false
+      "has_metadata": false,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
     },
     {
       "csv_path": "data/2025-12/batteriespeicher-netzanschlussanfragen-deutschland.csv",
@@ -126,19 +154,21 @@
         "import_type": "csv"
       },
       "tags": [
-        "battery storage",
-        "cumulative capacity",
-        "annual",
-        "yearly",
-        "Germany",
-        "utility-scale"
+        "2025-12"
       ],
       "license": "Unknown",
       "created_at": null,
       "thematic_name": "2025-12",
       "year_month": null,
       "filename": "batteriespeicher-netzanschlussanfragen-deutschland.csv",
-      "has_metadata": false
+      "has_metadata": false,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
     },
     {
       "csv_path": "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv",
@@ -158,7 +188,14 @@
       "thematic_name": "2025-12",
       "year_month": null,
       "filename": "flachennutzung-fur-erneuerbare-energien-deutschlan.csv",
-      "has_metadata": false
+      "has_metadata": false,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
     },
     {
       "csv_path": "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
@@ -178,7 +215,14 @@
       "thematic_name": "2025-12",
       "year_month": null,
       "filename": "grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
-      "has_metadata": false
+      "has_metadata": false,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
     },
     {
       "csv_path": "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv",
@@ -198,7 +242,41 @@
       "thematic_name": "2025-12",
       "year_month": null,
       "filename": "offshore-wind-capacity-germany-2009-2024.csv",
-      "has_metadata": false
+      "has_metadata": false,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2025-12/onshore-wind-capacity-germany-2009-2024.csv",
+      "metadata_path": "data/2025-12/onshore-wind-capacity-germany-2009-2024.meta.json",
+      "title": "Onshore Wind Capacity Germany 2009 2024",
+      "description": "Dataset: Onshore Wind Capacity Germany 2009 2024",
+      "source": {
+        "name": "Unknown",
+        "url": null,
+        "import_type": "csv"
+      },
+      "tags": [
+        "2025-12"
+      ],
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": "2025-12",
+      "year_month": null,
+      "filename": "onshore-wind-capacity-germany-2009-2024.csv",
+      "has_metadata": false,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
     },
     {
       "csv_path": "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.csv",
@@ -218,7 +296,14 @@
       "thematic_name": "2025-12",
       "year_month": null,
       "filename": "photovoltaik-zubau-deutschland-2020-2024.csv",
-      "has_metadata": false
+      "has_metadata": false,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
     },
     {
       "csv_path": "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv",
@@ -238,7 +323,14 @@
       "thematic_name": "2025-12",
       "year_month": null,
       "filename": "stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv",
-      "has_metadata": false
+      "has_metadata": false,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
     },
     {
       "csv_path": "data/2025-12/utility-scale-bess-deutschland-2020-2025.csv",
@@ -258,7 +350,89 @@
       "thematic_name": "2025-12",
       "year_month": null,
       "filename": "utility-scale-bess-deutschland-2020-2025.csv",
-      "has_metadata": false
+      "has_metadata": false,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-01/imported/data-by-year-7-categories-1750-2024.csv",
+      "metadata_path": "data/2026-01/imported/data-by-year-7-categories-1750-2024.meta.json",
+      "title": "Data by Year (7 categories)",
+      "description": "Extracted data with 7 rows and 8 columns. Columns: Year, China, United States, India, Germany and 3 more.",
+      "source": {
+        "name": "Newsletter Assistant Import",
+        "url": null,
+        "import_type": "ocr"
+      },
+      "tags": [],
+      "license": "Creative Commons Attribution 4.0 International",
+      "created_at": "2026-01-05T13:24:54.598090Z",
+      "thematic_name": "imported",
+      "year_month": "2026-01",
+      "filename": "data-by-year-7-categories-1750-2024.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-01/imported/screenshot_2026_01_04_at_22_15_18_top_of_the_charts_our_most_popular_work_in_2025___our_world_in_data_20260105.csv",
+      "metadata_path": "data/2026-01/imported/screenshot_2026_01_04_at_22_15_18_top_of_the_charts_our_most_popular_work_in_2025___our_world_in_data_20260105.meta.json",
+      "title": "Screenshot 2026-01-04 At 22-15-18 Top Of The Charts Our Most Popular Work In 2025 - Our World In Data",
+      "description": "Extracted data with 7 rows and 8 columns. Columns: Year, China, United States, India, Germany and 3 more.",
+      "source": {
+        "name": "Newsletter Assistant Import",
+        "url": null,
+        "import_type": "ocr"
+      },
+      "tags": [],
+      "license": "Creative Commons Attribution 4.0 International",
+      "created_at": "2026-01-05T13:20:21.155870Z",
+      "thematic_name": "imported",
+      "year_month": "2026-01",
+      "filename": "screenshot_2026_01_04_at_22_15_18_top_of_the_charts_our_most_popular_work_in_2025___our_world_in_data_20260105.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-01/imported/screenshot_2026_01_04_at_22_15_30_top_of_the_charts_our_most_popular_work_in_2025___our_world_in_data_20260105.csv",
+      "metadata_path": "data/2026-01/imported/screenshot_2026_01_04_at_22_15_30_top_of_the_charts_our_most_popular_work_in_2025___our_world_in_data_20260105.meta.json",
+      "title": "Screenshot 2026-01-04 At 22-15-30 Top Of The Charts Our Most Popular Work In 2025 - Our World In Data",
+      "description": "Extracted data with 0 rows and 0 columns. Columns: ",
+      "source": {
+        "name": "Newsletter Assistant Import",
+        "url": null,
+        "import_type": "ocr"
+      },
+      "tags": [],
+      "license": "Creative Commons Attribution 4.0 International",
+      "created_at": "2026-01-05T13:17:46.536356Z",
+      "thematic_name": "imported",
+      "year_month": "2026-01",
+      "filename": "screenshot_2026_01_04_at_22_15_30_top_of_the_charts_our_most_popular_work_in_2025___our_world_in_data_20260105.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
     }
   ]
 }
