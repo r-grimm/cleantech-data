@@ -1,0 +1,13 @@
+{
+  "title": "VC Cleantech-Finanzierungen Deutschland 2020-2024",
+  "description": "Venture Capital Investitionen in Cleantech-Startups in Deutschland, 2020-2024",
+  "source": "KfW Research, FCF CleanTech Report, Cleantech for Europe",
+  "source_url": "https://www.kfw.de/About-KfW/Newsroom/Latest-News/Pressemitteilungen-Details_763648.html",
+  "date_created": "2026-01-17",
+  "tags": ["venture-capital", "cleantech", "deutschland", "finanzierung", "startups"],
+  "data_quality": "high",
+  "temporal_coverage": "2020-2024",
+  "geographic_coverage": "Deutschland",
+  "unit": "Milliarden Euro",
+  "notes": "2020 und 2024 sind Schätzungen basierend auf EU-Trends und verfügbaren Teilinformationen. 2021 (€2.6 Mrd) war das Rekordjahr, gefolgt von 2022 (€1.6 Mrd). 2023 zeigte einen starken Rückgang von 63% auf ca. €600 Mio."
+}
