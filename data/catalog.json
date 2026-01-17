@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-01-17T14:51:36.023536",
-  "total_datasets": 16,
+  "generated_at": "2026-01-17T14:52:45.220218",
+  "total_datasets": 17,
   "datasets": [
     {
       "csv_path": "data/2025-01/test/offshore_wind_test.csv",
@@ -426,6 +426,33 @@
       "year_month": "2026-01",
       "filename": "screenshot_2026_01_04_at_22_15_30_top_of_the_charts_our_most_popular_work_in_2025___our_world_in_data_20260105.csv",
       "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv",
+      "metadata_path": "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.meta.json",
+      "title": "Vc Cleantech Finanzierung Deutschland 2020 2024",
+      "description": "Dataset: Vc Cleantech Finanzierung Deutschland 2020 2024",
+      "source": {
+        "name": "Unknown",
+        "url": null,
+        "import_type": "csv"
+      },
+      "tags": [
+        "2026-01"
+      ],
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": "2026-01",
+      "year_month": null,
+      "filename": "vc-cleantech-finanzierung-deutschland-2020-2024.csv",
+      "has_metadata": false,
       "freshness_score": null,
       "freshness_status": null,
       "freshness_indicator": null,
