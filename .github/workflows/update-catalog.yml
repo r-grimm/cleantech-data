@@ -7,6 +7,9 @@ on:
       - 'data/**/*.meta.json'
   workflow_dispatch:  # Allow manual trigger
 
+permissions:
+  contents: write  # Required to push catalog.json updates
+
 jobs:
   update-catalog:
     runs-on: ubuntu-latest
