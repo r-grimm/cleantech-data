@@ -1,5 +1,3 @@
-# Catalog Auto-Update Workflow for cleantech-data
-
 name: Update Catalog
 
 on:
@@ -7,61 +5,37 @@ on:
     paths:
       - 'data/**/*.csv'
       - 'data/**/*.meta.json'
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
   update-catalog:
     runs-on: ubuntu-latest
-    
+    # Prevent concurrent runs to avoid race conditions on catalog.json
+    concurrency:
+      group: catalog-update
+      cancel-in-progress: false
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2  # Need HEAD~1 for diff
+          fetch-depth: 0  # Full history needed for rebase
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: |
-          pip install PyGithub pandas python-slugify python-dotenv
+      - name: Rebuild catalog
+        run: python scripts/rebuild_catalog.py
 
-      - name: Get changed files
-        id: files
+      - name: Commit and push if changed
         run: |
-          echo "added=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'data/**/*.csv' | tr '\n' ' ')" >> $GITHUB_OUTPUT
-          echo "modified=$(git diff --name-only --diff-filter=M HEAD~1 HEAD -- 'data/**/*.csv' | tr '\n' ' ')" >> $GITHUB_OUTPUT
-          echo "deleted=$(git diff --name-only --diff-filter=D HEAD~1 HEAD -- 'data/**/*.csv' | tr '\n' ' ')" >> $GITHUB_OUTPUT
-
-      - name: Clone chart-engine for scripts
-        run: |
-          git clone --depth 1 https://github.com/r-grimm/chart-engine.git /tmp/chart-engine
-
-      - name: Update catalog for added/modified files
-        if: steps.files.outputs.added != '' || steps.files.outputs.modified != ''
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_DATA_REPO: ${{ github.repository }}
-        run: |
-          cd /tmp/chart-engine
-          for f in ${{ steps.files.outputs.added }} ${{ steps.files.outputs.modified }}; do
-            if [ -n "$f" ]; then
-              echo "Updating: $f"
-              python update_catalog_entry.py "$f" || echo "Warning: Failed to update $f"
-            fi
-          done
-
-      - name: Remove deleted files from catalog
-        if: steps.files.outputs.deleted != ''
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_DATA_REPO: ${{ github.repository }}
-        run: |
-          cd /tmp/chart-engine
-          for f in ${{ steps.files.outputs.deleted }}; do
-            if [ -n "$f" ]; then
-              echo "Removing: $f"
-              python update_catalog_entry.py --remove "$f" || echo "Warning: Failed to remove $f"
-            fi
-          done
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/catalog.json
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: rebuild catalog.json [skip ci]"
+            # Retry push with pull --rebase if concurrent commits occurred
+            git push || (git pull --rebase && git push)
+          fi
