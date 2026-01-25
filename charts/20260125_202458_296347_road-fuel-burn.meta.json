@@ -1,0 +1,18 @@
+{
+  "title": "Road Fuel Burn",
+  "description": "",
+  "tags": [
+    "cleantech",
+    "ocr-extracted"
+  ],
+  "source": {
+    "name": "Ember, IEA, World Bank",
+    "url": "https://x.com/RMantri/status/road_fuel_burn",
+    "import_type": "ocr"
+  },
+  "license": "CC-BY-4.0",
+  "created_at": "2026-01-25T19:24:58.302369+00:00",
+  "csv_file": "20260125_202458_296347_road-fuel-burn.csv",
+  "units": {},
+  "needs_review": true
+}
