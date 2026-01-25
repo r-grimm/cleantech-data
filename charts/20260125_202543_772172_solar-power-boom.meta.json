@@ -1,0 +1,18 @@
+{
+  "title": "Solar Power Boom",
+  "description": "",
+  "tags": [
+    "cleantech",
+    "ocr-extracted"
+  ],
+  "source": {
+    "name": "Ember, World Bank",
+    "url": "https://x.com/RMantri/status/solar_power_boom",
+    "import_type": "ocr"
+  },
+  "license": "CC-BY-4.0",
+  "created_at": "2026-01-25T19:25:43.772963+00:00",
+  "csv_file": "20260125_202543_772172_solar-power-boom.csv",
+  "units": {},
+  "needs_review": true
+}
