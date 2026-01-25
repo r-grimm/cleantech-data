@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-01-17T14:52:45.220218",
-  "total_datasets": 17,
+  "generated_at": "2026-01-25T20:46:24.815391",
+  "total_datasets": 23,
   "datasets": [
     {
       "csv_path": "data/2025-01/test/offshore_wind_test.csv",
@@ -351,6 +351,174 @@
       "year_month": null,
       "filename": "utility-scale-bess-deutschland-2020-2025.csv",
       "has_metadata": false,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-01/charts/20260125_202443_947305_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
+      "metadata_path": "data/2026-01/charts/20260125_202443_947305_big-shortfall-in-copper-supply-predicted-to-open-u.meta.json",
+      "title": "Big shortfall in copper supply predicted to open up from 2027",
+      "description": "",
+      "source": {
+        "name": "Bernstein",
+        "url": "https://x.com/FT/status/copper_shortfall",
+        "import_type": "ocr"
+      },
+      "tags": [
+        "cleantech",
+        "ocr-extracted"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-01-25T19:24:43.950356+00:00",
+      "thematic_name": "charts",
+      "year_month": "2026-01",
+      "filename": "20260125_202443_947305_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-01/charts/20260125_202458_296347_road-fuel-burn.csv",
+      "metadata_path": "data/2026-01/charts/20260125_202458_296347_road-fuel-burn.meta.json",
+      "title": "Road Fuel Burn",
+      "description": "",
+      "source": {
+        "name": "Ember, IEA, World Bank",
+        "url": "https://x.com/RMantri/status/road_fuel_burn",
+        "import_type": "ocr"
+      },
+      "tags": [
+        "cleantech",
+        "ocr-extracted"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-01-25T19:24:58.302369+00:00",
+      "thematic_name": "charts",
+      "year_month": "2026-01",
+      "filename": "20260125_202458_296347_road-fuel-burn.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-01/charts/20260125_202543_772172_solar-power-boom.csv",
+      "metadata_path": "data/2026-01/charts/20260125_202543_772172_solar-power-boom.meta.json",
+      "title": "Solar Power Boom",
+      "description": "",
+      "source": {
+        "name": "Ember, World Bank",
+        "url": "https://x.com/RMantri/status/solar_power_boom",
+        "import_type": "ocr"
+      },
+      "tags": [
+        "cleantech",
+        "ocr-extracted"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-01-25T19:25:43.772963+00:00",
+      "thematic_name": "charts",
+      "year_month": "2026-01",
+      "filename": "20260125_202543_772172_solar-power-boom.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-01/charts/20260125_202633_757533_india-is-taking-the-electrotech-fast-track-bypassi.csv",
+      "metadata_path": "data/2026-01/charts/20260125_202633_757533_india-is-taking-the-electrotech-fast-track-bypassi.meta.json",
+      "title": "India is taking the electrotech fast-track, bypassing the fossil detour taken by the West and China",
+      "description": "",
+      "source": {
+        "name": "IEA, IIASA, Ember analysis",
+        "url": "https://x.com/CleanPowerDave/status/electrotech_fasttrack",
+        "import_type": "ocr"
+      },
+      "tags": [
+        "cleantech",
+        "ocr-extracted"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-01-25T19:26:33.758327+00:00",
+      "thematic_name": "charts",
+      "year_month": "2026-01",
+      "filename": "20260125_202633_757533_india-is-taking-the-electrotech-fast-track-bypassi.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-01/charts/20260125_202714_545470_electrification-paths-of-asia-s-giants.csv",
+      "metadata_path": "data/2026-01/charts/20260125_202714_545470_electrification-paths-of-asia-s-giants.meta.json",
+      "title": "Electrification Paths of Asia’s Giants",
+      "description": "",
+      "source": {
+        "name": "IEA; World Bank",
+        "url": "https://x.com/RMantri/status/electrification_paths",
+        "import_type": "ocr"
+      },
+      "tags": [
+        "cleantech",
+        "ocr-extracted"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-01-25T19:27:14.546559+00:00",
+      "thematic_name": "charts",
+      "year_month": "2026-01",
+      "filename": "20260125_202714_545470_electrification-paths-of-asia-s-giants.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
+      "metadata_path": "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.meta.json",
+      "title": "Big shortfall in copper supply predicted to open up from 2027",
+      "description": "",
+      "source": {
+        "name": "Bernstein",
+        "url": "https://x.com/FT/status/copper_shortfall",
+        "import_type": "ocr"
+      },
+      "tags": [
+        "cleantech",
+        "ocr-extracted"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-01-25T19:27:54.889825+00:00",
+      "thematic_name": "charts",
+      "year_month": "2026-01",
+      "filename": "20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
+      "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
       "freshness_indicator": null,
