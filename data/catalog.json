@@ -1,8 +1,33 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-01-28T16:35:22.843572+00:00",
-  "total_datasets": 19,
+  "generated_at": "2026-01-28T16:36:56.420808+00:00",
+  "total_datasets": 20,
   "datasets": [
+    {
+      "csv_path": "data/2024-12/power-mix-germany-daily.csv",
+      "metadata_path": null,
+      "title": "Power Mix Germany Daily",
+      "description": "Dataset: Power Mix Germany Daily",
+      "source": {
+        "name": "Unknown",
+        "url": null,
+        "import_type": "csv"
+      },
+      "tags": [],
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": null,
+      "year_month": "2024-12",
+      "filename": "power-mix-germany-daily.csv",
+      "has_metadata": false,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
     {
       "csv_path": "data/2025-11/windpower/0105_Leist_kum_M.csv",
       "metadata_path": "data/2025-11/windpower/0105_Leist_kum_M.meta.json",
