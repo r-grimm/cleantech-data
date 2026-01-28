@@ -1,35 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-01-28T16:32:14.386599+00:00",
-  "total_datasets": 22,
+  "generated_at": "2026-01-28T16:32:31.386103+00:00",
+  "total_datasets": 20,
   "datasets": [
-    {
-      "csv_path": "data/2025-01/test/offshore_wind_test.csv",
-      "metadata_path": null,
-      "title": "Offshore Wind Test",
-      "description": "Dataset: Offshore Wind Test",
-      "source": {
-        "name": "Unknown",
-        "url": null,
-        "import_type": "csv"
-      },
-      "tags": [
-        "test"
-      ],
-      "license": "Unknown",
-      "created_at": null,
-      "thematic_name": "test",
-      "year_month": "2025-01",
-      "filename": "offshore_wind_test.csv",
-      "has_metadata": false,
-      "freshness_score": null,
-      "freshness_status": null,
-      "freshness_indicator": null,
-      "data_as_of": null,
-      "source_reliability": null,
-      "days_since_check": null,
-      "warning": null
-    },
     {
       "csv_path": "data/2025-11/windpower/0105_Leist_kum_M.csv",
       "metadata_path": "data/2025-11/windpower/0105_Leist_kum_M.meta.json",
@@ -392,34 +365,6 @@
       "thematic_name": null,
       "year_month": "2025-12",
       "filename": "utility-scale-bess-deutschland-2020-2025.csv",
-      "has_metadata": true,
-      "freshness_score": null,
-      "freshness_status": null,
-      "freshness_indicator": null,
-      "data_as_of": null,
-      "source_reliability": null,
-      "days_since_check": null,
-      "warning": null
-    },
-    {
-      "csv_path": "data/2026-01/charts/20260125_202443_947305_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
-      "metadata_path": "data/2026-01/charts/20260125_202443_947305_big-shortfall-in-copper-supply-predicted-to-open-u.meta.json",
-      "title": "Big shortfall in copper supply predicted to open up from 2027",
-      "description": "",
-      "source": {
-        "name": "Bernstein",
-        "url": "https://x.com/FT/status/copper_shortfall",
-        "import_type": "ocr"
-      },
-      "tags": [
-        "cleantech",
-        "ocr-extracted"
-      ],
-      "license": "CC-BY-4.0",
-      "created_at": "2026-01-25T19:24:43.950356+00:00",
-      "thematic_name": "charts",
-      "year_month": "2026-01",
-      "filename": "20260125_202443_947305_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
