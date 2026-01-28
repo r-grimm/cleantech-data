@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-01-28T16:31:42.624294+00:00",
-  "total_datasets": 23,
+  "generated_at": "2026-01-28T16:32:00.994151+00:00",
+  "total_datasets": 22,
   "datasets": [
     {
       "csv_path": "data/2025-01/test/offshore_wind_test.csv",
@@ -584,30 +584,6 @@
       "thematic_name": "imported",
       "year_month": "2026-01",
       "filename": "data-by-year-7-categories-1750-2024.csv",
-      "has_metadata": true,
-      "freshness_score": null,
-      "freshness_status": null,
-      "freshness_indicator": null,
-      "data_as_of": null,
-      "source_reliability": null,
-      "days_since_check": null,
-      "warning": null
-    },
-    {
-      "csv_path": "data/2026-01/imported/screenshot_2026_01_04_at_22_15_18_top_of_the_charts_our_most_popular_work_in_2025___our_world_in_data_20260105.csv",
-      "metadata_path": "data/2026-01/imported/screenshot_2026_01_04_at_22_15_18_top_of_the_charts_our_most_popular_work_in_2025___our_world_in_data_20260105.meta.json",
-      "title": "Screenshot 2026-01-04 At 22-15-18 Top Of The Charts Our Most Popular Work In 2025 - Our World In Data",
-      "description": "Extracted data with 7 rows and 8 columns. Columns: Year, China, United States, India, Germany and 3 more.",
-      "source": {
-        "name": "Newsletter Assistant Import",
-        "import_type": "ocr"
-      },
-      "tags": [],
-      "license": "Creative Commons Attribution 4.0 International",
-      "created_at": "2026-01-05T13:20:21.155870Z",
-      "thematic_name": "imported",
-      "year_month": "2026-01",
-      "filename": "screenshot_2026_01_04_at_22_15_18_top_of_the_charts_our_most_popular_work_in_2025___our_world_in_data_20260105.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
