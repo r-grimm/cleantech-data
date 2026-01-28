@@ -1,25 +1,33 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-01-28T16:36:56.420808+00:00",
+  "generated_at": "2026-01-28T16:37:20.599548+00:00",
   "total_datasets": 20,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
-      "metadata_path": null,
-      "title": "Power Mix Germany Daily",
-      "description": "Dataset: Power Mix Germany Daily",
+      "metadata_path": "data/2024-12/power-mix-germany-daily.meta.json",
+      "title": "Power Mix Germany Daily 2020-2024",
+      "description": "Daily electricity generation by source in Germany from 2020 to 2024. Includes Biomass, Coal (Hard Coal and Lignite), Gas, Hydro, Nuclear, Solar, and Wind (Offshore and Onshore). Values in GWh.",
       "source": {
-        "name": "Unknown",
-        "url": null,
+        "name": "SMARD/Bundesnetzagentur",
+        "url": "https://www.smard.de/",
         "import_type": "csv"
       },
-      "tags": [],
-      "license": "Unknown",
-      "created_at": null,
+      "tags": [
+        "electricity",
+        "power generation",
+        "Germany",
+        "energy mix",
+        "renewable energy",
+        "daily",
+        "time series"
+      ],
+      "license": "Open Data",
+      "created_at": "2024-12-31T00:00:00+00:00",
       "thematic_name": null,
       "year_month": "2024-12",
       "filename": "power-mix-germany-daily.csv",
-      "has_metadata": false,
+      "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
       "freshness_indicator": null,
