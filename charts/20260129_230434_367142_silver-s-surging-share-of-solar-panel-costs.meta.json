@@ -1,0 +1,18 @@
+{
+  "title": "Silver's Surging Share of Solar Panel Costs",
+  "description": "",
+  "tags": [
+    "cleantech",
+    "ocr-extracted"
+  ],
+  "source": {
+    "name": "BloombergNEF",
+    "url": "https://pbs.twimg.com/media/G_wUCMdXIAACPTC?format=jpg&name=medium",
+    "import_type": "ocr"
+  },
+  "license": "CC-BY-4.0",
+  "created_at": "2026-01-29T22:04:34.372805+00:00",
+  "csv_file": "20260129_230434_367142_silver-s-surging-share-of-solar-panel-costs.csv",
+  "units": {},
+  "needs_review": true
+}
