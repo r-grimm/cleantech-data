@@ -1,0 +1,55 @@
+{
+  "title": "Silver's Surging Share of Solar Panel Costs",
+  "description": "Share of materials in solar panel costs (%) from 2019-2026. Silver's share surged from 5% to 29%, driven by rising silver prices and increased silver paste usage in newer cell technologies (TOPCon, HJT).",
+  "tags": [
+    "Silver",
+    "Solar",
+    "Cost",
+    "Materials",
+    "Clean Technology"
+  ],
+  "source": {
+    "name": "BloombergNEF",
+    "url": "https://pbs.twimg.com/media/G_wUCMdXIAACPTC?format=jpg&name=medium",
+    "import_type": "csv"
+  },
+  "license": "Creative Commons Attribution 4.0 International",
+  "created_at": "2026-01-29T22:26:50.084103+00:00",
+  "columns": {
+    "Year": {
+      "name": "Year"
+    },
+    "Silver": {
+      "name": "Silver"
+    },
+    "Aluminum": {
+      "name": "Aluminum"
+    },
+    "Glass": {
+      "name": "Glass"
+    },
+    "Silicon metal": {
+      "name": "Silicon metal"
+    },
+    "Resins": {
+      "name": "Resins"
+    },
+    "Other": {
+      "name": "Other"
+    }
+  },
+  "freshness": {
+    "source_checked": "2026-01-29T22:26:50.084103+00:00"
+  },
+  "provenance": {
+    "extraction_method": "manual",
+    "transformations_applied": [],
+    "extracted_by": "mcp",
+    "extraction_date": "2026-01-29T22:26:50.084103+00:00"
+  },
+  "quality": {
+    "completeness": 1.0,
+    "has_nulls": false,
+    "validated": false
+  }
+}
