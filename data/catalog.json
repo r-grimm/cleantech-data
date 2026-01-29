@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-01-28T17:51:36.551412",
-  "total_datasets": 19,
+  "generated_at": "2026-01-29T22:27:00.349300+00:00",
+  "total_datasets": 20,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -24,8 +24,8 @@
       ],
       "license": "Open Data",
       "created_at": "2024-12-31T00:00:00+00:00",
-      "thematic_name": "2024-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2024-12",
       "filename": "power-mix-germany-daily.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -74,7 +74,6 @@
       "title": "Batteriegroßspeicher Deutschland - Jährlich",
       "description": "Kumulierte Speicherkapazität von Batteriegroßspeichern in Deutschland, Jahresendwerte 2014-2025.",
       "source": {
-        "name": null,
         "url": "https://battery-charts.de/de/battery-charts-de/",
         "import_type": "csv"
       },
@@ -85,10 +84,10 @@
         "utility-scale",
         "yearly"
       ],
-      "license": "CC-BY-4.0",
+      "license": "Unknown",
       "created_at": "2025-12-20T11:10:56.010895+00:00",
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "batteriegrossspeicher-deutschland-jahrlich.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -105,7 +104,6 @@
       "title": "Batteriegroßspeicher Deutschland - Kumulierte Kapazität",
       "description": "Kumulierte Speicherkapazität von Batteriegroßspeichern (≥1.000 kWh oder ≥1.000 kW) in Deutschland, monatlich seit 2014. Daten aus dem Marktstammdatenregister, aufbereitet von Battery Charts (RWTH Aachen).",
       "source": {
-        "name": null,
         "url": "https://battery-charts.de/de/battery-charts-de/",
         "import_type": "csv"
       },
@@ -121,10 +119,10 @@
         "monthly",
         "battery storage"
       ],
-      "license": "CC-BY-4.0",
+      "license": "Unknown",
       "created_at": "2025-12-20T11:09:08.410897+00:00",
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -141,7 +139,6 @@
       "title": "Batteriespeicher Netzanschlussanfragen Deutschland",
       "description": "Netzanschlussanfragen nach Unternehmen und Technologie seit 2023 in Gigawatt. Daten zeigen Batteriespeicher als dominanteste Technologie bei deutschen Netzbetreibern (TenneT, 50Hertz, TransnetBW).",
       "source": {
-        "name": null,
         "url": "https://handelsblatt.com",
         "import_type": "csv"
       },
@@ -153,10 +150,10 @@
         "Infrastruktur",
         "Handelsblatt"
       ],
-      "license": "CC-BY-4.0",
+      "license": "Unknown",
       "created_at": "2025-12-24T15:37:31.721125+00:00",
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "batteriespeicher-netzanschlussanfragen-deutschland.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -173,7 +170,6 @@
       "title": "Flächennutzung für erneuerbare Energien Deutschland 2024",
       "description": "Nutzung landwirtschaftlicher Flächen für erneuerbare Energien in Deutschland (Stand Ende 2024). Quelle: UBA nach Daten der FNR (2025, geschätzte Werte) und Kelm et al. (2025).",
       "source": {
-        "name": null,
         "url": null,
         "import_type": "csv"
       },
@@ -187,10 +183,10 @@
         "deutschland",
         "2024"
       ],
-      "license": "CC-BY-4.0",
+      "license": "Unknown",
       "created_at": "2025-12-26T20:38:52.314606+00:00",
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "flachennutzung-fur-erneuerbare-energien-deutschlan.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -207,7 +203,6 @@
       "title": "Großbatteriespeicher Deutschland - Kumulierte Kapazität und Zubau",
       "description": "Entwicklung der installierten Kapazität von Großbatteriespeichern (>1 MWh) in Deutschland von 2018 bis 2024. Quellen: Marktstammdatenregister (via RWTH Aachen Battery Charts), BSW Solar, Frontier Economics.",
       "source": {
-        "name": null,
         "url": "https://battery-charts.de/battery-charts/",
         "import_type": "csv"
       },
@@ -224,10 +219,10 @@
         "battery storage",
         "utility-scale"
       ],
-      "license": "CC-BY-4.0",
+      "license": "Unknown",
       "created_at": "2025-12-19T20:13:35.996754+00:00",
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -244,7 +239,6 @@
       "title": "Offshore Wind Capacity Germany 2009-2024",
       "description": "Installed offshore wind capacity in Germany from 2009 to 2024, based on Wikipedia/IRENA data. Shows the growth from early pilot projects to large-scale deployment.",
       "source": {
-        "name": null,
         "url": "https://en.wikipedia.org/wiki/Wind_power_in_Germany",
         "import_type": "csv"
       },
@@ -255,10 +249,10 @@
         "capacity",
         "generation"
       ],
-      "license": "CC-BY-4.0",
+      "license": "Unknown",
       "created_at": "2025-12-18T23:52:24.845197+00:00",
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "offshore-wind-capacity-germany-2009-2024.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -288,8 +282,8 @@
       ],
       "license": "Unknown",
       "created_at": "2025-12-18T23:52:24.845197+00:00",
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "onshore-wind-capacity-germany-2009-2024.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -306,7 +300,6 @@
       "title": "Photovoltaik-Zubau Deutschland 2020-2024",
       "description": "Jährlicher Zubau und kumulierte installierte Leistung von Photovoltaikanlagen in Deutschland. Daten von AGEE-Stat (Arbeitsgruppe Erneuerbare Energien-Statistik) via Umweltbundesamt.",
       "source": {
-        "name": null,
         "url": "https://www.volker-quaschning.de/datserv/pv-deu/index.php",
         "import_type": "csv"
       },
@@ -318,10 +311,10 @@
         "erneuerbare energien",
         "AGEE-Stat"
       ],
-      "license": "CC-BY-4.0",
+      "license": "Unknown",
       "created_at": "2025-12-19T22:47:09.339841+00:00",
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "photovoltaik-zubau-deutschland-2020-2024.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -338,7 +331,6 @@
       "title": "Stahlindustrie Deutschland - Anteil am BIP 2014-2023",
       "description": "Geschätzter Anteil der Bruttowertschöpfung der deutschen Stahlindustrie am BIP. Berechnung: Stahlumsatz (WV Stahl) × 14% Wertschöpfungsquote / BIP (Destatis). Die Wertschöpfungsquote basiert auf Angaben der WV Stahl (ca. 7 Mrd. EUR BWS bei ca. 50 Mrd. EUR Umsatz).",
       "source": {
-        "name": null,
         "url": "https://www.wvstahl.de/wp-content/uploads/WV-Stahl_Daten-und-Fakten-2024_RZ-Web.pdf",
         "import_type": "csv"
       },
@@ -350,10 +342,10 @@
         "industrie",
         "cleantech"
       ],
-      "license": "CC-BY-4.0",
+      "license": "Unknown",
       "created_at": "2025-12-19T06:51:55.055452+00:00",
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -370,7 +362,6 @@
       "title": "Utility-Scale BESS Deutschland 2020-2025",
       "description": "Kumulierte installierte Kapazität von Utility-Scale Batteriespeichern (>1 MW) in Deutschland. Quellen: RWTH Aachen Battery Charts, BSW Solar, Clean Energy Wire. 2025-Wert bezieht sich auf H1 2025.",
       "source": {
-        "name": null,
         "url": "https://battery-charts.de/",
         "import_type": "csv"
       },
@@ -381,10 +372,10 @@
         "utility-scale",
         "cleantech"
       ],
-      "license": "CC-BY-4.0",
+      "license": "Unknown",
       "created_at": "2025-12-19T22:36:16.105557+00:00",
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "utility-scale-bess-deutschland-2020-2025.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -536,13 +527,39 @@
       "warning": null
     },
     {
+      "csv_path": "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv",
+      "metadata_path": null,
+      "title": "Silver S Surging Share Of Solar Panel Costs",
+      "description": "Dataset: Silver S Surging Share Of Solar Panel Costs",
+      "source": {
+        "name": "Unknown",
+        "url": null,
+        "import_type": "csv"
+      },
+      "tags": [
+        "general"
+      ],
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": "general",
+      "year_month": "2026-01",
+      "filename": "silver-s-surging-share-of-solar-panel-costs.csv",
+      "has_metadata": false,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
       "csv_path": "data/2026-01/imported/data-by-year-7-categories-1750-2024.csv",
       "metadata_path": "data/2026-01/imported/data-by-year-7-categories-1750-2024.meta.json",
       "title": "Data by Year (7 categories)",
       "description": "Extracted data with 7 rows and 8 columns. Columns: Year, China, United States, India, Germany and 3 more.",
       "source": {
         "name": "Newsletter Assistant Import",
-        "url": null,
         "import_type": "ocr"
       },
       "tags": [],
@@ -566,8 +583,8 @@
       "title": "VC Cleantech-Finanzierungen Deutschland 2020-2024",
       "description": "Venture Capital Investitionen in Cleantech-Startups in Deutschland, 2020-2024",
       "source": {
-        "name": "KfW Research, FCF CleanTech Report, Cleantech for Europe",
-        "url": "https://www.kfw.de/About-KfW/Newsroom/Latest-News/Pressemitteilungen-Details_763648.html",
+        "name": "Unknown",
+        "url": null,
         "import_type": "csv"
       },
       "tags": [
@@ -577,10 +594,10 @@
         "finanzierung",
         "startups"
       ],
-      "license": "CC-BY-4.0",
-      "created_at": "2026-01-17T00:00:00+00:00",
-      "thematic_name": "2026-01",
-      "year_month": null,
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": null,
+      "year_month": "2026-01",
       "filename": "vc-cleantech-finanzierung-deutschland-2020-2024.csv",
       "has_metadata": true,
       "freshness_score": null,
