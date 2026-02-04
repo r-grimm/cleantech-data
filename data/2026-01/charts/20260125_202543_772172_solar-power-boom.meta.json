@@ -14,5 +14,24 @@
   "created_at": "2026-01-25T19:25:43.772963+00:00",
   "csv_file": "20260125_202543_772172_solar-power-boom.csv",
   "units": {},
-  "needs_review": true
+  "needs_review": true,
+  "columns": {
+    "Country": {
+      "name": "Country"
+    },
+    "GDP per capita (adjusted)": {
+      "name": "GDP per capita (adjusted)"
+    },
+    "Solar power generation per capita (kWh)": {
+      "name": "Solar power generation per capita (kWh)",
+      "semantic_type": "power_capacity",
+      "unit": "kW",
+      "unit_symbol": "kW",
+      "display_format": "{:,.1f}",
+      "confidence": 0.6
+    },
+    "Annotation": {
+      "name": "Annotation"
+    }
+  }
 }

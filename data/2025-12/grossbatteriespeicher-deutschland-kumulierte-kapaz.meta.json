@@ -21,9 +21,23 @@
   "created_at": "2025-12-19T20:13:35.996754+00:00",
   "updated_at": "2025-12-19T20:13:35.996754+00:00",
   "row_count": 7,
-  "columns": [
-    "Jahr",
-    "Kapazitaet_GWh",
-    "Zubau_GWh"
-  ]
+  "columns": {
+    "Jahr": {
+      "name": "Jahr",
+      "semantic_type": "year",
+      "range": [
+        1900.0,
+        2100.0
+      ],
+      "display_format": "{:.0f}",
+      "granularity": "annual",
+      "confidence": 0.6
+    },
+    "Kapazitaet_GWh": {
+      "name": "Kapazitaet_GWh"
+    },
+    "Zubau_GWh": {
+      "name": "Zubau_GWh"
+    }
+  }
 }

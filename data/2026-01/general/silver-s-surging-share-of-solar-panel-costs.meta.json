@@ -17,7 +17,15 @@
   "created_at": "2026-01-29T22:26:50.084103+00:00",
   "columns": {
     "Year": {
-      "name": "Year"
+      "name": "Year",
+      "semantic_type": "year",
+      "range": [
+        1900.0,
+        2100.0
+      ],
+      "display_format": "{:.0f}",
+      "granularity": "annual",
+      "confidence": 0.8
     },
     "Silver": {
       "name": "Silver"
