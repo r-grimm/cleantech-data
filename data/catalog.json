@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-01-29T22:27:07.896772+00:00",
-  "total_datasets": 20,
+  "generated_at": "2026-02-04T10:17:25.982422+00:00",
+  "total_datasets": 21,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -604,6 +604,33 @@
       "year_month": "2026-01",
       "filename": "vc-cleantech-finanzierung-deutschland-2020-2024.csv",
       "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
+      "metadata_path": null,
+      "title": "Die Schere Solar Kapazitat Vs Jobs Weltweit 2012 2",
+      "description": "Dataset: Die Schere Solar Kapazitat Vs Jobs Weltweit 2012 2",
+      "source": {
+        "name": "Unknown",
+        "url": null,
+        "import_type": "csv"
+      },
+      "tags": [
+        "energy"
+      ],
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": "energy",
+      "year_month": "2026-02",
+      "filename": "die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
+      "has_metadata": false,
       "freshness_score": null,
       "freshness_status": null,
       "freshness_indicator": null,
