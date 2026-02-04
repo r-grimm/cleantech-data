@@ -16,11 +16,44 @@
   "created_at": "2025-12-19T06:51:55.055452+00:00",
   "updated_at": "2025-12-19T06:51:55.055452+00:00",
   "row_count": 10,
-  "columns": [
-    "Jahr",
-    "Stahlumsatz_Mrd_EUR",
-    "Geschaetzte_BWS_Mrd_EUR",
-    "BIP_Mrd_EUR",
-    "Anteil_am_BIP_Prozent"
-  ]
+  "columns": {
+    "Jahr": {
+      "name": "Jahr",
+      "semantic_type": "year",
+      "range": [
+        1900.0,
+        2100.0
+      ],
+      "display_format": "{:.0f}",
+      "granularity": "annual",
+      "confidence": 0.6
+    },
+    "Stahlumsatz_Mrd_EUR": {
+      "name": "Stahlumsatz_Mrd_EUR",
+      "semantic_type": "currency_eur",
+      "unit": "EUR",
+      "unit_symbol": "€",
+      "display_format": "€{:,.0f}",
+      "confidence": 0.8
+    },
+    "Geschaetzte_BWS_Mrd_EUR": {
+      "name": "Geschaetzte_BWS_Mrd_EUR",
+      "semantic_type": "currency_eur",
+      "unit": "EUR",
+      "unit_symbol": "€",
+      "display_format": "€{:,.0f}",
+      "confidence": 0.8
+    },
+    "BIP_Mrd_EUR": {
+      "name": "BIP_Mrd_EUR",
+      "semantic_type": "currency_eur",
+      "unit": "EUR",
+      "unit_symbol": "€",
+      "display_format": "€{:,.0f}",
+      "confidence": 0.8
+    },
+    "Anteil_am_BIP_Prozent": {
+      "name": "Anteil_am_BIP_Prozent"
+    }
+  }
 }

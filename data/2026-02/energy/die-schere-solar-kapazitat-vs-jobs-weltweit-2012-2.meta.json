@@ -21,7 +21,15 @@
   "created_at": "2026-02-04T10:17:16.293322+00:00",
   "columns": {
     "Jahr": {
-      "name": "Jahr"
+      "name": "Jahr",
+      "semantic_type": "year",
+      "range": [
+        1900.0,
+        2100.0
+      ],
+      "display_format": "{:.0f}",
+      "granularity": "annual",
+      "confidence": 0.6
     },
     "Kumulierte Kapazität (GW)": {
       "name": "Kumulierte Kapazität (GW)"

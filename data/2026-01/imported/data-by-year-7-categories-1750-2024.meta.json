@@ -7,5 +7,31 @@
     "import_type": "ocr"
   },
   "license": "Creative Commons Attribution 4.0 International",
-  "created_at": "2026-01-05T13:24:54.598090Z"
+  "created_at": "2026-01-05T13:24:54.598090Z",
+  "columns": {
+    "Year": {
+      "name": "Year"
+    },
+    "China": {
+      "name": "China"
+    },
+    "United States": {
+      "name": "United States"
+    },
+    "India": {
+      "name": "India"
+    },
+    "Germany": {
+      "name": "Germany"
+    },
+    "Brazil": {
+      "name": "Brazil"
+    },
+    "United Kingdom": {
+      "name": "United Kingdom"
+    },
+    "France": {
+      "name": "France"
+    }
+  }
 }

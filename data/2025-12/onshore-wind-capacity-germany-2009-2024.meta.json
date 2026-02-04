@@ -17,10 +17,25 @@
   "created_at": "2025-12-18T23:52:24.845197+00:00",
   "columns": {
     "Year": {
+      "name": "Year",
+      "semantic_type": "year",
+      "range": [
+        1900.0,
+        2100.0
+      ],
+      "display_format": "{:.0f}",
+      "granularity": "annual",
+      "confidence": 0.8,
       "type": "integer",
       "description": "Year"
     },
     "Capacity_MW": {
+      "name": "Capacity_MW",
+      "semantic_type": "power_capacity",
+      "unit": "MW",
+      "unit_symbol": "MW",
+      "display_format": "{:,.1f}",
+      "confidence": 0.6,
       "type": "float",
       "description": "Installed capacity in megawatts"
     }

@@ -14,5 +14,19 @@
   "created_at": "2026-01-25T19:24:58.302369+00:00",
   "csv_file": "20260125_202458_296347_road-fuel-burn.csv",
   "units": {},
-  "needs_review": true
+  "needs_review": true,
+  "columns": {
+    "Country": {
+      "name": "Country"
+    },
+    "GDP_per_capita_adjusted": {
+      "name": "GDP_per_capita_adjusted"
+    },
+    "Gasoline_equivalent_per_capita_liters": {
+      "name": "Gasoline_equivalent_per_capita_liters"
+    },
+    "Annotation": {
+      "name": "Annotation"
+    }
+  }
 }
