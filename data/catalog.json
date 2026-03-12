@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-03-12T11:26:28.578667+00:00",
-  "total_datasets": 23,
+  "generated_at": "2026-03-12T12:24:48.786736+00:00",
+  "total_datasets": 25,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -581,6 +581,37 @@
       "warning": null
     },
     {
+      "csv_path": "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv",
+      "metadata_path": "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.meta.json",
+      "title": "Silver's Surging Share of Solar Panel Costs",
+      "description": "Share of materials in solar panel costs (%) from 2019-2026. Silver's share surged from 5% to 29%, driven by rising silver prices and increased silver paste usage in newer cell technologies (TOPCon, HJT).",
+      "source": {
+        "name": "BloombergNEF",
+        "url": "https://pbs.twimg.com/media/G_wUCMdXIAACPTC?format=jpg&name=medium",
+        "import_type": "csv"
+      },
+      "tags": [
+        "Silver",
+        "Solar",
+        "Cost",
+        "Materials",
+        "Clean Technology"
+      ],
+      "license": "Creative Commons Attribution 4.0 International",
+      "created_at": "2026-01-29T22:26:50.084103+00:00",
+      "thematic_name": "general",
+      "year_month": "2026-01",
+      "filename": "silver-s-surging-share-of-solar-panel-costs.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
       "csv_path": "data/2026-01/imported/data-by-year-7-categories-1750-2024.csv",
       "metadata_path": "data/2026-01/imported/data-by-year-7-categories-1750-2024.meta.json",
       "title": "Data by Year (7 categories)",
@@ -684,6 +715,41 @@
       "thematic_name": null,
       "year_month": "2026-01",
       "filename": "vc-cleantech-finanzierung-deutschland-2020-2024.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
+      "metadata_path": "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.meta.json",
+      "title": "Die Schere: Solar-Kapazität vs. Jobs weltweit (2012–2024)",
+      "description": "Vergleich der kumulierten globalen Solar-PV-Kapazität (GW) mit der Zahl der Solar-Jobs (Mio.) von 2012 bis 2024. Zeigt die wachsende Produktivitätslücke: Kapazität wächst seit 2012 fast 5x schneller als die Beschäftigung. Jobs/GW sanken von 13.600 (2012) auf 3.337 (2024), ein Rückgang von 76%. Treiber: größere Module, effizientere Logistik, Utility-Scale-Shift, Skaleneffekte.",
+      "source": {
+        "name": "International Renewable Energy Agency",
+        "url": "https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024",
+        "import_type": "csv"
+      },
+      "tags": [
+        "Solar",
+        "Jobs",
+        "Capacity",
+        "Productivity",
+        "Global",
+        "Irena",
+        "IEA",
+        "Energy Transition",
+        "Robotics Wave"
+      ],
+      "license": "Creative Commons Attribution 4.0 International",
+      "created_at": "2026-02-04T10:17:16.293322+00:00",
+      "thematic_name": "energy",
+      "year_month": "2026-02",
+      "filename": "die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
