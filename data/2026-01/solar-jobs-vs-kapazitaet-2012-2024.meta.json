@@ -1,0 +1,13 @@
+{
+  "title": "Solar PV: Jobs vs. Kapazität – Die Schere (2012-2024)",
+  "description": "Kumulative Solar-PV-Kapazität wächst exponentiell, Jobs nur linear. Die Arbeitsintensität (Jobs/GW) sinkt um 76% in 12 Jahren. Zeigt organische Automatisierung der Branche ohne Roboter-Revolution.",
+  "source": "IRENA Annual Reviews 2013-2026, IEA PVPS Snapshot 2025, Fraunhofer ISE PV Report 2024",
+  "source_url": "https://www.irena.org/Energy-Transition/Socio-economic-impact/Energy-and-Jobs",
+  "date_created": "2026-01-30",
+  "tags": ["solar", "jobs", "kapazität", "arbeitsintensität", "automatisierung", "irena", "energiewende"],
+  "data_quality": "high",
+  "temporal_coverage": "2012-2024",
+  "geographic_coverage": "Global",
+  "unit": "GW (Kapazität), Millionen (Jobs), Jobs/GW (Intensität)",
+  "notes": "2018 interpoliert (keine exakte IRENA-Quelle). 2023 ausgelassen wegen wahrscheinlicher Methodikänderung bei IRENA (Sprung auf 7,1 Mio. Jobs). 2024 Kapazität nach IEA PVPS/Fraunhofer ISE (2.157 GW), IRENA meldet 1.859 GW – Differenz durch Zählmethodik."
+}

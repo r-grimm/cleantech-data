@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-02-04T13:19:23.786033",
-  "total_datasets": 21,
+  "generated_at": "2026-03-12T11:26:28.578667+00:00",
+  "total_datasets": 23,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -24,22 +24,8 @@
       ],
       "license": "Open Data",
       "created_at": "2024-12-31T00:00:00+00:00",
-      "columns": {
-        "date": {
-          "name": "date",
-          "description": "Date (YYYY-MM-DD)"
-        },
-        "category": {
-          "name": "category",
-          "description": "Energy source category"
-        },
-        "value_gwh": {
-          "name": "value_gwh",
-          "description": "Generation in GWh"
-        }
-      },
-      "thematic_name": "2024-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2024-12",
       "filename": "power-mix-germany-daily.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -70,17 +56,6 @@
       ],
       "license": "Custom",
       "created_at": "2025-11-30T20:54:17.013274Z",
-      "columns": {
-        "Zeit": {
-          "name": "Zeit"
-        },
-        "Group: mittleres Jahr (2010-2021) - b...": {
-          "name": "Group: mittleres Jahr (2010-2021) - b..."
-        },
-        "Value": {
-          "name": "Value"
-        }
-      },
       "thematic_name": "windpower",
       "year_month": "2025-11",
       "filename": "0105_Leist_kum_M.csv",
@@ -99,7 +74,6 @@
       "title": "Batteriegroßspeicher Deutschland - Jährlich",
       "description": "Kumulierte Speicherkapazität von Batteriegroßspeichern in Deutschland, Jahresendwerte 2014-2025.",
       "source": {
-        "name": null,
         "url": "https://battery-charts.de/de/battery-charts-de/",
         "import_type": "csv"
       },
@@ -110,26 +84,10 @@
         "utility-scale",
         "yearly"
       ],
-      "license": "CC-BY-4.0",
+      "license": "Unknown",
       "created_at": "2025-12-20T11:10:56.010895+00:00",
-      "columns": {
-        "Jahr": {
-          "name": "Jahr",
-          "semantic_type": "year",
-          "range": [
-            1900.0,
-            2100.0
-          ],
-          "display_format": "{:.0f}",
-          "granularity": "annual",
-          "confidence": 0.6
-        },
-        "Kapazität_GWh": {
-          "name": "Kapazität_GWh"
-        }
-      },
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "batteriegrossspeicher-deutschland-jahrlich.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -146,7 +104,6 @@
       "title": "Batteriegroßspeicher Deutschland - Kumulierte Kapazität",
       "description": "Kumulierte Speicherkapazität von Batteriegroßspeichern (≥1.000 kWh oder ≥1.000 kW) in Deutschland, monatlich seit 2014. Daten aus dem Marktstammdatenregister, aufbereitet von Battery Charts (RWTH Aachen).",
       "source": {
-        "name": null,
         "url": "https://battery-charts.de/de/battery-charts-de/",
         "import_type": "csv"
       },
@@ -162,18 +119,10 @@
         "monthly",
         "battery storage"
       ],
-      "license": "CC-BY-4.0",
+      "license": "Unknown",
       "created_at": "2025-12-20T11:09:08.410897+00:00",
-      "columns": {
-        "Datum": {
-          "name": "Datum"
-        },
-        "Kapazität_GWh": {
-          "name": "Kapazität_GWh"
-        }
-      },
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -190,7 +139,6 @@
       "title": "Batteriespeicher Netzanschlussanfragen Deutschland",
       "description": "Netzanschlussanfragen nach Unternehmen und Technologie seit 2023 in Gigawatt. Daten zeigen Batteriespeicher als dominanteste Technologie bei deutschen Netzbetreibern (TenneT, 50Hertz, TransnetBW).",
       "source": {
-        "name": null,
         "url": "https://handelsblatt.com",
         "import_type": "csv"
       },
@@ -202,30 +150,10 @@
         "Infrastruktur",
         "Handelsblatt"
       ],
-      "license": "CC-BY-4.0",
+      "license": "Unknown",
       "created_at": "2025-12-24T15:37:31.721125+00:00",
-      "columns": {
-        "operator": {
-          "name": "operator"
-        },
-        "Batteriespeicher": {
-          "name": "Batteriespeicher"
-        },
-        "Elektrolyse": {
-          "name": "Elektrolyse"
-        },
-        "Rechenzentren": {
-          "name": "Rechenzentren"
-        },
-        "Wind": {
-          "name": "Wind"
-        },
-        "Photovoltaik": {
-          "name": "Photovoltaik"
-        }
-      },
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "batteriespeicher-netzanschlussanfragen-deutschland.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -242,7 +170,6 @@
       "title": "Flächennutzung für erneuerbare Energien Deutschland 2024",
       "description": "Nutzung landwirtschaftlicher Flächen für erneuerbare Energien in Deutschland (Stand Ende 2024). Quelle: UBA nach Daten der FNR (2025, geschätzte Werte) und Kelm et al. (2025).",
       "source": {
-        "name": null,
         "url": null,
         "import_type": "csv"
       },
@@ -256,21 +183,10 @@
         "deutschland",
         "2024"
       ],
-      "license": "CC-BY-4.0",
+      "license": "Unknown",
       "created_at": "2025-12-26T20:38:52.314606+00:00",
-      "columns": {
-        "kategorie": {
-          "name": "kategorie"
-        },
-        "subkategorie": {
-          "name": "subkategorie"
-        },
-        "flaeche_ha": {
-          "name": "flaeche_ha"
-        }
-      },
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "flachennutzung-fur-erneuerbare-energien-deutschlan.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -287,7 +203,6 @@
       "title": "Großbatteriespeicher Deutschland - Kumulierte Kapazität und Zubau",
       "description": "Entwicklung der installierten Kapazität von Großbatteriespeichern (>1 MWh) in Deutschland von 2018 bis 2024. Quellen: Marktstammdatenregister (via RWTH Aachen Battery Charts), BSW Solar, Frontier Economics.",
       "source": {
-        "name": null,
         "url": "https://battery-charts.de/battery-charts/",
         "import_type": "csv"
       },
@@ -304,29 +219,10 @@
         "battery storage",
         "utility-scale"
       ],
-      "license": "CC-BY-4.0",
+      "license": "Unknown",
       "created_at": "2025-12-19T20:13:35.996754+00:00",
-      "columns": {
-        "Jahr": {
-          "name": "Jahr",
-          "semantic_type": "year",
-          "range": [
-            1900.0,
-            2100.0
-          ],
-          "display_format": "{:.0f}",
-          "granularity": "annual",
-          "confidence": 0.6
-        },
-        "Kapazitaet_GWh": {
-          "name": "Kapazitaet_GWh"
-        },
-        "Zubau_GWh": {
-          "name": "Zubau_GWh"
-        }
-      },
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -343,7 +239,6 @@
       "title": "Offshore Wind Capacity Germany 2009-2024",
       "description": "Installed offshore wind capacity in Germany from 2009 to 2024, based on Wikipedia/IRENA data. Shows the growth from early pilot projects to large-scale deployment.",
       "source": {
-        "name": null,
         "url": "https://en.wikipedia.org/wiki/Wind_power_in_Germany",
         "import_type": "csv"
       },
@@ -354,39 +249,10 @@
         "capacity",
         "generation"
       ],
-      "license": "CC-BY-4.0",
+      "license": "Unknown",
       "created_at": "2025-12-18T23:52:24.845197+00:00",
-      "columns": {
-        "Year": {
-          "name": "Year",
-          "semantic_type": "year",
-          "range": [
-            1900.0,
-            2100.0
-          ],
-          "display_format": "{:.0f}",
-          "granularity": "annual",
-          "confidence": 0.8
-        },
-        "Capacity_MW": {
-          "name": "Capacity_MW",
-          "semantic_type": "power_capacity",
-          "unit": "MW",
-          "unit_symbol": "MW",
-          "display_format": "{:,.1f}",
-          "confidence": 0.6
-        },
-        "Generation_GWh": {
-          "name": "Generation_GWh",
-          "semantic_type": "energy_generation",
-          "unit": "GWh",
-          "unit_symbol": "GWh",
-          "display_format": "{:,.1f}",
-          "confidence": 0.6
-        }
-      },
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "offshore-wind-capacity-germany-2009-2024.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -416,31 +282,8 @@
       ],
       "license": "Unknown",
       "created_at": "2025-12-18T23:52:24.845197+00:00",
-      "columns": {
-        "Year": {
-          "name": "Year",
-          "semantic_type": "year",
-          "range": [
-            1900.0,
-            2100.0
-          ],
-          "display_format": "{:.0f}",
-          "granularity": "annual",
-          "description": "Year",
-          "confidence": 0.8
-        },
-        "Capacity_MW": {
-          "name": "Capacity_MW",
-          "semantic_type": "power_capacity",
-          "unit": "MW",
-          "unit_symbol": "MW",
-          "display_format": "{:,.1f}",
-          "description": "Installed capacity in megawatts",
-          "confidence": 0.6
-        }
-      },
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "onshore-wind-capacity-germany-2009-2024.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -457,7 +300,6 @@
       "title": "Photovoltaik-Zubau Deutschland 2020-2024",
       "description": "Jährlicher Zubau und kumulierte installierte Leistung von Photovoltaikanlagen in Deutschland. Daten von AGEE-Stat (Arbeitsgruppe Erneuerbare Energien-Statistik) via Umweltbundesamt.",
       "source": {
-        "name": null,
         "url": "https://www.volker-quaschning.de/datserv/pv-deu/index.php",
         "import_type": "csv"
       },
@@ -469,29 +311,10 @@
         "erneuerbare energien",
         "AGEE-Stat"
       ],
-      "license": "CC-BY-4.0",
+      "license": "Unknown",
       "created_at": "2025-12-19T22:47:09.339841+00:00",
-      "columns": {
-        "Jahr": {
-          "name": "Jahr",
-          "semantic_type": "year",
-          "range": [
-            1900.0,
-            2100.0
-          ],
-          "display_format": "{:.0f}",
-          "granularity": "annual",
-          "confidence": 0.6
-        },
-        "Zubau_GW": {
-          "name": "Zubau_GW"
-        },
-        "Kumuliert_GW": {
-          "name": "Kumuliert_GW"
-        }
-      },
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "photovoltaik-zubau-deutschland-2020-2024.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -508,7 +331,6 @@
       "title": "Stahlindustrie Deutschland - Anteil am BIP 2014-2023",
       "description": "Geschätzter Anteil der Bruttowertschöpfung der deutschen Stahlindustrie am BIP. Berechnung: Stahlumsatz (WV Stahl) × 14% Wertschöpfungsquote / BIP (Destatis). Die Wertschöpfungsquote basiert auf Angaben der WV Stahl (ca. 7 Mrd. EUR BWS bei ca. 50 Mrd. EUR Umsatz).",
       "source": {
-        "name": null,
         "url": "https://www.wvstahl.de/wp-content/uploads/WV-Stahl_Daten-und-Fakten-2024_RZ-Web.pdf",
         "import_type": "csv"
       },
@@ -520,50 +342,10 @@
         "industrie",
         "cleantech"
       ],
-      "license": "CC-BY-4.0",
+      "license": "Unknown",
       "created_at": "2025-12-19T06:51:55.055452+00:00",
-      "columns": {
-        "Jahr": {
-          "name": "Jahr",
-          "semantic_type": "year",
-          "range": [
-            1900.0,
-            2100.0
-          ],
-          "display_format": "{:.0f}",
-          "granularity": "annual",
-          "confidence": 0.6
-        },
-        "Stahlumsatz_Mrd_EUR": {
-          "name": "Stahlumsatz_Mrd_EUR",
-          "semantic_type": "currency_eur",
-          "unit": "EUR",
-          "unit_symbol": "€",
-          "display_format": "€{:,.0f}",
-          "confidence": 0.8
-        },
-        "Geschaetzte_BWS_Mrd_EUR": {
-          "name": "Geschaetzte_BWS_Mrd_EUR",
-          "semantic_type": "currency_eur",
-          "unit": "EUR",
-          "unit_symbol": "€",
-          "display_format": "€{:,.0f}",
-          "confidence": 0.8
-        },
-        "BIP_Mrd_EUR": {
-          "name": "BIP_Mrd_EUR",
-          "semantic_type": "currency_eur",
-          "unit": "EUR",
-          "unit_symbol": "€",
-          "display_format": "€{:,.0f}",
-          "confidence": 0.8
-        },
-        "Anteil_am_BIP_Prozent": {
-          "name": "Anteil_am_BIP_Prozent"
-        }
-      },
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -580,7 +362,6 @@
       "title": "Utility-Scale BESS Deutschland 2020-2025",
       "description": "Kumulierte installierte Kapazität von Utility-Scale Batteriespeichern (>1 MW) in Deutschland. Quellen: RWTH Aachen Battery Charts, BSW Solar, Clean Energy Wire. 2025-Wert bezieht sich auf H1 2025.",
       "source": {
-        "name": null,
         "url": "https://battery-charts.de/",
         "import_type": "csv"
       },
@@ -591,26 +372,10 @@
         "utility-scale",
         "cleantech"
       ],
-      "license": "CC-BY-4.0",
+      "license": "Unknown",
       "created_at": "2025-12-19T22:36:16.105557+00:00",
-      "columns": {
-        "Jahr": {
-          "name": "Jahr",
-          "semantic_type": "year",
-          "range": [
-            1900.0,
-            2100.0
-          ],
-          "display_format": "{:.0f}",
-          "granularity": "annual",
-          "confidence": 0.6
-        },
-        "Kapazität_GWh": {
-          "name": "Kapazität_GWh"
-        }
-      },
-      "thematic_name": "2025-12",
-      "year_month": null,
+      "thematic_name": null,
+      "year_month": "2025-12",
       "filename": "utility-scale-bess-deutschland-2020-2025.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -637,20 +402,6 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-01-25T19:24:58.302369+00:00",
-      "columns": {
-        "Country": {
-          "name": "Country"
-        },
-        "GDP_per_capita_adjusted": {
-          "name": "GDP_per_capita_adjusted"
-        },
-        "Gasoline_equivalent_per_capita_liters": {
-          "name": "Gasoline_equivalent_per_capita_liters"
-        },
-        "Annotation": {
-          "name": "Annotation"
-        }
-      },
       "thematic_name": "charts",
       "year_month": "2026-01",
       "filename": "20260125_202458_296347_road-fuel-burn.csv",
@@ -679,25 +430,6 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-01-25T19:25:43.772963+00:00",
-      "columns": {
-        "Country": {
-          "name": "Country"
-        },
-        "GDP per capita (adjusted)": {
-          "name": "GDP per capita (adjusted)"
-        },
-        "Solar power generation per capita (kWh)": {
-          "name": "Solar power generation per capita (kWh)",
-          "semantic_type": "power_capacity",
-          "unit": "kW",
-          "unit_symbol": "kW",
-          "display_format": "{:,.1f}",
-          "confidence": 0.6
-        },
-        "Annotation": {
-          "name": "Annotation"
-        }
-      },
       "thematic_name": "charts",
       "year_month": "2026-01",
       "filename": "20260125_202543_772172_solar-power-boom.csv",
@@ -726,47 +458,6 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-01-25T19:26:33.758327+00:00",
-      "columns": {
-        "Country": {
-          "name": "Country"
-        },
-        "Stage/Description": {
-          "name": "Stage/Description"
-        },
-        "Bio & other Share (%)": {
-          "name": "Bio & other Share (%)",
-          "semantic_type": "percentage",
-          "unit_symbol": "%",
-          "range": [
-            0.0,
-            100.0
-          ],
-          "display_format": "{:.1f}%",
-          "confidence": 0.8
-        },
-        "Fossil Share (%)": {
-          "name": "Fossil Share (%)",
-          "semantic_type": "percentage",
-          "unit_symbol": "%",
-          "range": [
-            0.0,
-            100.0
-          ],
-          "display_format": "{:.1f}%",
-          "confidence": 0.8
-        },
-        "Electrons Share (%)": {
-          "name": "Electrons Share (%)",
-          "semantic_type": "percentage",
-          "unit_symbol": "%",
-          "range": [
-            0.0,
-            100.0
-          ],
-          "display_format": "{:.1f}%",
-          "confidence": 0.8
-        }
-      },
       "thematic_name": "charts",
       "year_month": "2026-01",
       "filename": "20260125_202633_757533_india-is-taking-the-electrotech-fast-track-bypassi.csv",
@@ -795,28 +486,6 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-01-25T19:27:14.546559+00:00",
-      "columns": {
-        "Country": {
-          "name": "Country"
-        },
-        "GDP per capita (adjusted)": {
-          "name": "GDP per capita (adjusted)"
-        },
-        "Electricity Share (%)": {
-          "name": "Electricity Share (%)",
-          "semantic_type": "percentage",
-          "unit_symbol": "%",
-          "range": [
-            0.0,
-            100.0
-          ],
-          "display_format": "{:.1f}%",
-          "confidence": 0.8
-        },
-        "Annotation": {
-          "name": "Annotation"
-        }
-      },
       "thematic_name": "charts",
       "year_month": "2026-01",
       "filename": "20260125_202714_545470_electrification-paths-of-asia-s-giants.csv",
@@ -845,22 +514,6 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-01-25T19:27:54.889825+00:00",
-      "columns": {
-        "Year": {
-          "name": "Year",
-          "semantic_type": "year",
-          "range": [
-            1900.0,
-            2100.0
-          ],
-          "display_format": "{:.0f}",
-          "granularity": "annual",
-          "confidence": 0.8
-        },
-        "Supply Balance (mn tonnes)": {
-          "name": "Supply Balance (mn tonnes)"
-        }
-      },
       "thematic_name": "charts",
       "year_month": "2026-01",
       "filename": "20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
@@ -874,65 +527,57 @@
       "warning": null
     },
     {
-      "csv_path": "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv",
-      "metadata_path": "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.meta.json",
-      "title": "Silver's Surging Share of Solar Panel Costs",
-      "description": "Share of materials in solar panel costs (%) from 2019-2026. Silver's share surged from 5% to 29%, driven by rising silver prices and increased silver paste usage in newer cell technologies (TOPCon, HJT).",
+      "csv_path": "data/2026-01/charts/india-electrotech-2023-comparison.csv",
+      "metadata_path": null,
+      "title": "India Electrotech 2023 Comparison",
+      "description": "Dataset: India Electrotech 2023 Comparison",
       "source": {
-        "name": "BloombergNEF",
-        "url": "https://pbs.twimg.com/media/G_wUCMdXIAACPTC?format=jpg&name=medium",
+        "name": "Unknown",
+        "url": null,
         "import_type": "csv"
       },
       "tags": [
-        "Silver",
-        "Solar",
-        "Cost",
-        "Materials",
-        "Clean Technology"
+        "charts"
       ],
-      "license": "Creative Commons Attribution 4.0 International",
-      "created_at": "2026-01-29T22:26:50.084103+00:00",
-      "columns": {
-        "Year": {
-          "name": "Year",
-          "semantic_type": "year",
-          "range": [
-            1900.0,
-            2100.0
-          ],
-          "display_format": "{:.0f}",
-          "granularity": "annual",
-          "confidence": 0.8
-        },
-        "Silver": {
-          "name": "Silver"
-        },
-        "Aluminum": {
-          "name": "Aluminum"
-        },
-        "Glass": {
-          "name": "Glass"
-        },
-        "Silicon metal": {
-          "name": "Silicon metal"
-        },
-        "Resins": {
-          "name": "Resins"
-        },
-        "Other": {
-          "name": "Other"
-        }
-      },
-      "thematic_name": "general",
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": "charts",
       "year_month": "2026-01",
-      "filename": "silver-s-surging-share-of-solar-panel-costs.csv",
-      "has_metadata": true,
-      "freshness_score": 0.5975342465753424,
-      "freshness_status": "aging",
-      "freshness_indicator": "aging",
+      "filename": "india-electrotech-2023-comparison.csv",
+      "has_metadata": false,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
       "data_as_of": null,
       "source_reliability": null,
-      "days_since_check": 6,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-01/charts/india-electrotech-2023-comparison_transformed.csv",
+      "metadata_path": null,
+      "title": "India Electrotech 2023 Comparison Transformed",
+      "description": "Dataset: India Electrotech 2023 Comparison Transformed",
+      "source": {
+        "name": "Unknown",
+        "url": null,
+        "import_type": "csv"
+      },
+      "tags": [
+        "charts"
+      ],
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": "charts",
+      "year_month": "2026-01",
+      "filename": "india-electrotech-2023-comparison_transformed.csv",
+      "has_metadata": false,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
       "warning": null
     },
     {
@@ -942,42 +587,73 @@
       "description": "Extracted data with 7 rows and 8 columns. Columns: Year, China, United States, India, Germany and 3 more.",
       "source": {
         "name": "Newsletter Assistant Import",
-        "url": null,
         "import_type": "ocr"
       },
       "tags": [],
       "license": "Creative Commons Attribution 4.0 International",
       "created_at": "2026-01-05T13:24:54.598090Z",
-      "columns": {
-        "Year": {
-          "name": "Year"
-        },
-        "China": {
-          "name": "China"
-        },
-        "United States": {
-          "name": "United States"
-        },
-        "India": {
-          "name": "India"
-        },
-        "Germany": {
-          "name": "Germany"
-        },
-        "Brazil": {
-          "name": "Brazil"
-        },
-        "United Kingdom": {
-          "name": "United Kingdom"
-        },
-        "France": {
-          "name": "France"
-        }
-      },
       "thematic_name": "imported",
       "year_month": "2026-01",
       "filename": "data-by-year-7-categories-1750-2024.csv",
       "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv",
+      "metadata_path": "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.meta.json",
+      "title": "Solar PV: Jobs vs. Kapazität – Die Schere (2012-2024)",
+      "description": "Kumulative Solar-PV-Kapazität wächst exponentiell, Jobs nur linear. Die Arbeitsintensität (Jobs/GW) sinkt um 76% in 12 Jahren. Zeigt organische Automatisierung der Branche ohne Roboter-Revolution.",
+      "source": {
+        "name": "Unknown",
+        "url": null,
+        "import_type": "csv"
+      },
+      "tags": [
+        "solar",
+        "jobs",
+        "kapazität",
+        "arbeitsintensität",
+        "automatisierung",
+        "irena",
+        "energiewende"
+      ],
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": null,
+      "year_month": "2026-01",
+      "filename": "solar-jobs-vs-kapazitaet-2012-2024.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-01/solar-schere-normalisiert-2012-2024.csv",
+      "metadata_path": null,
+      "title": "Solar Schere Normalisiert 2012 2024",
+      "description": "Dataset: Solar Schere Normalisiert 2012 2024",
+      "source": {
+        "name": "Unknown",
+        "url": null,
+        "import_type": "csv"
+      },
+      "tags": [],
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": null,
+      "year_month": "2026-01",
+      "filename": "solar-schere-normalisiert-2012-2024.csv",
+      "has_metadata": false,
       "freshness_score": null,
       "freshness_status": null,
       "freshness_indicator": null,
@@ -992,8 +668,8 @@
       "title": "VC Cleantech-Finanzierungen Deutschland 2020-2024",
       "description": "Venture Capital Investitionen in Cleantech-Startups in Deutschland, 2020-2024",
       "source": {
-        "name": "KfW Research, FCF CleanTech Report, Cleantech for Europe",
-        "url": "https://www.kfw.de/About-KfW/Newsroom/Latest-News/Pressemitteilungen-Details_763648.html",
+        "name": "Unknown",
+        "url": null,
         "import_type": "csv"
       },
       "tags": [
@@ -1003,31 +679,10 @@
         "finanzierung",
         "startups"
       ],
-      "license": "CC-BY-4.0",
-      "created_at": "2026-01-17T00:00:00+00:00",
-      "columns": {
-        "Jahr": {
-          "name": "Jahr",
-          "semantic_type": "year",
-          "range": [
-            1900.0,
-            2100.0
-          ],
-          "display_format": "{:.0f}",
-          "granularity": "annual",
-          "confidence": 0.6
-        },
-        "Investitionsvolumen (Mrd €)": {
-          "name": "Investitionsvolumen (Mrd €)",
-          "semantic_type": "currency_eur",
-          "unit": "EUR",
-          "unit_symbol": "€",
-          "display_format": "€{:,.0f}",
-          "confidence": 0.8
-        }
-      },
-      "thematic_name": "2026-01",
-      "year_month": null,
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": null,
+      "year_month": "2026-01",
       "filename": "vc-cleantech-finanzierung-deutschland-2020-2024.csv",
       "has_metadata": true,
       "freshness_score": null,
@@ -1036,60 +691,6 @@
       "data_as_of": null,
       "source_reliability": null,
       "days_since_check": null,
-      "warning": null
-    },
-    {
-      "csv_path": "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
-      "metadata_path": "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.meta.json",
-      "title": "Die Schere: Solar-Kapazität vs. Jobs weltweit (2012–2024)",
-      "description": "Vergleich der kumulierten globalen Solar-PV-Kapazität (GW) mit der Zahl der Solar-Jobs (Mio.) von 2012 bis 2024. Zeigt die wachsende Produktivitätslücke: Kapazität wächst seit 2012 fast 5x schneller als die Beschäftigung. Jobs/GW sanken von 13.600 (2012) auf 3.337 (2024), ein Rückgang von 76%. Treiber: größere Module, effizientere Logistik, Utility-Scale-Shift, Skaleneffekte.",
-      "source": {
-        "name": "International Renewable Energy Agency",
-        "url": "https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024",
-        "import_type": "csv"
-      },
-      "tags": [
-        "Solar",
-        "Jobs",
-        "Capacity",
-        "Productivity",
-        "Global",
-        "Irena",
-        "IEA",
-        "Energy Transition",
-        "Robotics Wave"
-      ],
-      "license": "Creative Commons Attribution 4.0 International",
-      "created_at": "2026-02-04T10:17:16.293322+00:00",
-      "columns": {
-        "Jahr": {
-          "name": "Jahr",
-          "semantic_type": "year",
-          "range": [
-            1900.0,
-            2100.0
-          ],
-          "display_format": "{:.0f}",
-          "granularity": "annual",
-          "confidence": 0.6
-        },
-        "Kumulierte Kapazität (GW)": {
-          "name": "Kumulierte Kapazität (GW)"
-        },
-        "Solar-Jobs (Mio.)": {
-          "name": "Solar-Jobs (Mio.)"
-        }
-      },
-      "thematic_name": "energy",
-      "year_month": "2026-02",
-      "filename": "die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
-      "has_metadata": true,
-      "freshness_score": 0.6,
-      "freshness_status": "aging",
-      "freshness_indicator": "aging",
-      "data_as_of": null,
-      "source_reliability": null,
-      "days_since_check": 0,
       "warning": null
     }
   ]
