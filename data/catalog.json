@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-03-12T12:24:48.786736+00:00",
-  "total_datasets": 25,
+  "generated_at": "2026-03-19T11:36:11.988182+00:00",
+  "total_datasets": 26,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -750,6 +750,39 @@
       "thematic_name": "energy",
       "year_month": "2026-02",
       "filename": "die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-03/zev-heavy-trucks-china-eu.csv",
+      "metadata_path": "data/2026-03/zev-heavy-trucks-china-eu.meta.json",
+      "title": "Zero-Emission Heavy Truck Sales Share - China vs EU-27",
+      "description": "Annual sales share of zero-emission new heavy-duty trucks (heavy trucks segment) in China and EU-27, 2018-2025",
+      "source": {
+        "name": "ICCT",
+        "url": "https://theicct.org/wp-content/uploads/2026/03/ID-565-fig5.2.png",
+        "import_type": "ocr"
+      },
+      "tags": [
+        "zero-emission",
+        "heavy-duty",
+        "trucks",
+        "china",
+        "eu",
+        "electric-vehicles",
+        "hdv"
+      ],
+      "license": "unknown",
+      "created_at": "2026-03-19T12:00:00Z",
+      "thematic_name": null,
+      "year_month": "2026-03",
+      "filename": "zev-heavy-trucks-china-eu.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
