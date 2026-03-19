@@ -1,0 +1,26 @@
+{
+  "title": "Zero-Emission Heavy Truck Sales Share - China vs EU-27",
+  "description": "Annual sales share of zero-emission new heavy-duty trucks (heavy trucks segment) in China and EU-27, 2018-2025",
+  "tags": ["zero-emission", "heavy-duty", "trucks", "china", "eu", "electric-vehicles", "hdv"],
+  "source": {
+    "name": "ICCT",
+    "url": "https://theicct.org/wp-content/uploads/2026/03/ID-565-fig5.2.png",
+    "import_type": "ocr"
+  },
+  "license": "unknown",
+  "created_at": "2026-03-19T12:00:00Z",
+  "columns": {
+    "Year": {
+      "semantic_type": "temporal",
+      "unit": "year"
+    },
+    "Share": {
+      "semantic_type": "percentage",
+      "unit": "%",
+      "confidence": 0.8
+    },
+    "Region": {
+      "semantic_type": "category"
+    }
+  }
+}
