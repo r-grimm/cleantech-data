@@ -1,0 +1,18 @@
+{
+  "title": "Share of investments by large VCs in energy technology innovation or AI start-ups",
+  "description": "",
+  "tags": [
+    "cleantech",
+    "ocr-extracted"
+  ],
+  "source": {
+    "name": "Data: IEA; Note: Based on 50 corporate, financial and VC investors deploying $1 billion overall and $100 million or more in energy innovation since 2020; Chart: Axios Visuals",
+    "url": "https://www.amyharder.com/p/3-must-see-charts-on-ai-and-energy?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F772fd623-cfb6-4a4f-91e6-85bf971c2fe6_1240x1168.png&open=false",
+    "import_type": "ocr"
+  },
+  "license": "CC-BY-4.0",
+  "created_at": "2026-03-22T14:03:21.106507+00:00",
+  "csv_file": "20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.csv",
+  "units": {},
+  "needs_review": true
+}
