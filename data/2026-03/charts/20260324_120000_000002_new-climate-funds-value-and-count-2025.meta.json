@@ -1,0 +1,15 @@
+{
+  "title": "New climate funds by value and count, 2025",
+  "description": "Europe's funds are a leading indicator for the shift away from the US. New funds by value (USD bn) and by count, by region, 2025.",
+  "tags": ["cleantech", "ocr-extracted", "climate-funds", "venture-capital", "europe"],
+  "source": {
+    "name": "Sightline Climate, 2025 Investment Trends, March 2026",
+    "url": "https://www.latitudemedia.com/news/the-european-clean-tech-moment-that-wasnt/",
+    "import_type": "ocr"
+  },
+  "license": "CC-BY-4.0",
+  "created_at": "2026-03-24T10:01:25+00:00",
+  "csv_file": "20260324_120000_000002_new-climate-funds-value-and-count-2025.csv",
+  "units": {"Fund_Value_Bn": "USD billions", "Value_Pct": "percent", "Count_Pct": "percent"},
+  "needs_review": true
+}
