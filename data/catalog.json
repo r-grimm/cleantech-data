@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-03-22T14:03:29.530987+00:00",
-  "total_datasets": 29,
+  "generated_at": "2026-03-24T10:02:42.555913+00:00",
+  "total_datasets": 32,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -834,6 +834,100 @@
       "thematic_name": "charts",
       "year_month": "2026-03",
       "filename": "20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
+      "metadata_path": "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.meta.json",
+      "title": "Total climate investment by region, 2020-2025 YTD",
+      "description": "Huge H2'25 supercharged the US, reaching double Europe's funding. Annual climate tech investment by region in billions USD.",
+      "source": {
+        "name": "Sightline Climate, 2025 Investment Trends, March 2026",
+        "url": "https://www.latitudemedia.com/news/the-european-clean-tech-moment-that-wasnt/",
+        "import_type": "ocr"
+      },
+      "tags": [
+        "cleantech",
+        "ocr-extracted",
+        "climate-investment",
+        "venture-capital",
+        "regional-comparison"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-03-24T10:01:25+00:00",
+      "thematic_name": "charts",
+      "year_month": "2026-03",
+      "filename": "20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-03/charts/20260324_120000_000002_new-climate-funds-value-and-count-2025.csv",
+      "metadata_path": "data/2026-03/charts/20260324_120000_000002_new-climate-funds-value-and-count-2025.meta.json",
+      "title": "New climate funds by value and count, 2025",
+      "description": "Europe's funds are a leading indicator for the shift away from the US. New funds by value (USD bn) and by count, by region, 2025.",
+      "source": {
+        "name": "Sightline Climate, 2025 Investment Trends, March 2026",
+        "url": "https://www.latitudemedia.com/news/the-european-clean-tech-moment-that-wasnt/",
+        "import_type": "ocr"
+      },
+      "tags": [
+        "cleantech",
+        "ocr-extracted",
+        "climate-funds",
+        "venture-capital",
+        "europe"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-03-24T10:01:25+00:00",
+      "thematic_name": "charts",
+      "year_month": "2026-03",
+      "filename": "20260324_120000_000002_new-climate-funds-value-and-count-2025.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
+      "metadata_path": "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.meta.json",
+      "title": "Low-carbon ammonia project pipeline, 2023-2031",
+      "description": "Blue and green ammonia projects are starting to pop up to feed the EU. Low-carbon ammonia project pipeline by year in Mt/yr.",
+      "source": {
+        "name": "Sightline Climate, 2025 Investment Trends, March 2026",
+        "url": "https://www.latitudemedia.com/news/the-european-clean-tech-moment-that-wasnt/",
+        "import_type": "ocr"
+      },
+      "tags": [
+        "cleantech",
+        "ocr-extracted",
+        "ammonia",
+        "hydrogen",
+        "eu-pipeline",
+        "green-ammonia"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-03-24T10:01:25+00:00",
+      "thematic_name": "charts",
+      "year_month": "2026-03",
+      "filename": "20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
