@@ -1,0 +1,15 @@
+{
+  "title": "Low-carbon ammonia project pipeline, 2023-2031",
+  "description": "Blue and green ammonia projects are starting to pop up to feed the EU. Low-carbon ammonia project pipeline by year in Mt/yr.",
+  "tags": ["cleantech", "ocr-extracted", "ammonia", "hydrogen", "eu-pipeline", "green-ammonia"],
+  "source": {
+    "name": "Sightline Climate, 2025 Investment Trends, March 2026",
+    "url": "https://www.latitudemedia.com/news/the-european-clean-tech-moment-that-wasnt/",
+    "import_type": "ocr"
+  },
+  "license": "CC-BY-4.0",
+  "created_at": "2026-03-24T10:01:25+00:00",
+  "csv_file": "20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
+  "units": {"Capacity_Mt_per_Year": "megatons per year"},
+  "needs_review": true
+}
