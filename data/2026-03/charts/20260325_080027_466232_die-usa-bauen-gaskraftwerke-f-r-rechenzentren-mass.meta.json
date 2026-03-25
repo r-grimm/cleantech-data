@@ -1,0 +1,18 @@
+{
+  "title": "Die USA bauen Gaskraftwerke für Rechenzentren massiv aus",
+  "description": "",
+  "tags": [
+    "cleantech",
+    "ocr-extracted"
+  ],
+  "source": {
+    "name": "Global Oil and Gas Plant Tracker",
+    "url": "",
+    "import_type": "ocr"
+  },
+  "license": "CC-BY-4.0",
+  "created_at": "2026-03-25T07:00:27.467270+00:00",
+  "csv_file": "20260325_080027_466232_die-usa-bauen-gaskraftwerke-f-r-rechenzentren-mass.csv",
+  "units": {},
+  "needs_review": true
+}
