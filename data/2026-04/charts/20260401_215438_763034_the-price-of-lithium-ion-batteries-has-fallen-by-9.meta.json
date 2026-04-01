@@ -1,0 +1,18 @@
+{
+  "title": "The price of lithium-ion batteries has fallen by 99% since 1991",
+  "description": "",
+  "tags": [
+    "cleantech",
+    "ocr-extracted"
+  ],
+  "source": {
+    "name": "Rupert Way (2026) based on Ziegler and Trancik (2021), BloombergNEF, and Avicenne Energy",
+    "url": "https://ourworldindata.org/grapher/price-of-lithium-ion-battery-cells?tab=chart&time=earliest..latest&focus=&country=~OWID_WRL",
+    "import_type": "ocr"
+  },
+  "license": "CC-BY-4.0",
+  "created_at": "2026-04-01T19:54:38.765130+00:00",
+  "csv_file": "20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
+  "units": {},
+  "needs_review": true
+}
