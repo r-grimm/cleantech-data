@@ -1,0 +1,18 @@
+{
+  "title": "Das „Atomenergie-Paradoxon“: wie Großtechnik systematisch überschätzt und dezentrale Technik unterschätzt wird",
+  "description": "",
+  "tags": [
+    "cleantech",
+    "ocr-extracted"
+  ],
+  "source": {
+    "name": "Energietechnische Prognosen vs. Wirklichkeit: links für globale AKW-Leistung gemäß IAEA, rechts für Wind und PV-Leistung gemäß IEA. Aus: The \"Nuclear Energy Paradox\" - Investigating nuclear imaginaries in energy projections, in Energy Research & Social Science 135 (2026)",
+    "url": "",
+    "import_type": "ocr"
+  },
+  "license": "CC-BY-4.0",
+  "created_at": "2026-04-02T14:20:23.392387+00:00",
+  "csv_file": "20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
+  "units": {},
+  "needs_review": true
+}
