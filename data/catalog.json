@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-04-02T14:20:37.174448+00:00",
-  "total_datasets": 38,
+  "generated_at": "2026-04-03T06:16:33.694089+00:00",
+  "total_datasets": 39,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -1129,6 +1129,34 @@
       "thematic_name": "charts",
       "year_month": "2026-04",
       "filename": "20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-04/charts/20260403_081625_259313_top-movers.csv",
+      "metadata_path": "data/2026-04/charts/20260403_081625_259313_top-movers.meta.json",
+      "title": "Top Movers",
+      "description": "",
+      "source": {
+        "name": "Intercalation Station • Created with Datawrapper",
+        "url": "https://datawrapper.dwcdn.net/ogQQL/full.png",
+        "import_type": "ocr"
+      },
+      "tags": [
+        "cleantech",
+        "ocr-extracted"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-04-03T06:16:25.264448+00:00",
+      "thematic_name": "charts",
+      "year_month": "2026-04",
+      "filename": "20260403_081625_259313_top-movers.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
