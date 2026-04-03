@@ -1,0 +1,18 @@
+{
+  "title": "Lithium-ion Cell Prices",
+  "description": "",
+  "tags": [
+    "cleantech",
+    "ocr-extracted"
+  ],
+  "source": {
+    "name": "Intercalation Station • Created with Datawrapper",
+    "url": "https://datawrapper.dwcdn.net/IlLJT/full.png",
+    "import_type": "ocr"
+  },
+  "license": "CC-BY-4.0",
+  "created_at": "2026-04-03T06:17:19.864110+00:00",
+  "csv_file": "20260403_081719_863188_lithium-ion-cell-prices.csv",
+  "units": {},
+  "needs_review": true
+}
