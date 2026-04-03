@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-04-03T06:17:28.522585+00:00",
-  "total_datasets": 40,
+  "generated_at": "2026-04-03T07:32:59.496031+00:00",
+  "total_datasets": 41,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -1185,6 +1185,34 @@
       "thematic_name": "charts",
       "year_month": "2026-04",
       "filename": "20260403_081719_863188_lithium-ion-cell-prices.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-04/charts/20260403_093249_215401_us-data-center-build-out.csv",
+      "metadata_path": "data/2026-04/charts/20260403_093249_215401_us-data-center-build-out.meta.json",
+      "title": "US Data Center Build-Out",
+      "description": "",
+      "source": {
+        "name": "Sightline Climate",
+        "url": "",
+        "import_type": "ocr"
+      },
+      "tags": [
+        "cleantech",
+        "ocr-extracted"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-04-03T07:32:49.216262+00:00",
+      "thematic_name": "charts",
+      "year_month": "2026-04",
+      "filename": "20260403_093249_215401_us-data-center-build-out.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
