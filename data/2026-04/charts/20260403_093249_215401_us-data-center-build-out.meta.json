@@ -1,0 +1,18 @@
+{
+  "title": "US Data Center Build-Out",
+  "description": "",
+  "tags": [
+    "cleantech",
+    "ocr-extracted"
+  ],
+  "source": {
+    "name": "Sightline Climate",
+    "url": "",
+    "import_type": "ocr"
+  },
+  "license": "CC-BY-4.0",
+  "created_at": "2026-04-03T07:32:49.216262+00:00",
+  "csv_file": "20260403_093249_215401_us-data-center-build-out.csv",
+  "units": {},
+  "needs_review": true
+}
