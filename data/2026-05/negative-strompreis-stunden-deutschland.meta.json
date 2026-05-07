@@ -1,0 +1,36 @@
+{
+  "title": "Stunden mit negativen Strompreisen in Deutschland (Day-Ahead) 2020-2026",
+  "description": "Jaehrliche Anzahl der Stunden mit negativen Day-Ahead-Strompreisen an der EPEX in Deutschland. Werte 2020-2025 von Bundesnetzagentur/SMARD; 2026 ist Branchenprognose (700-900 Stunden, Mittelwert 800).",
+  "tags": [
+    "cleantech",
+    "strommarkt",
+    "negative-strompreise",
+    "day-ahead",
+    "epex",
+    "deutschland",
+    "flexibilitaet",
+    "speicher"
+  ],
+  "source": {
+    "name": "Bundesnetzagentur / SMARD; ZfK Brancheneinschaetzung",
+    "url": "https://www.zfk.de/unternehmen/nachrichten/negative-preise-2026-auf-dem-weg-zum-rekordjahr",
+    "import_type": "manual"
+  },
+  "license": "unknown",
+  "created_at": "2026-05-08T00:00:00+00:00",
+  "csv_file": "negative-strompreis-stunden-deutschland.csv",
+  "units": {
+    "hours": "h"
+  },
+  "needs_review": false,
+  "columns": {
+    "year": {
+      "name": "year",
+      "description": "Kalenderjahr"
+    },
+    "hours": {
+      "name": "hours",
+      "description": "Anzahl Stunden mit negativem Day-Ahead-Preis"
+    }
+  }
+}
