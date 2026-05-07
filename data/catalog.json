@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-03-19T11:36:11.988182+00:00",
-  "total_datasets": 26,
+  "generated_at": "2026-05-07T22:02:30.558345+00:00",
+  "total_datasets": 27,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -783,6 +783,40 @@
       "thematic_name": null,
       "year_month": "2026-03",
       "filename": "zev-heavy-trucks-china-eu.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-05/negative-strompreis-stunden-deutschland.csv",
+      "metadata_path": "data/2026-05/negative-strompreis-stunden-deutschland.meta.json",
+      "title": "Stunden mit negativen Strompreisen in Deutschland (Day-Ahead) 2020-2026",
+      "description": "Jaehrliche Anzahl der Stunden mit negativen Day-Ahead-Strompreisen an der EPEX in Deutschland. Werte 2020-2025 von Bundesnetzagentur/SMARD; 2026 ist Branchenprognose (700-900 Stunden, Mittelwert 800).",
+      "source": {
+        "name": "Bundesnetzagentur / SMARD; ZfK Brancheneinschaetzung",
+        "url": "https://www.zfk.de/unternehmen/nachrichten/negative-preise-2026-auf-dem-weg-zum-rekordjahr",
+        "import_type": "manual"
+      },
+      "tags": [
+        "cleantech",
+        "strommarkt",
+        "negative-strompreise",
+        "day-ahead",
+        "epex",
+        "deutschland",
+        "flexibilitaet",
+        "speicher"
+      ],
+      "license": "unknown",
+      "created_at": "2026-05-08T00:00:00+00:00",
+      "thematic_name": null,
+      "year_month": "2026-05",
+      "filename": "negative-strompreis-stunden-deutschland.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
