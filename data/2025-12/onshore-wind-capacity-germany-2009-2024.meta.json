@@ -2,11 +2,11 @@
   "title": "Onshore Wind Capacity Germany 2009-2024",
   "description": "Installed onshore wind capacity in Germany from 2009 to 2024. Data based on official statistics showing steady growth of onshore wind deployment.",
   "tags": [
-    "onshore wind",
-    "Germany",
-    "renewable energy",
+    "onshore-wind",
+    "germany",
+    "renewable-energy",
     "capacity",
-    "wind power"
+    "wind-power"
   ],
   "source": {
     "name": "Wikipedia/IRENA",

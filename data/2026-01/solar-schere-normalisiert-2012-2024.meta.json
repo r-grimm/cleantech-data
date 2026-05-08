@@ -9,7 +9,7 @@
   },
   "license": "CC-BY-4.0",
   "created_at": "2026-05-08T00:00:00+00:00",
-  "status": "needs_review",
+  "status": "superseded",
   "data_period": {
     "start": "2012",
     "end": "2024",
@@ -23,5 +23,7 @@
   },
   "freshness": {
     "source_checked": "2026-05-08T00:00:00+00:00"
-  }
+  },
+  "superseded_by": "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
+  "derived_from": "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv"
 }
