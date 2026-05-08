@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/r-grimm/cleantech-data/schemas/chart_meta.schema.json",
+  "title": "ChartMetadata",
+  "description": "Schema for sidecars in charts/{YYYY-MM}/{slug}/chart.meta.json — Welle-3 chart persistence.",
+  "type": "object",
+  "required": [
+    "id",
+    "chart_type",
+    "title",
+    "source_dataset_paths",
+    "render_timestamp",
+    "render_config_hash",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable kebab-case slug; matches the parent folder under charts/{YYYY-MM}/."
+    },
+    "chart_type": {
+      "type": "string",
+      "enum": [
+        "line",
+        "pulse",
+        "impact",
+        "breakdown",
+        "comparison",
+        "evolution",
+        "share",
+        "contrast",
+        "highlight",
+        "scatter",
+        "map"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subtitle": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_dataset_paths": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^data/[0-9]{4}-[0-9]{2}/.+\\.csv$"
+      },
+      "description": "csv_paths of the dataset(s) the chart was rendered from. At least one required; multiple allowed for multi-source merges."
+    },
+    "used_columns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "render_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "render_config_hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "sha256 of the canonical render-config JSON (excluding volatile fields like timestamps)."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "deprecated"
+      ],
+      "default": "active"
+    },
+    "used_in": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "context",
+          "ref",
+          "timestamp"
+        ],
+        "properties": {
+          "context": {
+            "type": "string",
+            "enum": [
+              "newsletter",
+              "tagesbriefing",
+              "telegram",
+              "social-post",
+              "blog",
+              "presentation",
+              "other"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "description": "Stable identifier of the consumer artifact (newsletter issue URL, tagesbriefing ID, post URL, ...)."
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+      }
+    }
+  }
+}
