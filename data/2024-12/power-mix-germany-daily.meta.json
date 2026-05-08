@@ -1,11 +1,6 @@
 {
   "title": "Power Mix Germany Daily 2020-2024",
   "description": "Daily electricity generation by source in Germany from 2020 to 2024. Includes Biomass, Coal (Hard Coal and Lignite), Gas, Hydro, Nuclear, Solar, and Wind (Offshore and Onshore). Values in GWh.",
-  "source": {
-    "name": "SMARD/Bundesnetzagentur",
-    "url": "https://www.smard.de/",
-    "import_type": "csv"
-  },
   "tags": [
     "electricity",
     "power generation",
@@ -15,6 +10,11 @@
     "daily",
     "time series"
   ],
+  "source": {
+    "name": "SMARD/Bundesnetzagentur",
+    "url": "https://www.smard.de/",
+    "import_type": "csv"
+  },
   "license": "Open Data",
   "created_at": "2024-12-31T00:00:00+00:00",
   "columns": {
@@ -33,5 +33,20 @@
       "type": "float",
       "description": "Generation in GWh"
     }
+  },
+  "status": "active",
+  "data_period": {
+    "start": "2020-01-01",
+    "end": "2024-12-31",
+    "granularity": "daily"
+  },
+  "provenance": {
+    "extraction_method": "api",
+    "extracted_by": "migration_v2",
+    "extraction_date": "2024-12-31T00:00:00+00:00",
+    "transformations_applied": []
+  },
+  "freshness": {
+    "source_checked": "2024-12-31T00:00:00+00:00"
   }
 }

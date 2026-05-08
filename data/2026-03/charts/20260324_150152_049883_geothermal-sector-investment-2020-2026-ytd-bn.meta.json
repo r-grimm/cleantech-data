@@ -1,6 +1,6 @@
 {
   "title": "Geothermal sector investment, 2020-2026 YTD ($bn)",
-  "description": "",
+  "description": "OCR-extrahierter Chart aus sightline climate (Geothermal sector investment, 2020-2026 YTD ($bn)); manuelle Pruefung des Datensatzes erforderlich.",
   "tags": [
     "cleantech",
     "ocr-extracted"
@@ -12,6 +12,21 @@
   },
   "license": "CC-BY-4.0",
   "created_at": "2026-03-24T14:01:52.054935+00:00",
+  "status": "needs_review",
+  "data_period": {
+    "start": null,
+    "end": null,
+    "granularity": "irregular"
+  },
+  "provenance": {
+    "extraction_method": "ocr",
+    "extracted_by": "telegram-bot",
+    "extraction_date": "2026-03-24T14:01:52.054935+00:00",
+    "transformations_applied": []
+  },
+  "freshness": {
+    "source_checked": "2026-03-24T14:01:52.054935+00:00"
+  },
   "csv_file": "20260324_150152_049883_geothermal-sector-investment-2020-2026-ytd-bn.csv",
   "units": {},
   "needs_review": true

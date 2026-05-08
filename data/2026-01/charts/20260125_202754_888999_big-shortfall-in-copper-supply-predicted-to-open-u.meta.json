@@ -1,6 +1,6 @@
 {
   "title": "Big shortfall in copper supply predicted to open up from 2027",
-  "description": "",
+  "description": "OCR-extrahierter Chart aus Bernstein (Big shortfall in copper supply predicted to open up from 2027); manuelle Pruefung des Datensatzes erforderlich.",
   "tags": [
     "cleantech",
     "ocr-extracted"
@@ -12,9 +12,6 @@
   },
   "license": "CC-BY-4.0",
   "created_at": "2026-01-25T19:27:54.889825+00:00",
-  "csv_file": "20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
-  "units": {},
-  "needs_review": true,
   "columns": {
     "Year": {
       "name": "Year",
@@ -30,5 +27,23 @@
     "Supply Balance (mn tonnes)": {
       "name": "Supply Balance (mn tonnes)"
     }
-  }
+  },
+  "status": "needs_review",
+  "data_period": {
+    "start": "2018",
+    "end": "2040",
+    "granularity": "annual"
+  },
+  "provenance": {
+    "extraction_method": "ocr",
+    "extracted_by": "telegram-bot",
+    "extraction_date": "2026-01-25T19:27:54.889825+00:00",
+    "transformations_applied": []
+  },
+  "freshness": {
+    "source_checked": "2026-01-25T19:27:54.889825+00:00"
+  },
+  "csv_file": "20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
+  "units": {},
+  "needs_review": true
 }

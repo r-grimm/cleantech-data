@@ -1,6 +1,6 @@
 {
   "title": "Top Movers",
-  "description": "",
+  "description": "OCR-extrahierter Chart aus Intercalation Station • Created with Datawrapper (Top Movers); manuelle Pruefung des Datensatzes erforderlich.",
   "tags": [
     "cleantech",
     "ocr-extracted"
@@ -12,6 +12,21 @@
   },
   "license": "CC-BY-4.0",
   "created_at": "2026-04-03T06:16:25.264448+00:00",
+  "status": "needs_review",
+  "data_period": {
+    "start": null,
+    "end": null,
+    "granularity": "irregular"
+  },
+  "provenance": {
+    "extraction_method": "ocr",
+    "extracted_by": "telegram-bot",
+    "extraction_date": "2026-04-03T06:16:25.264448+00:00",
+    "transformations_applied": []
+  },
+  "freshness": {
+    "source_checked": "2026-04-03T06:16:25.264448+00:00"
+  },
   "csv_file": "20260403_081625_259313_top-movers.csv",
   "units": {},
   "needs_review": true

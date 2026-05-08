@@ -1,0 +1,742 @@
+{
+  "$defs": {
+    "ColumnMetadata": {
+      "description": "Semantic metadata for a single column.",
+      "properties": {
+        "name": {
+          "description": "Column name",
+          "title": "Name",
+          "type": "string"
+        },
+        "semantic_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Semantic type key (e.g., 'percentage', 'currency_usd', 'year')",
+          "title": "Semantic Type"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Unit of measurement (e.g., 'GW', 'USD', 'tonnes')",
+          "title": "Unit"
+        },
+        "unit_symbol": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Short unit symbol (e.g., 'GW', '$', 't')",
+          "title": "Unit Symbol"
+        },
+        "range": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Valid range [min, max] (e.g., [0, 100] for percentage)",
+          "title": "Range"
+        },
+        "aggregation_method": {
+          "anyOf": [
+            {
+              "enum": [
+                "sum",
+                "mean",
+                "none"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Default aggregation method",
+          "title": "Aggregation Method"
+        },
+        "display_format": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Format template for display (e.g., '{:.1f}%', '${:,.0f}')",
+          "title": "Display Format"
+        },
+        "granularity": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Temporal granularity (e.g., 'annual', 'monthly', 'daily')",
+          "title": "Granularity"
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Human-readable description of column content",
+          "title": "Description"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Inference confidence score [0-1] if auto-generated",
+          "title": "Confidence"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "title": "ColumnMetadata",
+      "type": "object"
+    },
+    "DataPeriodMetadata": {
+      "description": "Temporal coverage of the dataset (Schema-D, Pre-Welle-0 U0a).\n\nCovers the period the *data* describes — distinct from `created_at` (Sidecar\ncreation) and `freshness.source_last_updated` (when the source last refreshed).\n\n`start`/`end` are flexible string fields to accommodate year-only ('2012'),\nyear-month ('2024-12'), or full ISO date formats. Both may be null when\n`granularity` is 'irregular' or 'single_value' and a fixed period cannot be\nderived.",
+      "properties": {
+        "start": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Period start (year, year-month, or ISO date)",
+          "title": "Start"
+        },
+        "end": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Period end (year, year-month, or ISO date)",
+          "title": "End"
+        },
+        "granularity": {
+          "description": "Temporal granularity of the data",
+          "enum": [
+            "daily",
+            "weekly",
+            "monthly",
+            "quarterly",
+            "annual",
+            "single_value",
+            "irregular"
+          ],
+          "title": "Granularity",
+          "type": "string"
+        }
+      },
+      "required": [
+        "granularity"
+      ],
+      "title": "DataPeriodMetadata",
+      "type": "object"
+    },
+    "FreshnessMetadata": {
+      "description": "Freshness and update timing metadata.",
+      "properties": {
+        "data_as_of": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Date the data represents (YYYY-MM-DD)",
+          "title": "Data As Of"
+        },
+        "source_checked": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "ISO datetime when the source was last verified",
+          "title": "Source Checked"
+        },
+        "source_last_updated": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Date the source last updated the data",
+          "title": "Source Last Updated"
+        },
+        "freshness_score": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Heuristic freshness score [0-1]",
+          "title": "Freshness Score"
+        },
+        "freshness_status": {
+          "anyOf": [
+            {
+              "enum": [
+                "fresh",
+                "aging",
+                "stale"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Freshness status derived from score",
+          "title": "Freshness Status"
+        },
+        "next_expected_update": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Next expected update date",
+          "title": "Next Expected Update"
+        },
+        "expected_update_frequency": {
+          "anyOf": [
+            {
+              "enum": [
+                "daily",
+                "weekly",
+                "monthly",
+                "quarterly",
+                "annual"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Expected source update frequency",
+          "title": "Expected Update Frequency"
+        }
+      },
+      "title": "FreshnessMetadata",
+      "type": "object"
+    },
+    "OriginalSourceMetadata": {
+      "description": "Original source attribution.",
+      "properties": {
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Original source name (e.g., 'IRENA')",
+          "title": "Name"
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Original source URL",
+          "title": "Url"
+        },
+        "reliability_score": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Source reliability score [0-1]",
+          "title": "Reliability Score"
+        }
+      },
+      "title": "OriginalSourceMetadata",
+      "type": "object"
+    },
+    "ProvenanceMetadata": {
+      "description": "Provenance and extraction metadata.",
+      "properties": {
+        "original_source": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/OriginalSourceMetadata"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Original source attribution"
+        },
+        "extraction_method": {
+          "anyOf": [
+            {
+              "enum": [
+                "api",
+                "manual",
+                "ocr",
+                "scrape"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Method used to extract the data",
+          "title": "Extraction Method"
+        },
+        "extraction_confidence": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Extraction confidence score [0-1]",
+          "title": "Extraction Confidence"
+        },
+        "transformations_applied": {
+          "description": "Transformations applied to the raw data",
+          "items": {
+            "type": "string"
+          },
+          "title": "Transformations Applied",
+          "type": "array"
+        },
+        "extracted_by": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Name of extractor or system",
+          "title": "Extracted By"
+        },
+        "extraction_date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "ISO datetime of extraction",
+          "title": "Extraction Date"
+        }
+      },
+      "title": "ProvenanceMetadata",
+      "type": "object"
+    },
+    "QualityMetadata": {
+      "description": "Basic quality signals.",
+      "properties": {
+        "completeness": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Percent of expected values present [0-1]",
+          "title": "Completeness"
+        },
+        "has_nulls": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Whether nulls are present",
+          "title": "Has Nulls"
+        },
+        "validated": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Whether dataset has been validated",
+          "title": "Validated"
+        },
+        "validation_date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "ISO date of validation",
+          "title": "Validation Date"
+        },
+        "validation_notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional validation notes",
+          "title": "Validation Notes"
+        }
+      },
+      "title": "QualityMetadata",
+      "type": "object"
+    },
+    "SourceMetadata": {
+      "description": "Metadata about the data source.",
+      "properties": {
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Name of the data source (e.g., 'Eurostat', 'Manual Upload')",
+          "title": "Name"
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "URL to the source if available",
+          "title": "Url"
+        },
+        "import_type": {
+          "description": "Type of import: 'csv', 'ocr', 'api', or 'manual'",
+          "enum": [
+            "csv",
+            "ocr",
+            "api",
+            "manual"
+          ],
+          "title": "Import Type",
+          "type": "string"
+        }
+      },
+      "required": [
+        "import_type"
+      ],
+      "title": "SourceMetadata",
+      "type": "object"
+    }
+  },
+  "description": "Complete metadata for a dataset.",
+  "properties": {
+    "title": {
+      "description": "Human-readable title of the dataset",
+      "title": "Title",
+      "type": "string"
+    },
+    "description": {
+      "description": "Description of what the dataset contains",
+      "title": "Description",
+      "type": "string"
+    },
+    "tags": {
+      "description": "Tags for categorization and search",
+      "items": {
+        "type": "string"
+      },
+      "title": "Tags",
+      "type": "array"
+    },
+    "source": {
+      "$ref": "#/$defs/SourceMetadata",
+      "description": "Source information"
+    },
+    "license": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": "CC-BY-4.0",
+      "description": "License information (e.g., 'CC-BY-4.0')",
+      "title": "License"
+    },
+    "created_at": {
+      "description": "ISO timestamp when dataset was created",
+      "title": "Created At",
+      "type": "string"
+    },
+    "columns": {
+      "anyOf": [
+        {
+          "additionalProperties": {
+            "$ref": "#/$defs/ColumnMetadata"
+          },
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Column-level semantic metadata (keyed by column name)",
+      "title": "Columns"
+    },
+    "freshness": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/FreshnessMetadata"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Freshness metadata"
+    },
+    "provenance": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ProvenanceMetadata"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Provenance metadata"
+    },
+    "quality": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/QualityMetadata"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Quality metadata"
+    },
+    "status": {
+      "default": "active",
+      "description": "Lifecycle status — drives default filtering in agent search (Schema-D, U0a)",
+      "enum": [
+        "active",
+        "needs_review",
+        "superseded",
+        "deprecated"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "data_period": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/DataPeriodMetadata"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Temporal coverage of the dataset (Schema-D, U0a)"
+    },
+    "superseded_by": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "csv_path of the dataset that replaces this one (Schema-D, U0a)",
+      "title": "Superseded By"
+    },
+    "derived_from": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "csv_path of the source dataset this is derived from (Schema-D, U0a)",
+      "title": "Derived From"
+    },
+    "replaces": {
+      "description": "csv_paths of datasets this one replaces — reverse of superseded_by (Schema-D, U0a)",
+      "items": {
+        "type": "string"
+      },
+      "title": "Replaces",
+      "type": "array"
+    },
+    "keywords": {
+      "description": "Additional search aliases beyond canonical tags, e.g. DE/EN synonyms (Schema-D, U0a)",
+      "items": {
+        "type": "string"
+      },
+      "title": "Keywords",
+      "type": "array"
+    }
+  },
+  "required": [
+    "title",
+    "description",
+    "source",
+    "created_at"
+  ],
+  "title": "DatasetMetadata",
+  "type": "object",
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "active"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "description": {
+            "minLength": 50
+          }
+        }
+      }
+    }
+  ],
+  "$id": "https://github.com/r-grimm/cleantech-data/schemas/dataset_meta.schema.json"
+}
