@@ -42,18 +42,14 @@ def _numeric_columns(rows: list[list[str]]) -> list[list[float]]:
     body = rows[1:]
     columns: list[list[float]] = []
     for col_idx in range(len(rows[0])):
-        values: list[float] = []
-        for row in body:
-            if col_idx >= len(row):
-                continue
-            cell = row[col_idx].strip()
-            if not cell:
-                continue
-            try:
-                values.append(float(cell))
-            except ValueError:
-                values = []
-                break
+        try:
+            values = [
+                float(row[col_idx].strip())
+                for row in body
+                if col_idx < len(row) and row[col_idx].strip()
+            ]
+        except ValueError:
+            continue
         if values:
             columns.append(values)
     return columns
@@ -80,10 +76,7 @@ def _looks_like_sequential_placeholder(values: list[float]) -> bool:
     # Step 1 includes year ranges, indexes, line counts — too noisy to flag.
     if step < 10.0:
         return False
-    if step in (10.0, 100.0, 1000.0):
-        if abs(values[0] % step) < 1e-9:
-            return True
-    return False
+    return step in (10.0, 100.0, 1000.0) and abs(values[0] % step) < 1e-9
 
 
 def validate_csv(path: Path) -> list[str]:
