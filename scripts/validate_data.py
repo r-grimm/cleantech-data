@@ -27,6 +27,16 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
 
 
+def _display_path(path: Path) -> str:
+    """Repo-relative display path. Falls back to absolute when the file lives
+    outside REPO_ROOT (operator passes an external CSV) — the previous direct
+    `path.relative_to(REPO_ROOT)` raised ValueError there."""
+    try:
+        return str(path.relative_to(REPO_ROOT))
+    except ValueError:
+        return str(path)
+
+
 def _sha256(path: Path) -> str:
     h = hashlib.sha256()
     with path.open("rb") as fh:
@@ -87,26 +97,25 @@ def validate_csv(path: Path) -> list[str]:
             reader = csv.reader(fh)
             rows = list(reader)
     except Exception as exc:
-        return [f"{path.relative_to(REPO_ROOT)}: failed to parse: {exc}"]
+        return [f"{_display_path(path)}: failed to parse: {exc}"]
 
     if not rows or len(rows) < 2:
-        errors.append(f"{path.relative_to(REPO_ROOT)}: empty data (no rows beyond header)")
+        errors.append(f"{_display_path(path)}: empty data (no rows beyond header)")
         return errors
 
     columns = _numeric_columns(rows)
     for col in columns:
         if all(v == 0 for v in col):
-            errors.append(f"{path.relative_to(REPO_ROOT)}: numeric column is all zero — looks fake")
+            errors.append(f"{_display_path(path)}: numeric column is all zero — looks fake")
             break
         if len(set(col)) == 1 and len(col) > 2:
             errors.append(
-                f"{path.relative_to(REPO_ROOT)}: numeric column is all identical "
-                f"({col[0]}) — looks fake"
+                f"{_display_path(path)}: numeric column is all identical ({col[0]}) — looks fake"
             )
             break
         if _looks_like_sequential_placeholder(col):
             errors.append(
-                f"{path.relative_to(REPO_ROOT)}: numeric column matches a placeholder "
+                f"{_display_path(path)}: numeric column matches a placeholder "
                 f"sequence ({col[:3]}...) — looks fake"
             )
             break
@@ -140,7 +149,7 @@ def find_duplicates(targets: list[Path]) -> list[str]:
     errors: list[str] = []
     for digest, paths in by_hash.items():
         if len(paths) > 1:
-            relpaths = [str(p.relative_to(REPO_ROOT)) for p in paths]
+            relpaths = [_display_path(p) for p in paths]
             errors.append(f"duplicate content (sha256 {digest[:12]}): {', '.join(relpaths)}")
     return errors
 

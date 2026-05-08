@@ -25,6 +25,15 @@ SCHEMA_PATH = REPO_ROOT / "schemas" / "dataset_meta.schema.json"
 DATA_DIR = REPO_ROOT / "data"
 
 
+def _display_path(path: Path) -> str:
+    """Repo-relative display path. Falls back to absolute when the file lives
+    outside REPO_ROOT — the previous direct relative_to() raised ValueError."""
+    try:
+        return str(path.relative_to(REPO_ROOT))
+    except ValueError:
+        return str(path)
+
+
 def load_schema() -> dict:
     if not SCHEMA_PATH.exists():
         raise FileNotFoundError(
@@ -40,12 +49,12 @@ def validate_file(path: Path, validator: jsonschema.protocols.Validator) -> list
     try:
         payload = json.loads(path.read_text(encoding="utf-8"))
     except json.JSONDecodeError as exc:
-        return [f"{path.relative_to(REPO_ROOT)}: invalid JSON: {exc}"]
+        return [f"{_display_path(path)}: invalid JSON: {exc}"]
 
     errors: list[str] = []
     for exc in validator.iter_errors(payload):
         location = "/".join(str(p) for p in exc.absolute_path) or "(root)"
-        errors.append(f"{path.relative_to(REPO_ROOT)}: {location}: {exc.message}")
+        errors.append(f"{_display_path(path)}: {location}: {exc.message}")
     return errors
 
 
