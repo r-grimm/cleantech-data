@@ -1,0 +1,38 @@
+{
+  "charts": [
+    "data/2026-01/charts/20260125_202458_296347_road-fuel-burn.csv",
+    "data/2026-01/charts/20260125_202543_772172_solar-power-boom.csv",
+    "data/2026-01/charts/20260125_202633_757533_india-is-taking-the-electrotech-fast-track-bypassi.csv",
+    "data/2026-01/charts/20260125_202714_545470_electrification-paths-of-asia-s-giants.csv",
+    "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
+    "data/2026-01/charts/india-electrotech-2023-comparison.csv",
+    "data/2026-01/charts/india-electrotech-2023-comparison_transformed.csv",
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
+    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv",
+    "data/2026-03/charts/20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.csv",
+    "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
+    "data/2026-03/charts/20260324_120000_000002_new-climate-funds-value-and-count-2025.csv",
+    "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
+    "data/2026-03/charts/20260324_150152_049883_geothermal-sector-investment-2020-2026-ytd-bn.csv",
+    "data/2026-03/charts/20260325_075738_933895_viele-netzanfragen-warten-noch-auf-eine-genehmigun.csv",
+    "data/2026-03/charts/20260325_080027_466232_die-usa-bauen-gaskraftwerke-f-r-rechenzentren-mass.csv",
+    "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
+    "data/2026-04/charts/20260401_231654_850205_kyoto-s-cherry-blossoms-are-blooming-earlier-than-.csv",
+    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
+    "data/2026-04/charts/20260403_081625_259313_top-movers.csv",
+    "data/2026-04/charts/20260403_081719_863188_lithium-ion-cell-prices.csv",
+    "data/2026-04/charts/20260403_093249_215401_us-data-center-build-out.csv"
+  ],
+  "energy": [
+    "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
+  ],
+  "general": [
+    "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv"
+  ],
+  "imported": [
+    "data/2026-01/imported/data-by-year-7-categories-1750-2024.csv"
+  ],
+  "windpower": [
+    "data/2025-11/windpower/0105_Leist_kum_M.csv"
+  ]
+}

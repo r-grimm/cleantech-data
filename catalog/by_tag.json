@@ -1,0 +1,331 @@
+{
+  "2024": [
+    "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
+  ],
+  "agee-stat": [
+    "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.csv"
+  ],
+  "ammonia": [
+    "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv"
+  ],
+  "annual": [
+    "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv"
+  ],
+  "approval-status": [
+    "data/2025-11/windpower/0105_Leist_kum_M.csv"
+  ],
+  "arbeitsintensitt": [
+    "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv"
+  ],
+  "automatisierung": [
+    "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv"
+  ],
+  "batteries": [
+    "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
+    "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv"
+  ],
+  "batteriespeicher": [
+    "data/2025-12/batteriespeicher-netzanschlussanfragen-deutschland.csv",
+    "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv"
+  ],
+  "battery-storage": [
+    "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
+    "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv"
+  ],
+  "bess": [
+    "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
+    "data/2025-12/utility-scale-bess-deutschland-2020-2025.csv"
+  ],
+  "biodiesel": [
+    "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
+  ],
+  "biogas": [
+    "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
+  ],
+  "bip": [
+    "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv"
+  ],
+  "bruttowertschpfung": [
+    "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv"
+  ],
+  "capacity": [
+    "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv",
+    "data/2025-12/onshore-wind-capacity-germany-2009-2024.csv",
+    "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
+  ],
+  "china": [
+    "data/2026-03/zev-heavy-trucks-china-eu.csv"
+  ],
+  "clean-technology": [
+    "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv"
+  ],
+  "cleantech": [
+    "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
+    "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv",
+    "data/2025-12/utility-scale-bess-deutschland-2020-2025.csv",
+    "data/2026-01/charts/20260125_202458_296347_road-fuel-burn.csv",
+    "data/2026-01/charts/20260125_202543_772172_solar-power-boom.csv",
+    "data/2026-01/charts/20260125_202633_757533_india-is-taking-the-electrotech-fast-track-bypassi.csv",
+    "data/2026-01/charts/20260125_202714_545470_electrification-paths-of-asia-s-giants.csv",
+    "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
+    "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv",
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
+    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv",
+    "data/2026-03/charts/20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.csv",
+    "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
+    "data/2026-03/charts/20260324_120000_000002_new-climate-funds-value-and-count-2025.csv",
+    "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
+    "data/2026-03/charts/20260324_150152_049883_geothermal-sector-investment-2020-2026-ytd-bn.csv",
+    "data/2026-03/charts/20260325_075738_933895_viele-netzanfragen-warten-noch-auf-eine-genehmigun.csv",
+    "data/2026-03/charts/20260325_080027_466232_die-usa-bauen-gaskraftwerke-f-r-rechenzentren-mass.csv",
+    "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
+    "data/2026-04/charts/20260401_231654_850205_kyoto-s-cherry-blossoms-are-blooming-earlier-than-.csv",
+    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
+    "data/2026-04/charts/20260403_081625_259313_top-movers.csv",
+    "data/2026-04/charts/20260403_081719_863188_lithium-ion-cell-prices.csv",
+    "data/2026-04/charts/20260403_093249_215401_us-data-center-build-out.csv"
+  ],
+  "climate-funds": [
+    "data/2026-03/charts/20260324_120000_000002_new-climate-funds-value-and-count-2025.csv"
+  ],
+  "climate-investment": [
+    "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv"
+  ],
+  "cost": [
+    "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv"
+  ],
+  "cumulative-capacity": [
+    "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
+    "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv"
+  ],
+  "daily": [
+    "data/2024-12/power-mix-germany-daily.csv"
+  ],
+  "deutschland": [
+    "data/2025-12/batteriespeicher-netzanschlussanfragen-deutschland.csv",
+    "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv",
+    "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
+    "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.csv",
+    "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv",
+    "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv"
+  ],
+  "electric-vehicles": [
+    "data/2026-03/zev-heavy-trucks-china-eu.csv"
+  ],
+  "electricity": [
+    "data/2024-12/power-mix-germany-daily.csv"
+  ],
+  "energie": [
+    "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
+  ],
+  "energiespeicher": [
+    "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv"
+  ],
+  "energiewende": [
+    "data/2025-12/batteriespeicher-netzanschlussanfragen-deutschland.csv",
+    "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv"
+  ],
+  "energy-development": [
+    "data/2025-11/windpower/0105_Leist_kum_M.csv"
+  ],
+  "energy-mix": [
+    "data/2024-12/power-mix-germany-daily.csv"
+  ],
+  "energy-storage": [
+    "data/2025-12/utility-scale-bess-deutschland-2020-2025.csv"
+  ],
+  "energy-transition": [
+    "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
+  ],
+  "erneuerbare-energien": [
+    "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.csv"
+  ],
+  "eu": [
+    "data/2026-03/zev-heavy-trucks-china-eu.csv"
+  ],
+  "eu-pipeline": [
+    "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv"
+  ],
+  "europe": [
+    "data/2026-03/charts/20260324_120000_000002_new-climate-funds-value-and-count-2025.csv"
+  ],
+  "finanzierung": [
+    "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv"
+  ],
+  "flaechennutzung": [
+    "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
+  ],
+  "generation": [
+    "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv"
+  ],
+  "germany": [
+    "data/2024-12/power-mix-germany-daily.csv",
+    "data/2025-11/windpower/0105_Leist_kum_M.csv",
+    "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
+    "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
+    "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv",
+    "data/2025-12/onshore-wind-capacity-germany-2009-2024.csv",
+    "data/2025-12/utility-scale-bess-deutschland-2020-2025.csv"
+  ],
+  "global": [
+    "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
+  ],
+  "green-ammonia": [
+    "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv"
+  ],
+  "grospeicher": [
+    "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
+    "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv"
+  ],
+  "handelsblatt": [
+    "data/2025-12/batteriespeicher-netzanschlussanfragen-deutschland.csv"
+  ],
+  "hdv": [
+    "data/2026-03/zev-heavy-trucks-china-eu.csv"
+  ],
+  "heavy-duty": [
+    "data/2026-03/zev-heavy-trucks-china-eu.csv"
+  ],
+  "hydrogen": [
+    "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv"
+  ],
+  "iea": [
+    "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
+  ],
+  "industrie": [
+    "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv"
+  ],
+  "infrastruktur": [
+    "data/2025-12/batteriespeicher-netzanschlussanfragen-deutschland.csv"
+  ],
+  "irena": [
+    "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv",
+    "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
+  ],
+  "jobs": [
+    "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv",
+    "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
+  ],
+  "kapazitt": [
+    "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv"
+  ],
+  "landwirtschaft": [
+    "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
+  ],
+  "mastr": [
+    "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv"
+  ],
+  "materials": [
+    "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv"
+  ],
+  "monthly": [
+    "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv"
+  ],
+  "netzanschluss": [
+    "data/2025-12/batteriespeicher-netzanschlussanfragen-deutschland.csv"
+  ],
+  "ocr-extracted": [
+    "data/2026-01/charts/20260125_202458_296347_road-fuel-burn.csv",
+    "data/2026-01/charts/20260125_202543_772172_solar-power-boom.csv",
+    "data/2026-01/charts/20260125_202633_757533_india-is-taking-the-electrotech-fast-track-bypassi.csv",
+    "data/2026-01/charts/20260125_202714_545470_electrification-paths-of-asia-s-giants.csv",
+    "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
+    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv",
+    "data/2026-03/charts/20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.csv",
+    "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
+    "data/2026-03/charts/20260324_120000_000002_new-climate-funds-value-and-count-2025.csv",
+    "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
+    "data/2026-03/charts/20260324_150152_049883_geothermal-sector-investment-2020-2026-ytd-bn.csv",
+    "data/2026-03/charts/20260325_075738_933895_viele-netzanfragen-warten-noch-auf-eine-genehmigun.csv",
+    "data/2026-03/charts/20260325_080027_466232_die-usa-bauen-gaskraftwerke-f-r-rechenzentren-mass.csv",
+    "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
+    "data/2026-04/charts/20260401_231654_850205_kyoto-s-cherry-blossoms-are-blooming-earlier-than-.csv",
+    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
+    "data/2026-04/charts/20260403_081625_259313_top-movers.csv",
+    "data/2026-04/charts/20260403_081719_863188_lithium-ion-cell-prices.csv",
+    "data/2026-04/charts/20260403_093249_215401_us-data-center-build-out.csv"
+  ],
+  "offshore-wind": [
+    "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv"
+  ],
+  "onshore-wind": [
+    "data/2025-11/windpower/0105_Leist_kum_M.csv",
+    "data/2025-12/onshore-wind-capacity-germany-2009-2024.csv"
+  ],
+  "photovoltaik": [
+    "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv",
+    "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.csv"
+  ],
+  "power-generation": [
+    "data/2024-12/power-mix-germany-daily.csv"
+  ],
+  "productivity": [
+    "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
+  ],
+  "regional-comparison": [
+    "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv"
+  ],
+  "renewable-energy": [
+    "data/2024-12/power-mix-germany-daily.csv",
+    "data/2025-11/windpower/0105_Leist_kum_M.csv",
+    "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv",
+    "data/2025-12/onshore-wind-capacity-germany-2009-2024.csv"
+  ],
+  "robotics-wave": [
+    "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
+  ],
+  "silver": [
+    "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv"
+  ],
+  "solar": [
+    "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.csv",
+    "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv",
+    "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv",
+    "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
+  ],
+  "stahl": [
+    "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv"
+  ],
+  "startups": [
+    "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv"
+  ],
+  "storage": [
+    "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
+    "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv"
+  ],
+  "time-series": [
+    "data/2024-12/power-mix-germany-daily.csv"
+  ],
+  "trucks": [
+    "data/2026-03/zev-heavy-trucks-china-eu.csv"
+  ],
+  "utility-scale": [
+    "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
+    "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
+    "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
+    "data/2025-12/utility-scale-bess-deutschland-2020-2025.csv"
+  ],
+  "venture-capital": [
+    "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv",
+    "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
+    "data/2026-03/charts/20260324_120000_000002_new-climate-funds-value-and-count-2025.csv"
+  ],
+  "wind-energy": [
+    "data/2025-11/windpower/0105_Leist_kum_M.csv"
+  ],
+  "wind-power": [
+    "data/2025-12/onshore-wind-capacity-germany-2009-2024.csv"
+  ],
+  "yearly": [
+    "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
+    "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv"
+  ],
+  "zero-emission": [
+    "data/2026-03/zev-heavy-trucks-china-eu.csv"
+  ],
+  "zubau": [
+    "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
+    "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.csv"
+  ]
+}
