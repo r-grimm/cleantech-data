@@ -1,6 +1,6 @@
 {
   "title": "Share of investments by large VCs in energy technology innovation or AI start-ups",
-  "description": "",
+  "description": "OCR-extrahierter Chart aus Data: IEA; Note: Based on 50 corporate, financial and VC investors deploying $1 billion overall and $100 million or more in energy innovation since 2020; Chart: Axios Visuals (Share of investments by large VCs in energy technology innovation or AI start-ups); manuelle Pruefung des Datensatzes erforderlich.",
   "tags": [
     "cleantech",
     "ocr-extracted"
@@ -12,6 +12,21 @@
   },
   "license": "CC-BY-4.0",
   "created_at": "2026-03-22T14:03:21.106507+00:00",
+  "status": "needs_review",
+  "data_period": {
+    "start": "2018",
+    "end": "2024",
+    "granularity": "annual"
+  },
+  "provenance": {
+    "extraction_method": "ocr",
+    "extracted_by": "telegram-bot",
+    "extraction_date": "2026-03-22T14:03:21.106507+00:00",
+    "transformations_applied": []
+  },
+  "freshness": {
+    "source_checked": "2026-03-22T14:03:21.106507+00:00"
+  },
   "csv_file": "20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.csv",
   "units": {},
   "needs_review": true

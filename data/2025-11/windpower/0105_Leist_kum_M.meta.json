@@ -26,5 +26,20 @@
     "Value": {
       "name": "Value"
     }
+  },
+  "status": "active",
+  "data_period": {
+    "start": null,
+    "end": null,
+    "granularity": "irregular"
+  },
+  "provenance": {
+    "extraction_method": "api",
+    "extracted_by": "migration_v2",
+    "extraction_date": "2025-11-30T20:54:17.013274Z",
+    "transformations_applied": []
+  },
+  "freshness": {
+    "source_checked": "2025-11-30T20:54:17.013274Z"
   }
 }

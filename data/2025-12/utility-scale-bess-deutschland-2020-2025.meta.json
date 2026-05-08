@@ -9,12 +9,12 @@
     "cleantech"
   ],
   "source": {
+    "name": "Unknown",
     "url": "https://battery-charts.de/",
     "import_type": "csv"
   },
+  "license": "CC-BY-4.0",
   "created_at": "2025-12-19T22:36:16.105557+00:00",
-  "updated_at": "2025-12-19T22:36:16.105557+00:00",
-  "row_count": 6,
   "columns": {
     "Jahr": {
       "name": "Jahr",
@@ -30,5 +30,20 @@
     "Kapazität_GWh": {
       "name": "Kapazität_GWh"
     }
+  },
+  "status": "active",
+  "data_period": {
+    "start": "2020",
+    "end": "2025",
+    "granularity": "annual"
+  },
+  "provenance": {
+    "extraction_method": "api",
+    "extracted_by": "migration_v2",
+    "extraction_date": "2025-12-19T22:36:16.105557+00:00",
+    "transformations_applied": []
+  },
+  "freshness": {
+    "source_checked": "2025-12-19T22:36:16.105557+00:00"
   }
 }

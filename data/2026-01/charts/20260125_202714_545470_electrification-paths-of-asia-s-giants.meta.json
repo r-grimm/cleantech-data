@@ -1,6 +1,6 @@
 {
   "title": "Electrification Paths of Asia’s Giants",
-  "description": "",
+  "description": "OCR-extrahierter Chart aus IEA; World Bank (Electrification Paths of Asia’s Giants); manuelle Pruefung des Datensatzes erforderlich.",
   "tags": [
     "cleantech",
     "ocr-extracted"
@@ -12,9 +12,6 @@
   },
   "license": "CC-BY-4.0",
   "created_at": "2026-01-25T19:27:14.546559+00:00",
-  "csv_file": "20260125_202714_545470_electrification-paths-of-asia-s-giants.csv",
-  "units": {},
-  "needs_review": true,
   "columns": {
     "Country": {
       "name": "Country"
@@ -36,5 +33,23 @@
     "Annotation": {
       "name": "Annotation"
     }
-  }
+  },
+  "status": "needs_review",
+  "data_period": {
+    "start": null,
+    "end": null,
+    "granularity": "irregular"
+  },
+  "provenance": {
+    "extraction_method": "ocr",
+    "extracted_by": "telegram-bot",
+    "extraction_date": "2026-01-25T19:27:14.546559+00:00",
+    "transformations_applied": []
+  },
+  "freshness": {
+    "source_checked": "2026-01-25T19:27:14.546559+00:00"
+  },
+  "csv_file": "20260125_202714_545470_electrification-paths-of-asia-s-giants.csv",
+  "units": {},
+  "needs_review": true
 }

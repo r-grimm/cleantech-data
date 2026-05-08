@@ -46,14 +46,20 @@
       "name": "Other"
     }
   },
-  "freshness": {
-    "source_checked": "2026-01-29T22:26:50.084103+00:00"
+  "status": "active",
+  "data_period": {
+    "start": "2019",
+    "end": "2026",
+    "granularity": "annual"
   },
   "provenance": {
     "extraction_method": "manual",
     "transformations_applied": [],
     "extracted_by": "mcp",
     "extraction_date": "2026-01-29T22:26:50.084103+00:00"
+  },
+  "freshness": {
+    "source_checked": "2026-01-29T22:26:50.084103+00:00"
   },
   "quality": {
     "completeness": 1.0,
