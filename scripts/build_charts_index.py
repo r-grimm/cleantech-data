@@ -48,48 +48,30 @@ def _bundle_path(meta_path: Path) -> str:
 
 
 def main() -> int:
-    if not CHARTS_DIR.exists():
-        # Empty repo state — write a minimal index so downstream readers still work.
-        index = {
-            "schema_version": "1.0",
-            "generated_at": datetime.now(timezone.utc).isoformat(),
-            "total_charts": 0,
-            "charts": [],
-            "by_dataset": {},
-            "recent": [],
-        }
-        CATALOG_DIR.mkdir(parents=True, exist_ok=True)
-        (CATALOG_DIR / "charts_index.json").write_text(
-            json.dumps(index, indent=2, ensure_ascii=False, sort_keys=True) + "\n",
-            encoding="utf-8",
-        )
-        print("OK: charts/ directory empty — wrote stub charts_index.json.")
-        return 0
-
     charts: list[dict] = []
     by_dataset: dict[str, list[str]] = defaultdict(list)
 
-    for meta_path in sorted(CHARTS_DIR.rglob("chart.meta.json")):
-        meta = _load_chart_meta(meta_path)
-        if not meta:
-            continue
-        chart_id = meta.get("id")
-        if not chart_id:
-            continue
-        bundle_path = _bundle_path(meta_path)
-        entry = {
-            "chart_id": chart_id,
-            "chart_type": meta.get("chart_type"),
-            "title": meta.get("title"),
-            "bundle_path": bundle_path,
-            "source_dataset_paths": meta.get("source_dataset_paths") or [],
-            "status": meta.get("status", "active"),
-            "render_timestamp": meta.get("render_timestamp"),
-            "used_in_count": len(meta.get("used_in") or []),
-        }
-        charts.append(entry)
-        for csv_path in entry["source_dataset_paths"]:
-            by_dataset[csv_path].append(chart_id)
+    if CHARTS_DIR.exists():
+        for meta_path in sorted(CHARTS_DIR.rglob("chart.meta.json")):
+            meta = _load_chart_meta(meta_path)
+            if not meta:
+                continue
+            chart_id = meta.get("id")
+            if not chart_id:
+                continue
+            entry = {
+                "chart_id": chart_id,
+                "chart_type": meta.get("chart_type"),
+                "title": meta.get("title"),
+                "bundle_path": _bundle_path(meta_path),
+                "source_dataset_paths": meta.get("source_dataset_paths") or [],
+                "status": meta.get("status", "active"),
+                "render_timestamp": meta.get("render_timestamp"),
+                "used_in_count": len(meta.get("used_in") or []),
+            }
+            charts.append(entry)
+            for csv_path in entry["source_dataset_paths"]:
+                by_dataset[csv_path].append(chart_id)
 
     # Recent: status:active charts ordered by render_timestamp descending
     active_charts = [c for c in charts if c.get("status") == "active"]
@@ -105,12 +87,14 @@ def main() -> int:
         "recent": recent,
     }
     CATALOG_DIR.mkdir(parents=True, exist_ok=True)
-    out_path = CATALOG_DIR / "charts_index.json"
-    out_path.write_text(
+    (CATALOG_DIR / "charts_index.json").write_text(
         json.dumps(index, indent=2, ensure_ascii=False, sort_keys=True) + "\n",
         encoding="utf-8",
     )
-    print(f"OK: indexed {len(charts)} charts ({len(by_dataset)} dataset cross-refs).")
+    if not charts:
+        print("OK: charts/ directory empty — wrote stub charts_index.json.")
+    else:
+        print(f"OK: indexed {len(charts)} charts ({len(by_dataset)} dataset cross-refs).")
     return 0
 
 
