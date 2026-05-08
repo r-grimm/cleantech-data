@@ -37,23 +37,15 @@ def _extract_year_buckets(period: dict | None) -> list[str]:
     """A sidecar's data_period covers one or more years; return all buckets it spans."""
     if not isinstance(period, dict):
         return []
-    start = (period.get("start") or "").strip()
-    end = (period.get("end") or "").strip()
-    years: list[str] = []
-    for value in (start, end):
-        if not value:
-            continue
+    years: list[int] = []
+    for key in ("start", "end"):
+        value = (period.get(key) or "").strip()
         if len(value) >= 4 and value[:4].isdigit():
-            years.append(value[:4])
+            years.append(int(value[:4]))
     if not years:
         return []
-    if len(years) == 1:
-        return years
-    try:
-        lo, hi = sorted({int(years[0]), int(years[-1])})
-        return [str(y) for y in range(lo, hi + 1)]
-    except ValueError:
-        return list(set(years))
+    lo, hi = min(years), max(years)
+    return [str(y) for y in range(lo, hi + 1)]
 
 
 def _thematic_name(csv_path: str) -> str | None:
