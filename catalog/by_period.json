@@ -964,7 +964,6 @@
     "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv",
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv",
     "data/2026-03/charts/20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.csv",
     "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
     "data/2026-03/zev-heavy-trucks-china-eu.csv",
@@ -989,7 +988,6 @@
     "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv",
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv",
     "data/2026-03/charts/20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.csv",
     "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
     "data/2026-03/zev-heavy-trucks-china-eu.csv",
@@ -1014,7 +1012,6 @@
     "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv",
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv",
     "data/2026-03/charts/20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.csv",
     "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
     "data/2026-03/zev-heavy-trucks-china-eu.csv",
@@ -1039,7 +1036,6 @@
     "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv",
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv",
     "data/2026-03/charts/20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.csv",
     "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
@@ -1064,7 +1060,6 @@
     "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv",
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv",
     "data/2026-03/charts/20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.csv",
     "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
@@ -1078,7 +1073,6 @@
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
     "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv",
     "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
     "data/2026-03/zev-heavy-trucks-china-eu.csv"
@@ -1087,7 +1081,6 @@
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
     "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv",
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
     "data/2026-04/charts/20260401_231654_850205_kyoto-s-cherry-blossoms-are-blooming-earlier-than-.csv",
     "data/2026-04/charts/20260403_093249_215401_us-data-center-build-out.csv"
@@ -1095,156 +1088,122 @@
   "2027": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv",
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv"
   ],
   "2028": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv",
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv"
   ],
   "2029": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv",
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv"
   ],
   "2030": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv",
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv"
   ],
   "2031": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv",
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv"
   ],
   "2032": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2033": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2034": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2035": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2036": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2037": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2038": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2039": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2040": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2041": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2042": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2043": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2044": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2045": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2046": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2047": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2048": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2049": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2050": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2051": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2052": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2053": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2054": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2055": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2056": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2057": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2058": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2059": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "2060": [
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ]
 }
