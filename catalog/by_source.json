@@ -81,8 +81,7 @@
     "data/2026-01/charts/india-electrotech-2023-comparison.csv",
     "data/2026-01/charts/india-electrotech-2023-comparison_transformed.csv",
     "data/2026-01/solar-schere-normalisiert-2012-2024.csv",
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
   ],
   "Wikipedia/IRENA": [
     "data/2025-12/onshore-wind-capacity-germany-2009-2024.csv"
