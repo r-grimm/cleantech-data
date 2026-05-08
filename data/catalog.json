@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-04-03T07:32:59.496031+00:00",
+  "generated_at": "2026-05-08T08:12:08.437034+00:00",
   "total_datasets": 41,
   "datasets": [
     {
@@ -15,12 +15,12 @@
       },
       "tags": [
         "electricity",
-        "power generation",
-        "Germany",
-        "energy mix",
-        "renewable energy",
+        "power-generation",
+        "germany",
+        "energy-mix",
+        "renewable-energy",
         "daily",
-        "time series"
+        "time-series"
       ],
       "license": "Open Data",
       "created_at": "2024-12-31T00:00:00+00:00",
@@ -47,12 +47,12 @@
         "import_type": "csv"
       },
       "tags": [
-        "Wind Energy",
-        "Onshore Wind",
-        "Renewable Energy",
-        "Energy Development",
-        "Approval Status",
-        "Germany"
+        "wind-energy",
+        "onshore-wind",
+        "renewable-energy",
+        "energy-development",
+        "approval-status",
+        "germany"
       ],
       "license": "Custom",
       "created_at": "2025-11-30T20:54:17.013274Z",
@@ -74,17 +74,18 @@
       "title": "Batteriegroßspeicher Deutschland - Jährlich",
       "description": "Kumulierte Speicherkapazität von Batteriegroßspeichern in Deutschland, Jahresendwerte 2014-2025.",
       "source": {
+        "name": "Unknown",
         "url": "https://battery-charts.de/de/battery-charts-de/",
         "import_type": "csv"
       },
       "tags": [
         "batteries",
         "storage",
-        "Germany",
+        "germany",
         "utility-scale",
         "yearly"
       ],
-      "license": "Unknown",
+      "license": "CC-BY-4.0",
       "created_at": "2025-12-20T11:10:56.010895+00:00",
       "thematic_name": null,
       "year_month": "2025-12",
@@ -104,22 +105,23 @@
       "title": "Batteriegroßspeicher Deutschland - Kumulierte Kapazität",
       "description": "Kumulierte Speicherkapazität von Batteriegroßspeichern (≥1.000 kWh oder ≥1.000 kW) in Deutschland, monatlich seit 2014. Daten aus dem Marktstammdatenregister, aufbereitet von Battery Charts (RWTH Aachen).",
       "source": {
+        "name": "Unknown",
         "url": "https://battery-charts.de/de/battery-charts-de/",
         "import_type": "csv"
       },
       "tags": [
         "batteries",
         "storage",
-        "Germany",
+        "germany",
         "utility-scale",
-        "Großspeicher",
-        "MaStR",
+        "grospeicher",
+        "mastr",
         "cleantech",
-        "cumulative capacity",
+        "cumulative-capacity",
         "monthly",
-        "battery storage"
+        "battery-storage"
       ],
-      "license": "Unknown",
+      "license": "CC-BY-4.0",
       "created_at": "2025-12-20T11:09:08.410897+00:00",
       "thematic_name": null,
       "year_month": "2025-12",
@@ -139,18 +141,19 @@
       "title": "Batteriespeicher Netzanschlussanfragen Deutschland",
       "description": "Netzanschlussanfragen nach Unternehmen und Technologie seit 2023 in Gigawatt. Daten zeigen Batteriespeicher als dominanteste Technologie bei deutschen Netzbetreibern (TenneT, 50Hertz, TransnetBW).",
       "source": {
+        "name": "Unknown",
         "url": "https://handelsblatt.com",
         "import_type": "csv"
       },
       "tags": [
-        "Batteriespeicher",
-        "Netzanschluss",
-        "Energiewende",
-        "Deutschland",
-        "Infrastruktur",
-        "Handelsblatt"
+        "batteriespeicher",
+        "netzanschluss",
+        "energiewende",
+        "deutschland",
+        "infrastruktur",
+        "handelsblatt"
       ],
-      "license": "Unknown",
+      "license": "CC-BY-4.0",
       "created_at": "2025-12-24T15:37:31.721125+00:00",
       "thematic_name": null,
       "year_month": "2025-12",
@@ -170,6 +173,7 @@
       "title": "Flächennutzung für erneuerbare Energien Deutschland 2024",
       "description": "Nutzung landwirtschaftlicher Flächen für erneuerbare Energien in Deutschland (Stand Ende 2024). Quelle: UBA nach Daten der FNR (2025, geschätzte Werte) und Kelm et al. (2025).",
       "source": {
+        "name": "Unknown",
         "url": null,
         "import_type": "csv"
       },
@@ -183,7 +187,7 @@
         "deutschland",
         "2024"
       ],
-      "license": "Unknown",
+      "license": "CC-BY-4.0",
       "created_at": "2025-12-26T20:38:52.314606+00:00",
       "thematic_name": null,
       "year_month": "2025-12",
@@ -203,23 +207,24 @@
       "title": "Großbatteriespeicher Deutschland - Kumulierte Kapazität und Zubau",
       "description": "Entwicklung der installierten Kapazität von Großbatteriespeichern (>1 MWh) in Deutschland von 2018 bis 2024. Quellen: Marktstammdatenregister (via RWTH Aachen Battery Charts), BSW Solar, Frontier Economics.",
       "source": {
+        "name": "Unknown",
         "url": "https://battery-charts.de/battery-charts/",
         "import_type": "csv"
       },
       "tags": [
-        "Batteriespeicher",
-        "Großspeicher",
-        "Deutschland",
-        "Energiespeicher",
-        "BESS",
-        "Zubau",
-        "cumulative capacity",
+        "batteriespeicher",
+        "grospeicher",
+        "deutschland",
+        "energiespeicher",
+        "bess",
+        "zubau",
+        "cumulative-capacity",
         "annual",
         "yearly",
-        "battery storage",
+        "battery-storage",
         "utility-scale"
       ],
-      "license": "Unknown",
+      "license": "CC-BY-4.0",
       "created_at": "2025-12-19T20:13:35.996754+00:00",
       "thematic_name": null,
       "year_month": "2025-12",
@@ -239,17 +244,18 @@
       "title": "Offshore Wind Capacity Germany 2009-2024",
       "description": "Installed offshore wind capacity in Germany from 2009 to 2024, based on Wikipedia/IRENA data. Shows the growth from early pilot projects to large-scale deployment.",
       "source": {
+        "name": "Unknown",
         "url": "https://en.wikipedia.org/wiki/Wind_power_in_Germany",
         "import_type": "csv"
       },
       "tags": [
-        "offshore wind",
-        "Germany",
-        "renewable energy",
+        "offshore-wind",
+        "germany",
+        "renewable-energy",
         "capacity",
         "generation"
       ],
-      "license": "Unknown",
+      "license": "CC-BY-4.0",
       "created_at": "2025-12-18T23:52:24.845197+00:00",
       "thematic_name": null,
       "year_month": "2025-12",
@@ -274,11 +280,11 @@
         "import_type": "csv"
       },
       "tags": [
-        "onshore wind",
-        "Germany",
-        "renewable energy",
+        "onshore-wind",
+        "germany",
+        "renewable-energy",
         "capacity",
-        "wind power"
+        "wind-power"
       ],
       "license": "Unknown",
       "created_at": "2025-12-18T23:52:24.845197+00:00",
@@ -300,6 +306,7 @@
       "title": "Photovoltaik-Zubau Deutschland 2020-2024",
       "description": "Jährlicher Zubau und kumulierte installierte Leistung von Photovoltaikanlagen in Deutschland. Daten von AGEE-Stat (Arbeitsgruppe Erneuerbare Energien-Statistik) via Umweltbundesamt.",
       "source": {
+        "name": "Unknown",
         "url": "https://www.volker-quaschning.de/datserv/pv-deu/index.php",
         "import_type": "csv"
       },
@@ -308,10 +315,10 @@
         "solar",
         "zubau",
         "deutschland",
-        "erneuerbare energien",
-        "AGEE-Stat"
+        "erneuerbare-energien",
+        "agee-stat"
       ],
-      "license": "Unknown",
+      "license": "CC-BY-4.0",
       "created_at": "2025-12-19T22:47:09.339841+00:00",
       "thematic_name": null,
       "year_month": "2025-12",
@@ -331,6 +338,7 @@
       "title": "Stahlindustrie Deutschland - Anteil am BIP 2014-2023",
       "description": "Geschätzter Anteil der Bruttowertschöpfung der deutschen Stahlindustrie am BIP. Berechnung: Stahlumsatz (WV Stahl) × 14% Wertschöpfungsquote / BIP (Destatis). Die Wertschöpfungsquote basiert auf Angaben der WV Stahl (ca. 7 Mrd. EUR BWS bei ca. 50 Mrd. EUR Umsatz).",
       "source": {
+        "name": "Unknown",
         "url": "https://www.wvstahl.de/wp-content/uploads/WV-Stahl_Daten-und-Fakten-2024_RZ-Web.pdf",
         "import_type": "csv"
       },
@@ -338,11 +346,11 @@
         "stahl",
         "deutschland",
         "bip",
-        "bruttowertschöpfung",
+        "bruttowertschpfung",
         "industrie",
         "cleantech"
       ],
-      "license": "Unknown",
+      "license": "CC-BY-4.0",
       "created_at": "2025-12-19T06:51:55.055452+00:00",
       "thematic_name": null,
       "year_month": "2025-12",
@@ -362,17 +370,18 @@
       "title": "Utility-Scale BESS Deutschland 2020-2025",
       "description": "Kumulierte installierte Kapazität von Utility-Scale Batteriespeichern (>1 MW) in Deutschland. Quellen: RWTH Aachen Battery Charts, BSW Solar, Clean Energy Wire. 2025-Wert bezieht sich auf H1 2025.",
       "source": {
+        "name": "Unknown",
         "url": "https://battery-charts.de/",
         "import_type": "csv"
       },
       "tags": [
-        "BESS",
-        "Germany",
-        "energy storage",
+        "bess",
+        "germany",
+        "energy-storage",
         "utility-scale",
         "cleantech"
       ],
-      "license": "Unknown",
+      "license": "CC-BY-4.0",
       "created_at": "2025-12-19T22:36:16.105557+00:00",
       "thematic_name": null,
       "year_month": "2025-12",
@@ -390,10 +399,10 @@
       "csv_path": "data/2026-01/charts/20260125_202458_296347_road-fuel-burn.csv",
       "metadata_path": "data/2026-01/charts/20260125_202458_296347_road-fuel-burn.meta.json",
       "title": "Road Fuel Burn",
-      "description": "",
+      "description": "OCR-extrahierter Chart aus Ember, IEA, World Bank (Road Fuel Burn); manuelle Pruefung des Datensatzes erforderlich.",
       "source": {
         "name": "Ember, IEA, World Bank",
-        "url": "https://x.com/RMantri/status/road_fuel_burn",
+        "url": null,
         "import_type": "ocr"
       },
       "tags": [
@@ -418,10 +427,10 @@
       "csv_path": "data/2026-01/charts/20260125_202543_772172_solar-power-boom.csv",
       "metadata_path": "data/2026-01/charts/20260125_202543_772172_solar-power-boom.meta.json",
       "title": "Solar Power Boom",
-      "description": "",
+      "description": "OCR-extrahierter Chart aus Ember, World Bank (Solar Power Boom); manuelle Pruefung des Datensatzes erforderlich.",
       "source": {
         "name": "Ember, World Bank",
-        "url": "https://x.com/RMantri/status/solar_power_boom",
+        "url": null,
         "import_type": "ocr"
       },
       "tags": [
@@ -446,10 +455,10 @@
       "csv_path": "data/2026-01/charts/20260125_202633_757533_india-is-taking-the-electrotech-fast-track-bypassi.csv",
       "metadata_path": "data/2026-01/charts/20260125_202633_757533_india-is-taking-the-electrotech-fast-track-bypassi.meta.json",
       "title": "India is taking the electrotech fast-track, bypassing the fossil detour taken by the West and China",
-      "description": "",
+      "description": "OCR-extrahierter Chart aus IEA, IIASA, Ember analysis (India is taking the electrotech fast-track, bypassing the fossil detour taken by the West and China); manuelle Pruefung des Datensatzes erforderlich.",
       "source": {
         "name": "IEA, IIASA, Ember analysis",
-        "url": "https://x.com/CleanPowerDave/status/electrotech_fasttrack",
+        "url": null,
         "import_type": "ocr"
       },
       "tags": [
@@ -474,10 +483,10 @@
       "csv_path": "data/2026-01/charts/20260125_202714_545470_electrification-paths-of-asia-s-giants.csv",
       "metadata_path": "data/2026-01/charts/20260125_202714_545470_electrification-paths-of-asia-s-giants.meta.json",
       "title": "Electrification Paths of Asia’s Giants",
-      "description": "",
+      "description": "OCR-extrahierter Chart aus IEA; World Bank (Electrification Paths of Asia’s Giants); manuelle Pruefung des Datensatzes erforderlich.",
       "source": {
         "name": "IEA; World Bank",
-        "url": "https://x.com/RMantri/status/electrification_paths",
+        "url": null,
         "import_type": "ocr"
       },
       "tags": [
@@ -502,10 +511,10 @@
       "csv_path": "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
       "metadata_path": "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.meta.json",
       "title": "Big shortfall in copper supply predicted to open up from 2027",
-      "description": "",
+      "description": "OCR-extrahierter Chart aus Bernstein (Big shortfall in copper supply predicted to open up from 2027); manuelle Pruefung des Datensatzes erforderlich.",
       "source": {
         "name": "Bernstein",
-        "url": "https://x.com/FT/status/copper_shortfall",
+        "url": null,
         "import_type": "ocr"
       },
       "tags": [
@@ -528,23 +537,21 @@
     },
     {
       "csv_path": "data/2026-01/charts/india-electrotech-2023-comparison.csv",
-      "metadata_path": null,
+      "metadata_path": "data/2026-01/charts/india-electrotech-2023-comparison.meta.json",
       "title": "India Electrotech 2023 Comparison",
-      "description": "Dataset: India Electrotech 2023 Comparison",
+      "description": "Datensatz 'India Electrotech 2023 Comparison' (Quelle: unbekannt); Migration_v2 Default-Beschreibung — bitte manuell ueberarbeiten.",
       "source": {
         "name": "Unknown",
         "url": null,
         "import_type": "csv"
       },
-      "tags": [
-        "charts"
-      ],
-      "license": "Unknown",
-      "created_at": null,
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-08T00:00:00+00:00",
       "thematic_name": "charts",
       "year_month": "2026-01",
       "filename": "india-electrotech-2023-comparison.csv",
-      "has_metadata": false,
+      "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
       "freshness_indicator": null,
@@ -555,23 +562,21 @@
     },
     {
       "csv_path": "data/2026-01/charts/india-electrotech-2023-comparison_transformed.csv",
-      "metadata_path": null,
+      "metadata_path": "data/2026-01/charts/india-electrotech-2023-comparison_transformed.meta.json",
       "title": "India Electrotech 2023 Comparison Transformed",
-      "description": "Dataset: India Electrotech 2023 Comparison Transformed",
+      "description": "Datensatz 'India Electrotech 2023 Comparison Transformed' (Quelle: unbekannt); Migration_v2 Default-Beschreibung — bitte manuell ueberarbeiten.",
       "source": {
         "name": "Unknown",
         "url": null,
         "import_type": "csv"
       },
-      "tags": [
-        "charts"
-      ],
-      "license": "Unknown",
-      "created_at": null,
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-08T00:00:00+00:00",
       "thematic_name": "charts",
       "year_month": "2026-01",
       "filename": "india-electrotech-2023-comparison_transformed.csv",
-      "has_metadata": false,
+      "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
       "freshness_indicator": null,
@@ -587,15 +592,15 @@
       "description": "Share of materials in solar panel costs (%) from 2019-2026. Silver's share surged from 5% to 29%, driven by rising silver prices and increased silver paste usage in newer cell technologies (TOPCon, HJT).",
       "source": {
         "name": "BloombergNEF",
-        "url": "https://pbs.twimg.com/media/G_wUCMdXIAACPTC?format=jpg&name=medium",
+        "url": null,
         "import_type": "csv"
       },
       "tags": [
-        "Silver",
-        "Solar",
-        "Cost",
-        "Materials",
-        "Clean Technology"
+        "silver",
+        "solar",
+        "cost",
+        "materials",
+        "clean-technology"
       ],
       "license": "Creative Commons Attribution 4.0 International",
       "created_at": "2026-01-29T22:26:50.084103+00:00",
@@ -618,6 +623,7 @@
       "description": "Extracted data with 7 rows and 8 columns. Columns: Year, China, United States, India, Germany and 3 more.",
       "source": {
         "name": "Newsletter Assistant Import",
+        "url": null,
         "import_type": "ocr"
       },
       "tags": [],
@@ -641,21 +647,21 @@
       "title": "Solar PV: Jobs vs. Kapazität – Die Schere (2012-2024)",
       "description": "Kumulative Solar-PV-Kapazität wächst exponentiell, Jobs nur linear. Die Arbeitsintensität (Jobs/GW) sinkt um 76% in 12 Jahren. Zeigt organische Automatisierung der Branche ohne Roboter-Revolution.",
       "source": {
-        "name": "Unknown",
+        "name": "IRENA Annual Reviews 2013-2026, IEA PVPS Snapshot 2025, Fraunhofer ISE PV Report 2024",
         "url": null,
         "import_type": "csv"
       },
       "tags": [
         "solar",
         "jobs",
-        "kapazität",
-        "arbeitsintensität",
+        "kapazitt",
+        "arbeitsintensitt",
         "automatisierung",
         "irena",
         "energiewende"
       ],
-      "license": "Unknown",
-      "created_at": null,
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-08T00:00:00+00:00",
       "thematic_name": null,
       "year_month": "2026-01",
       "filename": "solar-jobs-vs-kapazitaet-2012-2024.csv",
@@ -670,21 +676,21 @@
     },
     {
       "csv_path": "data/2026-01/solar-schere-normalisiert-2012-2024.csv",
-      "metadata_path": null,
+      "metadata_path": "data/2026-01/solar-schere-normalisiert-2012-2024.meta.json",
       "title": "Solar Schere Normalisiert 2012 2024",
-      "description": "Dataset: Solar Schere Normalisiert 2012 2024",
+      "description": "Datensatz 'Solar Schere Normalisiert 2012 2024' (Quelle: unbekannt); Migration_v2 Default-Beschreibung — bitte manuell ueberarbeiten.",
       "source": {
         "name": "Unknown",
         "url": null,
         "import_type": "csv"
       },
       "tags": [],
-      "license": "Unknown",
-      "created_at": null,
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-08T00:00:00+00:00",
       "thematic_name": null,
       "year_month": "2026-01",
       "filename": "solar-schere-normalisiert-2012-2024.csv",
-      "has_metadata": false,
+      "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
       "freshness_indicator": null,
@@ -699,7 +705,7 @@
       "title": "VC Cleantech-Finanzierungen Deutschland 2020-2024",
       "description": "Venture Capital Investitionen in Cleantech-Startups in Deutschland, 2020-2024",
       "source": {
-        "name": "Unknown",
+        "name": "KfW Research, FCF CleanTech Report, Cleantech for Europe",
         "url": null,
         "import_type": "csv"
       },
@@ -710,8 +716,8 @@
         "finanzierung",
         "startups"
       ],
-      "license": "Unknown",
-      "created_at": null,
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-08T00:00:00+00:00",
       "thematic_name": null,
       "year_month": "2026-01",
       "filename": "vc-cleantech-finanzierung-deutschland-2020-2024.csv",
@@ -735,15 +741,15 @@
         "import_type": "csv"
       },
       "tags": [
-        "Solar",
-        "Jobs",
-        "Capacity",
-        "Productivity",
-        "Global",
-        "Irena",
-        "IEA",
-        "Energy Transition",
-        "Robotics Wave"
+        "solar",
+        "jobs",
+        "capacity",
+        "productivity",
+        "global",
+        "irena",
+        "iea",
+        "energy-transition",
+        "robotics-wave"
       ],
       "license": "Creative Commons Attribution 4.0 International",
       "created_at": "2026-02-04T10:17:16.293322+00:00",
@@ -763,9 +769,9 @@
       "csv_path": "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
       "metadata_path": "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.meta.json",
       "title": "Chinas Strommix-Transformation bis 2060 (Szenario ERI/CETO)",
-      "description": "",
+      "description": "OCR-extrahierter Chart aus unbekannter Quelle (Chinas Strommix-Transformation bis 2060 (Szenario ERI/CETO)); manuelle Pruefung des Datensatzes erforderlich.",
       "source": {
-        "name": null,
+        "name": "Unknown",
         "url": "",
         "import_type": "ocr"
       },
@@ -791,9 +797,9 @@
       "csv_path": "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv",
       "metadata_path": "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.meta.json",
       "title": "Chinas Strommix-Transformation bis 2060 (Szenario ERI/CETO)",
-      "description": "",
+      "description": "OCR-extrahierter Chart aus unbekannter Quelle (Chinas Strommix-Transformation bis 2060 (Szenario ERI/CETO)); manuelle Pruefung des Datensatzes erforderlich.",
       "source": {
-        "name": null,
+        "name": "Unknown",
         "url": "",
         "import_type": "ocr"
       },
@@ -819,7 +825,7 @@
       "csv_path": "data/2026-03/charts/20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.csv",
       "metadata_path": "data/2026-03/charts/20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.meta.json",
       "title": "Share of investments by large VCs in energy technology innovation or AI start-ups",
-      "description": "",
+      "description": "OCR-extrahierter Chart aus Data: IEA; Note: Based on 50 corporate, financial and VC investors deploying $1 billion overall and $100 million or more in energy innovation since 2020; Chart: Axios Visuals (Share of investments by large VCs in energy technology innovation or AI start-ups); manuelle Pruefung des Datensatzes erforderlich.",
       "source": {
         "name": "Data: IEA; Note: Based on 50 corporate, financial and VC investors deploying $1 billion overall and $100 million or more in energy innovation since 2020; Chart: Axios Visuals",
         "url": "https://www.amyharder.com/p/3-must-see-charts-on-ai-and-energy?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F772fd623-cfb6-4a4f-91e6-85bf971c2fe6_1240x1168.png&open=false",
@@ -941,7 +947,7 @@
       "csv_path": "data/2026-03/charts/20260324_150152_049883_geothermal-sector-investment-2020-2026-ytd-bn.csv",
       "metadata_path": "data/2026-03/charts/20260324_150152_049883_geothermal-sector-investment-2020-2026-ytd-bn.meta.json",
       "title": "Geothermal sector investment, 2020-2026 YTD ($bn)",
-      "description": "",
+      "description": "OCR-extrahierter Chart aus sightline climate (Geothermal sector investment, 2020-2026 YTD ($bn)); manuelle Pruefung des Datensatzes erforderlich.",
       "source": {
         "name": "sightline climate",
         "url": "https://www.ctvc.co/content/images/2026/03/Untitled-presentation--6--1.png",
@@ -969,7 +975,7 @@
       "csv_path": "data/2026-03/charts/20260325_075738_933895_viele-netzanfragen-warten-noch-auf-eine-genehmigun.csv",
       "metadata_path": "data/2026-03/charts/20260325_075738_933895_viele-netzanfragen-warten-noch-auf-eine-genehmigun.meta.json",
       "title": "Viele Netzanfragen warten noch auf eine Genehmigung",
-      "description": "",
+      "description": "OCR-extrahierter Chart aus Tennet (Viele Netzanfragen warten noch auf eine Genehmigung); manuelle Pruefung des Datensatzes erforderlich.",
       "source": {
         "name": "Tennet",
         "url": "",
@@ -997,7 +1003,7 @@
       "csv_path": "data/2026-03/charts/20260325_080027_466232_die-usa-bauen-gaskraftwerke-f-r-rechenzentren-mass.csv",
       "metadata_path": "data/2026-03/charts/20260325_080027_466232_die-usa-bauen-gaskraftwerke-f-r-rechenzentren-mass.meta.json",
       "title": "Die USA bauen Gaskraftwerke für Rechenzentren massiv aus",
-      "description": "",
+      "description": "OCR-extrahierter Chart aus Global Oil and Gas Plant Tracker (Die USA bauen Gaskraftwerke für Rechenzentren massiv aus); manuelle Pruefung des Datensatzes erforderlich.",
       "source": {
         "name": "Global Oil and Gas Plant Tracker",
         "url": "",
@@ -1058,7 +1064,7 @@
       "csv_path": "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
       "metadata_path": "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.meta.json",
       "title": "The price of lithium-ion batteries has fallen by 99% since 1991",
-      "description": "",
+      "description": "OCR-extrahierter Chart aus Rupert Way (2026) based on Ziegler and Trancik (2021), BloombergNEF, and Avicenne Energy (The price of lithium-ion batteries has fallen by 99% since 1991); manuelle Pruefung des Datensatzes erforderlich.",
       "source": {
         "name": "Rupert Way (2026) based on Ziegler and Trancik (2021), BloombergNEF, and Avicenne Energy",
         "url": "https://ourworldindata.org/grapher/price-of-lithium-ion-battery-cells?tab=chart&time=earliest..latest&focus=&country=~OWID_WRL",
@@ -1086,7 +1092,7 @@
       "csv_path": "data/2026-04/charts/20260401_231654_850205_kyoto-s-cherry-blossoms-are-blooming-earlier-than-.csv",
       "metadata_path": "data/2026-04/charts/20260401_231654_850205_kyoto-s-cherry-blossoms-are-blooming-earlier-than-.meta.json",
       "title": "Kyoto's Cherry Blossoms Are Blooming Earlier Than Any Time in Recorded History",
-      "description": "",
+      "description": "OCR-extrahierter Chart aus Aono & Kazui (2008), Aono & Saito (2010), Osaka Prefecture University; JMA; JMC. Original records from imperial court documents and diaries dating to 812 CE. 2026 value is JMC 9th forecast (Mar 19, 2026). (Kyoto's Cherry Blossoms Are Blooming Earlier Than Any Time in Recorded History); manuelle Pruefung des Datensatzes erforderlich.",
       "source": {
         "name": "Aono & Kazui (2008), Aono & Saito (2010), Osaka Prefecture University; JMA; JMC. Original records from imperial court documents and diaries dating to 812 CE. 2026 value is JMC 9th forecast (Mar 19, 2026).",
         "url": "https://x.com/JEBistline/status/2039423804120997892?s=20",
@@ -1114,7 +1120,7 @@
       "csv_path": "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
       "metadata_path": "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.meta.json",
       "title": "Das „Atomenergie-Paradoxon“: wie Großtechnik systematisch überschätzt und dezentrale Technik unterschätzt wird",
-      "description": "",
+      "description": "OCR-extrahierter Chart aus Energietechnische Prognosen vs. Wirklichkeit: links für globale AKW-Leistung gemäß IAEA, rechts für Wind und PV-Leistung gemäß IEA. Aus: The \"Nuclear Energy Paradox\" - Investigating nuclear imaginaries in energy projections, in Energy Research & Social Science 135 (2026) (Das „Atomenergie-Paradoxon“: wie Großtechnik systematisch überschätzt und dezentrale Technik unterschätzt wird); manuelle Pruefung des Datensatzes erforderlich.",
       "source": {
         "name": "Energietechnische Prognosen vs. Wirklichkeit: links für globale AKW-Leistung gemäß IAEA, rechts für Wind und PV-Leistung gemäß IEA. Aus: The \"Nuclear Energy Paradox\" - Investigating nuclear imaginaries in energy projections, in Energy Research & Social Science 135 (2026)",
         "url": "",
@@ -1142,7 +1148,7 @@
       "csv_path": "data/2026-04/charts/20260403_081625_259313_top-movers.csv",
       "metadata_path": "data/2026-04/charts/20260403_081625_259313_top-movers.meta.json",
       "title": "Top Movers",
-      "description": "",
+      "description": "OCR-extrahierter Chart aus Intercalation Station • Created with Datawrapper (Top Movers); manuelle Pruefung des Datensatzes erforderlich.",
       "source": {
         "name": "Intercalation Station • Created with Datawrapper",
         "url": "https://datawrapper.dwcdn.net/ogQQL/full.png",
@@ -1170,7 +1176,7 @@
       "csv_path": "data/2026-04/charts/20260403_081719_863188_lithium-ion-cell-prices.csv",
       "metadata_path": "data/2026-04/charts/20260403_081719_863188_lithium-ion-cell-prices.meta.json",
       "title": "Lithium-ion Cell Prices",
-      "description": "",
+      "description": "OCR-extrahierter Chart aus Intercalation Station • Created with Datawrapper (Lithium-ion Cell Prices); manuelle Pruefung des Datensatzes erforderlich.",
       "source": {
         "name": "Intercalation Station • Created with Datawrapper",
         "url": "https://datawrapper.dwcdn.net/IlLJT/full.png",
@@ -1198,7 +1204,7 @@
       "csv_path": "data/2026-04/charts/20260403_093249_215401_us-data-center-build-out.csv",
       "metadata_path": "data/2026-04/charts/20260403_093249_215401_us-data-center-build-out.meta.json",
       "title": "US Data Center Build-Out",
-      "description": "",
+      "description": "OCR-extrahierter Chart aus Sightline Climate (US Data Center Build-Out); manuelle Pruefung des Datensatzes erforderlich.",
       "source": {
         "name": "Sightline Climate",
         "url": "",
