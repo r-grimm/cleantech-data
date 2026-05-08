@@ -72,50 +72,46 @@ def _import_type_to_extraction_method(import_type: str) -> str:
     return {"csv": "api", "ocr": "ocr", "api": "api", "manual": "manual"}.get(import_type, "manual")
 
 
+_TIME_COLUMN_GRANULARITY = {
+    "year": "annual",
+    "jahr": "annual",
+    "date": "daily",
+    "datum": "daily",
+    "month": "monthly",
+    "monat": "monthly",
+}
+
+
 def _read_year_range(csv_path: Path) -> tuple[str | None, str | None, str]:
-    """Best-effort derivation of (start, end, granularity) from a CSV.
+    """Best-effort (start, end, granularity) from the first time-shaped column."""
+    import csv as csv_lib
 
-    Returns ('irregular' granularity if anything is uncertain).
-    """
-    if not csv_path.exists():
-        return (None, None, "irregular")
     try:
-        import csv as csv_lib
-
         with csv_path.open(encoding="utf-8") as fh:
             reader = csv_lib.reader(fh)
             header = next(reader, None)
             if not header:
                 return (None, None, "irregular")
-            year_col_idx = None
-            granularity = "irregular"
+            year_col_idx, granularity = None, "irregular"
             for idx, name in enumerate(header):
-                lowered = name.strip().lower()
-                if lowered in {"year", "jahr"}:
-                    year_col_idx = idx
-                    granularity = "annual"
-                    break
-                if lowered in {"date", "datum"}:
-                    year_col_idx = idx
-                    granularity = "daily"  # tighten later if needed
-                    break
-                if lowered in {"month", "monat"}:
-                    year_col_idx = idx
-                    granularity = "monthly"
+                lookup = _TIME_COLUMN_GRANULARITY.get(name.strip().lower())
+                if lookup:
+                    year_col_idx, granularity = idx, lookup
                     break
             if year_col_idx is None:
                 return (None, None, "irregular")
-
-            values: list[str] = []
+            first = last = None
             for row in reader:
                 if len(row) > year_col_idx:
                     val = row[year_col_idx].strip()
                     if val:
-                        values.append(val)
-            if not values:
+                        if first is None:
+                            first = val
+                        last = val
+            if first is None:
                 return (None, None, granularity)
-            return (values[0], values[-1], granularity)
-    except Exception:
+            return (first, last, granularity)
+    except (OSError, UnicodeDecodeError, csv_lib.Error):
         return (None, None, "irregular")
 
 
@@ -149,7 +145,7 @@ def _default_description(title: str, source_name: str, is_ocr: bool) -> str:
     )
 
 
-def _migrate_payload(payload: dict, csv_path: Path, *, was_missing: bool) -> dict:
+def _migrate_payload(payload: dict, csv_path: Path) -> dict:
     """Lift a single sidecar payload to Schema-D. Returns new dict (no mutation)."""
     out: dict = {}
 
@@ -161,7 +157,7 @@ def _migrate_payload(payload: dict, csv_path: Path, *, was_missing: bool) -> dic
         source = {"name": source, "import_type": "csv"}
     source_name = source.get("name") or ""
     import_type = source.get("import_type") or (
-        "ocr" if was_missing is False and "/charts/" in csv_path.as_posix() else "csv"
+        "ocr" if "/charts/" in csv_path.as_posix() else "csv"
     )
 
     is_ocr = import_type == "ocr"
@@ -189,7 +185,6 @@ def _migrate_payload(payload: dict, csv_path: Path, *, was_missing: bool) -> dic
     if columns is not None:
         out["columns"] = columns
 
-    # Status — default needs_review for OCR or short descriptions, else active
     explicit_status = payload.get("status")
     if explicit_status in {"active", "needs_review", "superseded", "deprecated"}:
         out["status"] = explicit_status
@@ -198,14 +193,12 @@ def _migrate_payload(payload: dict, csv_path: Path, *, was_missing: bool) -> dic
     else:
         out["status"] = "active"
 
-    # data_period
     if "data_period" in payload and isinstance(payload["data_period"], dict):
         out["data_period"] = payload["data_period"]
     else:
         start, end, granularity = _read_year_range(csv_path)
         out["data_period"] = {"start": start, "end": end, "granularity": granularity}
 
-    # provenance — preserve existing, fill gaps from migration defaults
     provenance = dict(payload.get("provenance") or {})
     provenance.setdefault("extraction_method", _import_type_to_extraction_method(import_type))
     provenance.setdefault("extracted_by", "telegram-bot" if is_ocr else "migration_v2")
@@ -213,26 +206,19 @@ def _migrate_payload(payload: dict, csv_path: Path, *, was_missing: bool) -> dic
     provenance.setdefault("transformations_applied", [])
     out["provenance"] = provenance
 
-    # freshness — preserve, ensure source_checked
     freshness = dict(payload.get("freshness") or {})
     freshness.setdefault("source_checked", out["created_at"] or MIGRATION_TS)
     out["freshness"] = freshness
 
-    # quality — preserve if present
     quality = payload.get("quality")
     if isinstance(quality, dict):
         out["quality"] = quality
 
-    # Versioning fields — preserve existing values
-    for key in ("superseded_by", "derived_from"):
+    for key in ("superseded_by", "derived_from", "replaces", "keywords"):
         if key in payload:
             out[key] = payload[key]
-    if "replaces" in payload:
-        out["replaces"] = payload["replaces"]
-    if "keywords" in payload:
-        out["keywords"] = payload["keywords"]
 
-    # Legacy-but-preserved fields used by older readers
+    # Legacy fields kept for older readers that still hit them directly.
     for legacy_key in ("csv_file", "units", "needs_review"):
         if legacy_key in payload:
             out[legacy_key] = payload[legacy_key]
@@ -256,27 +242,29 @@ def main(argv: list[str] | None = None) -> int:
     updates: list[tuple[Path, dict]] = []
     creations: list[tuple[Path, dict]] = []
 
+    meta_paths = sorted(DATA_DIR.rglob("*.meta.json"))
+
     # Pass 1: update existing sidecars
-    for meta_path in sorted(DATA_DIR.rglob("*.meta.json")):
+    for meta_path in meta_paths:
         try:
             payload = json.loads(meta_path.read_text(encoding="utf-8"))
         except Exception as exc:
             print(f"SKIP corrupted {meta_path}: {exc}", file=sys.stderr)
             continue
         csv_path = _csv_path_for(meta_path)
-        new_payload = _migrate_payload(payload, csv_path, was_missing=False)
+        new_payload = _migrate_payload(payload, csv_path)
         if new_payload != payload:
             updates.append((meta_path, new_payload))
 
     # Pass 2: create sidecars for CSVs without one
-    seen_csvs = {_csv_path_for(p) for p in DATA_DIR.rglob("*.meta.json")}
+    seen_csvs = {_csv_path_for(p) for p in meta_paths}
     for csv_path in sorted(DATA_DIR.rglob("*.csv")):
         if csv_path in seen_csvs:
             continue
         if csv_path.name == "catalog.json":
             continue
         meta_path = _meta_path_for(csv_path)
-        new_payload = _migrate_payload({}, csv_path, was_missing=True)
+        new_payload = _migrate_payload({}, csv_path)
         creations.append((meta_path, new_payload))
 
     print(f"Updates: {len(updates)} | Creations: {len(creations)}")
