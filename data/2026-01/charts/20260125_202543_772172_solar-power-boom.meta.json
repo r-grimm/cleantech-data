@@ -1,20 +1,17 @@
 {
   "title": "Solar Power Boom",
-  "description": "",
+  "description": "OCR-extrahierter Chart aus Ember, World Bank (Solar Power Boom); manuelle Pruefung des Datensatzes erforderlich.",
   "tags": [
     "cleantech",
     "ocr-extracted"
   ],
   "source": {
     "name": "Ember, World Bank",
-    "url": "https://x.com/RMantri/status/solar_power_boom",
+    "url": null,
     "import_type": "ocr"
   },
   "license": "CC-BY-4.0",
   "created_at": "2026-01-25T19:25:43.772963+00:00",
-  "csv_file": "20260125_202543_772172_solar-power-boom.csv",
-  "units": {},
-  "needs_review": true,
   "columns": {
     "Country": {
       "name": "Country"
@@ -33,5 +30,28 @@
     "Annotation": {
       "name": "Annotation"
     }
-  }
+  },
+  "status": "needs_review",
+  "data_period": {
+    "start": null,
+    "end": null,
+    "granularity": "irregular"
+  },
+  "provenance": {
+    "extraction_method": "ocr",
+    "extracted_by": "telegram-bot",
+    "extraction_date": "2026-01-25T19:25:43.772963+00:00",
+    "transformations_applied": [],
+    "original_source": {
+      "name": "Ember, World Bank",
+      "url": null,
+      "note": "Eingangskanal-URL (https://x.com/RMantri/status/solar_power_boom) entfernt — bitte echte Originalquelle (Studie / Bericht) waehrend des Reviews nachtragen. Memory-Hinweis: feedback_chart_original_sources."
+    }
+  },
+  "freshness": {
+    "source_checked": "2026-01-25T19:25:43.772963+00:00"
+  },
+  "csv_file": "20260125_202543_772172_solar-power-boom.csv",
+  "units": {},
+  "needs_review": true
 }

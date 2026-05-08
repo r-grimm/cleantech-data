@@ -1,0 +1,30 @@
+{
+  "title": "India Electrotech 2023 Comparison Transformed",
+  "description": "Datensatz 'India Electrotech 2023 Comparison Transformed' (Quelle: unbekannt); Migration_v2 Default-Beschreibung — bitte manuell ueberarbeiten.",
+  "tags": [],
+  "source": {
+    "name": "Unknown",
+    "url": null,
+    "import_type": "csv"
+  },
+  "license": "CC-BY-4.0",
+  "created_at": "2026-05-08T00:00:00+00:00",
+  "status": "needs_review",
+  "data_period": {
+    "start": null,
+    "end": null,
+    "granularity": "irregular"
+  },
+  "provenance": {
+    "extraction_method": "api",
+    "extracted_by": "migration_v2",
+    "extraction_date": "2026-05-08T00:00:00+00:00",
+    "transformations_applied": [
+      "pivot_country_categories"
+    ]
+  },
+  "freshness": {
+    "source_checked": "2026-05-08T00:00:00+00:00"
+  },
+  "derived_from": "data/2026-01/charts/india-electrotech-2023-comparison.csv"
+}

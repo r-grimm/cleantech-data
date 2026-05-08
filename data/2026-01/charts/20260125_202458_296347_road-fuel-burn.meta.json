@@ -1,20 +1,17 @@
 {
   "title": "Road Fuel Burn",
-  "description": "",
+  "description": "OCR-extrahierter Chart aus Ember, IEA, World Bank (Road Fuel Burn); manuelle Pruefung des Datensatzes erforderlich.",
   "tags": [
     "cleantech",
     "ocr-extracted"
   ],
   "source": {
     "name": "Ember, IEA, World Bank",
-    "url": "https://x.com/RMantri/status/road_fuel_burn",
+    "url": null,
     "import_type": "ocr"
   },
   "license": "CC-BY-4.0",
   "created_at": "2026-01-25T19:24:58.302369+00:00",
-  "csv_file": "20260125_202458_296347_road-fuel-burn.csv",
-  "units": {},
-  "needs_review": true,
   "columns": {
     "Country": {
       "name": "Country"
@@ -28,5 +25,28 @@
     "Annotation": {
       "name": "Annotation"
     }
-  }
+  },
+  "status": "needs_review",
+  "data_period": {
+    "start": null,
+    "end": null,
+    "granularity": "irregular"
+  },
+  "provenance": {
+    "extraction_method": "ocr",
+    "extracted_by": "telegram-bot",
+    "extraction_date": "2026-01-25T19:24:58.302369+00:00",
+    "transformations_applied": [],
+    "original_source": {
+      "name": "Ember, IEA, World Bank",
+      "url": null,
+      "note": "Eingangskanal-URL (https://x.com/RMantri/status/road_fuel_burn) entfernt — bitte echte Originalquelle (Studie / Bericht) waehrend des Reviews nachtragen. Memory-Hinweis: feedback_chart_original_sources."
+    }
+  },
+  "freshness": {
+    "source_checked": "2026-01-25T19:24:58.302369+00:00"
+  },
+  "csv_file": "20260125_202458_296347_road-fuel-burn.csv",
+  "units": {},
+  "needs_review": true
 }
