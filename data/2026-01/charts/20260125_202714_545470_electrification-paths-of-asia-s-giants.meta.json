@@ -7,7 +7,7 @@
   ],
   "source": {
     "name": "IEA; World Bank",
-    "url": "https://x.com/RMantri/status/electrification_paths",
+    "url": null,
     "import_type": "ocr"
   },
   "license": "CC-BY-4.0",
@@ -44,7 +44,12 @@
     "extraction_method": "ocr",
     "extracted_by": "telegram-bot",
     "extraction_date": "2026-01-25T19:27:14.546559+00:00",
-    "transformations_applied": []
+    "transformations_applied": [],
+    "original_source": {
+      "name": "IEA; World Bank",
+      "url": null,
+      "note": "Eingangskanal-URL (https://x.com/RMantri/status/electrification_paths) entfernt — bitte echte Originalquelle (Studie / Bericht) waehrend des Reviews nachtragen. Memory-Hinweis: feedback_chart_original_sources."
+    }
   },
   "freshness": {
     "source_checked": "2026-01-25T19:27:14.546559+00:00"

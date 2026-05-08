@@ -2,9 +2,9 @@
   "title": "Offshore Wind Capacity Germany 2009-2024",
   "description": "Installed offshore wind capacity in Germany from 2009 to 2024, based on Wikipedia/IRENA data. Shows the growth from early pilot projects to large-scale deployment.",
   "tags": [
-    "offshore wind",
-    "Germany",
-    "renewable energy",
+    "offshore-wind",
+    "germany",
+    "renewable-energy",
     "capacity",
     "generation"
   ],

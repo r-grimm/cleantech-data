@@ -3,12 +3,12 @@
   "description": "Daily electricity generation by source in Germany from 2020 to 2024. Includes Biomass, Coal (Hard Coal and Lignite), Gas, Hydro, Nuclear, Solar, and Wind (Offshore and Onshore). Values in GWh.",
   "tags": [
     "electricity",
-    "power generation",
-    "Germany",
-    "energy mix",
-    "renewable energy",
+    "power-generation",
+    "germany",
+    "energy-mix",
+    "renewable-energy",
     "daily",
-    "time series"
+    "time-series"
   ],
   "source": {
     "name": "SMARD/Bundesnetzagentur",

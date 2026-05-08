@@ -2,12 +2,12 @@
   "title": "Batteriespeicher Netzanschlussanfragen Deutschland",
   "description": "Netzanschlussanfragen nach Unternehmen und Technologie seit 2023 in Gigawatt. Daten zeigen Batteriespeicher als dominanteste Technologie bei deutschen Netzbetreibern (TenneT, 50Hertz, TransnetBW).",
   "tags": [
-    "Batteriespeicher",
-    "Netzanschluss",
-    "Energiewende",
-    "Deutschland",
-    "Infrastruktur",
-    "Handelsblatt"
+    "batteriespeicher",
+    "netzanschluss",
+    "energiewende",
+    "deutschland",
+    "infrastruktur",
+    "handelsblatt"
   ],
   "source": {
     "name": "Unknown",

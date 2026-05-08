@@ -31,6 +31,41 @@ DATA_DIR = REPO_ROOT / "data"
 MIGRATION_DATE = "2026-05-08"
 MIGRATION_TS = f"{MIGRATION_DATE}T00:00:00+00:00"
 MIN_DESCRIPTION_LENGTH = 50
+TAG_PATTERN = "^[a-z0-9]+(-[a-z0-9]+)*$"
+TAG_MIN_LENGTH = 2
+TAG_MAX_LENGTH = 50
+
+
+def _normalize_tag(tag: str) -> str:
+    """Mirror chart-engine tag_normalizer.normalize_tag — kebab-case lowercase."""
+    import re
+
+    if not tag or not isinstance(tag, str):
+        return ""
+    normalized = tag.strip().lower()
+    if not normalized:
+        return ""
+    normalized = re.sub(r"[\s_]+", "-", normalized)
+    normalized = re.sub(r"[^a-z0-9\-]", "", normalized)
+    normalized = re.sub(r"-+", "-", normalized).strip("-")
+    if len(normalized) > TAG_MAX_LENGTH:
+        normalized = normalized[:TAG_MAX_LENGTH].rstrip("-")
+    if len(normalized) < TAG_MIN_LENGTH:
+        return ""
+    return normalized
+
+
+def _normalize_tag_list(tags: Any) -> list[str]:
+    if not isinstance(tags, list):
+        return []
+    seen: set[str] = set()
+    normalized_list: list[str] = []
+    for tag in tags:
+        norm = _normalize_tag(str(tag))
+        if norm and norm not in seen:
+            seen.add(norm)
+            normalized_list.append(norm)
+    return normalized_list
 
 
 def _import_type_to_extraction_method(import_type: str) -> str:
@@ -138,7 +173,7 @@ def _migrate_payload(payload: dict, csv_path: Path, *, was_missing: bool) -> dic
         description = _default_description(title, source_name, is_ocr)
 
     out["description"] = description
-    out["tags"] = payload.get("tags") or []
+    out["tags"] = _normalize_tag_list(payload.get("tags") or [])
 
     out_source: dict = {
         "name": source_name or "Unknown",

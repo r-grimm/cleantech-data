@@ -2,15 +2,15 @@
   "title": "Die Schere: Solar-Kapazität vs. Jobs weltweit (2012–2024)",
   "description": "Vergleich der kumulierten globalen Solar-PV-Kapazität (GW) mit der Zahl der Solar-Jobs (Mio.) von 2012 bis 2024. Zeigt die wachsende Produktivitätslücke: Kapazität wächst seit 2012 fast 5x schneller als die Beschäftigung. Jobs/GW sanken von 13.600 (2012) auf 3.337 (2024), ein Rückgang von 76%. Treiber: größere Module, effizientere Logistik, Utility-Scale-Shift, Skaleneffekte.",
   "tags": [
-    "Solar",
-    "Jobs",
-    "Capacity",
-    "Productivity",
-    "Global",
-    "Irena",
-    "IEA",
-    "Energy Transition",
-    "Robotics Wave"
+    "solar",
+    "jobs",
+    "capacity",
+    "productivity",
+    "global",
+    "irena",
+    "iea",
+    "energy-transition",
+    "robotics-wave"
   ],
   "source": {
     "name": "International Renewable Energy Agency",
@@ -57,5 +57,9 @@
     "completeness": 1.0,
     "has_nulls": false,
     "validated": false
-  }
+  },
+  "replaces": [
+    "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv",
+    "data/2026-01/solar-schere-normalisiert-2012-2024.csv"
+  ]
 }
