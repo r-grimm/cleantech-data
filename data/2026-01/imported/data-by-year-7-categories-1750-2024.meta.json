@@ -4,6 +4,7 @@
   "tags": [],
   "source": {
     "name": "Newsletter Assistant Import",
+    "url": null,
     "import_type": "ocr"
   },
   "license": "Creative Commons Attribution 4.0 International",
@@ -33,5 +34,20 @@
     "France": {
       "name": "France"
     }
+  },
+  "status": "needs_review",
+  "data_period": {
+    "start": "1750",
+    "end": "2024",
+    "granularity": "annual"
+  },
+  "provenance": {
+    "extraction_method": "ocr",
+    "extracted_by": "telegram-bot",
+    "extraction_date": "2026-01-05T13:24:54.598090Z",
+    "transformations_applied": []
+  },
+  "freshness": {
+    "source_checked": "2026-01-05T13:24:54.598090Z"
   }
 }

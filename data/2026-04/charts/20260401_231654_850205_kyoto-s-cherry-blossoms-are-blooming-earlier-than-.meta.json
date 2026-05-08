@@ -1,6 +1,6 @@
 {
   "title": "Kyoto's Cherry Blossoms Are Blooming Earlier Than Any Time in Recorded History",
-  "description": "",
+  "description": "OCR-extrahierter Chart aus Aono & Kazui (2008), Aono & Saito (2010), Osaka Prefecture University; JMA; JMC. Original records from imperial court documents and diaries dating to 812 CE. 2026 value is JMC 9th forecast (Mar 19, 2026). (Kyoto's Cherry Blossoms Are Blooming Earlier Than Any Time in Recorded History); manuelle Pruefung des Datensatzes erforderlich.",
   "tags": [
     "cleantech",
     "ocr-extracted"
@@ -12,6 +12,21 @@
   },
   "license": "CC-BY-4.0",
   "created_at": "2026-04-01T21:16:54.851938+00:00",
+  "status": "needs_review",
+  "data_period": {
+    "start": "812",
+    "end": "2026",
+    "granularity": "annual"
+  },
+  "provenance": {
+    "extraction_method": "ocr",
+    "extracted_by": "telegram-bot",
+    "extraction_date": "2026-04-01T21:16:54.851938+00:00",
+    "transformations_applied": []
+  },
+  "freshness": {
+    "source_checked": "2026-04-01T21:16:54.851938+00:00"
+  },
   "csv_file": "20260401_231654_850205_kyoto-s-cherry-blossoms-are-blooming-earlier-than-.csv",
   "units": {},
   "needs_review": true
