@@ -1,0 +1,16 @@
+[
+  "data/2024-12/power-mix-germany-daily.csv",
+  "data/2025-11/windpower/0105_Leist_kum_M.csv",
+  "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
+  "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
+  "data/2025-12/batteriespeicher-netzanschlussanfragen-deutschland.csv",
+  "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv",
+  "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
+  "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv",
+  "data/2025-12/onshore-wind-capacity-germany-2009-2024.csv",
+  "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.csv",
+  "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv",
+  "data/2025-12/utility-scale-bess-deutschland-2020-2025.csv",
+  "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv",
+  "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
+]

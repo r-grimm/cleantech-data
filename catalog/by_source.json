@@ -1,0 +1,93 @@
+{
+  "Agency for Wind and Solar": [
+    "data/2025-11/windpower/0105_Leist_kum_M.csv"
+  ],
+  "Aono & Kazui (2008), Aono & Saito (2010), Osaka Prefecture University; JMA; JMC. Original records from imperial court documents and diaries dating to 812 CE. 2026 value is JMC 9th forecast (Mar 19, 2026).": [
+    "data/2026-04/charts/20260401_231654_850205_kyoto-s-cherry-blossoms-are-blooming-earlier-than-.csv"
+  ],
+  "Bernstein": [
+    "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv"
+  ],
+  "BloombergNEF": [
+    "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv"
+  ],
+  "Data: IEA; Note: Based on 50 corporate, financial and VC investors deploying $1 billion overall and $100 million or more in energy innovation since 2020; Chart: Axios Visuals": [
+    "data/2026-03/charts/20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.csv"
+  ],
+  "Ember, IEA, World Bank": [
+    "data/2026-01/charts/20260125_202458_296347_road-fuel-burn.csv"
+  ],
+  "Ember, World Bank": [
+    "data/2026-01/charts/20260125_202543_772172_solar-power-boom.csv"
+  ],
+  "Energietechnische Prognosen vs. Wirklichkeit: links für globale AKW-Leistung gemäß IAEA, rechts für Wind und PV-Leistung gemäß IEA. Aus: The \"Nuclear Energy Paradox\" - Investigating nuclear imaginaries in energy projections, in Energy Research & Social Science 135 (2026)": [
+    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv"
+  ],
+  "Global Oil and Gas Plant Tracker": [
+    "data/2026-03/charts/20260325_080027_466232_die-usa-bauen-gaskraftwerke-f-r-rechenzentren-mass.csv"
+  ],
+  "ICCT": [
+    "data/2026-03/zev-heavy-trucks-china-eu.csv"
+  ],
+  "IEA, IIASA, Ember analysis": [
+    "data/2026-01/charts/20260125_202633_757533_india-is-taking-the-electrotech-fast-track-bypassi.csv"
+  ],
+  "IEA; World Bank": [
+    "data/2026-01/charts/20260125_202714_545470_electrification-paths-of-asia-s-giants.csv"
+  ],
+  "IRENA Annual Reviews 2013-2026, IEA PVPS Snapshot 2025, Fraunhofer ISE PV Report 2024": [
+    "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv"
+  ],
+  "Intercalation Station • Created with Datawrapper": [
+    "data/2026-04/charts/20260403_081625_259313_top-movers.csv",
+    "data/2026-04/charts/20260403_081719_863188_lithium-ion-cell-prices.csv"
+  ],
+  "International Renewable Energy Agency": [
+    "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
+  ],
+  "KfW Research, FCF CleanTech Report, Cleantech for Europe": [
+    "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv"
+  ],
+  "Newsletter Assistant Import": [
+    "data/2026-01/imported/data-by-year-7-categories-1750-2024.csv"
+  ],
+  "Rupert Way (2026) based on Ziegler and Trancik (2021), BloombergNEF, and Avicenne Energy": [
+    "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv"
+  ],
+  "SMARD/Bundesnetzagentur": [
+    "data/2024-12/power-mix-germany-daily.csv"
+  ],
+  "Sightline Climate": [
+    "data/2026-04/charts/20260403_093249_215401_us-data-center-build-out.csv"
+  ],
+  "Sightline Climate, 2025 Investment Trends, March 2026": [
+    "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
+    "data/2026-03/charts/20260324_120000_000002_new-climate-funds-value-and-count-2025.csv",
+    "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv"
+  ],
+  "Tennet": [
+    "data/2026-03/charts/20260325_075738_933895_viele-netzanfragen-warten-noch-auf-eine-genehmigun.csv"
+  ],
+  "Unknown": [
+    "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
+    "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
+    "data/2025-12/batteriespeicher-netzanschlussanfragen-deutschland.csv",
+    "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv",
+    "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
+    "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv",
+    "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.csv",
+    "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv",
+    "data/2025-12/utility-scale-bess-deutschland-2020-2025.csv",
+    "data/2026-01/charts/india-electrotech-2023-comparison.csv",
+    "data/2026-01/charts/india-electrotech-2023-comparison_transformed.csv",
+    "data/2026-01/solar-schere-normalisiert-2012-2024.csv",
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
+    "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+  ],
+  "Wikipedia/IRENA": [
+    "data/2025-12/onshore-wind-capacity-germany-2009-2024.csv"
+  ],
+  "sightline climate": [
+    "data/2026-03/charts/20260324_150152_049883_geothermal-sector-investment-2020-2026-ytd-bn.csv"
+  ]
+}

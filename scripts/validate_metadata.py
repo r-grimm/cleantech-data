@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """Validate sidecar `.meta.json` files against the canonical JSON-Schema.
 
-Welle 1 U1. The canonical schema (`schemas/dataset_meta.schema.json`) is exported
-from chart-engine's Pydantic model via `chart-engine-export-schema`. This script
-is the local + CI gate that confirms every sidecar matches.
+The canonical schema (`schemas/dataset_meta.schema.json`) is exported from
+chart-engine's Pydantic model via `chart-engine-export-schema`. This script
+is the local + CI gate that confirms every sidecar matches; exits non-zero
+on any violation.
 
 Usage:
-    python scripts/validate_metadata.py                         # all sidecars
+    python scripts/validate_metadata.py                              # all sidecars
     python scripts/validate_metadata.py data/2026-05/foo.meta.json   # one file
-    python scripts/validate_metadata.py --check                 # exit non-zero on error
 """
 
 from __future__ import annotations
@@ -35,20 +35,18 @@ def load_schema() -> dict:
     return json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
 
 
-def validate_file(path: Path, schema: dict) -> list[str]:
+def validate_file(path: Path, validator: jsonschema.protocols.Validator) -> list[str]:
     """Return list of error messages, empty list if valid."""
     try:
         payload = json.loads(path.read_text(encoding="utf-8"))
     except json.JSONDecodeError as exc:
         return [f"{path.relative_to(REPO_ROOT)}: invalid JSON: {exc}"]
 
-    try:
-        jsonschema.validate(instance=payload, schema=schema)
-    except jsonschema.ValidationError as exc:
-        # Build a user-friendly path indicator from the JSON-pointer
+    errors: list[str] = []
+    for exc in validator.iter_errors(payload):
         location = "/".join(str(p) for p in exc.absolute_path) or "(root)"
-        return [f"{path.relative_to(REPO_ROOT)}: {location}: {exc.message}"]
-    return []
+        errors.append(f"{path.relative_to(REPO_ROOT)}: {location}: {exc.message}")
+    return errors
 
 
 def collect_targets(args_paths: list[str]) -> list[Path]:
@@ -71,11 +69,6 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "paths", nargs="*", help="Specific .meta.json files or dirs (default: data/)"
     )
-    parser.add_argument(
-        "--check",
-        action="store_true",
-        help="Exit non-zero on any error (CI mode). Default already exits non-zero.",
-    )
     args = parser.parse_args(argv)
 
     try:
@@ -89,9 +82,15 @@ def main(argv: list[str] | None = None) -> int:
         print("WARN: no sidecars to validate.")
         return 0
 
+    # Compile the validator once and reuse it across all sidecars; jsonschema.validate()
+    # rebuilds the meta-validator on every call, which adds up over hundreds of files.
+    validator_cls = jsonschema.validators.validator_for(schema)
+    validator_cls.check_schema(schema)
+    validator = validator_cls(schema)
+
     errors: list[str] = []
     for path in targets:
-        errors.extend(validate_file(path, schema))
+        errors.extend(validate_file(path, validator))
 
     if errors:
         print(f"FAILED: {len(errors)} sidecar(s) violate schema:", file=sys.stderr)
