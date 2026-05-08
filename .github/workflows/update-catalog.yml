@@ -13,6 +13,10 @@ permissions:
 jobs:
   update-catalog:
     runs-on: ubuntu-latest
+    # Welle 4: never re-trigger ourselves. The path filter would already
+    # prevent looping (data/catalog.json isn't in the trigger paths), but the
+    # actor check is defense-in-depth and survives any future path change.
+    if: github.actor != 'github-actions[bot]'
     # Prevent concurrent runs to avoid race conditions on catalog.json
     concurrency:
       group: catalog-update

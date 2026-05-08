@@ -23,3 +23,9 @@ repos:
         language: system
         pass_filenames: false
         always_run: true
+      - id: validate-data
+        name: Detect fake/duplicate CSV bodies (Welle 4 U15)
+        entry: python scripts/validate_data.py
+        language: system
+        pass_filenames: true
+        files: '^data/.*\.csv$'
