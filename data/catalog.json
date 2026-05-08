@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-08T12:12:17.436266+00:00",
-  "total_datasets": 41,
+  "generated_at": "2026-05-08T12:17:55.005467+00:00",
+  "total_datasets": 40,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -784,34 +784,6 @@
       "thematic_name": "charts",
       "year_month": "2026-03",
       "filename": "20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-      "has_metadata": true,
-      "freshness_score": null,
-      "freshness_status": null,
-      "freshness_indicator": null,
-      "data_as_of": null,
-      "source_reliability": null,
-      "days_since_check": null,
-      "warning": null
-    },
-    {
-      "csv_path": "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-      "metadata_path": "data/2026-03/charts/20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.meta.json",
-      "title": "Chinas Strommix-Transformation bis 2060 (Szenario ERI/CETO)",
-      "description": "OCR-extrahierter Chart aus unbekannter Quelle (Chinas Strommix-Transformation bis 2060 (Szenario ERI/CETO)); manuelle Pruefung des Datensatzes erforderlich.",
-      "source": {
-        "name": "Unknown",
-        "url": "",
-        "import_type": "ocr"
-      },
-      "tags": [
-        "cleantech",
-        "ocr-extracted"
-      ],
-      "license": "CC-BY-4.0",
-      "created_at": "2026-03-20T09:59:28.463433+00:00",
-      "thematic_name": "charts",
-      "year_month": "2026-03",
-      "filename": "20260320_105928_461872_chinas-strommix-transformation-bis-2060-szenario-e.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
