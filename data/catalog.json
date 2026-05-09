@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-08T12:17:55.005467+00:00",
+  "generated_at": "2026-05-09T07:34:48.025543+00:00",
   "total_datasets": 40,
   "datasets": [
     {
@@ -173,8 +173,8 @@
       "title": "Flächennutzung für erneuerbare Energien Deutschland 2024",
       "description": "Nutzung landwirtschaftlicher Flächen für erneuerbare Energien in Deutschland (Stand Ende 2024). Quelle: UBA nach Daten der FNR (2025, geschätzte Werte) und Kelm et al. (2025).",
       "source": {
-        "name": "Unknown",
-        "url": null,
+        "name": "Umweltbundesamt (UBA), Hintergrundpapier Erneuerbare Energien März 2025",
+        "url": "https://www.umweltbundesamt.de/sites/default/files/medien/479/publikationen/hgp_erneuerbareenergien_2024.pdf",
         "import_type": "csv"
       },
       "tags": [
@@ -706,7 +706,7 @@
       "description": "Venture Capital Investitionen in Cleantech-Startups in Deutschland, 2020-2024",
       "source": {
         "name": "KfW Research, FCF CleanTech Report, Cleantech for Europe",
-        "url": null,
+        "url": "https://www.kfw.de/PDF/Download-Center/Konzernthemen/Research/PDF-Dokumente-Dashboard/KfW-VC-Dashboard-Q4-2024.pdf",
         "import_type": "csv"
       },
       "tags": [
