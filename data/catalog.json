@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-09T17:35:14.224015+00:00",
+  "generated_at": "2026-05-09T17:35:25.888679+00:00",
   "total_datasets": 41,
   "datasets": [
     {
@@ -1202,23 +1202,28 @@
     },
     {
       "csv_path": "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv",
-      "metadata_path": null,
-      "title": "Spain S Electricity Among Europe S Cheapest",
-      "description": "Dataset: Spain S Electricity Among Europe S Cheapest",
+      "metadata_path": "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.meta.json",
+      "title": "Spain's electricity among Europe's cheapest",
+      "description": "Average day-ahead wholesale electricity prices in Europe, comparing full-year 2025 with Jan-Apr 2026. Extracted from Jan Rosenow chart posted on X on 2026-05-09; OCR requires review.",
       "source": {
-        "name": "Unknown",
-        "url": null,
+        "name": "ENTSO-E Transparency Platform",
+        "url": "https://x.com/janrosenow/status/2053050513692709226",
         "import_type": "csv"
       },
       "tags": [
-        "electricity-prices"
+        "Electricity Prices",
+        "Spain",
+        "Europe",
+        "Day-Ahead",
+        "Wholesale Power",
+        "OCR Review"
       ],
-      "license": "Unknown",
-      "created_at": null,
+      "license": "Creative Commons Attribution 4.0 International",
+      "created_at": "2026-05-09T17:35:04.731055+00:00",
       "thematic_name": "electricity-prices",
       "year_month": "2026-05",
       "filename": "spain-s-electricity-among-europe-s-cheapest.csv",
-      "has_metadata": false,
+      "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
       "freshness_indicator": null,
