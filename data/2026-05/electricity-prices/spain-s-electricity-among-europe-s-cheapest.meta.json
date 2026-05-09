@@ -1,0 +1,47 @@
+{
+  "title": "Spain's electricity among Europe's cheapest",
+  "description": "Average day-ahead wholesale electricity prices in Europe, comparing full-year 2025 with Jan-Apr 2026. Extracted from Jan Rosenow chart posted on X on 2026-05-09; OCR requires review.",
+  "tags": [
+    "Electricity Prices",
+    "Spain",
+    "Europe",
+    "Day-Ahead",
+    "Wholesale Power",
+    "OCR Review"
+  ],
+  "source": {
+    "name": "ENTSO-E Transparency Platform",
+    "url": "https://x.com/janrosenow/status/2053050513692709226",
+    "import_type": "csv"
+  },
+  "license": "Creative Commons Attribution 4.0 International",
+  "created_at": "2026-05-09T17:35:04.731055+00:00",
+  "columns": {
+    "Country": {
+      "name": "Country"
+    },
+    "Full year 2025 (EUR/MWh)": {
+      "name": "Full year 2025 (EUR/MWh)"
+    },
+    "Jan-Apr 2026 (EUR/MWh)": {
+      "name": "Jan-Apr 2026 (EUR/MWh)"
+    }
+  },
+  "freshness": {
+    "source_checked": "2026-05-09T17:35:04.731055+00:00"
+  },
+  "provenance": {
+    "extraction_method": "manual",
+    "transformations_applied": [],
+    "extracted_by": "mcp",
+    "extraction_date": "2026-05-09T17:35:04.731055+00:00"
+  },
+  "quality": {
+    "completeness": 1.0,
+    "has_nulls": false,
+    "validated": false
+  },
+  "status": "active",
+  "replaces": [],
+  "keywords": []
+}
