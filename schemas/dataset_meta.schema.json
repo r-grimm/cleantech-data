@@ -498,6 +498,19 @@
           "default": null,
           "description": "Optional validation notes",
           "title": "Validation Notes"
+        },
+        "review_notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Operator-facing review marker (Welle 5). Set when intake skipped a required signal (e.g., source.url missing on /skip) so review queues can surface the gap.",
+          "title": "Review Notes"
         }
       },
       "title": "QualityMetadata",
@@ -734,6 +747,40 @@
         "properties": {
           "description": {
             "minLength": 50
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "active"
+          },
+          "source": {
+            "properties": {
+              "import_type": {
+                "enum": [
+                  "csv",
+                  "api"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "source": {
+            "required": [
+              "url"
+            ],
+            "properties": {
+              "url": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
           }
         }
       }
