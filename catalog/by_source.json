@@ -14,6 +14,9 @@
   "Data: IEA; Note: Based on 50 corporate, financial and VC investors deploying $1 billion overall and $100 million or more in energy innovation since 2020; Chart: Axios Visuals": [
     "data/2026-03/charts/20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.csv"
   ],
+  "ENTSO-E Transparency Platform": [
+    "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
+  ],
   "Ember, IEA, World Bank": [
     "data/2026-01/charts/20260125_202458_296347_road-fuel-burn.csv"
   ],

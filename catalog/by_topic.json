@@ -22,6 +22,9 @@
     "data/2026-04/charts/20260403_081719_863188_lithium-ion-cell-prices.csv",
     "data/2026-04/charts/20260403_093249_215401_us-data-center-build-out.csv"
   ],
+  "electricity-prices": [
+    "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
+  ],
   "energy": [
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
   ],
