@@ -12,8 +12,8 @@
     "2024"
   ],
   "source": {
-    "name": "Unknown",
-    "url": null,
+    "name": "Umweltbundesamt (UBA), Hintergrundpapier Erneuerbare Energien März 2025",
+    "url": "https://www.umweltbundesamt.de/sites/default/files/medien/479/publikationen/hgp_erneuerbareenergien_2024.pdf",
     "import_type": "csv"
   },
   "license": "CC-BY-4.0",
