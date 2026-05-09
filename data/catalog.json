@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-09T07:34:48.025543+00:00",
-  "total_datasets": 40,
+  "generated_at": "2026-05-09T17:35:14.224015+00:00",
+  "total_datasets": 41,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -1192,6 +1192,33 @@
       "year_month": "2026-04",
       "filename": "20260403_093249_215401_us-data-center-build-out.csv",
       "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv",
+      "metadata_path": null,
+      "title": "Spain S Electricity Among Europe S Cheapest",
+      "description": "Dataset: Spain S Electricity Among Europe S Cheapest",
+      "source": {
+        "name": "Unknown",
+        "url": null,
+        "import_type": "csv"
+      },
+      "tags": [
+        "electricity-prices"
+      ],
+      "license": "Unknown",
+      "created_at": null,
+      "thematic_name": "electricity-prices",
+      "year_month": "2026-05",
+      "filename": "spain-s-electricity-among-europe-s-cheapest.csv",
+      "has_metadata": false,
       "freshness_score": null,
       "freshness_status": null,
       "freshness_indicator": null,
