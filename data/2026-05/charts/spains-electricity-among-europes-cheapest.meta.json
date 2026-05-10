@@ -1,0 +1,41 @@
+{
+  "title": "Spain’s electricity among Europe’s cheapest",
+  "description": "Auto-stored via parse_*_url (chart_submission) from https://x.com/janrosenow/status/2053050513692709226. Refine title and description with update_dataset_metadata after review.",
+  "tags": [],
+  "source": {
+    "name": "Ember",
+    "url": "https://x.com/janrosenow/status/2053050513692709226",
+    "import_type": "ocr"
+  },
+  "license": "Creative Commons Attribution 4.0 International",
+  "created_at": "2026-05-10T20:05:27.165069+00:00",
+  "columns": {
+    "Country": {
+      "name": "Country"
+    },
+    "Full year 2025": {
+      "name": "Full year 2025"
+    },
+    "Jan-Apr 2026": {
+      "name": "Jan-Apr 2026"
+    }
+  },
+  "freshness": {
+    "source_checked": "2026-05-10T20:05:27.165069+00:00"
+  },
+  "provenance": {
+    "extraction_method": "ocr",
+    "transformations_applied": [],
+    "extracted_by": "mcp",
+    "extraction_date": "2026-05-10T20:05:27.165069+00:00"
+  },
+  "quality": {
+    "completeness": 1.0,
+    "has_nulls": false,
+    "validated": false,
+    "review_notes": "OCR-Auto-Store via ingest_chart_submission; Originalquelle muss verifiziert werden"
+  },
+  "status": "active",
+  "replaces": [],
+  "keywords": []
+}
