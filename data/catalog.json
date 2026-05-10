@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-10T20:05:36.156072+00:00",
+  "generated_at": "2026-05-10T20:48:12.068964+00:00",
   "total_datasets": 42,
   "datasets": [
     {
@@ -1202,23 +1202,21 @@
     },
     {
       "csv_path": "data/2026-05/charts/spains-electricity-among-europes-cheapest.csv",
-      "metadata_path": null,
-      "title": "Spains Electricity Among Europes Cheapest",
-      "description": "Dataset: Spains Electricity Among Europes Cheapest",
+      "metadata_path": "data/2026-05/charts/spains-electricity-among-europes-cheapest.meta.json",
+      "title": "Spain’s electricity among Europe’s cheapest",
+      "description": "Auto-stored via parse_*_url (chart_submission) from https://x.com/janrosenow/status/2053050513692709226. Refine title and description with update_dataset_metadata after review.",
       "source": {
-        "name": "Unknown",
-        "url": null,
-        "import_type": "csv"
+        "name": "Ember",
+        "url": "https://x.com/janrosenow/status/2053050513692709226",
+        "import_type": "ocr"
       },
-      "tags": [
-        "charts"
-      ],
-      "license": "Unknown",
-      "created_at": null,
+      "tags": [],
+      "license": "Creative Commons Attribution 4.0 International",
+      "created_at": "2026-05-10T20:05:27.165069+00:00",
       "thematic_name": "charts",
       "year_month": "2026-05",
       "filename": "spains-electricity-among-europes-cheapest.csv",
-      "has_metadata": false,
+      "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
       "freshness_indicator": null,
@@ -1238,12 +1236,12 @@
         "import_type": "csv"
       },
       "tags": [
-        "Electricity Prices",
-        "Spain",
-        "Europe",
-        "Day-Ahead",
-        "Wholesale Power",
-        "OCR Review"
+        "electricity-prices",
+        "spain",
+        "europe",
+        "day-ahead",
+        "wholesale-power",
+        "ocr-review"
       ],
       "license": "Creative Commons Attribution 4.0 International",
       "created_at": "2026-05-09T17:35:04.731055+00:00",

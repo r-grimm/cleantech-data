@@ -2,24 +2,6 @@
   "2024": [
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
   ],
-  "Day-Ahead": [
-    "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
-  ],
-  "Electricity Prices": [
-    "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
-  ],
-  "Europe": [
-    "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
-  ],
-  "OCR Review": [
-    "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
-  ],
-  "Spain": [
-    "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
-  ],
-  "Wholesale Power": [
-    "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
-  ],
   "agee-stat": [
     "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.csv"
   ],
@@ -118,6 +100,9 @@
   "daily": [
     "data/2024-12/power-mix-germany-daily.csv"
   ],
+  "day-ahead": [
+    "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
+  ],
   "deutschland": [
     "data/2025-12/batteriespeicher-netzanschlussanfragen-deutschland.csv",
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv",
@@ -131,6 +116,9 @@
   ],
   "electricity": [
     "data/2024-12/power-mix-germany-daily.csv"
+  ],
+  "electricity-prices": [
+    "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
   ],
   "energie": [
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
@@ -164,7 +152,8 @@
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv"
   ],
   "europe": [
-    "data/2026-03/charts/20260324_120000_000002_new-climate-funds-value-and-count-2025.csv"
+    "data/2026-03/charts/20260324_120000_000002_new-climate-funds-value-and-count-2025.csv",
+    "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
   ],
   "finanzierung": [
     "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv"
@@ -262,6 +251,9 @@
     "data/2026-04/charts/20260403_081719_863188_lithium-ion-cell-prices.csv",
     "data/2026-04/charts/20260403_093249_215401_us-data-center-build-out.csv"
   ],
+  "ocr-review": [
+    "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
+  ],
   "offshore-wind": [
     "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv"
   ],
@@ -300,6 +292,9 @@
     "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv",
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
   ],
+  "spain": [
+    "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
+  ],
   "stahl": [
     "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv"
   ],
@@ -326,6 +321,9 @@
     "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv",
     "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
     "data/2026-03/charts/20260324_120000_000002_new-climate-funds-value-and-count-2025.csv"
+  ],
+  "wholesale-power": [
+    "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
   ],
   "wind-energy": [
     "data/2025-11/windpower/0105_Leist_kum_M.csv"
