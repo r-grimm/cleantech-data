@@ -17,6 +17,9 @@
   "ENTSO-E Transparency Platform": [
     "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
   ],
+  "Ember": [
+    "data/2026-05/charts/spains-electricity-among-europes-cheapest.csv"
+  ],
   "Ember, IEA, World Bank": [
     "data/2026-01/charts/20260125_202458_296347_road-fuel-burn.csv"
   ],
