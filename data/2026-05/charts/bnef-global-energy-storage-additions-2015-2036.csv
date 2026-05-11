@@ -1,0 +1,442 @@
+Year,series,value
+2015,China,0
+2016,China,0
+2017,China,0
+2018,China,1
+2019,China,1
+2020,China,2
+2021,China,4
+2022,China,10
+2023,China,30
+2024,China,40
+2025,China,60
+2026,China,75
+2027,China,85
+2028,China,90
+2029,China,95
+2030,China,100
+2031,China,105
+2032,China,110
+2033,China,120
+2034,China,130
+2035,China,140
+2015,India,0
+2016,India,0
+2017,India,0
+2018,India,0
+2019,India,0
+2020,India,0
+2021,India,0
+2022,India,0
+2023,India,0
+2024,India,1
+2025,India,2
+2026,India,3
+2027,India,4
+2028,India,5
+2029,India,6
+2030,India,7
+2031,India,8
+2032,India,9
+2033,India,10
+2034,India,11
+2035,India,12
+2015,Australia,0
+2016,Australia,0
+2017,Australia,0
+2018,Australia,0
+2019,Australia,0
+2020,Australia,0
+2021,Australia,1
+2022,Australia,1
+2023,Australia,2
+2024,Australia,3
+2025,Australia,4
+2026,Australia,5
+2027,Australia,6
+2028,Australia,7
+2029,Australia,8
+2030,Australia,9
+2031,Australia,10
+2032,Australia,11
+2033,Australia,12
+2034,Australia,13
+2035,Australia,14
+2015,Japan,0
+2016,Japan,0
+2017,Japan,0
+2018,Japan,0
+2019,Japan,0
+2020,Japan,0
+2021,Japan,0
+2022,Japan,0
+2023,Japan,0
+2024,Japan,1
+2025,Japan,1
+2026,Japan,1
+2027,Japan,2
+2028,Japan,2
+2029,Japan,2
+2030,Japan,3
+2031,Japan,3
+2032,Japan,3
+2033,Japan,4
+2034,Japan,4
+2035,Japan,4
+2015,South Korea,0
+2016,South Korea,1
+2017,South Korea,1
+2018,South Korea,2
+2019,South Korea,2
+2020,South Korea,2
+2021,South Korea,2
+2022,South Korea,2
+2023,South Korea,2
+2024,South Korea,2
+2025,South Korea,2
+2026,South Korea,2
+2027,South Korea,2
+2028,South Korea,2
+2029,South Korea,2
+2030,South Korea,2
+2031,South Korea,2
+2032,South Korea,2
+2033,South Korea,2
+2034,South Korea,2
+2035,South Korea,2
+2015,Southeast Asia,0
+2016,Southeast Asia,0
+2017,Southeast Asia,0
+2018,Southeast Asia,0
+2019,Southeast Asia,0
+2020,Southeast Asia,0
+2021,Southeast Asia,0
+2022,Southeast Asia,0
+2023,Southeast Asia,0
+2024,Southeast Asia,0
+2025,Southeast Asia,0
+2026,Southeast Asia,1
+2027,Southeast Asia,1
+2028,Southeast Asia,1
+2029,Southeast Asia,2
+2030,Southeast Asia,2
+2031,Southeast Asia,2
+2032,Southeast Asia,3
+2033,Southeast Asia,3
+2034,Southeast Asia,3
+2035,Southeast Asia,4
+2015,US,1
+2016,US,1
+2017,US,1
+2018,US,1
+2019,US,1
+2020,US,2
+2021,US,3
+2022,US,5
+2023,US,10
+2024,US,15
+2025,US,20
+2026,US,25
+2027,US,30
+2028,US,35
+2029,US,40
+2030,US,45
+2031,US,50
+2032,US,55
+2033,US,60
+2034,US,65
+2035,US,70
+2015,Latin America,0
+2016,Latin America,0
+2017,Latin America,0
+2018,Latin America,0
+2019,Latin America,0
+2020,Latin America,0
+2021,Latin America,0
+2022,Latin America,0
+2023,Latin America,0
+2024,Latin America,1
+2025,Latin America,2
+2026,Latin America,3
+2027,Latin America,4
+2028,Latin America,5
+2029,Latin America,6
+2030,Latin America,7
+2031,Latin America,8
+2032,Latin America,9
+2033,Latin America,10
+2034,Latin America,11
+2035,Latin America,12
+2015,Canada,0
+2016,Canada,0
+2017,Canada,0
+2018,Canada,0
+2019,Canada,0
+2020,Canada,0
+2021,Canada,0
+2022,Canada,0
+2023,Canada,0
+2024,Canada,0
+2025,Canada,1
+2026,Canada,1
+2027,Canada,2
+2028,Canada,2
+2029,Canada,3
+2030,Canada,3
+2031,Canada,4
+2032,Canada,4
+2033,Canada,5
+2034,Canada,5
+2035,Canada,6
+2015,Germany,0
+2016,Germany,0
+2017,Germany,0
+2018,Germany,0
+2019,Germany,0
+2020,Germany,1
+2021,Germany,1
+2022,Germany,1
+2023,Germany,2
+2024,Germany,3
+2025,Germany,4
+2026,Germany,5
+2027,Germany,6
+2028,Germany,7
+2029,Germany,8
+2030,Germany,9
+2031,Germany,10
+2032,Germany,11
+2033,Germany,12
+2034,Germany,13
+2035,Germany,14
+2015,Italy,0
+2016,Italy,0
+2017,Italy,0
+2018,Italy,0
+2019,Italy,0
+2020,Italy,0
+2021,Italy,0
+2022,Italy,0
+2023,Italy,0
+2024,Italy,1
+2025,Italy,2
+2026,Italy,3
+2027,Italy,4
+2028,Italy,5
+2029,Italy,6
+2030,Italy,7
+2031,Italy,8
+2032,Italy,9
+2033,Italy,10
+2034,Italy,11
+2035,Italy,12
+2015,UK,0
+2016,UK,0
+2017,UK,0
+2018,UK,0
+2019,UK,0
+2020,UK,0
+2021,UK,0
+2022,UK,1
+2023,UK,2
+2024,UK,3
+2025,UK,4
+2026,UK,5
+2027,UK,6
+2028,UK,7
+2029,UK,8
+2030,UK,9
+2031,UK,10
+2032,UK,11
+2033,UK,12
+2034,UK,13
+2035,UK,14
+2015,France,0
+2016,France,0
+2017,France,0
+2018,France,0
+2019,France,0
+2020,France,0
+2021,France,0
+2022,France,0
+2023,France,0
+2024,France,0
+2025,France,1
+2026,France,1
+2027,France,2
+2028,France,2
+2029,France,3
+2030,France,3
+2031,France,4
+2032,France,4
+2033,France,5
+2034,France,5
+2035,France,6
+2015,Iberia,0
+2016,Iberia,0
+2017,Iberia,0
+2018,Iberia,0
+2019,Iberia,0
+2020,Iberia,0
+2021,Iberia,0
+2022,Iberia,0
+2023,Iberia,0
+2024,Iberia,0
+2025,Iberia,1
+2026,Iberia,1
+2027,Iberia,2
+2028,Iberia,2
+2029,Iberia,3
+2030,Iberia,3
+2031,Iberia,4
+2032,Iberia,4
+2033,Iberia,5
+2034,Iberia,5
+2035,Iberia,6
+2015,Poland,0
+2016,Poland,0
+2017,Poland,0
+2018,Poland,0
+2019,Poland,0
+2020,Poland,0
+2021,Poland,0
+2022,Poland,0
+2023,Poland,0
+2024,Poland,0
+2025,Poland,0
+2026,Poland,1
+2027,Poland,1
+2028,Poland,1
+2029,Poland,2
+2030,Poland,2
+2031,Poland,2
+2032,Poland,3
+2033,Poland,3
+2034,Poland,3
+2035,Poland,4
+2015,Other Europe,0
+2016,Other Europe,0
+2017,Other Europe,0
+2018,Other Europe,0
+2019,Other Europe,0
+2020,Other Europe,0
+2021,Other Europe,0
+2022,Other Europe,0
+2023,Other Europe,1
+2024,Other Europe,2
+2025,Other Europe,3
+2026,Other Europe,4
+2027,Other Europe,5
+2028,Other Europe,6
+2029,Other Europe,7
+2030,Other Europe,8
+2031,Other Europe,9
+2032,Other Europe,10
+2033,Other Europe,11
+2034,Other Europe,12
+2035,Other Europe,13
+2015,MENA,0
+2016,MENA,0
+2017,MENA,0
+2018,MENA,0
+2019,MENA,0
+2020,MENA,0
+2021,MENA,0
+2022,MENA,0
+2023,MENA,0
+2024,MENA,0
+2025,MENA,1
+2026,MENA,1
+2027,MENA,2
+2028,MENA,2
+2029,MENA,3
+2030,MENA,3
+2031,MENA,4
+2032,MENA,4
+2033,MENA,5
+2034,MENA,5
+2035,MENA,6
+2015,Sub-Saharan Africa,0
+2016,Sub-Saharan Africa,0
+2017,Sub-Saharan Africa,0
+2018,Sub-Saharan Africa,0
+2019,Sub-Saharan Africa,0
+2020,Sub-Saharan Africa,0
+2021,Sub-Saharan Africa,0
+2022,Sub-Saharan Africa,0
+2023,Sub-Saharan Africa,0
+2024,Sub-Saharan Africa,0
+2025,Sub-Saharan Africa,1
+2026,Sub-Saharan Africa,1
+2027,Sub-Saharan Africa,2
+2028,Sub-Saharan Africa,2
+2029,Sub-Saharan Africa,3
+2030,Sub-Saharan Africa,3
+2031,Sub-Saharan Africa,4
+2032,Sub-Saharan Africa,4
+2033,Sub-Saharan Africa,5
+2034,Sub-Saharan Africa,5
+2035,Sub-Saharan Africa,6
+2015,Turkey,0
+2016,Turkey,0
+2017,Turkey,0
+2018,Turkey,0
+2019,Turkey,0
+2020,Turkey,0
+2021,Turkey,0
+2022,Turkey,0
+2023,Turkey,0
+2024,Turkey,0
+2025,Turkey,0
+2026,Turkey,0
+2027,Turkey,1
+2028,Turkey,1
+2029,Turkey,1
+2030,Turkey,2
+2031,Turkey,2
+2032,Turkey,2
+2033,Turkey,3
+2034,Turkey,3
+2035,Turkey,3
+2015,Rest of World,0
+2016,Rest of World,0
+2017,Rest of World,0
+2018,Rest of World,0
+2019,Rest of World,0
+2020,Rest of World,0
+2021,Rest of World,0
+2022,Rest of World,0
+2023,Rest of World,0
+2024,Rest of World,0
+2025,Rest of World,1
+2026,Rest of World,2
+2027,Rest of World,3
+2028,Rest of World,4
+2029,Rest of World,5
+2030,Rest of World,6
+2031,Rest of World,7
+2032,Rest of World,8
+2033,Rest of World,9
+2034,Rest of World,10
+2035,Rest of World,11
+2015,Buffer,0
+2016,Buffer,0
+2017,Buffer,0
+2018,Buffer,0
+2019,Buffer,0
+2020,Buffer,0
+2021,Buffer,0
+2022,Buffer,0
+2023,Buffer,0
+2024,Buffer,0
+2025,Buffer,0
+2026,Buffer,15
+2027,Buffer,15
+2028,Buffer,15
+2029,Buffer,15
+2030,Buffer,15
+2031,Buffer,15
+2032,Buffer,15
+2033,Buffer,15
+2034,Buffer,15
+2035,Buffer,15

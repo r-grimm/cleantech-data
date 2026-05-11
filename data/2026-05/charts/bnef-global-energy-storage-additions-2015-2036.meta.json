@@ -1,0 +1,46 @@
+{
+  "title": "Global energy storage additions by market (2015-2036)",
+  "description": "Yearly battery energy storage additions worldwide in GW, broken down by 21 markets (China, US, Germany, UK, Italy, France, Iberia, Poland, Other Europe, MENA, Sub-Saharan Africa, Turkey, Australia, India, Japan, South Korea, Southeast Asia, Latin America, Canada, Rest of World) plus a Buffer category (estimated capacity not allocated to any specific region or application). Excludes pumped hydro plants. EMEA = Europe, Middle East and Africa; AMER = Americas; APAC = Asia Pacific.",
+  "tags": ["battery-storage", "bess", "global", "china", "forecast", "bnef", "annual-additions"],
+  "source": {
+    "name": "BloombergNEF",
+    "url": "https://www.erneuerbareenergien.de/transformation/speicher/welt-steuert-auf-terawatt-speicherkapazitaet-zu",
+    "import_type": "ocr",
+    "original_image_url": "https://www.erneuerbareenergien.de/sites/default/files/aurora/2026/05/535173.jpeg",
+    "publication_url_secondary": "https://www.erneuerbareenergien.de/transformation/speicher/welt-steuert-auf-terawatt-speicherkapazitaet-zu"
+  },
+  "license": "unknown",
+  "created_at": "2026-05-11T12:00:00+00:00",
+  "columns": {
+    "Year": {
+      "name": "Year",
+      "description": "Calendar year (2015-2036; 2025 is the last historic year, 2026-2036 are BNEF forecast)"
+    },
+    "series": {
+      "name": "series",
+      "description": "Market name (one of 21 country/region markets, or Buffer for unallocated forecast capacity)"
+    },
+    "value": {
+      "name": "value",
+      "description": "Annual energy storage additions in gigawatts (GW)"
+    }
+  },
+  "freshness": {
+    "source_checked": "2026-05-11T12:00:00+00:00"
+  },
+  "provenance": {
+    "extraction_method": "ocr",
+    "extracted_by": "chart-engine extract_chart_data.py (Gemini OCR) on hi-res original (1349x759)",
+    "extraction_date": "2026-05-11T12:00:00+00:00",
+    "transformations_applied": []
+  },
+  "quality": {
+    "completeness": 1.0,
+    "has_nulls": false,
+    "validated": false,
+    "review_notes": "OCR-Approximation. Werte fuer Historie 2020-2025 stimmen plausibel mit Chart-Visualisierung ueberein (2025 Total ~110 GW). Forecast-Werte 2030-2036 sind OCR-bedingt ~15-20% zu hoch im Total (OCR liest 2035 ~370 GW, visuell sind es eher 290-310 GW; OCR ueberschaetzt kleine Stack-Anteile bei vielen Maerkten). Fuer Newsletter-Reproduktion daher: entweder grobe GW-Skala beibehalten und Caveat im Untertitel, oder zu Top-3-Buckets aggregieren (China / US / Rest of World inkl. Buffer) — dort relativieren sich die OCR-Fehler. Original-Chart ist die autoritative Quelle, dieses CSV ist eine Approximation fuer Re-Rendering."
+  },
+  "status": "active",
+  "replaces": [],
+  "keywords": ["battery storage", "BESS", "energy storage", "BloombergNEF", "China dominance", "global market", "forecast", "terawatt"]
+}

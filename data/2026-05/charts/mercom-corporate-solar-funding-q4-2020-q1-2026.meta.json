@@ -1,0 +1,46 @@
+{
+  "title": "Global Corporate Funding in Solar Industry by Quarter (Q4 2020 - Q1 2026)",
+  "description": "Quartalsweise globale Unternehmensfinanzierung im Solar-Sektor (Total Funding inkl. Public Markets, Debt, VC) sowie Anzahl Deals. Datenquelle ist die Mercom Capital Group Quarterly Solar Funding & M&A Report Reihe; in PV Tech veroeffentlichter Flourish-Chart. Q1 2026 mit 11.1 Mrd. USD bei 53 Deals ist der hoechste Quartalswert im 5-Jahres-Fenster und mehr als die Verdoppelung des Vorquartals (Q4 2025: 4.9 Mrd. USD).",
+  "tags": ["solar", "funding", "investment", "venture-capital", "mercom", "global", "quarterly"],
+  "source": {
+    "name": "Mercom Capital Group via PV Tech",
+    "url": "https://www.pv-tech.org/corporate-solar-financing-more-than-doubles-us11-1-billion-q1-2026/",
+    "import_type": "json-embedded",
+    "embed_url": "https://flo.uri.sh/visualisation/28834126/embed",
+    "publication_url_secondary": "https://mercomcapital.com/product/q1-2026-solar-funding-ma-report/"
+  },
+  "license": "unknown",
+  "created_at": "2026-05-11T12:00:00+00:00",
+  "columns": {
+    "Quarter": {
+      "name": "Quarter",
+      "description": "Kalenderquartal im Format 'Qn YYYY', von Q4 2020 bis Q1 2026 (22 Quartale)"
+    },
+    "Deals": {
+      "name": "Deals",
+      "description": "Anzahl der im Quartal abgeschlossenen Funding-Deals. Fehlend in Q2/Q3 2021 und Q3 2025 (in Original-Mercom-PRs nicht ausgewiesen)."
+    },
+    "Amount_USD_Billion": {
+      "name": "Amount_USD_Billion",
+      "description": "Gesamtsumme der Quartals-Funding-Volumina in Milliarden US-Dollar"
+    }
+  },
+  "freshness": {
+    "source_checked": "2026-05-11T12:00:00+00:00"
+  },
+  "provenance": {
+    "extraction_method": "json-embedded",
+    "extracted_by": "Direktextraktion aus _Flourish_data JSON-Block des PV Tech Embed (https://flo.uri.sh/visualisation/28834126/embed)",
+    "extraction_date": "2026-05-11T12:00:00+00:00",
+    "transformations_applied": []
+  },
+  "quality": {
+    "completeness": 0.95,
+    "has_nulls": true,
+    "validated": true,
+    "review_notes": "Pixelgenaue Extraktion direkt aus dem Source-JSON der Flourish-Visualisierung — kein OCR. Drei Deal-Werte fehlen (Q2 2021, Q3 2021, Q3 2025; in Mercom-Quartals-PRs damals nicht separat ausgewiesen oder nur halbjaehrlich aggregiert). Amount-Werte sind durchgehend vorhanden. Q1 2026 Total (11.1 Mrd. USD) verifiziert gegen PV Magazine + PV Tech Pressemitteilungen. Q1 2026 Aufschluesselung (im CSV nicht gespeichert): Debt 8.9 Mrd. USD (Dekadenhoch), VC 1.1 Mrd. USD (-21% YoY), Public Markets 1.1 Mrd. USD."
+  },
+  "status": "active",
+  "replaces": [],
+  "keywords": ["solar funding", "corporate solar", "Mercom", "PV Tech", "venture capital", "debt financing", "M&A", "quarterly trend", "2026"]
+}

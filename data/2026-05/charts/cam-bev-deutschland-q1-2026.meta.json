@@ -1,0 +1,53 @@
+{
+  "title": "BEV-Neuzulassungen Deutschland Q1 2026 nach Hersteller (CAM)",
+  "description": "Battery-Electric-Vehicle-Neuzulassungen in Deutschland im ersten Quartal 2026, nach Konzernen (VW-Konzern, Stellantis, BMW Group, Mercedes-Benz, Tesla) und Einzelmarken (Skoda und Audi sind im VW-Konzern enthalten; BYD und Leapmotor im Aggregat 'Chinesische Marken'). Datenquelle: Center of Automotive Management (CAM) Pressemitteilung Q1 2026 — KBA-basierte Marktanalyse von Stefan Bratzel.",
+  "tags": ["ev", "bev", "deutschland", "neuzulassungen", "automotive", "q1-2026", "cam", "kba"],
+  "source": {
+    "name": "Center of Automotive Management (CAM) / KBA",
+    "url": "https://auto-institut.de/presse/neuzulassungstrends-in-deutschland-q1-2026/",
+    "import_type": "html-extracted",
+    "publication_url_secondary": "https://edison.media/verkehr/elektroauto-wird-in-europa-zum-mainstream/25268246/"
+  },
+  "license": "unknown",
+  "created_at": "2026-05-11T12:00:00+00:00",
+  "columns": {
+    "Konzern_oder_Marke": {
+      "name": "Konzern_oder_Marke",
+      "description": "Konzern (Aggregat, z.B. 'VW-Konzern') oder Einzelmarke. Hinweis: Skoda und Audi sind im VW-Konzern-Total enthalten; BYD und Leapmotor im Aggregat 'Chinesische Marken'."
+    },
+    "BEV_Q1_2026_Stueck": {
+      "name": "BEV_Q1_2026_Stueck",
+      "description": "Anzahl BEV-Neuzulassungen Deutschland im Q1 2026"
+    },
+    "YoY_Veraenderung_Prozent": {
+      "name": "YoY_Veraenderung_Prozent",
+      "description": "Year-over-Year Veraenderung in Prozent gegenueber Q1 2025"
+    },
+    "Marktanteil_BEV_Prozent": {
+      "name": "Marktanteil_BEV_Prozent",
+      "description": "BEV-Anteil am eigenen Markenmix in Q1 2026 (in Prozent), wo von CAM ausgewiesen. Fuer 'GESAMT' gibt diese Spalte den BEV-Anteil am Gesamtmarkt DE wieder."
+    },
+    "Quelle_Hinweis": {
+      "name": "Quelle_Hinweis",
+      "description": "Erlaeuterung zur Aggregationsstruktur (Konzern vs. Marke vs. Aggregat)"
+    }
+  },
+  "freshness": {
+    "source_checked": "2026-05-11T12:00:00+00:00"
+  },
+  "provenance": {
+    "extraction_method": "html-extracted",
+    "extracted_by": "WebFetch + Verifikation gegen Originalsaetze",
+    "extraction_date": "2026-05-11T12:00:00+00:00",
+    "transformations_applied": ["Komma-zu-Punkt fuer Dezimalwerte"]
+  },
+  "quality": {
+    "completeness": 0.85,
+    "has_nulls": true,
+    "validated": true,
+    "review_notes": "Wortgenau aus CAM-PR extrahiert und gegenverifiziert. Marktanteil_BEV_Prozent fuer einige Konzerne nicht angegeben (VW-Konzern, Skoda, Audi, Tesla, BYD, Leapmotor). Wichtige Konsistenz-Beobachtung: Skoda (+94%, 17.958) und Audi (+137%, 12.462) wachsen viel staerker als der VW-Konzern-Total (+19.4%, 64.310). Daraus folgt: andere Konzern-Marken (VW-Marke selbst, ggf. SEAT/Cupra) sind im Q1 2026 BEV geschrumpft. Diese Erkenntnis ist nicht explizit in der CAM-PR, sondern eine arithmetische Folgerung."
+  },
+  "status": "active",
+  "replaces": [],
+  "keywords": ["BEV", "Neuzulassungen", "Deutschland", "VW Konzern", "Tesla", "BYD", "Leapmotor", "Stellantis", "BMW Group", "Mercedes-Benz", "CAM", "Bratzel", "KBA", "Q1 2026"]
+}
