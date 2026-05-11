@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-11T12:32:40.384032+00:00",
-  "total_datasets": 45,
+  "generated_at": "2026-05-11T12:52:29.874609+00:00",
+  "total_datasets": 46,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -1321,6 +1321,44 @@
       "thematic_name": "charts",
       "year_month": "2026-05",
       "filename": "spains-electricity-among-europes-cheapest.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.csv",
+      "metadata_path": "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.meta.json",
+      "title": "Verivox-Neukunden-Strompreise Deutschland: Nominal vs. inflationsbereinigt (Jan 2021 - Mai 2026)",
+      "description": "Verivox-Neukundenpreis fuer Strom in Cent pro kWh an fuenf Anker-Datumspunkten zwischen Jan 2021 und Mai 2026, jeweils nominal und real (deflationiert mit dem deutschen Verbraucherpreisindex auf Jan-2021-Basis). Die fuenf Anker sind: Startpunkt (Jan 2021), Beginn Ukraine-Krieg (Feb 2022), Abschaltung der letzten deutschen Kernkraftwerke (Apr 2023), Beginn Iran-Krieg (Feb 2026), Stand Mai 2026. Story: Nominal kostet Strom heute praktisch dasselbe wie Anfang 2021 (24,32 → 24,35 ct/kWh, +0,1%), real ist er um ~18,6% guenstiger. Strompreise haben den Energiekrisen-Schock vollstaendig abgebaut und liegen real unter dem Vor-Krise-Niveau.",
+      "source": {
+        "name": "Verivox / Fraunhofer ISE; VPI Destatis",
+        "url": "https://www.verivox.de/strom/strompreise/",
+        "import_type": "ocr-plus-deflated",
+        "original_image_url": "https://media.licdn.com/dms/image/v2/D4D22AQEODI738LhZwg/feedshare-shrink_800/B4DZ4GTep1J8Ac-/0/1778222230423",
+        "vpi_source_url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/Publikationen/Downloads-Verbraucherpreise/statistischer-bericht-verbraucherpreisindex-lange-reihen-5611103.xlsx",
+        "context_url": "https://janrosenow.substack.com/p/spain-just-became-one-of-europes"
+      },
+      "tags": [
+        "strompreise",
+        "verivox",
+        "fraunhofer",
+        "deutschland",
+        "energiepreise",
+        "inflation",
+        "real",
+        "nominal",
+        "vpi"
+      ],
+      "license": "unknown",
+      "created_at": "2026-05-11T14:50:00+00:00",
+      "thematic_name": "charts",
+      "year_month": "2026-05",
+      "filename": "verivox-strompreise-nominal-real-2021-2026.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
