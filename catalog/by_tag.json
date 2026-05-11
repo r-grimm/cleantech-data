@@ -128,7 +128,8 @@
     "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.csv",
     "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv",
     "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv",
-    "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
+    "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv",
+    "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.csv"
   ],
   "electric-vehicles": [
     "data/2026-03/zev-heavy-trucks-china-eu.csv"
@@ -141,6 +142,9 @@
   ],
   "energie": [
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
+  ],
+  "energiepreise": [
+    "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.csv"
   ],
   "energiespeicher": [
     "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv"
@@ -185,6 +189,9 @@
   ],
   "forecast": [
     "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv"
+  ],
+  "fraunhofer": [
+    "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.csv"
   ],
   "funding": [
     "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv"
@@ -231,6 +238,9 @@
   "industrie": [
     "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv"
   ],
+  "inflation": [
+    "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.csv"
+  ],
   "infrastruktur": [
     "data/2025-12/batteriespeicher-netzanschlussanfragen-deutschland.csv"
   ],
@@ -271,6 +281,9 @@
   ],
   "neuzulassungen": [
     "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
+  ],
+  "nominal": [
+    "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.csv"
   ],
   "ocr-extracted": [
     "data/2026-01/charts/20260125_202458_296347_road-fuel-burn.csv",
@@ -319,6 +332,9 @@
   "quarterly": [
     "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv"
   ],
+  "real": [
+    "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.csv"
+  ],
   "regional-comparison": [
     "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv"
   ],
@@ -354,6 +370,9 @@
     "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
     "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv"
   ],
+  "strompreise": [
+    "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.csv"
+  ],
   "time-series": [
     "data/2024-12/power-mix-germany-daily.csv"
   ],
@@ -371,6 +390,12 @@
     "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
     "data/2026-03/charts/20260324_120000_000002_new-climate-funds-value-and-count-2025.csv",
     "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv"
+  ],
+  "verivox": [
+    "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.csv"
+  ],
+  "vpi": [
+    "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.csv"
   ],
   "wholesale-power": [
     "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
