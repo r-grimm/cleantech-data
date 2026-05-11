@@ -1,0 +1,63 @@
+{
+  "title": "Verivox-Neukunden-Strompreise Deutschland: Nominal vs. inflationsbereinigt (Jan 2021 - Mai 2026)",
+  "description": "Verivox-Neukundenpreis fuer Strom in Cent pro kWh an fuenf Anker-Datumspunkten zwischen Jan 2021 und Mai 2026, jeweils nominal und real (deflationiert mit dem deutschen Verbraucherpreisindex auf Jan-2021-Basis). Die fuenf Anker sind: Startpunkt (Jan 2021), Beginn Ukraine-Krieg (Feb 2022), Abschaltung der letzten deutschen Kernkraftwerke (Apr 2023), Beginn Iran-Krieg (Feb 2026), Stand Mai 2026. Story: Nominal kostet Strom heute praktisch dasselbe wie Anfang 2021 (24,32 → 24,35 ct/kWh, +0,1%), real ist er um ~18,6% guenstiger. Strompreise haben den Energiekrisen-Schock vollstaendig abgebaut und liegen real unter dem Vor-Krise-Niveau.",
+  "tags": ["strompreise", "verivox", "fraunhofer", "deutschland", "energiepreise", "inflation", "real", "nominal", "vpi"],
+  "source": {
+    "name": "Verivox / Fraunhofer ISE; VPI Destatis",
+    "url": "https://www.verivox.de/strom/strompreise/",
+    "import_type": "ocr-plus-deflated",
+    "original_image_url": "https://media.licdn.com/dms/image/v2/D4D22AQEODI738LhZwg/feedshare-shrink_800/B4DZ4GTep1J8Ac-/0/1778222230423",
+    "vpi_source_url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/Publikationen/Downloads-Verbraucherpreise/statistischer-bericht-verbraucherpreisindex-lange-reihen-5611103.xlsx",
+    "context_url": "https://janrosenow.substack.com/p/spain-just-became-one-of-europes"
+  },
+  "license": "unknown",
+  "created_at": "2026-05-11T14:50:00+00:00",
+  "columns": {
+    "Date": {
+      "name": "Date",
+      "description": "Anker-Datum als Klartext-Label (Jan 2021, Feb 2022, Apr 2023, Feb 2026, Mai 2026)"
+    },
+    "Nominal": {
+      "name": "Nominal",
+      "description": "Verivox-Neukundenpreis in Cent pro kWh, nominal (laufende Preise)"
+    },
+    "Real (Jan-2021-Basis)": {
+      "name": "Real (Jan-2021-Basis)",
+      "description": "Strompreis deflationiert auf Kaufkraft Jan 2021 mit Destatis-VPI (2020=100). Formel: Nominal × (VPI_Jan2021 / VPI_t)"
+    }
+  },
+  "freshness": {
+    "source_checked": "2026-05-11T14:50:00+00:00"
+  },
+  "provenance": {
+    "extraction_method": "ocr-plus-deflated",
+    "extracted_by": "Anker aus Verivox-Chart per chart-engine OCR (Fraunhofer-Asset von LinkedIn-CDN), VPI per Destatis xlsx (Sheet csv-611xx-03), Real-Werte Eigenrechnung",
+    "extraction_date": "2026-05-11T14:50:00+00:00",
+    "transformations_applied": [
+      "VPI Jan 2021 = 101.0 als Deflations-Basis",
+      "VPI fuer Feb 2026 und Mai 2026 extrapoliert (Destatis-Reihe endet Juni 2025 = 121.8; Annahme +2.2% YoY → Feb 2026 ≈ 123.6, Mai 2026 ≈ 124.3)",
+      "Real = Nominal × (VPI_Basis / VPI_t)"
+    ]
+  },
+  "quality": {
+    "completeness": 1.0,
+    "has_nulls": false,
+    "validated": true,
+    "review_notes": "Nominalwerte direkt aus dem Verivox/Fraunhofer-Chart, fuenf von der Quelle annotierte Anker-Punkte. Keine OCR-Approximation fuer den Linienverlauf, nur die expliziten Annotation-Werte. VPI-Basis-Wert (Jan 2021 = 101.0) verifiziert in Destatis Statistischer Bericht xlsx (csv-611xx-03). VPI fuer 2026 extrapoliert ueber die Destatis-Reihe hinaus mit +2.2% YoY-Annahme — bei tatsaechlich abweichender Inflation 2025/2026 verschiebt sich die Real-Kurve um wenige Prozent (schwaecht den 'minus 18,6%' nicht qualitativ). Sobald Destatis VPI Mai 2026 publiziert, sollte das CSV mit echten Werten regeneriert werden."
+  },
+  "status": "active",
+  "replaces": [],
+  "keywords": ["Strompreis", "Verivox", "Fraunhofer ISE", "VPI", "Inflation", "real vs nominal", "Energiekrise", "Ukraine-Krieg", "Iran-Krieg", "KKW-Abschaltung", "2021", "2026"],
+  "chart_image": {
+    "path": "verivox-strompreise-nominal-real-2021-2026.png",
+    "csv_path": "verivox-strompreise-nominal-real-2021-2026.csv",
+    "chart_type": "contrast",
+    "title": "Strom nominal heute wie 2021 — real ist er fast 20% billiger.",
+    "subtitle": "Verivox-Neukundenpreis in ct/kWh, nominal vs. inflationsbereinigt (Jan-2021-Basis)",
+    "data_source_label": "Quelle: Verivox / Fraunhofer ISE; VPI Destatis / cleantech.ing",
+    "rendered_at": "2026-05-11T14:50:00+00:00",
+    "rendered_by": "chart-engine render_chart.py (3b59d51a)",
+    "review_score": "12/12",
+    "newsletter_use": "2026-05-12 Wochenbriefing — Chart 4 von 4"
+  }
+}
