@@ -42,5 +42,18 @@
   },
   "status": "active",
   "replaces": [],
-  "keywords": ["battery storage", "BESS", "energy storage", "BloombergNEF", "China dominance", "global market", "forecast", "terawatt"]
+  "keywords": ["battery storage", "BESS", "energy storage", "BloombergNEF", "China dominance", "global market", "forecast", "terawatt"],
+  "chart_image": {
+    "path": "bnef-global-energy-storage-additions-2015-2036.png",
+    "csv_path": "bnef-global-energy-storage-additions-2015-2036.csv",
+    "chart_type": "evolution",
+    "title": "China dominiert den Speicher-Boom — bis 2028. Dann holt der Rest auf.",
+    "subtitle": "Globaler jährlicher Batteriespeicher-Zubau in GW, BNEF-Forecast bis 2035",
+    "data_source_label": "Quelle: BloombergNEF via erneuerbareenergien.de / cleantech.ing",
+    "rendered_at": "2026-05-11T14:30:00+00:00",
+    "rendered_by": "chart-engine render_chart.py (215884ce)",
+    "review_score": "12/12",
+    "newsletter_use": "2026-05-12 Wochenbriefing — Chart 1 von 4",
+    "render_notes": "Pre-render Aggregation in C:/dev/newsroom/packages/newsletter-assistant/temp/charts/prep_chart_data.py (21 Maerkte aus dem OCR-CSV → 3 Buckets: China, USA, Rest der Welt; Jahre 2020-2035)"
+  }
 }

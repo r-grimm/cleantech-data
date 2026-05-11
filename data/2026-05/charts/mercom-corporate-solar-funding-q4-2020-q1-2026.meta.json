@@ -42,5 +42,17 @@
   },
   "status": "active",
   "replaces": [],
-  "keywords": ["solar funding", "corporate solar", "Mercom", "PV Tech", "venture capital", "debt financing", "M&A", "quarterly trend", "2026"]
+  "keywords": ["solar funding", "corporate solar", "Mercom", "PV Tech", "venture capital", "debt financing", "M&A", "quarterly trend", "2026"],
+  "chart_image": {
+    "path": "mercom-corporate-solar-funding-q4-2020-q1-2026.png",
+    "csv_path": "mercom-corporate-solar-funding-q4-2020-q1-2026.csv",
+    "chart_type": "pulse",
+    "title": "Solar-Industrie: 11,1 Mrd. USD in einem Quartal — Fünfjahres-Rekord.",
+    "subtitle": "Globale Unternehmensfinanzierung im Solar-Sektor, Q4 2020 bis Q1 2026",
+    "data_source_label": "Quelle: Mercom Capital Group via PV Tech / cleantech.ing",
+    "rendered_at": "2026-05-11T14:30:00+00:00",
+    "rendered_by": "chart-engine render_chart.py (215884ce)",
+    "review_score": "12/12",
+    "newsletter_use": "2026-05-12 Wochenbriefing — Chart 3 von 4"
+  }
 }

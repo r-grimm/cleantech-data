@@ -49,5 +49,18 @@
   },
   "status": "active",
   "replaces": [],
-  "keywords": ["BEV", "Neuzulassungen", "Deutschland", "VW Konzern", "Tesla", "BYD", "Leapmotor", "Stellantis", "BMW Group", "Mercedes-Benz", "CAM", "Bratzel", "KBA", "Q1 2026"]
+  "keywords": ["BEV", "Neuzulassungen", "Deutschland", "VW Konzern", "Tesla", "BYD", "Leapmotor", "Stellantis", "BMW Group", "Mercedes-Benz", "CAM", "Bratzel", "KBA", "Q1 2026"],
+  "chart_image": {
+    "path": "cam-bev-deutschland-q1-2026.png",
+    "csv_path": "cam-bev-deutschland-q1-2026.csv",
+    "chart_type": "impact",
+    "title": "VW-Konzern bleibt Nr. 1 — Tesla und Stellantis wachsen am schnellsten.",
+    "subtitle": "BEV-Neuzulassungen Deutschland Q1 2026 nach Hersteller (Top 6 nach Volumen)",
+    "data_source_label": "Quelle: Center of Automotive Management (CAM) / KBA / cleantech.ing",
+    "rendered_at": "2026-05-11T14:30:00+00:00",
+    "rendered_by": "chart-engine render_chart.py (215884ce)",
+    "review_score": "12/12",
+    "newsletter_use": "2026-05-12 Wochenbriefing — Chart 2 von 4",
+    "render_notes": "Pre-render filterung in C:/dev/newsroom/packages/newsletter-assistant/temp/charts/prep_chart_data.py (Filter auf 6 Konzerne, YoY% inline ins Label fuer Storytelling)"
+  }
 }
