@@ -11,6 +11,9 @@
   "annual": [
     "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv"
   ],
+  "annual-additions": [
+    "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv"
+  ],
   "approval-status": [
     "data/2025-11/windpower/0105_Leist_kum_M.csv"
   ],
@@ -19,6 +22,9 @@
   ],
   "automatisierung": [
     "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv"
+  ],
+  "automotive": [
+    "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
   ],
   "batteries": [
     "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
@@ -30,11 +36,16 @@
   ],
   "battery-storage": [
     "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
-    "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv"
+    "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
+    "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv"
   ],
   "bess": [
     "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
-    "data/2025-12/utility-scale-bess-deutschland-2020-2025.csv"
+    "data/2025-12/utility-scale-bess-deutschland-2020-2025.csv",
+    "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv"
+  ],
+  "bev": [
+    "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
   ],
   "biodiesel": [
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
@@ -45,8 +56,14 @@
   "bip": [
     "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv"
   ],
+  "bnef": [
+    "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv"
+  ],
   "bruttowertschpfung": [
     "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv"
+  ],
+  "cam": [
+    "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
   ],
   "capacity": [
     "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv",
@@ -54,7 +71,8 @@
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
   ],
   "china": [
-    "data/2026-03/zev-heavy-trucks-china-eu.csv"
+    "data/2026-03/zev-heavy-trucks-china-eu.csv",
+    "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv"
   ],
   "clean-technology": [
     "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv"
@@ -109,7 +127,8 @@
     "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
     "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.csv",
     "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv",
-    "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv"
+    "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv",
+    "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
   ],
   "electric-vehicles": [
     "data/2026-03/zev-heavy-trucks-china-eu.csv"
@@ -155,11 +174,20 @@
     "data/2026-03/charts/20260324_120000_000002_new-climate-funds-value-and-count-2025.csv",
     "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
   ],
+  "ev": [
+    "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
+  ],
   "finanzierung": [
     "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv"
   ],
   "flaechennutzung": [
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
+  ],
+  "forecast": [
+    "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv"
+  ],
+  "funding": [
+    "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv"
   ],
   "generation": [
     "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv"
@@ -174,7 +202,9 @@
     "data/2025-12/utility-scale-bess-deutschland-2020-2025.csv"
   ],
   "global": [
-    "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
+    "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
+    "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv",
+    "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv"
   ],
   "green-ammonia": [
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv"
@@ -204,6 +234,9 @@
   "infrastruktur": [
     "data/2025-12/batteriespeicher-netzanschlussanfragen-deutschland.csv"
   ],
+  "investment": [
+    "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv"
+  ],
   "irena": [
     "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv",
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
@@ -215,6 +248,9 @@
   "kapazitt": [
     "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv"
   ],
+  "kba": [
+    "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
+  ],
   "landwirtschaft": [
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
   ],
@@ -224,11 +260,17 @@
   "materials": [
     "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv"
   ],
+  "mercom": [
+    "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv"
+  ],
   "monthly": [
     "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv"
   ],
   "netzanschluss": [
     "data/2025-12/batteriespeicher-netzanschlussanfragen-deutschland.csv"
+  ],
+  "neuzulassungen": [
+    "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
   ],
   "ocr-extracted": [
     "data/2026-01/charts/20260125_202458_296347_road-fuel-burn.csv",
@@ -271,6 +313,12 @@
   "productivity": [
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
   ],
+  "q1-2026": [
+    "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
+  ],
+  "quarterly": [
+    "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv"
+  ],
   "regional-comparison": [
     "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv"
   ],
@@ -290,7 +338,8 @@
     "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.csv",
     "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv",
     "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv",
-    "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
+    "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
+    "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv"
   ],
   "spain": [
     "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
@@ -320,7 +369,8 @@
   "venture-capital": [
     "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv",
     "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
-    "data/2026-03/charts/20260324_120000_000002_new-climate-funds-value-and-count-2025.csv"
+    "data/2026-03/charts/20260324_120000_000002_new-climate-funds-value-and-count-2025.csv",
+    "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv"
   ],
   "wholesale-power": [
     "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"

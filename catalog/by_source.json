@@ -9,7 +9,11 @@
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv"
   ],
   "BloombergNEF": [
-    "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv"
+    "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv",
+    "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv"
+  ],
+  "Center of Automotive Management (CAM) / KBA": [
+    "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
   ],
   "Data: IEA; Note: Based on 50 corporate, financial and VC investors deploying $1 billion overall and $100 million or more in energy innovation since 2020; Chart: Axios Visuals": [
     "data/2026-03/charts/20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.csv"
@@ -53,6 +57,9 @@
   ],
   "KfW Research, FCF CleanTech Report, Cleantech for Europe": [
     "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv"
+  ],
+  "Mercom Capital Group via PV Tech": [
+    "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv"
   ],
   "Newsletter Assistant Import": [
     "data/2026-01/imported/data-by-year-7-categories-1750-2024.csv"
