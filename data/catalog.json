@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-11T12:52:29.874609+00:00",
-  "total_datasets": 46,
+  "generated_at": "2026-05-19T00:11:37.345119+00:00",
+  "total_datasets": 47,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -1261,6 +1261,48 @@
       "thematic_name": "charts",
       "year_month": "2026-05",
       "filename": "cam-bev-deutschland-q1-2026.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv",
+      "metadata_path": "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.meta.json",
+      "title": "Europas Wasserstoff-Markt 2024-2026: FID-Welle und Cancellation-Welle",
+      "description": "Geographische Verteilung großer europäischer grüner-Wasserstoff-Projekte (>= 24 MW Elektrolyse) im Zeitraum 2024-2026. Grüne Punkte (n=6) markieren Standorte mit Final Investment Decision (FID), laufendem Bau oder bereits in Betrieb genommenen Anlagen. Rote Punkte (n=8) markieren gestoppte, insolvente oder aus der EU Hydrogen Bank zurückgezogene Projekte. Punktgröße proportional zur Elektrolyse-Leistung in MW; bei Cancellations ohne öffentlich dokumentierte MW (McPhy, Statkraft, Aukra) wurde ein einheitlicher Platzhalter-Wert von 40 MW gewählt. Insgesamt ~2.060 MW im Bau gegen ~1.030 MW dokumentiert gestoppt. Konsolidierte Standorte: Huelva = Moeve 300 + Iberdrola Palos 200 MW; Sines = Galp 100 + Repsol H2Alba 150 MW; Lubmin = HH2E + H2-Hub.",
+      "source": {
+        "name": "Eigene Recherche cleantech.ing (Mai 2026)",
+        "url": "https://www.cleantech.ing/p/h2-baerenmarkt-vorbei",
+        "import_type": "manual",
+        "primary_sources": [
+          "Hydrogen Insight",
+          "S&P Global Commodity Insights",
+          "Argus Media",
+          "Bloomberg",
+          "IEA Global Hydrogen Review 2025",
+          "Unternehmens-Pressemitteilungen (Moeve, Air Liquide, EWE, RWE, Stegra, BASF, Salzgitter, Galp, Yara, Iberdrola, BP, Repsol)"
+        ]
+      },
+      "tags": [
+        "hydrogen",
+        "europe",
+        "electrolysis",
+        "fid",
+        "cancellations",
+        "energy-transition",
+        "geographic",
+        "h2-bear-market"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-19T00:00:00+00:00",
+      "thematic_name": "charts",
+      "year_month": "2026-05",
+      "filename": "europas-h2-markt-6-bauen-8-stoppen.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
