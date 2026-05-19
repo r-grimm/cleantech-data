@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-19T00:11:37.345119+00:00",
-  "total_datasets": 47,
+  "generated_at": "2026-05-19T12:57:36.602882+00:00",
+  "total_datasets": 49,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -1303,6 +1303,90 @@
       "thematic_name": "charts",
       "year_month": "2026-05",
       "filename": "europas-h2-markt-6-bauen-8-stoppen.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.csv",
+      "metadata_path": "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.meta.json",
+      "title": "Wer Abnehmer hat, baut Wasserstoff — der Rest stoppt (V2)",
+      "description": "V2 der Mai-2026-H2-Karte. 11 grosse Elektrolyse-Projekte 2024-2026 in Europa, Punktgroesse codiert Elektrolyse-MW (gruen=baut/FID-erreicht, rot=gestoppt/insolvent/EU-Foerderung zurueckgezogen). MW-Summe: 2.060 MW im Bau gegen 1.030 MW gestoppt. Drei Cluster-Annotationen (Pfeil-Annotations mit Labels) tragen die redaktionelle These im Bild: Iberien (Solar + Stahl-Abnehmer), Nordsee (Raffinerien ersetzen grauen H2), Teesside (Export ohne Abnehmer). Drei Cancellations ohne dokumentierte MW (McPhy/Statkraft/Aukra) sind aus der quantitativen Codierung entfernt und im Footer-Text der Karte namentlich genannt — kein Platzhalter-Wert mehr. V2 entstand nach zwei externen LLM-Reviews (Gemini, Claude) der V1, die drei Klassen-Probleme identifizierten: Title-Encoding-Bruch (Projekte vs. MW), Hypothesis-Visibility (These nur im Begleittext), Methodische Konsistenz (Platzhalter-Mix). V2 adressiert alle drei.",
+      "source": {
+        "name": "Eigene Recherche cleantech.ing (Mai 2026)",
+        "url": "https://www.cleantech.ing/p/h2-baerenmarkt-vorbei",
+        "import_type": "manual",
+        "primary_sources": [
+          "Hydrogen Insight",
+          "S&P Global Commodity Insights",
+          "Argus Media",
+          "Bloomberg",
+          "IEA Global Hydrogen Review 2025",
+          "Unternehmens-Pressemitteilungen (Moeve, Air Liquide, EWE, RWE, Stegra, BASF, Salzgitter, Galp, Yara, Iberdrola, BP, Repsol)"
+        ]
+      },
+      "tags": [
+        "hydrogen",
+        "europe",
+        "electrolysis",
+        "fid",
+        "cancellations",
+        "energy-transition",
+        "geographic",
+        "h2-bear-market",
+        "v2",
+        "llm-review-iteration"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-19T00:00:00+00:00",
+      "thematic_name": "charts",
+      "year_month": "2026-05",
+      "filename": "europas-h2-markt-v2-bauer-vs-aussteiger.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-05/charts/europas-h2-quadrant.csv",
+      "metadata_path": "data/2026-05/charts/europas-h2-quadrant.meta.json",
+      "title": "Wasserstoff überlebt nur im sicheren Hafen — Quadrant",
+      "description": "Zweite Visualisierung der H2-Markt-Story Mai 2026 als 2D-Klassifikation: 11 europaeische H2-Projekte aufgetragen nach lokalem Strompreis (X-Achse, EUR/MWh, niedriger ist besser) gegen Abnehmer-Sicherheit (Y-Achse, 0-10-Skala, hoeher ist besser). Quadrant-Trennung via vline/hline (Schwellen 50 EUR/MWh und 5/10); vier Quadrant-Labels (Sicherer Hafen / Risiko-Praemie / Gluecksspiel / Gefaehrdete Zone) tragen die Story-Mechanik. Erkenntnis: Alle Bauer landen im oberen Halbraum (Abnehmer-Sicherheit > 5), alle Stopper im unteren — die Y-Achse ist die dominante Variable. Strompreis ist sekundaer. Der Quadrant beweist die These der H2-Karte V2 ('Wer Abnehmer hat, baut') visuell durch die Punktverteilung. Y-Werte sind eigene Klassifikation, X-Werte aus Ember European Electricity Review 2024 (regionale Naeherung).",
+      "source": {
+        "name": "Eigene Klassifikation cleantech.ing + Ember (Mai 2026)",
+        "url": "https://www.cleantech.ing/p/h2-baerenmarkt-vorbei",
+        "import_type": "manual",
+        "primary_sources": [
+          "Ember European Electricity Review 2024 (Strompreise)",
+          "Hydrogen Insight",
+          "S&P Global Commodity Insights",
+          "Unternehmens-Pressemitteilungen (Off-Take-Vertraege)"
+        ]
+      },
+      "tags": [
+        "hydrogen",
+        "europe",
+        "electrolysis",
+        "quadrant",
+        "classification",
+        "energy-transition",
+        "h2-bear-market",
+        "scatter"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-19T00:00:00+00:00",
+      "thematic_name": "charts",
+      "year_month": "2026-05",
+      "filename": "europas-h2-quadrant.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
