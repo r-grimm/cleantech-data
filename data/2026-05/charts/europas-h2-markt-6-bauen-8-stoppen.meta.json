@@ -1,0 +1,94 @@
+{
+  "title": "Europas Wasserstoff-Markt 2024-2026: FID-Welle und Cancellation-Welle",
+  "description": "Geographische Verteilung großer europäischer grüner-Wasserstoff-Projekte (>= 24 MW Elektrolyse) im Zeitraum 2024-2026. Grüne Punkte (n=6) markieren Standorte mit Final Investment Decision (FID), laufendem Bau oder bereits in Betrieb genommenen Anlagen. Rote Punkte (n=8) markieren gestoppte, insolvente oder aus der EU Hydrogen Bank zurückgezogene Projekte. Punktgröße proportional zur Elektrolyse-Leistung in MW; bei Cancellations ohne öffentlich dokumentierte MW (McPhy, Statkraft, Aukra) wurde ein einheitlicher Platzhalter-Wert von 40 MW gewählt. Insgesamt ~2.060 MW im Bau gegen ~1.030 MW dokumentiert gestoppt. Konsolidierte Standorte: Huelva = Moeve 300 + Iberdrola Palos 200 MW; Sines = Galp 100 + Repsol H2Alba 150 MW; Lubmin = HH2E + H2-Hub.",
+  "tags": ["hydrogen", "europe", "electrolysis", "fid", "cancellations", "energy-transition", "geographic", "h2-bear-market"],
+  "source": {
+    "name": "Eigene Recherche cleantech.ing (Mai 2026)",
+    "url": "https://www.cleantech.ing/p/h2-baerenmarkt-vorbei",
+    "import_type": "manual",
+    "primary_sources": [
+      "Hydrogen Insight",
+      "S&P Global Commodity Insights",
+      "Argus Media",
+      "Bloomberg",
+      "IEA Global Hydrogen Review 2025",
+      "Unternehmens-Pressemitteilungen (Moeve, Air Liquide, EWE, RWE, Stegra, BASF, Salzgitter, Galp, Yara, Iberdrola, BP, Repsol)"
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "created_at": "2026-05-19T00:00:00+00:00",
+  "columns": {
+    "name": {
+      "name": "name",
+      "description": "Standort-Label (Stadt oder Region des Elektrolyse-Projekts)"
+    },
+    "lat": {
+      "name": "lat",
+      "description": "Geographische Breite (WGS84, Dezimalgrad)"
+    },
+    "lon": {
+      "name": "lon",
+      "description": "Geographische Länge (WGS84, Dezimalgrad)"
+    },
+    "value": {
+      "name": "value",
+      "description": "Elektrolyse-Leistung in MW. Bei dokumentierten Cancellations ohne MW-Zahl (McPhy-Insolvenz, Statkraft-Konzern-Stopp, Aukra-Pipeline) auf 40 MW gesetzt, damit die Punkte sichtbar bleiben."
+    },
+    "label": {
+      "name": "label",
+      "description": "Auf der Karte sichtbares Label (Standort + MW oder Status). Leer wenn das Label über eine separate Annotation gerendert wird (Rotterdam)."
+    },
+    "color": {
+      "name": "color",
+      "description": "Hex-Farbe pro Punkt. #7CB342 (Brand-Grün) für FID/Bau, #C7574A (Brand-Rot) für Stopp/Insolvenz/Rückzug."
+    },
+    "label_dx": {
+      "name": "label_dx",
+      "description": "Horizontaler Label-Offset in SVG-viewBox-Einheiten (positiv = rechts)."
+    },
+    "label_dy": {
+      "name": "label_dy",
+      "description": "Vertikaler Label-Offset in SVG-viewBox-Einheiten (positiv = unter)."
+    },
+    "label_anchor": {
+      "name": "label_anchor",
+      "description": "SVG text-anchor: 'start', 'middle' oder 'end'."
+    }
+  },
+  "freshness": {
+    "source_checked": "2026-05-19T00:00:00+00:00"
+  },
+  "provenance": {
+    "extraction_method": "manual",
+    "extracted_by": "Rico Grimm + Claude (datastory-Workflow Mai 2026)",
+    "extraction_date": "2026-05-19T00:00:00+00:00",
+    "transformations_applied": [
+      "Konsolidierung doppelter Standorte: Huelva (Moeve + Iberdrola), Sines (Galp + Repsol), Lubmin (HH2E + H2-Hub)",
+      "Platzhalter-MW (40) fuer Projekte ohne dokumentierte Elektrolyse-Leistung (McPhy, Statkraft, Aukra)",
+      "Label-Offsets manuell gesetzt zur Cluster-Entzerrung (NL/DE-Cluster, Iberien-Cluster, Skandinavien-Cluster)"
+    ]
+  },
+  "quality": {
+    "completeness": 1.0,
+    "has_nulls": false,
+    "validated": true,
+    "review_notes": "Standort-Koordinaten und MW-Zahlen verifiziert gegen Primaerquellen (Pressemitteilungen, Hydrogen Insight, S&P Global). Cancellation-Status fuer Aukra entspricht der blauen-H2-Pipeline (Shell/Equinor), die im September 2024 wegen fehlender Nachfrage abgesagt wurde — geografisch der gleiche Standort, technisch leicht abweichend vom Rest der gruenen-H2-Liste, wurde aber als Teil der nordischen Cancellation-Welle eingeordnet."
+  },
+  "status": "active",
+  "replaces": [],
+  "keywords": ["green hydrogen", "Wasserstoff", "Elektrolyse", "FID", "cancellation", "Europa", "Bärenmarkt", "Moeve", "Stegra", "EWE", "RWE", "BP", "McPhy", "Statkraft", "EU Hydrogen Bank"],
+  "chart_image": {
+    "path": "europas-h2-markt-6-bauen-8-stoppen.png",
+    "csv_path": "europas-h2-markt-6-bauen-8-stoppen.csv",
+    "chart_type": "map",
+    "title": "Europas Wasserstoff-Markt: 6 bauen, 8 stoppen",
+    "subtitle": "Grün = Bau / FID-erreicht · Rot = Stopp, Insolvenz, zurückgezogene Förderung · Punktgröße = Elektrolyse-MW",
+    "data_source_label": "Quelle: Eigene Recherche; Hydrogen Insight, S&P Global, Argus, Bloomberg, IEA",
+    "rendered_at": "2026-05-19T00:00:00+00:00",
+    "rendered_by": "chart-engine render_chart.py (square_lg 1600x1600, custom-bbox-europa, per-point-color, no-arrow-head)",
+    "size_preset": "square_lg",
+    "scope": {"bbox": [-11, 24, 36, 68], "asset": "europa"},
+    "newsletter_use": "h2-baerenmarkt-vorbei News-Update; LinkedIn-Post und Social-Karten",
+    "render_notes": "Setzt drei chart-engine Erweiterungen voraus: (1) Per-Punkt-color/label_dx/label_dy/label_anchor in map-CSV. (2) Scope-Dict mit 'asset': 'europa' fuer custom bbox + Europa-Outline. (3) Outline-Verzerrungsfix in _projection_fit. Plus Annotation fuer Rotterdam-Label (im NL/DE-Cluster vom Emden-Punkt verdeckt, daher mit Pfeil-Linie in den Nordsee-Bereich verlagert)."
+  }
+}

@@ -1,0 +1,15 @@
+name,lat,lon,value,label,color,label_dx,label_dy,label_anchor
+Boden,65.83,21.69,690,Boden 690,#7CB342,16,0,start
+Huelva,37.26,-6.95,500,Huelva 500,#7CB342,16,18,start
+Emden,53.36,7.21,320,Emden 320,#7CB342,0,-3,middle
+Sines,37.95,-8.87,250,Sines 250,#7CB342,-12,-3,end
+Rotterdam,51.92,4.48,200,,#7CB342,0,0,middle
+Bilbao,43.34,-3.10,100,Bilbao 100,#7CB342,0,-3,middle
+Teesside,54.58,-1.15,500,Teesside 500,#C7574A,-12,0,end
+Lubmin,54.13,13.62,210,Lubmin 210,#C7574A,14,-3,start
+Tarragona,41.12,1.24,150,Tarragona 150,#C7574A,12,-2,start
+Cartagena,37.60,-0.99,100,Cartagena 100,#C7574A,12,2,start
+Örnsköldsvik,63.29,18.71,70,Örnsköldsvik 70,#C7574A,-10,0,end
+McPhy,45.19,5.72,40,McPhy insolvent,#C7574A,12,0,start
+Oslo,59.91,10.75,40,Statkraft-Stopp,#C7574A,12,0,start
+Aukra,62.79,6.91,40,Aukra gecancelt,#C7574A,-10,0,end
