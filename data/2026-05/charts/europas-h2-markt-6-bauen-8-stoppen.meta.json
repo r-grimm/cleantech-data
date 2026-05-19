@@ -74,8 +74,10 @@
     "validated": true,
     "review_notes": "Standort-Koordinaten und MW-Zahlen verifiziert gegen Primaerquellen (Pressemitteilungen, Hydrogen Insight, S&P Global). Cancellation-Status fuer Aukra entspricht der blauen-H2-Pipeline (Shell/Equinor), die im September 2024 wegen fehlender Nachfrage abgesagt wurde — geografisch der gleiche Standort, technisch leicht abweichend vom Rest der gruenen-H2-Liste, wurde aber als Teil der nordischen Cancellation-Welle eingeordnet."
   },
-  "status": "active",
+  "status": "superseded",
   "replaces": [],
+  "superseded_by": "europas-h2-markt-v2-bauer-vs-aussteiger",
+  "superseded_note": "V2 (Mai 2026) addressiert drei nach Publikation entdeckte Klassen-Probleme aus zwei externen LLM-Reviews (Gemini, Claude): Title-Encoding-Bruch (Projekte vs. MW), Hypothesis-Visibility (These nur im Begleittext), Methodische Konsistenz (40-MW-Platzhalter fuer McPhy/Statkraft/Aukra). V1 bleibt im Repo als historische Referenz und Lehrstueck. V2-Slug: europas-h2-markt-v2-bauer-vs-aussteiger.",
   "keywords": ["green hydrogen", "Wasserstoff", "Elektrolyse", "FID", "cancellation", "Europa", "Bärenmarkt", "Moeve", "Stegra", "EWE", "RWE", "BP", "McPhy", "Statkraft", "EU Hydrogen Bank"],
   "chart_image": {
     "path": "europas-h2-markt-6-bauen-8-stoppen.png",

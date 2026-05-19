@@ -1,0 +1,55 @@
+{
+  "title": "Wasserstoff überlebt nur im sicheren Hafen — Quadrant",
+  "description": "Zweite Visualisierung der H2-Markt-Story Mai 2026 als 2D-Klassifikation: 11 europaeische H2-Projekte aufgetragen nach lokalem Strompreis (X-Achse, EUR/MWh, niedriger ist besser) gegen Abnehmer-Sicherheit (Y-Achse, 0-10-Skala, hoeher ist besser). Quadrant-Trennung via vline/hline (Schwellen 50 EUR/MWh und 5/10); vier Quadrant-Labels (Sicherer Hafen / Risiko-Praemie / Gluecksspiel / Gefaehrdete Zone) tragen die Story-Mechanik. Erkenntnis: Alle Bauer landen im oberen Halbraum (Abnehmer-Sicherheit > 5), alle Stopper im unteren — die Y-Achse ist die dominante Variable. Strompreis ist sekundaer. Der Quadrant beweist die These der H2-Karte V2 ('Wer Abnehmer hat, baut') visuell durch die Punktverteilung. Y-Werte sind eigene Klassifikation, X-Werte aus Ember European Electricity Review 2024 (regionale Naeherung).",
+  "tags": ["hydrogen", "europe", "electrolysis", "quadrant", "classification", "energy-transition", "h2-bear-market", "scatter"],
+  "source": {
+    "name": "Eigene Klassifikation cleantech.ing + Ember (Mai 2026)",
+    "url": "https://www.cleantech.ing/p/h2-baerenmarkt-vorbei",
+    "import_type": "manual",
+    "primary_sources": [
+      "Ember European Electricity Review 2024 (Strompreise)",
+      "Hydrogen Insight",
+      "S&P Global Commodity Insights",
+      "Unternehmens-Pressemitteilungen (Off-Take-Vertraege)"
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "created_at": "2026-05-19T00:00:00+00:00",
+  "columns": {
+    "name": {"name": "name", "description": "Projekt-Standort"},
+    "strompreis_eur_mwh": {"name": "strompreis_eur_mwh", "description": "Regionaler Day-Ahead-Strompreis 2024 in EUR/MWh (Naeherung aus Ember-Bidding-Zone-Daten)"},
+    "abnehmer_sicherheit": {"name": "abnehmer_sicherheit", "description": "Abnahme-Sicherheit auf eigener 0-10-Skala. 9-10: Langzeit-Festabnahme dokumentiert. 6-8: Konzern-interner Abnehmer. 3-5: Geplanter Abnehmer ohne Vertrag. 0-2: Merchant/Export."},
+    "status": {"name": "status", "description": "Projekt-Status: 'baut' (FID erreicht, in Bau, in Betrieb) oder 'gestoppt' (Cancellation/Insolvenz/EU-Foerderung-Rueckzug)"},
+    "mw": {"name": "mw", "description": "Elektrolyse-Leistung in MW (informativ, nicht in der Quadrant-Codierung verwendet)"}
+  },
+  "freshness": {"source_checked": "2026-05-19T00:00:00+00:00"},
+  "provenance": {
+    "extraction_method": "manual",
+    "extracted_by": "Rico Grimm + Claude (datastory-Workflow Mai 2026)",
+    "extraction_date": "2026-05-19T00:00:00+00:00",
+    "transformations_applied": [
+      "Strompreis-Naeherungen pro Region (Ember EER 2024, Bidding Zones SE1/SE2 fuer Schweden, DE-Spot, NL-Spot, UK-Spot)",
+      "Abnehmer-Sicherheit als eigene 0-10-Klassifikation; Begruendung pro Projekt in der Provenance-Datei der Newsroom-Worktree (packages/chart-engine/temp_charts/h2_quadrant_data_provenance.md)"
+    ]
+  },
+  "quality": {
+    "completeness": 1.0,
+    "has_nulls": false,
+    "validated": true,
+    "review_notes": "10/12 im upgegradeten /chart-review. Hartes Kriterium getriggert: Label-Overlap zwischen Quadrant-Labels und Datenpunkt-Labels in den linken Quadranten (auto-anchor flippt bei x<25% des svg_width auf start, kollidiert mit Iberien-Cluster). Snippet: docs/plans/snippets/2026-05-19-h2-quadrant-review.md im newsroom-Repo."
+  },
+  "status": "active",
+  "replaces": [],
+  "keywords": ["green hydrogen", "Wasserstoff", "Abnehmer-Sicherheit", "Off-Take", "Strompreis", "Quadrant"],
+  "chart_image": {
+    "path": "europas-h2-quadrant.png",
+    "csv_path": "europas-h2-quadrant.csv",
+    "chart_type": "scatter",
+    "title": "Wasserstoff überlebt nur im sicheren Hafen",
+    "subtitle": "11 europäische H2-Projekte 2024-2026 · Strompreis × Abnahme-Sicherheit · Eigene Klassifikation",
+    "data_source_label": "Quelle: Ember European Electricity Review 2024 (Strompreise); Hydrogen Insight, S&P Global, Pressemitteilungen (Abnehmer)",
+    "rendered_at": "2026-05-19T00:00:00+00:00",
+    "rendered_by": "chart-engine render_chart.py (square_lg 1600x1600, scatter, color_column=status, annotation_column=name)",
+    "size_preset": "square_lg"
+  }
+}

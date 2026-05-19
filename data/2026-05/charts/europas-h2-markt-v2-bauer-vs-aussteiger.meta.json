@@ -1,0 +1,68 @@
+{
+  "title": "Wer Abnehmer hat, baut Wasserstoff — der Rest stoppt (V2)",
+  "description": "V2 der Mai-2026-H2-Karte. 11 grosse Elektrolyse-Projekte 2024-2026 in Europa, Punktgroesse codiert Elektrolyse-MW (gruen=baut/FID-erreicht, rot=gestoppt/insolvent/EU-Foerderung zurueckgezogen). MW-Summe: 2.060 MW im Bau gegen 1.030 MW gestoppt. Drei Cluster-Annotationen (Pfeil-Annotations mit Labels) tragen die redaktionelle These im Bild: Iberien (Solar + Stahl-Abnehmer), Nordsee (Raffinerien ersetzen grauen H2), Teesside (Export ohne Abnehmer). Drei Cancellations ohne dokumentierte MW (McPhy/Statkraft/Aukra) sind aus der quantitativen Codierung entfernt und im Footer-Text der Karte namentlich genannt — kein Platzhalter-Wert mehr. V2 entstand nach zwei externen LLM-Reviews (Gemini, Claude) der V1, die drei Klassen-Probleme identifizierten: Title-Encoding-Bruch (Projekte vs. MW), Hypothesis-Visibility (These nur im Begleittext), Methodische Konsistenz (Platzhalter-Mix). V2 adressiert alle drei.",
+  "tags": ["hydrogen", "europe", "electrolysis", "fid", "cancellations", "energy-transition", "geographic", "h2-bear-market", "v2", "llm-review-iteration"],
+  "source": {
+    "name": "Eigene Recherche cleantech.ing (Mai 2026)",
+    "url": "https://www.cleantech.ing/p/h2-baerenmarkt-vorbei",
+    "import_type": "manual",
+    "primary_sources": [
+      "Hydrogen Insight",
+      "S&P Global Commodity Insights",
+      "Argus Media",
+      "Bloomberg",
+      "IEA Global Hydrogen Review 2025",
+      "Unternehmens-Pressemitteilungen (Moeve, Air Liquide, EWE, RWE, Stegra, BASF, Salzgitter, Galp, Yara, Iberdrola, BP, Repsol)"
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "created_at": "2026-05-19T00:00:00+00:00",
+  "columns": {
+    "name": {"name": "name", "description": "Standort-Label"},
+    "lat": {"name": "lat", "description": "Geographische Breite (WGS84, Dezimalgrad)"},
+    "lon": {"name": "lon", "description": "Geographische Länge (WGS84, Dezimalgrad)"},
+    "value": {"name": "value", "description": "Elektrolyse-Leistung in MW (nur echte dokumentierte Werte; Cancellations ohne MW sind aus dem Dataset entfernt)"},
+    "label": {"name": "label", "description": "Auf der Karte sichtbares Label (Standort + MW)"},
+    "color": {"name": "color", "description": "Hex-Farbe pro Punkt. #7CB342 (Brand-Grün) für FID/Bau, #C7574A (Brand-Rot) für Stopp/Insolvenz/Rückzug."},
+    "label_dx": {"name": "label_dx", "description": "Horizontaler Label-Offset in SVG-viewBox-Einheiten."},
+    "label_dy": {"name": "label_dy", "description": "Vertikaler Label-Offset in SVG-viewBox-Einheiten."},
+    "label_anchor": {"name": "label_anchor", "description": "SVG text-anchor: 'start', 'middle' oder 'end'."}
+  },
+  "freshness": {"source_checked": "2026-05-19T00:00:00+00:00"},
+  "provenance": {
+    "extraction_method": "manual",
+    "extracted_by": "Rico Grimm + Claude (datastory-Workflow Mai 2026)",
+    "extraction_date": "2026-05-19T00:00:00+00:00",
+    "transformations_applied": [
+      "Konsolidierung doppelter Standorte: Huelva (Moeve + Iberdrola), Sines (Galp + Repsol), Lubmin (HH2E + H2-Hub)",
+      "Cancellations ohne dokumentierte MW (McPhy, Statkraft, Aukra) aus dem Dataset entfernt und in den Footer-Text der Karte verlagert",
+      "Drei Cluster-Pfeil-Annotationen ergaenzt (Iberien: Solar + Stahl-Abnehmer; Nordsee: Raffinerien ersetzen grauen H2; Teesside: Export ohne Abnehmer)"
+    ]
+  },
+  "quality": {
+    "completeness": 1.0,
+    "has_nulls": false,
+    "validated": true,
+    "review_notes": "12/12 im upgegradeten /chart-review Mai 2026 (5 neue Pflicht-Checks aktiv). Snippet: docs/plans/snippets/2026-05-19-h2-karte-v2-review.md im newsroom-Repo. Baseline V1 erreicht im upgegradeten Skill 7/12."
+  },
+  "status": "active",
+  "replaces": ["europas-h2-markt-6-bauen-8-stoppen"],
+  "keywords": ["green hydrogen", "Wasserstoff", "Elektrolyse", "FID", "cancellation", "Europa", "Bärenmarkt", "Moeve", "Stegra", "EWE", "RWE", "BP", "EU Hydrogen Bank"],
+  "chart_image": {
+    "path": "europas-h2-markt-v2-bauer-vs-aussteiger.png",
+    "csv_path": "europas-h2-markt-v2-bauer-vs-aussteiger.csv",
+    "chart_type": "map",
+    "title": "Wer Abnehmer hat, baut Wasserstoff — der Rest stoppt",
+    "subtitle": "11 grosse H2-Projekte 2024-2026 · Punktgrösse = Elektrolyse-MW · Grün: 2.060 MW im Bau · Rot: 1.030 MW gestoppt",
+    "data_source_label": "Quelle: Eigene Recherche; Hydrogen Insight, S&P Global, Argus, Bloomberg, IEA · Nicht abgebildet: McPhy (FR, insolvent), Statkraft H2-Stopp (NO), Aukra-Pipeline (NO, blau)",
+    "rendered_at": "2026-05-19T00:00:00+00:00",
+    "rendered_by": "chart-engine render_chart.py (square_lg 1600x1600, custom-bbox-europa, per-point-color, no-arrow-head)",
+    "size_preset": "square_lg",
+    "scope": {"bbox": [-11, 24, 36, 68], "asset": "europa"},
+    "annotations": [
+      {"type": "arrow", "lat": 39.5, "lon": -6.5, "label": "Iberien: Solar + Stahl-Abnehmer", "label_offset": [-160, 30], "text_anchor": "middle", "color": "#7CB342", "show_arrow_head": false},
+      {"type": "arrow", "lat": 52.5, "lon": 5.8, "label": "Nordsee: Raffinerien ersetzen grauen H2", "label_offset": [10, -150], "text_anchor": "middle", "color": "#7CB342", "show_arrow_head": false},
+      {"type": "arrow", "lat": 54.58, "lon": -1.15, "label": "Teesside: Export ohne Abnehmer", "label_offset": [-180, 30], "text_anchor": "middle", "color": "#C7574A", "show_arrow_head": false}
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+name,strompreis_eur_mwh,abnehmer_sicherheit,status,mw
+Boden,30,10,baut,690
+Huelva,25,8,baut,500
+Emden,55,7,baut,320
+Sines,25,9,baut,250
+Rotterdam,65,7,baut,200
+Bilbao,25,7,baut,100
+Teesside,80,2,gestoppt,500
+Lubmin,50,1,gestoppt,210
+Tarragona,35,3,gestoppt,150
+Cartagena,35,3,gestoppt,100
+Örnsköldsvik,30,2,gestoppt,70
