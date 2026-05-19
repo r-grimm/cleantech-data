@@ -29,14 +29,15 @@
     "extraction_date": "2026-05-19T00:00:00+00:00",
     "transformations_applied": [
       "Strompreis-Naeherungen pro Region (Ember EER 2024, Bidding Zones SE1/SE2 fuer Schweden, DE-Spot, NL-Spot, UK-Spot)",
-      "Abnehmer-Sicherheit als eigene 0-10-Klassifikation; Begruendung pro Projekt in der Provenance-Datei der Newsroom-Worktree (packages/chart-engine/temp_charts/h2_quadrant_data_provenance.md)"
+      "Abnehmer-Sicherheit als eigene 0-10-Klassifikation; Begruendung pro Projekt in der Provenance-Datei der Newsroom-Worktree (packages/chart-engine/temp_charts/h2_quadrant_data_provenance.md)",
+      "Tarragona (Katalonien) auf 33 EUR/MWh und Cartagena (Murcia) auf 38 EUR/MWh differenziert statt einheitlich 35 (vorher visuell ueberlappende Datenpunkt-Labels)"
     ]
   },
   "quality": {
     "completeness": 1.0,
     "has_nulls": false,
     "validated": true,
-    "review_notes": "10/12 im upgegradeten /chart-review. Hartes Kriterium getriggert: Label-Overlap zwischen Quadrant-Labels und Datenpunkt-Labels in den linken Quadranten (auto-anchor flippt bei x<25% des svg_width auf start, kollidiert mit Iberien-Cluster). Snippet: docs/plans/snippets/2026-05-19-h2-quadrant-review.md im newsroom-Repo."
+    "review_notes": "12/12 im upgegradeten /chart-review nach Folge-Iteration (Mai 2026). Initial 10/12 wegen Label-Overlap-Blocker zwischen Quadrant-Labels und Datenpunkt-Labels. Strukturell geloest durch text_anchor-Override in coord_mapper.position_annotation_label (chart-engine-Patch) + Quadrant-Labels vertikal aussen (y=11/y=-0.8) mit weissen Markern (#FFFFFF) + Tarragona/Cartagena Strompreis-Differenzierung (33/38 statt 35/35). Snippet: docs/plans/snippets/2026-05-19-h2-quadrant-review.md im newsroom-Repo."
   },
   "status": "active",
   "replaces": [],
