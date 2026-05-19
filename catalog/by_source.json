@@ -21,8 +21,12 @@
   "ENTSO-E Transparency Platform": [
     "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
   ],
+  "Eigene Klassifikation cleantech.ing + Ember (Mai 2026)": [
+    "data/2026-05/charts/europas-h2-quadrant.csv"
+  ],
   "Eigene Recherche cleantech.ing (Mai 2026)": [
-    "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv"
+    "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv",
+    "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.csv"
   ],
   "Ember": [
     "data/2026-05/charts/spains-electricity-among-europes-cheapest.csv"

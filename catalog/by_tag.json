@@ -66,7 +66,8 @@
     "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
   ],
   "cancellations": [
-    "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv"
+    "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv",
+    "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.csv"
   ],
   "capacity": [
     "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv",
@@ -76,6 +77,9 @@
   "china": [
     "data/2026-03/zev-heavy-trucks-china-eu.csv",
     "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv"
+  ],
+  "classification": [
+    "data/2026-05/charts/europas-h2-quadrant.csv"
   ],
   "clean-technology": [
     "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv"
@@ -144,7 +148,9 @@
     "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
   ],
   "electrolysis": [
-    "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv"
+    "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv",
+    "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.csv",
+    "data/2026-05/charts/europas-h2-quadrant.csv"
   ],
   "energie": [
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
@@ -170,7 +176,9 @@
   ],
   "energy-transition": [
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
-    "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv"
+    "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv",
+    "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.csv",
+    "data/2026-05/charts/europas-h2-quadrant.csv"
   ],
   "erneuerbare-energien": [
     "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.csv"
@@ -184,13 +192,16 @@
   "europe": [
     "data/2026-03/charts/20260324_120000_000002_new-climate-funds-value-and-count-2025.csv",
     "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv",
+    "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.csv",
+    "data/2026-05/charts/europas-h2-quadrant.csv",
     "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
   ],
   "ev": [
     "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
   ],
   "fid": [
-    "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv"
+    "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv",
+    "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.csv"
   ],
   "finanzierung": [
     "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv"
@@ -211,7 +222,8 @@
     "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv"
   ],
   "geographic": [
-    "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv"
+    "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv",
+    "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.csv"
   ],
   "germany": [
     "data/2024-12/power-mix-germany-daily.csv",
@@ -235,7 +247,9 @@
     "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv"
   ],
   "h2-bear-market": [
-    "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv"
+    "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv",
+    "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.csv",
+    "data/2026-05/charts/europas-h2-quadrant.csv"
   ],
   "handelsblatt": [
     "data/2025-12/batteriespeicher-netzanschlussanfragen-deutschland.csv"
@@ -248,7 +262,9 @@
   ],
   "hydrogen": [
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
-    "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv"
+    "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv",
+    "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.csv",
+    "data/2026-05/charts/europas-h2-quadrant.csv"
   ],
   "iea": [
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
@@ -281,6 +297,9 @@
   ],
   "landwirtschaft": [
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
+  ],
+  "llm-review-iteration": [
+    "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.csv"
   ],
   "mastr": [
     "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv"
@@ -347,6 +366,9 @@
   "q1-2026": [
     "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
   ],
+  "quadrant": [
+    "data/2026-05/charts/europas-h2-quadrant.csv"
+  ],
   "quarterly": [
     "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv"
   ],
@@ -364,6 +386,9 @@
   ],
   "robotics-wave": [
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
+  ],
+  "scatter": [
+    "data/2026-05/charts/europas-h2-quadrant.csv"
   ],
   "silver": [
     "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv"
@@ -402,6 +427,9 @@
     "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
     "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
     "data/2025-12/utility-scale-bess-deutschland-2020-2025.csv"
+  ],
+  "v2": [
+    "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.csv"
   ],
   "venture-capital": [
     "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv",
