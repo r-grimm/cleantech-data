@@ -1,8 +1,8 @@
-source,cost_usd_per_tonne,co2_concentration_pct
-Ethanol fermentation,17.5,95.0
-Ammonia production,20.0,45.0
-Cement / steel,60.0,23.5
-Coal flue gas,60.0,13.0
-RICE engine exhaust,45.0,6.0
-NGCC gas turbine,61.0,3.5
-Direct Air Capture,450.0,0.04
+source,cost_usd_per_tonne,co2_concentration_pct,category
+Ethanol fermentation,17.5,95.0,Point source
+Ammonia production,20.0,45.0,Point source
+Cement / steel,60.0,23.5,Point source
+Coal flue gas,60.0,13.0,Point source
+RICE engine exhaust,45.0,6.0,Point source
+NGCC gas turbine,61.0,3.5,Point source
+Direct Air Capture,450.0,0.04,DAC

@@ -32,6 +32,11 @@
       "name": "co2_concentration_pct",
       "type": "float",
       "description": "Volumetric CO2 concentration in the source stream, in percent"
+    },
+    "category": {
+      "name": "category",
+      "type": "string",
+      "description": "Source class for visual grouping: 'Point source' for industrial exhaust streams or 'DAC' for direct air capture"
     }
   },
   "status": "active",
