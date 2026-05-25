@@ -1,0 +1,51 @@
+{
+  "title": "CCS Capture Cost by CO2 Concentration",
+  "description": "Cost of CO2 capture (USD per tonne) across seven point and air sources, ordered by CO2 concentration in the source stream. Concentrated streams (ethanol fermentation, ammonia) capture cheaply; dilute streams (NGCC flue gas, direct air) cost an order of magnitude more. Values aggregated from DOE/NETL Industrial CCS Cost Study (2022) and EFI Foundation Direct Air Capture Case Study (2024), as compiled by Avanza Energy.",
+  "tags": [
+    "ccs",
+    "carbon-capture",
+    "dac",
+    "co2",
+    "cost-analysis",
+    "industrial-emissions",
+    "climate-tech"
+  ],
+  "source": {
+    "name": "Avanza Energy Substack (compiled from DOE/NETL 2022 and EFI Foundation 2024)",
+    "url": "https://avanzaenergy.substack.com/p/the-160-billion-last-mile-why-carbon",
+    "import_type": "ocr"
+  },
+  "license": "unknown",
+  "created_at": "2026-05-25T00:00:00+00:00",
+  "columns": {
+    "source": {
+      "name": "source",
+      "type": "string",
+      "description": "Industrial source or capture method"
+    },
+    "cost_usd_per_tonne": {
+      "name": "cost_usd_per_tonne",
+      "type": "float",
+      "description": "Capture cost in USD per tonne of CO2"
+    },
+    "co2_concentration_pct": {
+      "name": "co2_concentration_pct",
+      "type": "float",
+      "description": "Volumetric CO2 concentration in the source stream, in percent"
+    }
+  },
+  "status": "active",
+  "provenance": {
+    "extraction_method": "ocr",
+    "extracted_by": "claude-chart-engine",
+    "extraction_date": "2026-05-25T00:00:00+00:00",
+    "transformations_applied": [
+      "Visually extracted from chart in Avanza Energy article",
+      "Cross-referenced numeric values against article body text",
+      "Sorted by CO2 concentration descending"
+    ]
+  },
+  "freshness": {
+    "source_checked": "2026-05-25T00:00:00+00:00"
+  }
+}
