@@ -74,6 +74,12 @@
     "data/2025-12/onshore-wind-capacity-germany-2009-2024.csv",
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
   ],
+  "carbon-capture": [
+    "data/2026-05/ccs-cost-by-co2-concentration.csv"
+  ],
+  "ccs": [
+    "data/2026-05/ccs-cost-by-co2-concentration.csv"
+  ],
   "china": [
     "data/2026-03/zev-heavy-trucks-china-eu.csv",
     "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv"
@@ -115,12 +121,24 @@
   "climate-investment": [
     "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv"
   ],
+  "climate-tech": [
+    "data/2026-05/ccs-cost-by-co2-concentration.csv"
+  ],
+  "co2": [
+    "data/2026-05/ccs-cost-by-co2-concentration.csv"
+  ],
   "cost": [
     "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv"
+  ],
+  "cost-analysis": [
+    "data/2026-05/ccs-cost-by-co2-concentration.csv"
   ],
   "cumulative-capacity": [
     "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
     "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv"
+  ],
+  "dac": [
+    "data/2026-05/ccs-cost-by-co2-concentration.csv"
   ],
   "daily": [
     "data/2024-12/power-mix-germany-daily.csv"
@@ -268,6 +286,9 @@
   ],
   "iea": [
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
+  ],
+  "industrial-emissions": [
+    "data/2026-05/ccs-cost-by-co2-concentration.csv"
   ],
   "industrie": [
     "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv"
