@@ -1,0 +1,27 @@
+name,lat,lon,value,status,project,country,source_url
+Boden,65.83,21.69,690,im_bau,Stegra (vorher H2 Green Steel),Schweden,https://cinea.ec.europa.eu/featured-projects/stegra-welcoming-new-era-green-steel-production_en
+Emden,53.36,7.21,320,im_bau,EWE Clean Hydrogen Coastline,Deutschland,https://www.ewe.com/en/media-center/press-releases/2025/11/official-start-of-construction-of-320-megawatt-generation-plant-in-emdenewe-ag
+Huelva,37.26,-6.94,300,im_bau,Moeve Onuba (Andalusian Green H2 Valley),Spanien,https://www.moeveglobal.com/en/press/moeve-thyssenkrupp-nucera-electrolyzers-green-hydrogen-onuba
+Rotterdam,51.95,4.07,400,im_bau,Air Liquide ELYgator (200) + Shell HH1 (200),Niederlande,https://www.airliquide.com/group/press-releases-news/2025-07-23/air-liquide-takes-final-investment-decision-build-elygator-large-scale-electrolyzer-netherlands
+Kristinestad,62.27,21.38,200,im_bau,Kristinestad PtX (EU IF24),Finnland,https://power-to-x.de/en/Six-winners-of-the-2024-hydrogen-auction-sign-funding-agreements./
+Palos,37.23,-6.89,120,im_bau,Iberdrola NOON (EU IF24),Spanien,https://power-to-x.de/en/Six-winners-of-the-2024-hydrogen-auction-sign-funding-agreements./
+Lingen,52.52,7.32,100,im_bau,RWE/Sunfire,Deutschland,https://sunfire.de/en/news/sunfire-year-in-review-2024/
+Rijeka,45.34,14.45,10,im_bau,INA Rijeka Refinery (Ohmium),Kroatien,https://www.ohmium.com/news
+Rosignano,43.40,10.47,5,im_bau,Solvay + Sapio,Italien,https://www.solvay.com/en/press-release
+Siracusa,37.07,15.29,4,im_bau,Ohmium + Res Integra,Italien,https://www.ohmium.com/news
+Bad Lauchstaedt,51.39,11.86,30,im_bau,Sunfire/VNG,Deutschland,https://sunfire.de/en/news/sunfire-year-in-review-2024/
+Zaragoza,41.65,-0.89,30,im_bau,H2CRI Green Devco Energy (EU IF24),Spanien,https://power-to-x.de/en/Six-winners-of-the-2024-hydrogen-auction-sign-funding-agreements./
+Rjukan,59.88,8.59,18.75,im_bau,Norwegian Hydrogen RjukanLH2 (EU IF24),Norwegen,https://norwegianhydrogen.com/news/more-support-for-rjukan-liquid-hydrogen-project-with-eur-31-5-million-grant-from-eu-innovation
+Stuttgart,48.78,9.18,10,im_bau,Stadtwerke Stuttgart Green Hydrogen Hub,Deutschland,https://www.stadtwerke-stuttgart.de/aktuelles-presse/news/2025/apr/28/stuttgart-und-region-starten-in-das-wasserstoff/
+Hammerfest,70.66,23.68,7.5,im_bau,HammerfestH2 (EU IF24),Norwegen,https://power-to-x.de/en/Six-winners-of-the-2024-hydrogen-auction-sign-funding-agreements./
+Valencia,39.47,-0.38,5,im_bau,GH2Move-VLC Diverxia Infraestructuras (EU IF24),Spanien,https://power-to-x.de/en/Six-winners-of-the-2024-hydrogen-auction-sign-funding-agreements./
+Schwarzheide,51.48,13.86,1.3,im_bau,Sunfire SOEC Testanlage,Deutschland,https://www.process.vogel.de/sunfire-soec-testanlage-industriepark-lausitz-schwarzheide-a-5ccf46964e455bf20c68ac6646e417bc/
+Tito Scalo,40.58,15.78,1,im_bau,Ansaldo Energia,Italien,https://www.ansaldoenergia.com/news/
+Ziar nad Hronom,48.59,18.85,1,im_bau,Elogen + RoyalStav + Veolia (PEM),Slowakei,https://fuelcellsworks.com/2025/10/29/clean-energy/elogen-selected-by-royalstav-and-veolia-for-a-renewable-hydrogen-project-in-slovakia
+Wilhelmshaven,53.53,8.11,367.5,zurueckgezogen,KASKADE Meridiam (IF24 Sep 2025),Deutschland,https://www.pv-magazine.com/2025/09/22/seven-projects-pulled-from-eu-hydrogen-fund/
+Lubmin,54.14,13.61,210,zurueckgezogen,H2-Hub Lubmin Deutsche ReGas (IF24),Deutschland,https://www.argusmedia.com/en/news-and-insights/latest-market-news/2733116-seven-projects-drop-out-of-eu-h2-bank-negotiations
+Bremen,53.08,8.81,100,abgesagt,ArcelorMittal gruener Stahl,Deutschland,https://www.tagesspiegel.de/wirtschaft/ruckschlag-fur-klimafreundlichere-stahlproduktion-arcelormittal-stoppt-plane-fur-grunen-stahl-13883953.html
+Eisenhuettenstadt,52.15,14.65,100,abgesagt,ArcelorMittal gruener Stahl,Deutschland,https://www.tagesspiegel.de/wirtschaft/ruckschlag-fur-klimafreundlichere-stahlproduktion-arcelormittal-stoppt-plane-fur-grunen-stahl-13883953.html
+Belfort,47.64,6.86,60,insolvenz,McPhy Energy (John Cockerill kauft),Frankreich,https://fuelcellsworks.com/2025/07/08/electrolyzer/mcphy-saved-john-cockerill-to-take-over-belfort-electrolyser-gigafactory
+Aberdeen,57.15,-2.10,60,zurueckgezogen,BP Aberdeen Hydrogen Hub (Stadtrat-Exit),UK,https://www.energyvoice.com/renewables-energy-transition/hydrogen/uk-hydrogen/593129/aberdeen-city-council-set-to-withdraw-from-hydrogen-hub-joint-venture-with-bp/
+Boxberg,51.40,14.55,60,gestoppt,Leag H2-Kraftwerk (Juni 2025),Deutschland,https://www.pv-magazine.de/2025/06/25/leag-stoppt-geplanten-elektrolyseur-in-boxberg/
