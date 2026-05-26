@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-25T20:55:46.470840+00:00",
-  "total_datasets": 50,
+  "generated_at": "2026-05-26T07:25:28.046786+00:00",
+  "total_datasets": 51,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -1550,6 +1550,41 @@
       "thematic_name": "electricity-prices",
       "year_month": "2026-05",
       "filename": "spain-s-electricity-among-europe-s-cheapest.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-05/europas-h2-markt-2026.csv",
+      "metadata_path": "data/2026-05/europas-h2-markt-2026.meta.json",
+      "title": "Europas H2-Markt 2026: Grossprojekte im Bau vs. zurueckgezogen",
+      "description": "Geographische Uebersicht europaeischer Wasserstoff-Grossprojekte mit FID/Inbetriebnahme oder offizieller Cancellation (Stand Mai 2026). 19 Projekte im Bau (Summe ~2.230 MW Elektrolyseurleistung) inklusive Stegra Boden (690 MW), EWE Emden (320 MW), Moeve Onuba Huelva (300 MW), Air Liquide ELYgator + Shell HH1 in Rotterdam (je 200 MW = 400 zusammengefasst), Kristinestad PtX Finnland (200 MW), Iberdrola NOON Palos (120 MW), RWE/Sunfire Lingen (100 MW), INA Rijeka Kroatien (10 MW), Solvay/Sapio Rosignano Italien (5 MW), Ohmium Siracusa Italien (4 MW), Elogen+Veolia Ziar nad Hronom Slowakei (1 MW), Ansaldo Tito Scalo Italien (1 MW) und mehrere EU-IF24-Auktionsgewinner (Bad Lauchstaedt 30, Zaragoza 30, Rjukan 18,75, Stuttgart 10, Hammerfest 7,5, Valencia 5, Schwarzheide 1,3). 7 Cancellations/Withdrawals: KASKADE Wilhelmshaven (367,5 MW, Meridiam, IF24 zurueckgezogen Sep 2025), H2-Hub Lubmin (210 MW, IF24 zurueckgezogen), ArcelorMittal gruener Stahl Bremen + Eisenhuettenstadt (€1,3 Mrd. Foerderung verfaellt, symbolisch 100 MW), McPhy Belfort (Insolvenz Juli 2025), BP Aberdeen Hub (Stadtrat-Exit), Leag Boxberg H2-Kraftwerk (Juni 2025 auf Eis). Belfort/Aberdeen/Boxberg sind als symbolische 60-MW-Punkte ohne tatsaechliche Elektrolyse-MW-Bezug eingezeichnet (Insolvenz/Status-Marker).",
+      "source": {
+        "name": "Eigene Recherche (cleantech.ing Mai 2026), verifiziert gegen ThyssenKrupp Nucera, Moeve, EWE, Stegra/CINEA, Air Liquide, Shell, Iberdrola, EU CINEA, Argus Media, taz, Tagesspiegel, Euronext, FuelCellsWorks, Norwegian Hydrogen",
+        "url": "https://www.cleantech.ing/p/wasserstoff-l-uft-an-nur-ohne-den-deutschen-mittelstand",
+        "import_type": "manual"
+      },
+      "tags": [
+        "hydrogen",
+        "h2",
+        "electrolyser",
+        "europe",
+        "industrial-policy",
+        "eu-hydrogen-bank",
+        "if24-auction",
+        "decarbonisation",
+        "cleantech"
+      ],
+      "license": "unknown",
+      "created_at": "2026-05-26T00:00:00+00:00",
+      "thematic_name": null,
+      "year_month": "2026-05",
+      "filename": "europas-h2-markt-2026.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
