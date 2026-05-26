@@ -113,7 +113,8 @@
     "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
     "data/2026-04/charts/20260403_081625_259313_top-movers.csv",
     "data/2026-04/charts/20260403_081719_863188_lithium-ion-cell-prices.csv",
-    "data/2026-04/charts/20260403_093249_215401_us-data-center-build-out.csv"
+    "data/2026-04/charts/20260403_093249_215401_us-data-center-build-out.csv",
+    "data/2026-05/europas-h2-markt-2026.csv"
   ],
   "climate-funds": [
     "data/2026-03/charts/20260324_120000_000002_new-climate-funds-value-and-count-2025.csv"
@@ -146,6 +147,9 @@
   "day-ahead": [
     "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
   ],
+  "decarbonisation": [
+    "data/2026-05/europas-h2-markt-2026.csv"
+  ],
   "deutschland": [
     "data/2025-12/batteriespeicher-netzanschlussanfragen-deutschland.csv",
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv",
@@ -164,6 +168,9 @@
   ],
   "electricity-prices": [
     "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
+  ],
+  "electrolyser": [
+    "data/2026-05/europas-h2-markt-2026.csv"
   ],
   "electrolysis": [
     "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv",
@@ -204,6 +211,9 @@
   "eu": [
     "data/2026-03/zev-heavy-trucks-china-eu.csv"
   ],
+  "eu-hydrogen-bank": [
+    "data/2026-05/europas-h2-markt-2026.csv"
+  ],
   "eu-pipeline": [
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv"
   ],
@@ -212,7 +222,8 @@
     "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv",
     "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.csv",
     "data/2026-05/charts/europas-h2-quadrant.csv",
-    "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
+    "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv",
+    "data/2026-05/europas-h2-markt-2026.csv"
   ],
   "ev": [
     "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
@@ -264,6 +275,9 @@
     "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
     "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv"
   ],
+  "h2": [
+    "data/2026-05/europas-h2-markt-2026.csv"
+  ],
   "h2-bear-market": [
     "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv",
     "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.csv",
@@ -282,13 +296,20 @@
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
     "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv",
     "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.csv",
-    "data/2026-05/charts/europas-h2-quadrant.csv"
+    "data/2026-05/charts/europas-h2-quadrant.csv",
+    "data/2026-05/europas-h2-markt-2026.csv"
   ],
   "iea": [
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
   ],
+  "if24-auction": [
+    "data/2026-05/europas-h2-markt-2026.csv"
+  ],
   "industrial-emissions": [
     "data/2026-05/ccs-cost-by-co2-concentration.csv"
+  ],
+  "industrial-policy": [
+    "data/2026-05/europas-h2-markt-2026.csv"
   ],
   "industrie": [
     "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv"

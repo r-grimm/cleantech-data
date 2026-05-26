@@ -27,6 +27,9 @@
   "Eigene Klassifikation cleantech.ing + Ember (Mai 2026)": [
     "data/2026-05/charts/europas-h2-quadrant.csv"
   ],
+  "Eigene Recherche (cleantech.ing Mai 2026), verifiziert gegen ThyssenKrupp Nucera, Moeve, EWE, Stegra/CINEA, Air Liquide, Shell, Iberdrola, EU CINEA, Argus Media, taz, Tagesspiegel, Euronext, FuelCellsWorks, Norwegian Hydrogen": [
+    "data/2026-05/europas-h2-markt-2026.csv"
+  ],
   "Eigene Recherche cleantech.ing (Mai 2026)": [
     "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv",
     "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.csv"
