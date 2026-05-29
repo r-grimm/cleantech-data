@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-29T13:35:26.300169+00:00",
+  "generated_at": "2026-05-29T15:05:55.640335+00:00",
   "total_datasets": 54,
   "datasets": [
     {
@@ -1339,7 +1339,7 @@
       "source": {
         "name": "Center of Automotive Management (CAM) / KBA",
         "url": "https://auto-institut.de/presse/neuzulassungstrends-in-deutschland-q1-2026/",
-        "import_type": "html-extracted",
+        "import_type": "manual",
         "publication_url_secondary": "https://edison.media/verkehr/elektroauto-wird-in-europa-zum-mainstream/25268246/"
       },
       "tags": [
@@ -1500,7 +1500,7 @@
       "source": {
         "name": "Mercom Capital Group via PV Tech",
         "url": "https://www.pv-tech.org/corporate-solar-financing-more-than-doubles-us11-1-billion-q1-2026/",
-        "import_type": "json-embedded",
+        "import_type": "api",
         "embed_url": "https://flo.uri.sh/visualisation/28834126/embed",
         "publication_url_secondary": "https://mercomcapital.com/product/q1-2026-solar-funding-ma-report/"
       },
@@ -1560,7 +1560,7 @@
       "source": {
         "name": "Verivox / Fraunhofer ISE; VPI Destatis",
         "url": "https://www.verivox.de/strom/strompreise/",
-        "import_type": "ocr-plus-deflated",
+        "import_type": "ocr",
         "original_image_url": "https://media.licdn.com/dms/image/v2/D4D22AQEODI738LhZwg/feedshare-shrink_800/B4DZ4GTep1J8Ac-/0/1778222230423",
         "vpi_source_url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/Publikationen/Downloads-Verbraucherpreise/statistischer-bericht-verbraucherpreisindex-lange-reihen-5611103.xlsx",
         "context_url": "https://janrosenow.substack.com/p/spain-just-became-one-of-europes"

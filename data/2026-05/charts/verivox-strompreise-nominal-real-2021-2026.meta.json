@@ -5,7 +5,7 @@
   "source": {
     "name": "Verivox / Fraunhofer ISE; VPI Destatis",
     "url": "https://www.verivox.de/strom/strompreise/",
-    "import_type": "ocr-plus-deflated",
+    "import_type": "ocr",
     "original_image_url": "https://media.licdn.com/dms/image/v2/D4D22AQEODI738LhZwg/feedshare-shrink_800/B4DZ4GTep1J8Ac-/0/1778222230423",
     "vpi_source_url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/Publikationen/Downloads-Verbraucherpreise/statistischer-bericht-verbraucherpreisindex-lange-reihen-5611103.xlsx",
     "context_url": "https://janrosenow.substack.com/p/spain-just-became-one-of-europes"
@@ -30,7 +30,7 @@
     "source_checked": "2026-05-11T14:50:00+00:00"
   },
   "provenance": {
-    "extraction_method": "ocr-plus-deflated",
+    "extraction_method": "ocr",
     "extracted_by": "Anker aus Verivox-Chart per chart-engine OCR (Fraunhofer-Asset von LinkedIn-CDN), VPI per Destatis xlsx (Sheet csv-611xx-03), Real-Werte Eigenrechnung",
     "extraction_date": "2026-05-11T14:50:00+00:00",
     "transformations_applied": [

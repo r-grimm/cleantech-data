@@ -5,7 +5,7 @@
   "source": {
     "name": "Center of Automotive Management (CAM) / KBA",
     "url": "https://auto-institut.de/presse/neuzulassungstrends-in-deutschland-q1-2026/",
-    "import_type": "html-extracted",
+    "import_type": "manual",
     "publication_url_secondary": "https://edison.media/verkehr/elektroauto-wird-in-europa-zum-mainstream/25268246/"
   },
   "license": "unknown",
@@ -36,7 +36,7 @@
     "source_checked": "2026-05-11T12:00:00+00:00"
   },
   "provenance": {
-    "extraction_method": "html-extracted",
+    "extraction_method": "scrape",
     "extracted_by": "WebFetch + Verifikation gegen Originalsaetze",
     "extraction_date": "2026-05-11T12:00:00+00:00",
     "transformations_applied": ["Komma-zu-Punkt fuer Dezimalwerte"]

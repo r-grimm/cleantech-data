@@ -5,7 +5,7 @@
   "source": {
     "name": "Mercom Capital Group via PV Tech",
     "url": "https://www.pv-tech.org/corporate-solar-financing-more-than-doubles-us11-1-billion-q1-2026/",
-    "import_type": "json-embedded",
+    "import_type": "api",
     "embed_url": "https://flo.uri.sh/visualisation/28834126/embed",
     "publication_url_secondary": "https://mercomcapital.com/product/q1-2026-solar-funding-ma-report/"
   },
@@ -29,7 +29,7 @@
     "source_checked": "2026-05-11T12:00:00+00:00"
   },
   "provenance": {
-    "extraction_method": "json-embedded",
+    "extraction_method": "api",
     "extracted_by": "Direktextraktion aus _Flourish_data JSON-Block des PV Tech Embed (https://flo.uri.sh/visualisation/28834126/embed)",
     "extraction_date": "2026-05-11T12:00:00+00:00",
     "transformations_applied": []
