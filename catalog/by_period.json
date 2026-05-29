@@ -847,7 +847,8 @@
     "data/2026-01/solar-schere-normalisiert-2012-2024.csv",
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
-    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv"
+    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "2013": [
     "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv",
@@ -857,7 +858,8 @@
     "data/2026-01/solar-schere-normalisiert-2012-2024.csv",
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
-    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv"
+    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "2014": [
     "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
@@ -870,7 +872,8 @@
     "data/2026-01/solar-schere-normalisiert-2012-2024.csv",
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
-    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv"
+    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "2015": [
     "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
@@ -883,7 +886,9 @@
     "data/2026-01/solar-schere-normalisiert-2012-2024.csv",
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
-    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv"
+    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
+    "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "2016": [
     "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
@@ -896,7 +901,9 @@
     "data/2026-01/solar-schere-normalisiert-2012-2024.csv",
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
-    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv"
+    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
+    "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "2017": [
     "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
@@ -909,7 +916,9 @@
     "data/2026-01/solar-schere-normalisiert-2012-2024.csv",
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
-    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv"
+    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
+    "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "2018": [
     "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
@@ -926,7 +935,9 @@
     "data/2026-03/charts/20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.csv",
     "data/2026-03/zev-heavy-trucks-china-eu.csv",
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
-    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv"
+    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
+    "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "2019": [
     "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
@@ -944,7 +955,9 @@
     "data/2026-03/charts/20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.csv",
     "data/2026-03/zev-heavy-trucks-china-eu.csv",
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
-    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv"
+    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
+    "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "2020": [
     "data/2024-12/power-mix-germany-daily.csv",
@@ -968,7 +981,9 @@
     "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
     "data/2026-03/zev-heavy-trucks-china-eu.csv",
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
-    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv"
+    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
+    "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "2021": [
     "data/2024-12/power-mix-germany-daily.csv",
@@ -992,7 +1007,9 @@
     "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
     "data/2026-03/zev-heavy-trucks-china-eu.csv",
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
-    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv"
+    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
+    "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "2022": [
     "data/2024-12/power-mix-germany-daily.csv",
@@ -1016,7 +1033,9 @@
     "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
     "data/2026-03/zev-heavy-trucks-china-eu.csv",
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
-    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv"
+    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
+    "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "2023": [
     "data/2024-12/power-mix-germany-daily.csv",
@@ -1041,7 +1060,9 @@
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
     "data/2026-03/zev-heavy-trucks-china-eu.csv",
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
-    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv"
+    "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
+    "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "2024": [
     "data/2024-12/power-mix-germany-daily.csv",
@@ -1064,7 +1085,9 @@
     "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
     "data/2026-03/zev-heavy-trucks-china-eu.csv",
-    "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv"
+    "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
+    "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "2025": [
     "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
@@ -1075,7 +1098,9 @@
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
     "data/2026-03/charts/20260324_120000_000001_total-climate-investment-by-region-2020-2025.csv",
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
-    "data/2026-03/zev-heavy-trucks-china-eu.csv"
+    "data/2026-03/zev-heavy-trucks-china-eu.csv",
+    "data/2026-05/batterieschiffe-antriebsmix-2025.csv",
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "2026": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
@@ -1083,27 +1108,32 @@
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
     "data/2026-04/charts/20260401_231654_850205_kyoto-s-cherry-blossoms-are-blooming-earlier-than-.csv",
-    "data/2026-04/charts/20260403_093249_215401_us-data-center-build-out.csv"
+    "data/2026-04/charts/20260403_093249_215401_us-data-center-build-out.csv",
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "2027": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv"
+    "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "2028": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv"
+    "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "2029": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv"
+    "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "2030": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv"
+    "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "2031": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",

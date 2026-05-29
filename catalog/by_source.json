@@ -18,8 +18,15 @@
   "Center of Automotive Management (CAM) / KBA": [
     "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
   ],
+  "DNV Alternative Fuels Insight (via Faraday Institution)": [
+    "data/2026-05/batterieschiffe-antriebsmix-2025.csv",
+    "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv"
+  ],
   "Data: IEA; Note: Based on 50 corporate, financial and VC investors deploying $1 billion overall and $100 million or more in energy innovation since 2020; Chart: Axios Visuals": [
     "data/2026-03/charts/20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.csv"
+  ],
+  "E-Ferry Project (EU Horizon 2020) via Faraday Institution": [
+    "data/2026-05/marine-batteriepack-kosten.csv"
   ],
   "ENTSO-E Transparency Platform": [
     "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
