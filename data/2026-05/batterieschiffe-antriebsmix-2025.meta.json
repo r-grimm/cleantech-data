@@ -1,0 +1,51 @@
+{
+  "title": "Batterieschiffe weltweit - Antriebsmix 2025",
+  "description": "Antriebsmix der weltweit in Betrieb befindlichen Schiffe mit Batteriesystemen, Stand Januar 2025: 65 Prozent Hybrid (614), 18 Prozent voll-elektrisch (170), 17 Prozent Plug-in-Hybrid (160). Basis sind 944 Schiffe. Quelle DNV Alternative Fuels Insight via Faraday Institution.",
+  "tags": [
+    "batteries",
+    "shipping",
+    "maritime",
+    "electrification",
+    "propulsion-mix"
+  ],
+  "source": {
+    "name": "DNV Alternative Fuels Insight (via Faraday Institution)",
+    "url": "https://www.faraday.ac.uk/wp-content/uploads/2025/01/Fraday_Insights_22_Jan_2025.pdf",
+    "import_type": "ocr"
+  },
+  "license": "unknown",
+  "created_at": "2026-05-29T12:00:00+00:00",
+  "columns": {
+    "Antrieb": {
+      "name": "Antrieb",
+      "description": "Antriebsart (Hybrid, voll-elektrisch, Plug-in-Hybrid)"
+    },
+    "Schiffe": {
+      "name": "Schiffe",
+      "unit": "Schiffe",
+      "description": "Anzahl Schiffe in Betrieb nach Antriebsart"
+    }
+  },
+  "status": "active",
+  "data_period": {
+    "start": "2025-01",
+    "end": "2025-01",
+    "granularity": "single_value"
+  },
+  "provenance": {
+    "original_source": {
+      "name": "DNV Alternative Fuels Insight"
+    },
+    "extraction_method": "ocr",
+    "extracted_by": "claude datastory",
+    "extraction_date": "2026-05-29T12:00:00+00:00",
+    "transformations_applied": [
+      "read-from-text",
+      "percent-to-absolute"
+    ]
+  },
+  "freshness": {
+    "data_as_of": "2025-01-31",
+    "source_checked": "2026-05-29T12:00:00+00:00"
+  }
+}

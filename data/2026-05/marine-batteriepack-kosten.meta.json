@@ -1,0 +1,53 @@
+{
+  "title": "Marine-Batteriepack-Kosten (€/kWh)",
+  "description": "Batteriepack-Kosten für maritime Anwendungen in Euro pro kWh, 2012 bis 2030 (2030 = Prognose). Aus der Faraday-/E-Ferry-Kostenkurve (Fig. 6) abgelesen. Zeigt den Rückgang von über 1.000 Euro/kWh (2015) auf rund 211 Euro/kWh (2030).",
+  "tags": [
+    "batteries",
+    "shipping",
+    "maritime",
+    "battery-cost",
+    "price"
+  ],
+  "source": {
+    "name": "E-Ferry Project (EU Horizon 2020) via Faraday Institution",
+    "url": "https://www.faraday.ac.uk/wp-content/uploads/2025/01/Fraday_Insights_22_Jan_2025.pdf",
+    "import_type": "ocr"
+  },
+  "license": "unknown",
+  "created_at": "2026-05-29T12:00:00+00:00",
+  "columns": {
+    "Jahr": {
+      "name": "Jahr",
+      "semantic_type": "year",
+      "granularity": "irregular",
+      "display_format": "{:.0f}"
+    },
+    "Kosten": {
+      "name": "Kosten",
+      "unit": "EUR/kWh",
+      "unit_symbol": "€/kWh",
+      "description": "Batteriepack-Kosten maritim, Euro pro kWh (2030 = Prognose)"
+    }
+  },
+  "status": "active",
+  "data_period": {
+    "start": "2012",
+    "end": "2030",
+    "granularity": "irregular"
+  },
+  "provenance": {
+    "original_source": {
+      "name": "E-Ferry Project (EU Horizon 2020)"
+    },
+    "extraction_method": "ocr",
+    "extracted_by": "claude datastory",
+    "extraction_date": "2026-05-29T12:00:00+00:00",
+    "transformations_applied": [
+      "read-from-chart"
+    ]
+  },
+  "freshness": {
+    "data_as_of": "2025-02-28",
+    "source_checked": "2026-05-29T12:00:00+00:00"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Batterieschiffe weltweit - in Betrieb (jährlich)",
+  "description": "Anzahl der Schiffe mit Batteriesystemen (voll-elektrisch und hybrid) in Betrieb weltweit, 2015 bis 2024. Werte für 2020 (486) und 2024 (944) aus DNV belegt, Zwischenjahre aus der DNV/Faraday-Grafik (Fig. 4) abgelesen. Zusätzlich 451 Schiffe im Bau (Stand Januar 2025).",
+  "tags": [
+    "batteries",
+    "shipping",
+    "maritime",
+    "electrification",
+    "global",
+    "yearly"
+  ],
+  "source": {
+    "name": "DNV Alternative Fuels Insight (via Faraday Institution)",
+    "url": "https://www.faraday.ac.uk/wp-content/uploads/2025/01/Fraday_Insights_22_Jan_2025.pdf",
+    "import_type": "ocr"
+  },
+  "license": "unknown",
+  "created_at": "2026-05-29T12:00:00+00:00",
+  "columns": {
+    "Jahr": {
+      "name": "Jahr",
+      "semantic_type": "year",
+      "granularity": "annual",
+      "display_format": "{:.0f}"
+    },
+    "Schiffe": {
+      "name": "Schiffe",
+      "unit": "Schiffe",
+      "description": "Schiffe mit Batteriesystemen in Betrieb"
+    }
+  },
+  "status": "active",
+  "data_period": {
+    "start": "2015",
+    "end": "2024",
+    "granularity": "annual"
+  },
+  "provenance": {
+    "original_source": {
+      "name": "DNV Alternative Fuels Insight"
+    },
+    "extraction_method": "ocr",
+    "extracted_by": "claude datastory",
+    "extraction_date": "2026-05-29T12:00:00+00:00",
+    "transformations_applied": [
+      "read-from-chart"
+    ]
+  },
+  "freshness": {
+    "data_as_of": "2025-01-31",
+    "source_checked": "2026-05-29T12:00:00+00:00"
+  }
+}

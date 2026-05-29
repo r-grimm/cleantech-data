@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-26T07:25:28.046786+00:00",
-  "total_datasets": 51,
+  "generated_at": "2026-05-29T13:35:12.276986+00:00",
+  "total_datasets": 54,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -1201,6 +1201,69 @@
       "warning": null
     },
     {
+      "csv_path": "data/2026-05/batterieschiffe-antriebsmix-2025.csv",
+      "metadata_path": "data/2026-05/batterieschiffe-antriebsmix-2025.meta.json",
+      "title": "Batterieschiffe weltweit - Antriebsmix 2025",
+      "description": "Antriebsmix der weltweit in Betrieb befindlichen Schiffe mit Batteriesystemen, Stand Januar 2025: 65 Prozent Hybrid (614), 18 Prozent voll-elektrisch (170), 17 Prozent Plug-in-Hybrid (160). Basis sind 944 Schiffe. Quelle DNV Alternative Fuels Insight via Faraday Institution.",
+      "source": {
+        "name": "DNV Alternative Fuels Insight (via Faraday Institution)",
+        "url": "https://www.faraday.ac.uk/wp-content/uploads/2025/01/Fraday_Insights_22_Jan_2025.pdf",
+        "import_type": "ocr"
+      },
+      "tags": [
+        "batteries",
+        "shipping",
+        "maritime",
+        "electrification",
+        "propulsion-mix"
+      ],
+      "license": "unknown",
+      "created_at": "2026-05-29T12:00:00+00:00",
+      "thematic_name": null,
+      "year_month": "2026-05",
+      "filename": "batterieschiffe-antriebsmix-2025.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
+      "metadata_path": "data/2026-05/batterieschiffe-weltweit-in-betrieb.meta.json",
+      "title": "Batterieschiffe weltweit - in Betrieb (jährlich)",
+      "description": "Anzahl der Schiffe mit Batteriesystemen (voll-elektrisch und hybrid) in Betrieb weltweit, 2015 bis 2024. Werte für 2020 (486) und 2024 (944) aus DNV belegt, Zwischenjahre aus der DNV/Faraday-Grafik (Fig. 4) abgelesen. Zusätzlich 451 Schiffe im Bau (Stand Januar 2025).",
+      "source": {
+        "name": "DNV Alternative Fuels Insight (via Faraday Institution)",
+        "url": "https://www.faraday.ac.uk/wp-content/uploads/2025/01/Fraday_Insights_22_Jan_2025.pdf",
+        "import_type": "ocr"
+      },
+      "tags": [
+        "batteries",
+        "shipping",
+        "maritime",
+        "electrification",
+        "global",
+        "yearly"
+      ],
+      "license": "unknown",
+      "created_at": "2026-05-29T12:00:00+00:00",
+      "thematic_name": null,
+      "year_month": "2026-05",
+      "filename": "batterieschiffe-weltweit-in-betrieb.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
       "csv_path": "data/2026-05/ccs-cost-by-co2-concentration.csv",
       "metadata_path": "data/2026-05/ccs-cost-by-co2-concentration.meta.json",
       "title": "CCS Capture Cost by CO2 Concentration",
@@ -1585,6 +1648,37 @@
       "thematic_name": null,
       "year_month": "2026-05",
       "filename": "europas-h2-markt-2026.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-05/marine-batteriepack-kosten.csv",
+      "metadata_path": "data/2026-05/marine-batteriepack-kosten.meta.json",
+      "title": "Marine-Batteriepack-Kosten (€/kWh)",
+      "description": "Batteriepack-Kosten für maritime Anwendungen in Euro pro kWh, 2012 bis 2030 (2030 = Prognose). Aus der Faraday-/E-Ferry-Kostenkurve (Fig. 6) abgelesen. Zeigt den Rückgang von über 1.000 Euro/kWh (2015) auf rund 211 Euro/kWh (2030).",
+      "source": {
+        "name": "E-Ferry Project (EU Horizon 2020) via Faraday Institution",
+        "url": "https://www.faraday.ac.uk/wp-content/uploads/2025/01/Fraday_Insights_22_Jan_2025.pdf",
+        "import_type": "ocr"
+      },
+      "tags": [
+        "batteries",
+        "shipping",
+        "maritime",
+        "battery-cost",
+        "price"
+      ],
+      "license": "unknown",
+      "created_at": "2026-05-29T12:00:00+00:00",
+      "thematic_name": null,
+      "year_month": "2026-05",
+      "filename": "marine-batteriepack-kosten.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
