@@ -20,6 +20,9 @@
   "arbeitsintensitt": [
     "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv"
   ],
+  "asia": [
+    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv"
+  ],
   "automatisierung": [
     "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv"
   ],
@@ -187,6 +190,9 @@
     "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.csv",
     "data/2026-05/charts/europas-h2-quadrant.csv"
   ],
+  "ember": [
+    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv"
+  ],
   "energie": [
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
   ],
@@ -249,13 +255,17 @@
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
   ],
   "forecast": [
-    "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv"
+    "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv",
+    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv"
   ],
   "fraunhofer": [
     "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.csv"
   ],
   "funding": [
     "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv"
+  ],
+  "gas": [
+    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv"
   ],
   "generation": [
     "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv"
@@ -311,7 +321,8 @@
     "data/2026-05/europas-h2-markt-2026.csv"
   ],
   "iea": [
-    "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
+    "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
+    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv"
   ],
   "if24-auction": [
     "data/2026-05/europas-h2-markt-2026.csv"
@@ -416,7 +427,8 @@
     "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.csv"
   ],
   "power-generation": [
-    "data/2024-12/power-mix-germany-daily.csv"
+    "data/2024-12/power-mix-germany-daily.csv",
+    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv"
   ],
   "price": [
     "data/2026-05/marine-batteriepack-kosten.csv"
@@ -467,7 +479,8 @@
     "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv",
     "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv",
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
-    "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv"
+    "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv",
+    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv"
   ],
   "spain": [
     "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
