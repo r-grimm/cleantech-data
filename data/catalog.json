@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-29T15:06:32.020451+00:00",
-  "total_datasets": 54,
+  "generated_at": "2026-06-18T20:33:41.689946+00:00",
+  "total_datasets": 55,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -1679,6 +1679,38 @@
       "thematic_name": null,
       "year_month": "2026-05",
       "filename": "marine-batteriepack-kosten.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv",
+      "metadata_path": "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.meta.json",
+      "title": "Stromerzeugungs-Zuwachs in Asien 2018-2025: IEA-Prognose vs. Realität",
+      "description": "Zuwachs der Stromerzeugung in Asien zwischen 2018 und 2025 nach Energieträger, jeweils IEA-Prognose von 2018 (World Energy Outlook, Current Policies Scenario) gegen die tatsächliche Entwicklung (Ember). Gas: prognostiziert +547 TWh, real nur +17 TWh (rund 32-fach überschätzt). Solar: prognostiziert +465 TWh, real +1.333 TWh (fast verdreifacht). Quelle: IEA WEO 2018, Ember, Bloomberg Opinion.",
+      "source": {
+        "name": "IEA World Energy Outlook 2018, Ember, Bloomberg Opinion",
+        "import_type": "ocr"
+      },
+      "tags": [
+        "solar",
+        "gas",
+        "asia",
+        "iea",
+        "power-generation",
+        "forecast",
+        "ember"
+      ],
+      "license": "unknown",
+      "created_at": "2026-06-18T12:00:00+00:00",
+      "thematic_name": null,
+      "year_month": "2026-06",
+      "filename": "asien-strom-iea-prognose-vs-real-2018-2025.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
