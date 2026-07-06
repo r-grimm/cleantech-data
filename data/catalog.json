@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-18T20:34:26.778655+00:00",
-  "total_datasets": 55,
+  "generated_at": "2026-07-06T17:57:09.609163+00:00",
+  "total_datasets": 56,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -1711,6 +1711,39 @@
       "thematic_name": null,
       "year_month": "2026-06",
       "filename": "asien-strom-iea-prognose-vs-real-2018-2025.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv",
+      "metadata_path": "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.meta.json",
+      "title": "Trumps Rollback: US-Ausbau nach Technologie 2025-2035 (Anteil des erwarteten Ausbaus)",
+      "description": "Anteil des unter Biden erwarteten US-Kapazitaetsausbaus, der unter Trumps Politik bis 2035 noch gebaut wird, indexiert auf 2025 = 100 %. Vier Technologien: Windkraft an Land bricht auf 28 % ein, waehrend dezentrale Solar (95 %) nahezu gehalten wird; Batteriespeicher (72 %) und Solar-Grossanlagen (69 %) verlieren moderat. Pixel-extrahiert aus CEEPR Figure 2 und visuell gegen die Kurven geprueft. Quelle: Glass Half Full, Bermel / MIT CEEPR (2026).",
+      "source": {
+        "name": "Glass Half Full, Bermel / MIT CEEPR (2026)",
+        "url": "https://ceepr.mit.edu/wp-content/uploads/2026/07/MIT-CEEPR-RC-2026-07.pdf",
+        "import_type": "ocr"
+      },
+      "tags": [
+        "solar",
+        "wind",
+        "battery-storage",
+        "usa",
+        "policy",
+        "forecast",
+        "ceepr"
+      ],
+      "license": "unknown",
+      "created_at": "2026-07-06T12:00:00+00:00",
+      "thematic_name": null,
+      "year_month": "2026-07",
+      "filename": "trumps-rollback-solar-haelt-windkraft-an-land.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,

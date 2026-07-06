@@ -46,7 +46,8 @@
   "battery-storage": [
     "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
     "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
-    "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv"
+    "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv",
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
   "bess": [
     "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
@@ -88,6 +89,9 @@
   ],
   "ccs": [
     "data/2026-05/ccs-cost-by-co2-concentration.csv"
+  ],
+  "ceepr": [
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
   "china": [
     "data/2026-03/zev-heavy-trucks-china-eu.csv",
@@ -256,7 +260,8 @@
   ],
   "forecast": [
     "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv",
-    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv"
+    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv",
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
   "fraunhofer": [
     "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.csv"
@@ -426,6 +431,9 @@
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv",
     "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.csv"
   ],
+  "policy": [
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
+  ],
   "power-generation": [
     "data/2024-12/power-mix-germany-daily.csv",
     "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv"
@@ -480,7 +488,8 @@
     "data/2026-01/solar-jobs-vs-kapazitaet-2012-2024.csv",
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
     "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv",
-    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv"
+    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv",
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
   "spain": [
     "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
@@ -503,6 +512,9 @@
   ],
   "trucks": [
     "data/2026-03/zev-heavy-trucks-china-eu.csv"
+  ],
+  "usa": [
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
   "utility-scale": [
     "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
@@ -527,6 +539,9 @@
   ],
   "wholesale-power": [
     "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
+  ],
+  "wind": [
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
   "wind-energy": [
     "data/2025-11/windpower/0105_Leist_kum_M.csv"

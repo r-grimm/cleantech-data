@@ -1,0 +1,57 @@
+{
+  "title": "Trumps Rollback: US-Ausbau nach Technologie 2025-2035 (Anteil des erwarteten Ausbaus)",
+  "description": "Anteil des unter Biden erwarteten US-Kapazitaetsausbaus, der unter Trumps Politik bis 2035 noch gebaut wird, indexiert auf 2025 = 100 %. Vier Technologien: Windkraft an Land bricht auf 28 % ein, waehrend dezentrale Solar (95 %) nahezu gehalten wird; Batteriespeicher (72 %) und Solar-Grossanlagen (69 %) verlieren moderat. Pixel-extrahiert aus CEEPR Figure 2 und visuell gegen die Kurven geprueft. Quelle: Glass Half Full, Bermel / MIT CEEPR (2026).",
+  "tags": ["solar", "wind", "battery-storage", "usa", "policy", "forecast", "ceepr"],
+  "source": {
+    "name": "Glass Half Full, Bermel / MIT CEEPR (2026)",
+    "url": "https://ceepr.mit.edu/wp-content/uploads/2026/07/MIT-CEEPR-RC-2026-07.pdf",
+    "import_type": "ocr"
+  },
+  "license": "unknown",
+  "created_at": "2026-07-06T12:00:00+00:00",
+  "columns": {
+    "jahr": {
+      "name": "jahr",
+      "description": "Kalenderjahr der Prognose (2025-2035)"
+    },
+    "technologie": {
+      "name": "technologie",
+      "description": "Technologie (Windkraft an Land, Dezentrale Solar, Batteriespeicher, Solar-Grossanlagen)"
+    },
+    "anteil": {
+      "name": "anteil",
+      "unit": "Prozent",
+      "unit_symbol": "%",
+      "description": "Anteil des unter Biden erwarteten Ausbaus, der unter Trump noch gebaut wird, indexiert auf 2025 = 100"
+    }
+  },
+  "status": "active",
+  "data_period": {
+    "start": "2025",
+    "end": "2035",
+    "granularity": "annual"
+  },
+  "provenance": {
+    "original_source": {
+      "name": "Glass Half Full, Bermel / MIT CEEPR (2026), Figure 2",
+      "url": "https://ceepr.mit.edu/wp-content/uploads/2026/07/MIT-CEEPR-RC-2026-07.pdf"
+    },
+    "extraction_method": "ocr",
+    "extraction_confidence": 0.8,
+    "extracted_by": "claude chart-engine (pixel extraction from CEEPR Figure 2)",
+    "extraction_date": "2026-07-06T12:00:00+00:00",
+    "transformations_applied": ["pixel-extracted-from-figure", "verified-against-visual", "indexed-to-2025-baseline"]
+  },
+  "quality": {
+    "completeness": 1.0,
+    "has_nulls": false,
+    "validated": true,
+    "validation_date": "2026-07-06",
+    "review_notes": "Werte aus CEEPR Figure 2 pixel-extrahiert (44 Datenpunkte, 4 Serien x 11 Jahre) und visuell gegen die abgebildeten Kurven geprueft. Alle Serien starten bei 100 (2025). Keine direkte tabellarische Quelle; PDF-URL verlinkt."
+  },
+  "freshness": {
+    "data_as_of": "2026-07-01",
+    "source_checked": "2026-07-06T12:00:00+00:00"
+  },
+  "keywords": ["Trump", "Rollback", "USA", "Windkraft an Land", "Onshore-Wind", "Dezentrale Solar", "Batteriespeicher", "Solar-Grossanlagen", "CEEPR", "Glass Half Full", "IRA", "OBBBA"]
+}

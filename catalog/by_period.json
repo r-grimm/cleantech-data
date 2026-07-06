@@ -1108,7 +1108,8 @@
     "data/2026-03/zev-heavy-trucks-china-eu.csv",
     "data/2026-05/batterieschiffe-antriebsmix-2025.csv",
     "data/2026-05/marine-batteriepack-kosten.csv",
-    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv"
+    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv",
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
   "2026": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
@@ -1117,52 +1118,62 @@
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
     "data/2026-04/charts/20260401_231654_850205_kyoto-s-cherry-blossoms-are-blooming-earlier-than-.csv",
     "data/2026-04/charts/20260403_093249_215401_us-data-center-build-out.csv",
-    "data/2026-05/marine-batteriepack-kosten.csv"
+    "data/2026-05/marine-batteriepack-kosten.csv",
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
   "2027": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
-    "data/2026-05/marine-batteriepack-kosten.csv"
+    "data/2026-05/marine-batteriepack-kosten.csv",
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
   "2028": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
-    "data/2026-05/marine-batteriepack-kosten.csv"
+    "data/2026-05/marine-batteriepack-kosten.csv",
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
   "2029": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
-    "data/2026-05/marine-batteriepack-kosten.csv"
+    "data/2026-05/marine-batteriepack-kosten.csv",
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
   "2030": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
     "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
-    "data/2026-05/marine-batteriepack-kosten.csv"
+    "data/2026-05/marine-batteriepack-kosten.csv",
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
   "2031": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
     "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
-    "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv"
+    "data/2026-03/charts/20260324_120000_000003_low-carbon-ammonia-pipeline-2023-2031.csv",
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
   "2032": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
   "2033": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
   "2034": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
   "2035": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
-    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv"
+    "data/2026-03/charts/20260320_105413_189732_chinas-strommix-transformation-bis-2060-szenario-e.csv",
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
   "2036": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
