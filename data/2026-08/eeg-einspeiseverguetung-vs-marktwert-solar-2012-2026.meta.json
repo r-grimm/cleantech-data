@@ -1,0 +1,58 @@
+{
+  "title": "EEG-Einspeisevergütung (Dachanlagen bis 10 kWp) vs. Marktwert Solar 2012-2026",
+  "description": "Jahresanfangswerte der EEG-Einspeisevergütung für neue PV-Dachanlagen bis 10 kWp (Teileinspeisung/Überschusseinspeisung, 2012-2026) und Jahresmarktwert Solar (2012-2025), beides in ct/kWh. Vergütung fällt von 24,43 ct (2012) auf 7,78 ct (Feb 2026); Marktwert liegt 2025 bei 4,508 ct - Abstand nur noch rund 3 ct. 22 Vergütungs-Stützwerte gegen die Original-XLSX der Bundesnetzagentur (Archivierte EEG-Vergütungssätze) abgeglichen, alle exakt bestätigt. Marktwert bis 2020 tatsächlicher Jahresmittelwert nach §33 EEG 2012, ab 2021 erzeugungsgewichteter Jahresmarktwert (Methodenbruch beachten). Ausreißer 2022: Marktwert 22,306 ct (Energiekrise) lag über der Vergütung. Erstellt für das News-Update zum EEG-2027-Kabinettsbeschluss vom 29.07.2026.",
+  "tags": ["solar", "eeg", "einspeiseverguetung", "marktwert", "deutschland", "foerderung", "strommarkt"],
+  "source": {
+    "name": "Bundesnetzagentur (Archivierte EEG-Vergütungssätze); netztransparenz.de (Marktwertübersicht)",
+    "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/ErneuerbareEnergien/EEG_Foerderung/Archiv_VergSaetze/start.html",
+    "import_type": "manual"
+  },
+  "license": "amtliche Daten (BNetzA/ÜNB), frei nutzbar",
+  "created_at": "2026-08-01T16:00:00+00:00",
+  "columns": {
+    "jahr": {
+      "name": "jahr",
+      "description": "Kalenderjahr (Vergütung: Jahresanfangswert Januar bzw. Februar ab 2024; Marktwert: Jahreswert)"
+    },
+    "wert": {
+      "name": "wert",
+      "unit": "Cent pro Kilowattstunde",
+      "unit_symbol": "ct/kWh",
+      "description": "Vergütungssatz bzw. Jahresmarktwert Solar in ct/kWh"
+    },
+    "serie": {
+      "name": "serie",
+      "description": "Datenreihe: 'Vergütung' (EEG-Einspeisevergütung Dachanlage bis 10 kWp, Teileinspeisung) oder 'Marktwert Solar'"
+    }
+  },
+  "status": "active",
+  "data_period": {
+    "start": "2012",
+    "end": "2026",
+    "granularity": "annual"
+  },
+  "provenance": {
+    "original_source": {
+      "name": "Bundesnetzagentur, Archivierte EEG-Vergütungssätze (XLSX/PDF); netztransparenz.de, Marktwertübersicht",
+      "url": "https://www.netztransparenz.de/de-de/Erneuerbare-Energien-und-Umlagen/EEG/Transparenzanforderungen/Marktprämie/Marktwertübersicht"
+    },
+    "extraction_method": "manual",
+    "extraction_confidence": 0.95,
+    "extracted_by": "claude (Recherche-Agenten + XLSX-Abgleich gegen BNetzA-Originaldateien)",
+    "extraction_date": "2026-08-01T16:00:00+00:00",
+    "transformations_applied": ["jahresanfangswerte-selektiert", "zwei-serien-long-format"]
+  },
+  "quality": {
+    "completeness": 1.0,
+    "has_nulls": false,
+    "validated": true,
+    "validation_date": "2026-08-01",
+    "review_notes": "Vergütung: 22 Stützwerte (2010-2026) exakt gegen BNetzA-Original-XLSX/PDF verifiziert; 2015/2017/2018/2020 aus SFV/BSW-Sekundärtabellen (BNetzA stellt für diese Zeiträume keine Archivdateien online). Marktwert 2012-2018 einfach belegt via netztransparenz-Parse, 2013/2016/2019 sowie 2021-2025 mehrfach bestätigt. Methodenbruch Marktwert 2020/21 (Jahresmittel vs. erzeugungsgewichtet) in Beschreibung dokumentiert. Marktwert 2026 fehlt (Jahreswert liegt erst Ende 2026 vor).",
+    "known_issues": ["Marktwert-Serie endet 2025 (2026er-Jahreswert existiert noch nicht)", "Methodenbruch Marktwert 2020/21: bis 2020 Jahresmittel §33 EEG 2012, ab 2021 erzeugungsgewichtet"]
+  },
+  "freshness": {
+    "data_as_of": "2026-08-01",
+    "source_checked": "2026-08-01T16:00:00+00:00"
+  },
+  "keywords": ["EEG 2027", "Einspeisevergütung", "Marktwert Solar", "PV-Dachanlage", "10 kWp", "Teileinspeisung", "Bundesnetzagentur", "netztransparenz", "Kabinettsbeschluss", "Direktvermarktung"]
+}
