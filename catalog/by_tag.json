@@ -171,7 +171,14 @@
     "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv",
     "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv",
     "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv",
-    "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.csv"
+    "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.csv",
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
+  ],
+  "eeg": [
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
+  ],
+  "einspeiseverguetung": [
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "electric-vehicles": [
     "data/2026-03/zev-heavy-trucks-china-eu.csv"
@@ -257,6 +264,9 @@
   ],
   "flaechennutzung": [
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
+  ],
+  "foerderung": [
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "forecast": [
     "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv",
@@ -375,6 +385,9 @@
     "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
     "data/2026-05/marine-batteriepack-kosten.csv"
   ],
+  "marktwert": [
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
+  ],
   "mastr": [
     "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv"
   ],
@@ -489,7 +502,8 @@
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
     "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv",
     "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv",
-    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv",
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "spain": [
     "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
@@ -503,6 +517,9 @@
   "storage": [
     "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
     "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv"
+  ],
+  "strommarkt": [
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "strompreise": [
     "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.csv"

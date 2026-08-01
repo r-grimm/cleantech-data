@@ -848,7 +848,8 @@
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
     "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
-    "data/2026-05/marine-batteriepack-kosten.csv"
+    "data/2026-05/marine-batteriepack-kosten.csv",
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "2013": [
     "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv",
@@ -859,7 +860,8 @@
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
     "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
-    "data/2026-05/marine-batteriepack-kosten.csv"
+    "data/2026-05/marine-batteriepack-kosten.csv",
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "2014": [
     "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
@@ -873,7 +875,8 @@
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
     "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
-    "data/2026-05/marine-batteriepack-kosten.csv"
+    "data/2026-05/marine-batteriepack-kosten.csv",
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "2015": [
     "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
@@ -888,7 +891,8 @@
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
     "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
     "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
-    "data/2026-05/marine-batteriepack-kosten.csv"
+    "data/2026-05/marine-batteriepack-kosten.csv",
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "2016": [
     "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
@@ -903,7 +907,8 @@
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
     "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
     "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
-    "data/2026-05/marine-batteriepack-kosten.csv"
+    "data/2026-05/marine-batteriepack-kosten.csv",
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "2017": [
     "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
@@ -918,7 +923,8 @@
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
     "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
     "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
-    "data/2026-05/marine-batteriepack-kosten.csv"
+    "data/2026-05/marine-batteriepack-kosten.csv",
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "2018": [
     "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
@@ -938,7 +944,8 @@
     "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
     "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
     "data/2026-05/marine-batteriepack-kosten.csv",
-    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv"
+    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv",
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "2019": [
     "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
@@ -959,7 +966,8 @@
     "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
     "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
     "data/2026-05/marine-batteriepack-kosten.csv",
-    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv"
+    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv",
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "2020": [
     "data/2024-12/power-mix-germany-daily.csv",
@@ -986,7 +994,8 @@
     "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
     "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
     "data/2026-05/marine-batteriepack-kosten.csv",
-    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv"
+    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv",
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "2021": [
     "data/2024-12/power-mix-germany-daily.csv",
@@ -1013,7 +1022,8 @@
     "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
     "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
     "data/2026-05/marine-batteriepack-kosten.csv",
-    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv"
+    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv",
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "2022": [
     "data/2024-12/power-mix-germany-daily.csv",
@@ -1040,7 +1050,8 @@
     "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
     "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
     "data/2026-05/marine-batteriepack-kosten.csv",
-    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv"
+    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv",
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "2023": [
     "data/2024-12/power-mix-germany-daily.csv",
@@ -1068,7 +1079,8 @@
     "data/2026-04/charts/20260402_162023_384327_das-atomenergie-paradoxon-wie-gro-technik-systemat.csv",
     "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
     "data/2026-05/marine-batteriepack-kosten.csv",
-    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv"
+    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv",
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "2024": [
     "data/2024-12/power-mix-germany-daily.csv",
@@ -1094,7 +1106,8 @@
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv",
     "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
     "data/2026-05/marine-batteriepack-kosten.csv",
-    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv"
+    "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv",
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "2025": [
     "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",
@@ -1109,7 +1122,8 @@
     "data/2026-05/batterieschiffe-antriebsmix-2025.csv",
     "data/2026-05/marine-batteriepack-kosten.csv",
     "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv",
-    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv",
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "2026": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
@@ -1119,7 +1133,8 @@
     "data/2026-04/charts/20260401_231654_850205_kyoto-s-cherry-blossoms-are-blooming-earlier-than-.csv",
     "data/2026-04/charts/20260403_093249_215401_us-data-center-build-out.csv",
     "data/2026-05/marine-batteriepack-kosten.csv",
-    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
+    "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv",
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "2027": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
