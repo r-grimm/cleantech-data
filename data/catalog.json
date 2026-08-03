@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-01T17:55:23.777335+00:00",
+  "generated_at": "2026-08-03T19:27:59.047297+00:00",
   "total_datasets": 57,
   "datasets": [
     {
@@ -1757,9 +1757,9 @@
       "csv_path": "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv",
       "metadata_path": "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.meta.json",
       "title": "EEG-Einspeisevergütung (Dachanlagen bis 10 kWp) vs. Marktwert Solar 2012-2026",
-      "description": "Jahresanfangswerte der EEG-Einspeisevergütung für neue PV-Dachanlagen bis 10 kWp (Teileinspeisung/Überschusseinspeisung, 2012-2026) und Jahresmarktwert Solar (2012-2025), beides in ct/kWh. Vergütung fällt von 24,43 ct (2012) auf 7,78 ct (Feb 2026); Marktwert liegt 2025 bei 4,508 ct - Abstand nur noch rund 3 ct. 22 Vergütungs-Stützwerte gegen die Original-XLSX der Bundesnetzagentur (Archivierte EEG-Vergütungssätze) abgeglichen, alle exakt bestätigt. Marktwert bis 2020 tatsächlicher Jahresmittelwert nach §33 EEG 2012, ab 2021 erzeugungsgewichteter Jahresmarktwert (Methodenbruch beachten). Ausreißer 2022: Marktwert 22,306 ct (Energiekrise) lag über der Vergütung. Erstellt für das News-Update zum EEG-2027-Kabinettsbeschluss vom 29.07.2026.",
+      "description": "Jahresanfangswerte der EEG-Einspeisevergütung für neue PV-Dachanlagen bis 10 kWp (Teileinspeisung/Überschusseinspeisung, 2012-2026) und Jahresmarktwert Solar (2012-2026), beides in ct/kWh. Vergütung fällt von 24,43 ct (2012) auf 7,78 ct (Feb 2026); Marktwert liegt 2026 bei 4,458 ct - Abstand nur noch rund 3 ct. 22 Vergütungs-Stützwerte gegen die Original-XLSX der Bundesnetzagentur (Archivierte EEG-Vergütungssätze) abgeglichen, alle exakt bestätigt. Marktwert bis 2020 tatsächlicher Jahresmittelwert nach §33 EEG 2012, ab 2021 erzeugungsgewichteter Jahresmarktwert (Methodenbruch beachten). Der Wert 2026 ist ein Year-to-Date-Wert über Januar bis Juni, erzeugungsgewichtet mit den monatlichen SMARD-Solarerzeugungsmengen - kein abgeschlossener Jahreswert. Ausreißer 2022: Marktwert 22,306 ct (Energiekrise) lag über der Vergütung. Erstellt für das News-Update zum EEG-2027-Kabinettsbeschluss vom 29.07.2026.",
       "source": {
-        "name": "Bundesnetzagentur (Archivierte EEG-Vergütungssätze); netztransparenz.de (Marktwertübersicht)",
+        "name": "Bundesnetzagentur (Archivierte EEG-Vergütungssätze); netztransparenz.de (Marktwertübersicht); SMARD (monatliche Solarerzeugung als Gewichte für 2026)",
         "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/ErneuerbareEnergien/EEG_Foerderung/Archiv_VergSaetze/start.html",
         "import_type": "manual"
       },
