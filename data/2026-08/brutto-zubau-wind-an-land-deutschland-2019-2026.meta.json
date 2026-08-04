@@ -1,0 +1,15 @@
+{
+  "title": "Brutto-Zubau Windenergie an Land Deutschland 2019-2026",
+  "description": "Jährlicher Brutto-Zubau der Windenergie an Land in Deutschland in MW, 2019-2025 Ist-Werte aus den WindGuard-Jahresstatistiken, 2026 als Branchenprognose (BWE/VDMA Power Systems, 8 bis 8,5 GW, hier oberes Ende). Referenzgröße für den EEG-Ausbaupfad ist ein Zubau von 10 GW pro Jahr, der bisher nie erreicht wurde.",
+  "source": {
+    "name": "Deutsche WindGuard / BWE",
+    "url": "https://www.wind-energie.de/presse/pressemitteilungen/detail/windenergieausbau-an-land-2025-starken-zubau-verstetigen-resilienz-gewaehrleisten/",
+    "import_type": "csv"
+  },
+  "tags": ["onshore-wind", "germany", "wind-energy", "capacity-additions", "eeg"],
+  "license": "Custom",
+  "created_at": "2026-08-04T21:00:00Z",
+  "quality": {
+    "review_notes": "2019 (1.078 MW), 2022 (2.403 MW), 2023 (3.567 MW) direkt aus WindGuard-Jahresreports verifiziert; 2021 konsistent mit +25%-Angabe im 2022-Report; 2020/2024 aus WindGuard-Standardzahlen; 2025 aus BWE-PM Jan. 2026 (958 WEA, 5.232 MW). 2026 ist eine Prognose der Verbaende (8-8,5 GW), als 8.500 MW mit typ=prognose abgelegt."
+  }
+}
