@@ -28,6 +28,9 @@
   "Data: IEA; Note: Based on 50 corporate, financial and VC investors deploying $1 billion overall and $100 million or more in energy innovation since 2020; Chart: Axios Visuals": [
     "data/2026-03/charts/20260322_150321_099272_share-of-investments-by-large-vcs-in-energy-techno.csv"
   ],
+  "Deutsche WindGuard / BWE": [
+    "data/2026-08/brutto-zubau-wind-an-land-deutschland-2019-2026.csv"
+  ],
   "E-Ferry Project (EU Horizon 2020) via Faraday Institution": [
     "data/2026-05/marine-batteriepack-kosten.csv"
   ],

@@ -84,6 +84,9 @@
     "data/2025-12/onshore-wind-capacity-germany-2009-2024.csv",
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv"
   ],
+  "capacity-additions": [
+    "data/2026-08/brutto-zubau-wind-an-land-deutschland-2019-2026.csv"
+  ],
   "carbon-capture": [
     "data/2026-05/ccs-cost-by-co2-concentration.csv"
   ],
@@ -175,6 +178,7 @@
     "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "eeg": [
+    "data/2026-08/brutto-zubau-wind-an-land-deutschland-2019-2026.csv",
     "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
   "einspeiseverguetung": [
@@ -296,7 +300,8 @@
     "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv",
     "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv",
     "data/2025-12/onshore-wind-capacity-germany-2009-2024.csv",
-    "data/2025-12/utility-scale-bess-deutschland-2020-2025.csv"
+    "data/2025-12/utility-scale-bess-deutschland-2020-2025.csv",
+    "data/2026-08/brutto-zubau-wind-an-land-deutschland-2019-2026.csv"
   ],
   "global": [
     "data/2026-02/energy/die-schere-solar-kapazitat-vs-jobs-weltweit-2012-2.csv",
@@ -438,7 +443,8 @@
   ],
   "onshore-wind": [
     "data/2025-11/windpower/0105_Leist_kum_M.csv",
-    "data/2025-12/onshore-wind-capacity-germany-2009-2024.csv"
+    "data/2025-12/onshore-wind-capacity-germany-2009-2024.csv",
+    "data/2026-08/brutto-zubau-wind-an-land-deutschland-2019-2026.csv"
   ],
   "photovoltaik": [
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv",
@@ -561,7 +567,8 @@
     "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
   "wind-energy": [
-    "data/2025-11/windpower/0105_Leist_kum_M.csv"
+    "data/2025-11/windpower/0105_Leist_kum_M.csv",
+    "data/2026-08/brutto-zubau-wind-an-land-deutschland-2019-2026.csv"
   ],
   "wind-power": [
     "data/2025-12/onshore-wind-capacity-germany-2009-2024.csv"
