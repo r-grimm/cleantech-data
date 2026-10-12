@@ -1,0 +1,81 @@
+{
+  "title": "Windenergie-Flächenausweisung der Flächenländer Ende 2024 im Verhältnis zum Flächenbeitragswert 2027 (WindBG)",
+  "description": "Für die 13 Flächenländer: ausgewiesene Windenergie-Fläche zum Stichtag 31.12.2024 (ha), nach WindBG anrechenbare Fläche (ha), Flächenbeitragswert 2027 nach Windflächenbedarfsgesetz (Prozent der Landesfläche und in ha) sowie der Anteil, den die anrechenbare Fläche vom Beitragswert 2027 erreicht (eigene Berechnung, ganze Prozent). Spanne: Sachsen 8 %, Thüringen 10 %, Sachsen-Anhalt 31 %, Mecklenburg-Vorpommern 32 %; Hessen mit 105 % als einziges Land über dem Beitragswert. Stadtstaaten (Berlin, Bremen, Hamburg) sind bewusst nicht enthalten. Quelle: Bund-Länder-Kooperationsausschuss, Bericht 2025, Tabelle 7 (Berichtsseite 29), Datengrundlage Umweltbundesamt. Erstellt für den Chart 'Sachsen hat 8 % seines Windflächen-Ziels erreicht' im Newsletter cleantech.ing vom 13.10.2026.",
+  "tags": ["windenergie", "wind-an-land", "flaechenziel", "windbg", "bundeslaender", "flaechenausweisung", "deutschland"],
+  "source": {
+    "name": "Bund-Länder-Kooperationsausschuss / Umweltbundesamt",
+    "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/E/EEG-Kooperationsausschuss/2025/bericht-bund-laender-kooperationsausschuss-2025.pdf?__blob=publicationFile&v=10",
+    "import_type": "manual"
+  },
+  "license": "amtliche Daten (Bund-Länder-Kooperationsausschuss/UBA), Quellenangabe erforderlich",
+  "created_at": "2026-10-12",
+  "columns": {
+    "land": {
+      "name": "land",
+      "description": "Flächenland (13 Länder; Stadtstaaten Berlin, Bremen und Hamburg nicht enthalten)"
+    },
+    "flaechenausweisung_2024_ha": {
+      "name": "flaechenausweisung_2024_ha",
+      "unit": "Hektar",
+      "unit_symbol": "ha",
+      "aggregation_method": "sum",
+      "description": "Für Windenergie an Land ausgewiesene Fläche zum Stichtag 31.12.2024"
+    },
+    "anrechenbare_flaeche_windbg_ha": {
+      "name": "anrechenbare_flaeche_windbg_ha",
+      "unit": "Hektar",
+      "unit_symbol": "ha",
+      "aggregation_method": "sum",
+      "description": "Auf das Flächenziel nach WindBG anrechenbare Fläche zum Stichtag 31.12.2024"
+    },
+    "flaechenbeitragswert_2027_prozent": {
+      "name": "flaechenbeitragswert_2027_prozent",
+      "unit": "Prozent der Landesfläche",
+      "unit_symbol": "%",
+      "aggregation_method": "none",
+      "description": "Flächenbeitragswert 2027 nach WindBG als Anteil an der Landesfläche"
+    },
+    "flaechenbeitragswert_2027_ha": {
+      "name": "flaechenbeitragswert_2027_ha",
+      "unit": "Hektar",
+      "unit_symbol": "ha",
+      "aggregation_method": "sum",
+      "description": "Flächenbeitragswert 2027 nach WindBG in Hektar"
+    },
+    "anteil_erreicht_prozent": {
+      "name": "anteil_erreicht_prozent",
+      "unit": "Prozent",
+      "unit_symbol": "%",
+      "aggregation_method": "none",
+      "description": "Eigene Berechnung: anrechenbare Fläche geteilt durch Flächenbeitragswert 2027 in ha, gerundet auf ganze Prozent (nicht Teil der Berichtstabelle)"
+    }
+  },
+  "status": "active",
+  "data_period": {
+    "start": "2024-12-31",
+    "end": "2024-12-31",
+    "granularity": "single_value"
+  },
+  "provenance": {
+    "original_source": {
+      "name": "Bund-Länder-Kooperationsausschuss, Bericht 2025, Tabelle 7 'Anteil Flächenausweisungen im Vergleich zum Flächenbeitragswert in 2027' (Datengrundlage: Umweltbundesamt)",
+      "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/E/EEG-Kooperationsausschuss/2025/bericht-bund-laender-kooperationsausschuss-2025.pdf?__blob=publicationFile&v=10"
+    },
+    "extraction_method": "manual",
+    "extracted_by": "claude (Textextraktion aus dem PDF, Berichtsseite 29)",
+    "extraction_date": "2026-10-12",
+    "transformations_applied": ["stadtstaaten-ausgeschlossen", "anteil-erreicht-prozent-berechnet-und-auf-ganze-prozent-gerundet"]
+  },
+  "quality": {
+    "has_nulls": false,
+    "validated": true,
+    "validation_date": "2026-10-12",
+    "review_notes": "Werte am 12.10.2026 per Textextraktion aus dem PDF (Berichtsseite 29) uebernommen, noch nicht gegen eine zweite Quelle abgeglichen. Stadtstaaten Berlin, Bremen und Hamburg bewusst weggelassen. Fussnoten des Berichts: (1) Niedersachsen-Wert ist eine Spanne bzw. beruht auf Teildaten, da die Bauleitplanung nur teilweise als GIS-Daten vorliegt; (2) Rheinland-Pfalz ohne 900-m-Puffer; (3) Abstandsregeln in Regionalplaenen sind nicht beruecksichtigt. Die Spalte anteil_erreicht_prozent ist eigene Berechnung (anrechenbare Flaeche / Beitragswert in ha, auf ganze Prozent gerundet).",
+    "known_issues": ["Niedersachsen: Wert ist Spanne/Teildaten (Bauleitplanung nur teilweise als GIS-Daten)", "Rheinland-Pfalz: ohne 900-m-Puffer berechnet", "Abstandsregeln in Regionalplaenen nicht beruecksichtigt", "Stadtstaaten (Berlin, Bremen, Hamburg) nicht enthalten", "anteil_erreicht_prozent ist eigene Berechnung und nicht Teil der Berichtstabelle"]
+  },
+  "freshness": {
+    "data_as_of": "2024-12-31",
+    "source_checked": "2026-10-12"
+  },
+  "keywords": ["Windflächenbedarfsgesetz", "WindBG", "Flächenbeitragswert", "Flächenziel Wind", "Windenergie an Land", "Flächenausweisung", "Kooperationsausschuss", "Sachsen", "Hessen", "Umweltbundesamt"]
+}

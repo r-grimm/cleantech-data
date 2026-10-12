@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-04T20:54:50.036316+00:00",
-  "total_datasets": 58,
+  "generated_at": "2026-10-12T19:45:05.387133+00:00",
+  "total_datasets": 59,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -1808,6 +1808,39 @@
       "thematic_name": null,
       "year_month": "2026-08",
       "filename": "eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-10/windflaechenziel-2027-erreichungsgrad-bundeslaender.csv",
+      "metadata_path": "data/2026-10/windflaechenziel-2027-erreichungsgrad-bundeslaender.meta.json",
+      "title": "Windenergie-Flächenausweisung der Flächenländer Ende 2024 im Verhältnis zum Flächenbeitragswert 2027 (WindBG)",
+      "description": "Für die 13 Flächenländer: ausgewiesene Windenergie-Fläche zum Stichtag 31.12.2024 (ha), nach WindBG anrechenbare Fläche (ha), Flächenbeitragswert 2027 nach Windflächenbedarfsgesetz (Prozent der Landesfläche und in ha) sowie der Anteil, den die anrechenbare Fläche vom Beitragswert 2027 erreicht (eigene Berechnung, ganze Prozent). Spanne: Sachsen 8 %, Thüringen 10 %, Sachsen-Anhalt 31 %, Mecklenburg-Vorpommern 32 %; Hessen mit 105 % als einziges Land über dem Beitragswert. Stadtstaaten (Berlin, Bremen, Hamburg) sind bewusst nicht enthalten. Quelle: Bund-Länder-Kooperationsausschuss, Bericht 2025, Tabelle 7 (Berichtsseite 29), Datengrundlage Umweltbundesamt. Erstellt für den Chart 'Sachsen hat 8 % seines Windflächen-Ziels erreicht' im Newsletter cleantech.ing vom 13.10.2026.",
+      "source": {
+        "name": "Bund-Länder-Kooperationsausschuss / Umweltbundesamt",
+        "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Downloads/E/EEG-Kooperationsausschuss/2025/bericht-bund-laender-kooperationsausschuss-2025.pdf?__blob=publicationFile&v=10",
+        "import_type": "manual"
+      },
+      "tags": [
+        "windenergie",
+        "wind-an-land",
+        "flaechenziel",
+        "windbg",
+        "bundeslaender",
+        "flaechenausweisung",
+        "deutschland"
+      ],
+      "license": "amtliche Daten (Bund-Länder-Kooperationsausschuss/UBA), Quellenangabe erforderlich",
+      "created_at": "2026-10-12",
+      "thematic_name": null,
+      "year_month": "2026-10",
+      "filename": "windflaechenziel-2027-erreichungsgrad-bundeslaender.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
