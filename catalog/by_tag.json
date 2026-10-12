@@ -72,6 +72,9 @@
   "bruttowertschpfung": [
     "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv"
   ],
+  "bundeslaender": [
+    "data/2026-10/windflaechenziel-2027-erreichungsgrad-bundeslaender.csv"
+  ],
   "cam": [
     "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
   ],
@@ -175,7 +178,8 @@
     "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv",
     "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv",
     "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.csv",
-    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv",
+    "data/2026-10/windflaechenziel-2027-erreichungsgrad-bundeslaender.csv"
   ],
   "eeg": [
     "data/2026-08/brutto-zubau-wind-an-land-deutschland-2019-2026.csv",
@@ -266,8 +270,14 @@
   "finanzierung": [
     "data/2026-01/vc-cleantech-finanzierung-deutschland-2020-2024.csv"
   ],
+  "flaechenausweisung": [
+    "data/2026-10/windflaechenziel-2027-erreichungsgrad-bundeslaender.csv"
+  ],
   "flaechennutzung": [
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
+  ],
+  "flaechenziel": [
+    "data/2026-10/windflaechenziel-2027-erreichungsgrad-bundeslaender.csv"
   ],
   "foerderung": [
     "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
@@ -566,12 +576,21 @@
   "wind": [
     "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
+  "wind-an-land": [
+    "data/2026-10/windflaechenziel-2027-erreichungsgrad-bundeslaender.csv"
+  ],
   "wind-energy": [
     "data/2025-11/windpower/0105_Leist_kum_M.csv",
     "data/2026-08/brutto-zubau-wind-an-land-deutschland-2019-2026.csv"
   ],
   "wind-power": [
     "data/2025-12/onshore-wind-capacity-germany-2009-2024.csv"
+  ],
+  "windbg": [
+    "data/2026-10/windflaechenziel-2027-erreichungsgrad-bundeslaender.csv"
+  ],
+  "windenergie": [
+    "data/2026-10/windflaechenziel-2027-erreichungsgrad-bundeslaender.csv"
   ],
   "yearly": [
     "data/2025-12/batteriegrossspeicher-deutschland-jahrlich.csv",

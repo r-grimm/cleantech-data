@@ -15,6 +15,9 @@
     "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv",
     "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv"
   ],
+  "Bund-Länder-Kooperationsausschuss / Umweltbundesamt": [
+    "data/2026-10/windflaechenziel-2027-erreichungsgrad-bundeslaender.csv"
+  ],
   "Bundesnetzagentur (Archivierte EEG-Vergütungssätze); netztransparenz.de (Marktwertübersicht); SMARD (monatliche Solarerzeugung als Gewichte für 2026)": [
     "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
