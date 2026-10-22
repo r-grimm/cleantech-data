@@ -1,0 +1,57 @@
+{
+  "title": "cleantech.ing Newsletter: Abonnements mit Organisations-Mail je Branche, Stand 07.10.2026",
+  "description": "Zahl der aktiven Abonnements des Newsletters cleantech.ing, deren E-Mail-Domain einer Organisations-Branche zugeordnet ist (Beehiiv Custom Field 'branche', gesetzt durch den Domain-Klassifikator der Newsletter-Pipeline; nur Firmen- und Organisations-Mails). Grundgesamtheit 7.023 aktive Abonnements am 07.10.2026, davon 1.731 mit befülltem Feld; 1.627 davon in den zehn hier gelisteten Organisations-Branchen (Gewerkschaft mit 6 Abos sowie die Klassen 'person' und 'freemail' nicht enthalten). Aggregat aus dem Recherche-Dossier 06 Zielgruppe (Vollabzug Beehiiv REST API, 07.10.2026). Erstellt für den Chart 'Branchen-Ranking der Leserschaft' im Media Kit cleantech.ing (Oktober 2026).",
+  "tags": ["cleantech-ing", "newsletter", "leserschaft", "branchen", "zielgruppe", "beehiiv", "media-kit"],
+  "source": {
+    "name": "Beehiiv REST API (Custom Field branche), aggregiert in Recherche-Dossier 06 Zielgruppe",
+    "url": "https://app.beehiiv.com/",
+    "import_type": "manual"
+  },
+  "license": "Eigene Betriebsdaten cleantech.ing, Aggregat ohne Personenbezug",
+  "created_at": "2026-10-22",
+  "columns": {
+    "branche": {
+      "name": "branche",
+      "description": "Organisations-Branche in Klartext (Label für den Chart)"
+    },
+    "branche_schluessel": {
+      "name": "branche_schluessel",
+      "description": "Schlüssel des Beehiiv Custom Fields branche"
+    },
+    "abos_mit_organisationsmail": {
+      "name": "abos_mit_organisationsmail",
+      "unit": "Abonnements",
+      "unit_symbol": "",
+      "aggregation_method": "sum",
+      "description": "Aktive Abonnements mit Organisations-Mail-Domain dieser Branche am 07.10.2026"
+    }
+  },
+  "status": "active",
+  "data_period": {
+    "start": "2026-10-07",
+    "end": "2026-10-07",
+    "granularity": "single_value"
+  },
+  "provenance": {
+    "original_source": {
+      "name": "Beehiiv REST API, Vollabzug aller 7.023 aktiven Abonnements am 07.10.2026 (Custom Field branche), Auswertung in Ricos Vault cleantech-ing/media-kit/recherche/06-zielgruppe.md, Abschnitt (b) Organisations-Branche",
+      "url": "https://app.beehiiv.com/"
+    },
+    "extraction_method": "manual",
+    "extracted_by": "claude (Übernahme der Tabelle aus Dossier 06, Abschnitt b, am 22.10.2026)",
+    "extraction_date": "2026-10-22",
+    "transformations_applied": ["klassen-person-freemail-gewerkschaft-ausgeschlossen", "klartext-labels-ergaenzt"]
+  },
+  "quality": {
+    "has_nulls": false,
+    "validated": true,
+    "validation_date": "2026-10-22",
+    "review_notes": "Werte 1:1 aus der Tabelle 'Organisations-Branche (Domain-Klassifikator, Feld branche)' in Dossier 06 (Stand 07.10.2026) übernommen. Das Feld ist nur für Firmen- und Organisations-Mails gesetzt (Füllgrad 1.731 von 7.023, 24,6 Prozent); Leser mit Freemail-Adresse sind nicht erfasst, die Zahlen sind also Untergrenzen je Branche. Die Klassifikation stammt aus einem heuristischen Domain-Klassifikator (Notion-Heuristik-DB, 1.349 Domains) und ist nicht manuell geprüft.",
+    "known_issues": ["Nur Abonnements mit Organisations-Mail-Domain erfasst (Untergrenze)", "Heuristische Domain-Klassifikation, nicht manuell verifiziert", "Gewerkschaft (6 Abos), person (101) und freemail (3) nicht enthalten"]
+  },
+  "freshness": {
+    "data_as_of": "2026-10-07",
+    "source_checked": "2026-10-22"
+  },
+  "keywords": ["cleantech.ing", "Newsletter", "Leserschaft", "Branchen", "Zielgruppe", "Beratung", "Cleantech-Startups", "Energiewirtschaft", "Media Kit"]
+}

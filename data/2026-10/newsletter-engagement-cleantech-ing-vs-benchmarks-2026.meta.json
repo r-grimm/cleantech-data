@@ -1,0 +1,76 @@
+{
+  "title": "Newsletter-Engagement: Öffnungs- und Klickrate von cleantech.ing gegen Branchen-Benchmarks (MailerLite 2025, Mailchimp 2023)",
+  "description": "Öffnungsrate und Klickrate je zugestellter bzw. empfangener E-Mail für den Newsletter cleantech.ing (Durchschnitt der letzten 10 Sendungen vom 21.07. bis 06.10.2026, Klicks verifiziert, also ohne Bot-Klicks) im Vergleich zu veröffentlichten E-Mail-Marketing-Benchmarks: MailerLite 2025 (Median, Dezember 2024 bis November 2025, 3,6 Mio. Kampagnen; Zeilen 'Branche Medien' und 'Alle Branchen') und Mailchimp (Durchschnitt aller Nutzer, Stand Dezember 2023). Alle Öffnungsraten enthalten automatische Öffnungen durch Apple Mail Privacy Protection. Erstellt für den Chart 'Engagement im Branchenvergleich' im Media Kit cleantech.ing (Oktober 2026).",
+  "tags": ["cleantech-ing", "newsletter", "engagement", "oeffnungsrate", "klickrate", "benchmark", "mailerlite", "mailchimp", "media-kit"],
+  "source": {
+    "name": "Beehiiv (cleantech.ing), MailerLite Email Marketing Benchmarks 2025, Mailchimp Email Marketing Benchmarks",
+    "url": "https://www.mailerlite.com/blog/email-marketing-benchmarks",
+    "import_type": "manual"
+  },
+  "license": "Eigene Betriebsdaten cleantech.ing (Aggregat) sowie öffentlich publizierte Benchmark-Werte von MailerLite und Mailchimp, Quellenangabe erforderlich",
+  "created_at": "2026-10-22",
+  "columns": {
+    "vergleichsgruppe": {
+      "name": "vergleichsgruppe",
+      "description": "Newsletter bzw. Benchmark-Gruppe"
+    },
+    "label_kurz": {
+      "name": "label_kurz",
+      "description": "Kurzlabel für die Balkenbeschriftung im Chart"
+    },
+    "oeffnungsrate_prozent": {
+      "name": "oeffnungsrate_prozent",
+      "unit": "Prozent",
+      "unit_symbol": "%",
+      "aggregation_method": "none",
+      "description": "Anteil der Empfänger bzw. zugestellten E-Mails mit (eindeutiger) Öffnung, inkl. automatischer Öffnungen (Apple Mail Privacy Protection)"
+    },
+    "klickrate_prozent": {
+      "name": "klickrate_prozent",
+      "unit": "Prozent",
+      "unit_symbol": "%",
+      "aggregation_method": "none",
+      "description": "Anteil der Empfänger bzw. zugestellten E-Mails mit mindestens einem Klick; bei cleantech.ing verifizierte Unique Clicks (516 von 6.761)"
+    },
+    "basis": {
+      "name": "basis",
+      "description": "Messbasis und Statistiktyp der Zeile"
+    },
+    "quelle": {
+      "name": "quelle",
+      "description": "Quelle der Zeile mit URL"
+    },
+    "zeitraum": {
+      "name": "zeitraum",
+      "description": "Erhebungszeitraum bzw. Datenstand der Zeile"
+    }
+  },
+  "status": "active",
+  "data_period": {
+    "start": "2023-12-01",
+    "end": "2026-10-06",
+    "granularity": "single_value"
+  },
+  "provenance": {
+    "original_source": {
+      "name": "Beehiiv Sendungsstatistik cleantech.ing (Dossier 04 Preise, Abschnitt a, Stand 07.10.2026); MailerLite Email Marketing Benchmarks 2025 (abgerufen 22.10.2026); Mailchimp Email Marketing Benchmarks (Stand Dezember 2023, abgerufen 22.10.2026)",
+      "url": "https://mailchimp.com/resources/email-marketing-benchmarks/"
+    },
+    "extraction_method": "manual",
+    "extracted_by": "claude (Übernahme aus Dossier 04 und den beiden Benchmark-Seiten am 22.10.2026)",
+    "extraction_date": "2026-10-22",
+    "transformations_applied": ["cleantech-ing-klickrate-verifiziert-516-von-6761-gerundet-7-6-prozent", "benchmark-werte-unveraendert-uebernommen"]
+  },
+  "quality": {
+    "has_nulls": false,
+    "validated": true,
+    "validation_date": "2026-10-22",
+    "review_notes": "Vergleichbarkeit begrenzt: cleantech.ing misst Unique Opens und verifizierte Unique Clicks je zugestellter E-Mail (Bot-Klicks entfernt, Rohwert wäre 9,1 Prozent); MailerLite und Mailchimp nennen Prozent der Empfänger ohne Angabe, ob Unique-Werte oder Bot-Filterung zugrunde liegen. MailerLite bezeichnet seine Werte im Text als Durchschnitt, in der Methodik als Median. Mailchimp definiert die Basis der Öffnungsrate nicht. Alle Öffnungsraten sind durch Apple Mail Privacy Protection nach oben verzerrt; der Effekt trifft alle Zeilen. Nicht aufgenommen, weil die Basis fehlt oder abweicht: Dense Discovery (61 Prozent / 13 Prozent, Basis undefiniert), Climate Insiders (42 Prozent / 5 Prozent, Basis undefiniert), GlueLetter Q1 2025 (Median 7,65 Prozent, aber Klicks je Öffner), Tagesspiegel Background Energie und Klima (27 Prozent Öffnungsrate laut Mediadaten 2026, keine Klickrate).",
+    "known_issues": ["Messbasis zwischen den Zeilen nicht identisch (verifizierte Unique Clicks vs. unspezifizierte Klickrate)", "Mailchimp-Daten mit Stand Dezember 2023 älter als die übrigen Zeilen", "Öffnungsraten durch Apple Mail Privacy Protection überzeichnet"]
+  },
+  "freshness": {
+    "data_as_of": "2026-10-06",
+    "source_checked": "2026-10-22"
+  },
+  "keywords": ["cleantech.ing", "Newsletter", "Öffnungsrate", "Klickrate", "Benchmark", "MailerLite", "Mailchimp", "Engagement", "Media Kit"]
+}

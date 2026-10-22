@@ -1,0 +1,57 @@
+{
+  "title": "cleantech.ing Newsletter: aktive Abonnements je Monatsende, Oktober 2025 bis Oktober 2026",
+  "description": "Zahl der aktiven Abonnements (Free und zahlend) des Newsletters cleantech.ing zum jeweiligen Monatsende von Oktober 2025 bis September 2026, dazu der Tagesstand vom 22.10.2026 als Oktober-Wert. Quelle ist die Beehiiv-Abonnentenhistorie (MCP-Tool get_subscriber_history, Zeitzone Europe/Berlin), abgerufen am 22.10.2026. Spanne: 6.019 (Ende Oktober 2025) bis 7.009 (Ende September 2026), Stand 22.10.2026: 6.993. Erstellt für den Chart 'Wachstum 12 Monate' im Media Kit cleantech.ing (Oktober 2026).",
+  "tags": ["cleantech-ing", "newsletter", "abonnenten", "wachstum", "beehiiv", "media-kit"],
+  "source": {
+    "name": "Beehiiv (Publikation cleantech.ing, Subscriber History)",
+    "url": "https://app.beehiiv.com/",
+    "import_type": "api"
+  },
+  "license": "Eigene Betriebsdaten cleantech.ing, Aggregat ohne Personenbezug",
+  "created_at": "2026-10-22",
+  "columns": {
+    "monat": {
+      "name": "monat",
+      "description": "Monatslabel (Monat und zweistelliges Jahr), für Achsenbeschriftung"
+    },
+    "monatsende": {
+      "name": "monatsende",
+      "description": "Stichtag des Werts (letzter Tag des Monats; für Oktober 2026 der Abruftag 22.10.2026)"
+    },
+    "aktive_abonnenten": {
+      "name": "aktive_abonnenten",
+      "unit": "Abonnements",
+      "unit_symbol": "",
+      "aggregation_method": "none",
+      "description": "Aktive Abonnements (Free und zahlend) zum Stichtag laut Beehiiv-Abonnentenhistorie"
+    }
+  },
+  "status": "active",
+  "data_period": {
+    "start": "2025-10-31",
+    "end": "2026-10-22",
+    "granularity": "monthly"
+  },
+  "provenance": {
+    "original_source": {
+      "name": "Beehiiv MCP get_subscriber_history (time_period all_time und last_12_months, time_zone Europe/Berlin), Publikation cleantech.ing",
+      "url": "https://app.beehiiv.com/"
+    },
+    "extraction_method": "api",
+    "extracted_by": "claude (Beehiiv-MCP-Abruf am 22.10.2026)",
+    "extraction_date": "2026-10-22",
+    "transformations_applied": ["monatsende-zuordnung: Beehiiv-Eintrag mit Datum YYYY-MM-01 ist der Stand zum Ende des Vormonats (laut Tool-Dokumentation)", "letzter-wert-ist-tagesstand-22-10-2026"]
+  },
+  "quality": {
+    "has_nulls": false,
+    "validated": true,
+    "validation_date": "2026-10-22",
+    "review_notes": "Die Beehiiv-Historie liefert für time_period=all_time und time_period=last_12_months dieselbe Wertefolge, aber um einen Monat versetzt datiert. Die Zuordnung folgt der Tool-Dokumentation (Datum YYYY-MM-01 = Stand Ende des Vormonats) und wurde gegen zwei unabhängige Anker geprüft: Mai 2026 rund 6.608 Abos (Notion-Datengrundlage, passt zwischen Ende April 6.490 und Ende Mai 6.735) und 7.023 aktive Abos am 07.10.2026 (Beehiiv REST, passt zu Ende September 7.009). Restunsicherheit: Monatszuordnung plus/minus ein Monat, falls die Tool-Dokumentation nicht zur Dashboard-Konvention passt.",
+    "known_issues": ["Oktober 2026 ist ein Tagesstand (22.10.2026), kein Monatsende", "Monatszuordnung beruht auf der Beehiiv-Tool-Dokumentation, zwei Abrufvarianten datieren dieselben Werte unterschiedlich"]
+  },
+  "freshness": {
+    "data_as_of": "2026-10-22",
+    "source_checked": "2026-10-22"
+  },
+  "keywords": ["cleantech.ing", "Newsletter", "Abonnenten", "Wachstum", "Beehiiv", "Media Kit", "Reichweite"]
+}
