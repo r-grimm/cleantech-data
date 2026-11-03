@@ -1080,7 +1080,8 @@
     "data/2026-05/batterieschiffe-weltweit-in-betrieb.csv",
     "data/2026-05/marine-batteriepack-kosten.csv",
     "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv",
-    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv",
+    "data/2026-10/newsletter-engagement-cleantech-ing-vs-benchmarks-2026.csv"
   ],
   "2024": [
     "data/2024-12/power-mix-germany-daily.csv",
@@ -1108,6 +1109,7 @@
     "data/2026-05/marine-batteriepack-kosten.csv",
     "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv",
     "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv",
+    "data/2026-10/newsletter-engagement-cleantech-ing-vs-benchmarks-2026.csv",
     "data/2026-10/windflaechenziel-2027-erreichungsgrad-bundeslaender.csv"
   ],
   "2025": [
@@ -1124,7 +1126,9 @@
     "data/2026-05/marine-batteriepack-kosten.csv",
     "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv",
     "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv",
-    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv",
+    "data/2026-10/cleantech-ing-abonnenten-monatlich-2025-2026.csv",
+    "data/2026-10/newsletter-engagement-cleantech-ing-vs-benchmarks-2026.csv"
   ],
   "2026": [
     "data/2026-01/charts/20260125_202754_888999_big-shortfall-in-copper-supply-predicted-to-open-u.csv",
@@ -1136,6 +1140,9 @@
     "data/2026-05/marine-batteriepack-kosten.csv",
     "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv",
     "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv",
+    "data/2026-10/cleantech-ing-abonnenten-monatlich-2025-2026.csv",
+    "data/2026-10/cleantech-ing-leser-organisationsbranchen-2026-10.csv",
+    "data/2026-10/newsletter-engagement-cleantech-ing-vs-benchmarks-2026.csv",
     "data/2026-11/uk-fahrkosten-pence-pro-meile-diesel-benziner-e-auto-2026.csv"
   ],
   "2027": [

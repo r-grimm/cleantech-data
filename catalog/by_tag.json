@@ -2,6 +2,9 @@
   "2024": [
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
   ],
+  "abonnenten": [
+    "data/2026-10/cleantech-ing-abonnenten-monatlich-2025-2026.csv"
+  ],
   "agee-stat": [
     "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.csv"
   ],
@@ -49,6 +52,13 @@
     "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv",
     "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv"
   ],
+  "beehiiv": [
+    "data/2026-10/cleantech-ing-abonnenten-monatlich-2025-2026.csv",
+    "data/2026-10/cleantech-ing-leser-organisationsbranchen-2026-10.csv"
+  ],
+  "benchmark": [
+    "data/2026-10/newsletter-engagement-cleantech-ing-vs-benchmarks-2026.csv"
+  ],
   "bess": [
     "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
     "data/2025-12/utility-scale-bess-deutschland-2020-2025.csv",
@@ -68,6 +78,9 @@
   ],
   "bnef": [
     "data/2026-05/charts/bnef-global-energy-storage-additions-2015-2036.csv"
+  ],
+  "branchen": [
+    "data/2026-10/cleantech-ing-leser-organisationsbranchen-2026-10.csv"
   ],
   "bruttowertschpfung": [
     "data/2025-12/stahlindustrie-deutschland-anteil-am-bip-2014-2023.csv"
@@ -137,6 +150,11 @@
     "data/2026-04/charts/20260403_081719_863188_lithium-ion-cell-prices.csv",
     "data/2026-04/charts/20260403_093249_215401_us-data-center-build-out.csv",
     "data/2026-05/europas-h2-markt-2026.csv"
+  ],
+  "cleantech-ing": [
+    "data/2026-10/cleantech-ing-abonnenten-monatlich-2025-2026.csv",
+    "data/2026-10/cleantech-ing-leser-organisationsbranchen-2026-10.csv",
+    "data/2026-10/newsletter-engagement-cleantech-ing-vs-benchmarks-2026.csv"
   ],
   "climate-funds": [
     "data/2026-03/charts/20260324_120000_000002_new-climate-funds-value-and-count-2025.csv"
@@ -245,6 +263,9 @@
     "data/2026-05/charts/europas-h2-markt-6-bauen-8-stoppen.csv",
     "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.csv",
     "data/2026-05/charts/europas-h2-quadrant.csv"
+  ],
+  "engagement": [
+    "data/2026-10/newsletter-engagement-cleantech-ing-vs-benchmarks-2026.csv"
   ],
   "erneuerbare-energien": [
     "data/2025-12/photovoltaik-zubau-deutschland-2020-2024.csv"
@@ -401,14 +422,26 @@
   "kba": [
     "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
   ],
+  "klickrate": [
+    "data/2026-10/newsletter-engagement-cleantech-ing-vs-benchmarks-2026.csv"
+  ],
   "kraftstoffpreis": [
     "data/2026-11/uk-fahrkosten-pence-pro-meile-diesel-benziner-e-auto-2026.csv"
   ],
   "landwirtschaft": [
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
   ],
+  "leserschaft": [
+    "data/2026-10/cleantech-ing-leser-organisationsbranchen-2026-10.csv"
+  ],
   "llm-review-iteration": [
     "data/2026-05/charts/europas-h2-markt-v2-bauer-vs-aussteiger.csv"
+  ],
+  "mailchimp": [
+    "data/2026-10/newsletter-engagement-cleantech-ing-vs-benchmarks-2026.csv"
+  ],
+  "mailerlite": [
+    "data/2026-10/newsletter-engagement-cleantech-ing-vs-benchmarks-2026.csv"
   ],
   "maritime": [
     "data/2026-05/batterieschiffe-antriebsmix-2025.csv",
@@ -424,6 +457,11 @@
   "materials": [
     "data/2026-01/general/silver-s-surging-share-of-solar-panel-costs.csv"
   ],
+  "media-kit": [
+    "data/2026-10/cleantech-ing-abonnenten-monatlich-2025-2026.csv",
+    "data/2026-10/cleantech-ing-leser-organisationsbranchen-2026-10.csv",
+    "data/2026-10/newsletter-engagement-cleantech-ing-vs-benchmarks-2026.csv"
+  ],
   "mercom": [
     "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv"
   ],
@@ -435,6 +473,11 @@
   ],
   "neuzulassungen": [
     "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
+  ],
+  "newsletter": [
+    "data/2026-10/cleantech-ing-abonnenten-monatlich-2025-2026.csv",
+    "data/2026-10/cleantech-ing-leser-organisationsbranchen-2026-10.csv",
+    "data/2026-10/newsletter-engagement-cleantech-ing-vs-benchmarks-2026.csv"
   ],
   "nominal": [
     "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.csv"
@@ -462,6 +505,9 @@
   ],
   "ocr-review": [
     "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
+  ],
+  "oeffnungsrate": [
+    "data/2026-10/newsletter-engagement-cleantech-ing-vs-benchmarks-2026.csv"
   ],
   "offshore-wind": [
     "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv"
@@ -588,6 +634,9 @@
   "vpi": [
     "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.csv"
   ],
+  "wachstum": [
+    "data/2026-10/cleantech-ing-abonnenten-monatlich-2025-2026.csv"
+  ],
   "wholesale-power": [
     "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
   ],
@@ -617,6 +666,9 @@
   ],
   "zero-emission": [
     "data/2026-03/zev-heavy-trucks-china-eu.csv"
+  ],
+  "zielgruppe": [
+    "data/2026-10/cleantech-ing-leser-organisationsbranchen-2026-10.csv"
   ],
   "zubau": [
     "data/2025-12/grossbatteriespeicher-deutschland-kumulierte-kapaz.csv",
