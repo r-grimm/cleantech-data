@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-03T08:37:05.786769+00:00",
-  "total_datasets": 64,
+  "generated_at": "2026-11-03T08:37:18.539464+00:00",
+  "total_datasets": 63,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -1808,39 +1808,6 @@
       "thematic_name": null,
       "year_month": "2026-08",
       "filename": "eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv",
-      "has_metadata": true,
-      "freshness_score": null,
-      "freshness_status": null,
-      "freshness_indicator": null,
-      "data_as_of": null,
-      "source_reliability": null,
-      "days_since_check": null,
-      "warning": null
-    },
-    {
-      "csv_path": "data/2026-10/cleantech-ing-abonnenten-monatlich-2024-2026.csv",
-      "metadata_path": "data/2026-10/cleantech-ing-abonnenten-monatlich-2024-2026.meta.json",
-      "title": "cleantech.ing Newsletter: aktive Abonnements je Monatsende seit Start auf Beehiiv, März 2024 bis September 2026",
-      "description": "Zahl der aktiven Abonnements (Free und zahlend) des Newsletters cleantech.ing zum jeweiligen Monatsende seit dem ersten Beehiiv-Monat (März 2024: 6) bis September 2026 (7.009). Der Tagesstand vom 25.10.2026 (6.993) ist seit Media Kit Version 1.2 nicht mehr enthalten (ein Datumsstand: Zahlen vom 07.10.2026). Quelle ist die Beehiiv-Abonnentenhistorie (MCP-Tool get_subscriber_history, time_period all_time, Zeitzone Europe/Berlin), abgerufen am 25.10.2026. Erstellt für den Chart 'Wachstum seit Start' im Media Kit cleantech.ing (Oktober 2026).",
-      "source": {
-        "name": "Beehiiv (Publikation cleantech.ing, Subscriber History)",
-        "url": "https://app.beehiiv.com/",
-        "import_type": "api"
-      },
-      "tags": [
-        "cleantech-ing",
-        "newsletter",
-        "abonnenten",
-        "wachstum",
-        "beehiiv",
-        "media-kit",
-        "zeitreihe"
-      ],
-      "license": "Eigene Betriebsdaten cleantech.ing, Aggregat ohne Personenbezug",
-      "created_at": "2026-10-25",
-      "thematic_name": null,
-      "year_month": "2026-10",
-      "filename": "cleantech-ing-abonnenten-monatlich-2024-2026.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
