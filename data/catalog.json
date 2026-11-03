@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-12T19:45:25.877127+00:00",
-  "total_datasets": 59,
+  "generated_at": "2026-11-03T07:03:43.672370+00:00",
+  "total_datasets": 60,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -1841,6 +1841,38 @@
       "thematic_name": null,
       "year_month": "2026-10",
       "filename": "windflaechenziel-2027-erreichungsgrad-bundeslaender.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-11/uk-fahrkosten-pence-pro-meile-diesel-benziner-e-auto-2026.csv",
+      "metadata_path": "data/2026-11/uk-fahrkosten-pence-pro-meile-diesel-benziner-e-auto-2026.meta.json",
+      "title": "Großbritannien: Energiekosten pro Meile für Diesel, Benziner und E-Auto (Normal- und Nachttarif), Stand September 2026",
+      "description": "Kraftstoff- bzw. Stromkosten pro gefahrener Meile in Pence für einen Diesel, einen Benziner und ein E-Auto in Großbritannien, das E-Auto einmal zum Normaltarif (Preisdeckel der Regulierungsbehörde Ofgem) und einmal zu einem Nachttarif. Mit Nachtstrom fährt das E-Auto rund neunmal billiger als ein Diesel. Werte aus einer Carbon-Brief-Analyse auf Basis von DESNZ, Ofgem und Zapmap. Erstellt für den Chart-Nachbau in der Gute-Links-Sonderausgabe von cleantech.ing (November 2026).",
+      "source": {
+        "name": "Carbon Brief (Analyse auf Basis von DESNZ, Ofgem, Zapmap)",
+        "url": "https://www.carbonbrief.org/analysis-evs-are-now-nine-times-cheaper-than-petrol-or-diesel-to-drive-in-the-uk",
+        "import_type": "manual"
+      },
+      "tags": [
+        "e-mobilitaet",
+        "grossbritannien",
+        "fahrkosten",
+        "strompreis",
+        "kraftstoffpreis",
+        "carbon-brief"
+      ],
+      "license": "Faktenwerte aus Carbon-Brief-Analyse; Original-Chart nicht übernommen, eigener Nachbau",
+      "created_at": "2026-11-03",
+      "thematic_name": null,
+      "year_month": "2026-11",
+      "filename": "uk-fahrkosten-pence-pro-meile-diesel-benziner-e-auto-2026.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,

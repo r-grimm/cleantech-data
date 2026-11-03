@@ -1,0 +1,71 @@
+{
+  "title": "Großbritannien: Energiekosten pro Meile für Diesel, Benziner und E-Auto (Normal- und Nachttarif), Stand September 2026",
+  "description": "Kraftstoff- bzw. Stromkosten pro gefahrener Meile in Pence für einen Diesel, einen Benziner und ein E-Auto in Großbritannien, das E-Auto einmal zum Normaltarif (Preisdeckel der Regulierungsbehörde Ofgem) und einmal zu einem Nachttarif. Mit Nachtstrom fährt das E-Auto rund neunmal billiger als ein Diesel. Werte aus einer Carbon-Brief-Analyse auf Basis von DESNZ, Ofgem und Zapmap. Erstellt für den Chart-Nachbau in der Gute-Links-Sonderausgabe von cleantech.ing (November 2026).",
+  "tags": [
+    "e-mobilitaet",
+    "grossbritannien",
+    "fahrkosten",
+    "strompreis",
+    "kraftstoffpreis",
+    "carbon-brief"
+  ],
+  "source": {
+    "name": "Carbon Brief (Analyse auf Basis von DESNZ, Ofgem, Zapmap)",
+    "url": "https://www.carbonbrief.org/analysis-evs-are-now-nine-times-cheaper-than-petrol-or-diesel-to-drive-in-the-uk",
+    "import_type": "manual"
+  },
+  "license": "Faktenwerte aus Carbon-Brief-Analyse; Original-Chart nicht übernommen, eigener Nachbau",
+  "created_at": "2026-11-03",
+  "columns": {
+    "antrieb": {
+      "name": "antrieb",
+      "description": "Antriebsart, beim E-Auto getrennt nach Stromtarif"
+    },
+    "pence_pro_meile": {
+      "name": "pence_pro_meile",
+      "unit": "Pence pro Meile",
+      "unit_symbol": "p",
+      "aggregation_method": "none",
+      "description": "Energiekosten (Kraftstoff bzw. Strom) pro gefahrener Meile in britischen Pence"
+    }
+  },
+  "status": "active",
+  "data_period": {
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "granularity": "single_value"
+  },
+  "provenance": {
+    "original_source": {
+      "name": "Carbon Brief: Analysis: EVs are now nine times cheaper than petrol or diesel to drive in the UK",
+      "url": "https://www.carbonbrief.org/analysis-evs-are-now-nine-times-cheaper-than-petrol-or-diesel-to-drive-in-the-uk"
+    },
+    "extraction_method": "manual",
+    "extracted_by": "claude (Abschrift aus Artikeltext und Chart am 02.11.2026)",
+    "extraction_date": "2026-11-02",
+    "transformations_applied": [
+      "labels-ins-deutsche-uebersetzt (EV price cap -> E-Auto, Normaltarif; EV overnight -> E-Auto, Nachttarif)"
+    ]
+  },
+  "quality": {
+    "has_nulls": false,
+    "validated": false,
+    "review_notes": "Benziner 20,1 p und E-Auto Nachttarif 2,3 p stehen als Zahl in der Quelle. Diesel (rund 21 p) und E-Auto Normaltarif (rund 7 p) sind aus dem Balkenchart abgelesen und auf eine Nachkommastelle gerundet; vor erneuter Verwendung gegen den Artikeltext prüfen.",
+    "known_issues": [
+      "Diesel- und Normaltarif-Wert aus Chart abgelesen, nicht als exakte Zahl veröffentlicht"
+    ]
+  },
+  "freshness": {
+    "data_as_of": "2026-09-30",
+    "source_checked": "2026-11-02"
+  },
+  "keywords": [
+    "Elektroauto",
+    "EV",
+    "Kosten pro Meile",
+    "Nachttarif",
+    "Ofgem",
+    "Preisdeckel",
+    "UK"
+  ]
+}
