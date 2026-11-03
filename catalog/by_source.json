@@ -21,6 +21,9 @@
   "Bundesnetzagentur (Archivierte EEG-Vergütungssätze); netztransparenz.de (Marktwertübersicht); SMARD (monatliche Solarerzeugung als Gewichte für 2026)": [
     "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
   ],
+  "Carbon Brief (Analyse auf Basis von DESNZ, Ofgem, Zapmap)": [
+    "data/2026-11/uk-fahrkosten-pence-pro-meile-diesel-benziner-e-auto-2026.csv"
+  ],
   "Center of Automotive Management (CAM) / KBA": [
     "data/2026-05/charts/cam-bev-deutschland-q1-2026.csv"
   ],
