@@ -1,0 +1,75 @@
+{
+  "title": "Rohölpreis (Dollar pro Barrel) und Solarmodulpreis (Dollar pro Watt), inflationsbereinigt in US-Dollar von 2025, 1861 bis 2025",
+  "description": "Jahreswerte des realen Rohölpreises seit 1861 und des realen Solarmodulpreises seit 1975, beide in US-Dollar von 2025. Solarmodule wurden real rund 1.100-mal billiger (132 auf 0,12 Dollar pro Watt), Rohöl kostete 2025 so viel wie 1975 (rund 69 Dollar pro Barrel). Erstellt für die Grafik zum Essay 'Das neue Energiezeitalter' Teil II von cleantech.ing (November 2026).",
+  "tags": [
+    "oelpreis",
+    "solar",
+    "modulpreise",
+    "lernkurve",
+    "inflationsbereinigt",
+    "owid"
+  ],
+  "source": {
+    "name": "Our World in Data (Energy Institute; Nemet, Farmer & Lafond, IRENA)",
+    "url": "https://ourworldindata.org/grapher/solar-pv-prices",
+    "import_type": "manual"
+  },
+  "license": "CC BY 4.0 (Our World in Data)",
+  "created_at": "2026-11-23",
+  "columns": {
+    "jahr": {
+      "name": "jahr",
+      "description": "Kalenderjahr"
+    },
+    "reihe": {
+      "name": "reihe",
+      "description": "Datenreihe: Rohöl oder Solarmodule"
+    },
+    "preis": {
+      "name": "preis",
+      "unit": "US-Dollar 2025 pro Barrel (Rohöl) bzw. pro Watt (Solarmodule)",
+      "aggregation_method": "none",
+      "description": "Realer Preis, Einheit hängt von der Reihe ab"
+    }
+  },
+  "status": "active",
+  "data_period": {
+    "start": "1861",
+    "end": "2025",
+    "granularity": "annual"
+  },
+  "provenance": {
+    "original_source": {
+      "name": "Energy Institute Statistical Review 2026 (Rohöl); Nemet, Farmer & Lafond, IRENA (Solar)",
+      "url": "https://ourworldindata.org/grapher/oil-prices-inflation-adjusted"
+    },
+    "extraction_method": "manual",
+    "extracted_by": "claude (OWID-CSV-Download am 23.11.2026)",
+    "extraction_date": "2026-11-23",
+    "transformations_applied": [
+      "rohoel-m3-zu-barrel (x 0,158987)",
+      "reihen-im-long-format-zusammengefuehrt"
+    ]
+  },
+  "quality": {
+    "has_nulls": false,
+    "validated": false,
+    "review_notes": "Rohöl: Energy Institute, Statistical Review of World Energy 2026, via OWID in konstanten US-Dollar 2025 pro m³, umgerechnet mit 1 Barrel = 0,158987 m³. Solar: OWID-Reihe solar-pv-prices in konstanten US-Dollar 2025 pro Watt (Modulpreis ohne Installation), zusammengesetzt aus Nemet (1975-2003), Farmer & Lafond (2004-2009), IRENA/pvXchange (europäische Spotpreise ab 2010). Gleiches Basisjahr, aber unterschiedliche Deflatoren (Rohöl vermutlich US-CPI, Solar US-BIP-Deflator).",
+    "known_issues": [
+      "Unterschiedliche Deflatoren für Rohöl und Solar",
+      "Solarreihe aus mehreren Quellen zusammengesetzt, ab 2010 europäische Spotpreise"
+    ]
+  },
+  "freshness": {
+    "data_as_of": "2025-12-31",
+    "source_checked": "2026-11-23"
+  },
+  "keywords": [
+    "Ölpreis",
+    "Solarmodule",
+    "Modulpreis",
+    "Inflation",
+    "Lernkurve",
+    "Energiezeitalter"
+  ]
+}

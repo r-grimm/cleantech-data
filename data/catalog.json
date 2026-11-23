@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-03T08:37:18.539464+00:00",
-  "total_datasets": 63,
+  "generated_at": "2026-11-23T19:17:57.851549+00:00",
+  "total_datasets": 65,
   "datasets": [
     {
       "csv_path": "data/2024-12/power-mix-germany-daily.csv",
@@ -1941,6 +1941,70 @@
       "thematic_name": null,
       "year_month": "2026-10",
       "filename": "windflaechenziel-2027-erreichungsgrad-bundeslaender.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-11/oelpreis-solarmodulpreis-index-1975-1975-2025.csv",
+      "metadata_path": "data/2026-11/oelpreis-solarmodulpreis-index-1975-1975-2025.meta.json",
+      "title": "Rohöl- und Solarmodulpreis inflationsbereinigt als Index, 1975 = 100 Prozent, 1975 bis 2025",
+      "description": "Realer Rohöl- und Solarmodulpreis als Prozent des jeweiligen Werts von 1975, damit beide Reihen auf einer Achse vergleichbar sind. Rohöl lag 2025 bei 99,8 Prozent des Werts von 1975, Solarmodule bei 0,091 Prozent. Abgeleitet aus dem Datensatz oelpreis-solarmodulpreis-real-usd2025-1861-2025; erstellt für die Social-Grafik zum Essay 'Das neue Energiezeitalter' Teil II von cleantech.ing (November 2026).",
+      "source": {
+        "name": "Our World in Data (Energy Institute; Nemet, Farmer & Lafond, IRENA)",
+        "url": "https://ourworldindata.org/grapher/solar-pv-prices",
+        "import_type": "manual"
+      },
+      "tags": [
+        "oelpreis",
+        "solar",
+        "modulpreise",
+        "lernkurve",
+        "inflationsbereinigt",
+        "owid"
+      ],
+      "license": "CC BY 4.0 (Our World in Data)",
+      "created_at": "2026-11-23",
+      "thematic_name": null,
+      "year_month": "2026-11",
+      "filename": "oelpreis-solarmodulpreis-index-1975-1975-2025.csv",
+      "has_metadata": true,
+      "freshness_score": null,
+      "freshness_status": null,
+      "freshness_indicator": null,
+      "data_as_of": null,
+      "source_reliability": null,
+      "days_since_check": null,
+      "warning": null
+    },
+    {
+      "csv_path": "data/2026-11/oelpreis-solarmodulpreis-real-usd2025-1861-2025.csv",
+      "metadata_path": "data/2026-11/oelpreis-solarmodulpreis-real-usd2025-1861-2025.meta.json",
+      "title": "Rohölpreis (Dollar pro Barrel) und Solarmodulpreis (Dollar pro Watt), inflationsbereinigt in US-Dollar von 2025, 1861 bis 2025",
+      "description": "Jahreswerte des realen Rohölpreises seit 1861 und des realen Solarmodulpreises seit 1975, beide in US-Dollar von 2025. Solarmodule wurden real rund 1.100-mal billiger (132 auf 0,12 Dollar pro Watt), Rohöl kostete 2025 so viel wie 1975 (rund 69 Dollar pro Barrel). Erstellt für die Grafik zum Essay 'Das neue Energiezeitalter' Teil II von cleantech.ing (November 2026).",
+      "source": {
+        "name": "Our World in Data (Energy Institute; Nemet, Farmer & Lafond, IRENA)",
+        "url": "https://ourworldindata.org/grapher/solar-pv-prices",
+        "import_type": "manual"
+      },
+      "tags": [
+        "oelpreis",
+        "solar",
+        "modulpreise",
+        "lernkurve",
+        "inflationsbereinigt",
+        "owid"
+      ],
+      "license": "CC BY 4.0 (Our World in Data)",
+      "created_at": "2026-11-23",
+      "thematic_name": null,
+      "year_month": "2026-11",
+      "filename": "oelpreis-solarmodulpreis-real-usd2025-1861-2025.csv",
       "has_metadata": true,
       "freshness_score": null,
       "freshness_status": null,
