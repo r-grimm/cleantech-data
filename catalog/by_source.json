@@ -111,6 +111,10 @@
   "Newsletter Assistant Import": [
     "data/2026-01/imported/data-by-year-7-categories-1750-2024.csv"
   ],
+  "Our World in Data (Energy Institute; Nemet, Farmer & Lafond, IRENA)": [
+    "data/2026-11/oelpreis-solarmodulpreis-index-1975-1975-2025.csv",
+    "data/2026-11/oelpreis-solarmodulpreis-real-usd2025-1861-2025.csv"
+  ],
   "Rupert Way (2026) based on Ziegler and Trancik (2021), BloombergNEF, and Avicenne Energy": [
     "data/2026-04/charts/20260401_215438_763034_the-price-of-lithium-ion-batteries-has-fallen-by-9.csv"
   ],

@@ -402,6 +402,10 @@
   "inflation": [
     "data/2026-05/charts/verivox-strompreise-nominal-real-2021-2026.csv"
   ],
+  "inflationsbereinigt": [
+    "data/2026-11/oelpreis-solarmodulpreis-index-1975-1975-2025.csv",
+    "data/2026-11/oelpreis-solarmodulpreis-real-usd2025-1861-2025.csv"
+  ],
   "infrastruktur": [
     "data/2025-12/batteriespeicher-netzanschlussanfragen-deutschland.csv"
   ],
@@ -430,6 +434,10 @@
   ],
   "landwirtschaft": [
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv"
+  ],
+  "lernkurve": [
+    "data/2026-11/oelpreis-solarmodulpreis-index-1975-1975-2025.csv",
+    "data/2026-11/oelpreis-solarmodulpreis-real-usd2025-1861-2025.csv"
   ],
   "leserschaft": [
     "data/2026-10/cleantech-ing-leser-organisationsbranchen-2026-10.csv"
@@ -464,6 +472,10 @@
   ],
   "mercom": [
     "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv"
+  ],
+  "modulpreise": [
+    "data/2026-11/oelpreis-solarmodulpreis-index-1975-1975-2025.csv",
+    "data/2026-11/oelpreis-solarmodulpreis-real-usd2025-1861-2025.csv"
   ],
   "monthly": [
     "data/2025-12/batteriegrossspeicher-deutschland-kumulierte-kapaz.csv"
@@ -509,6 +521,10 @@
   "oeffnungsrate": [
     "data/2026-10/newsletter-engagement-cleantech-ing-vs-benchmarks-2026.csv"
   ],
+  "oelpreis": [
+    "data/2026-11/oelpreis-solarmodulpreis-index-1975-1975-2025.csv",
+    "data/2026-11/oelpreis-solarmodulpreis-real-usd2025-1861-2025.csv"
+  ],
   "offshore-wind": [
     "data/2025-12/offshore-wind-capacity-germany-2009-2024.csv"
   ],
@@ -516,6 +532,10 @@
     "data/2025-11/windpower/0105_Leist_kum_M.csv",
     "data/2025-12/onshore-wind-capacity-germany-2009-2024.csv",
     "data/2026-08/brutto-zubau-wind-an-land-deutschland-2019-2026.csv"
+  ],
+  "owid": [
+    "data/2026-11/oelpreis-solarmodulpreis-index-1975-1975-2025.csv",
+    "data/2026-11/oelpreis-solarmodulpreis-real-usd2025-1861-2025.csv"
   ],
   "photovoltaik": [
     "data/2025-12/flachennutzung-fur-erneuerbare-energien-deutschlan.csv",
@@ -580,7 +600,9 @@
     "data/2026-05/charts/mercom-corporate-solar-funding-q4-2020-q1-2026.csv",
     "data/2026-06/asien-strom-iea-prognose-vs-real-2018-2025.csv",
     "data/2026-07/trumps-rollback-solar-haelt-windkraft-an-land.csv",
-    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv"
+    "data/2026-08/eeg-einspeiseverguetung-vs-marktwert-solar-2012-2026.csv",
+    "data/2026-11/oelpreis-solarmodulpreis-index-1975-1975-2025.csv",
+    "data/2026-11/oelpreis-solarmodulpreis-real-usd2025-1861-2025.csv"
   ],
   "spain": [
     "data/2026-05/electricity-prices/spain-s-electricity-among-europe-s-cheapest.csv"
